@@ -381,7 +381,21 @@
     "SRB": { "country": "Srbsko", "<= 3.5t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 }, "> 3.5t": { "town": 50, "outskirts": 80, "expressway": 100, "highway": 100 } },
     "BiH": { "country": "Bosna a Hercegovina", "<= 3.5t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 }, "> 3.5t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 } },
     "MNE": { "country": "Čierna Hora", "<= 3.5t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 }, "> 3.5t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 } },
-    "ALB": { "country": "Albánsko", "<= 3.5t": { "town": 40, "outskirts": 70, "expressway": 80, "highway": 80 }, "> 3.5t": { "town": 40, "outskirts": 80, "expressway": 80, "highway": 90 } }
+    "ALB": { "country": "Albánsko", "<= 3.5t": { "town": 40, "outskirts": 70, "expressway": 80, "highway": 80 }, "> 3.5t": { "town": 40, "outskirts": 80, "expressway": 80, "highway": 90 } },
+    "CZ": { "country": "Česko", "<= 3.5t": { "info": "Auto + Príves", "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 }, "> 3.5t": { "info": "Obytné auto > 3.5t", "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 } },
+    "PT": { "country": "Portugalsko", "<= 3.5t": { "town": 50, "outskirts": 70, "expressway": 80, "highway": 100 }, "> 3.5t": { "info": "Obytné auto > 3.5t", "town": 50, "outskirts": 80, "expressway": 80, "highway": 90 } },
+  "RO": { "country": "Rumunsko", "<= 3.5t": { "info": "Auto + Príves", "town": 50, "outskirts": 80, "expressway": 90, "highway": 110 }, "> 3.5t": { "info": "Obytné auto > 3.5t", "town": 50, "outskirts": 80, "expressway": 90, "highway": 110 } },
+  "BG": { "country": "Bulharsko", "<= 3.5t": { "info": "Auto + Príves", "town": 50, "outskirts": 70, "expressway": 90, "highway": 100 }, "> 3.5t": { "info": "Obytné auto > 3.5t", "town": 50, "outskirts": 80, "expressway": 90, "highway": 100 } 
+  },
+  "EE": { "country": "Estónsko", "<= 3.5t": { "info": "Auto + Príves", "town": 50, "outskirts": 90, "expressway": 90, "highway": 90 }, "> 3.5t": { "info": "Obytné auto > 3.5t", "town": 50, "outskirts": 90, "expressway": 90, "highway": 90 } 
+  },
+  "LV": { "country": "Lotyšsko", "<= 3.5t": { "info": "Auto + Príves", "town": 50, "outskirts": 80, "expressway": 80, "highway": 90 }, "> 3.5t": { "info": "Obytné auto > 3.5t", "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 } 
+  },
+  "LT": { "country": "Litva", "<= 3.5t": { "info": "Auto + Príves", "town": 50, "outskirts": 90, "expressway": 90, "highway": 90 }, "> 3.5t": { "info": "Obytné auto > 3.5t", "town": 50, "outskirts": 80, "expressway": 90, "highway": 90 } 
+  },
+  "LU": { "country": "Luxembursko", "<= 3.5t": { "info": "Auto + Príves", "town": 50, "outskirts": 75, "expressway": 90, "highway": 90 }, "> 3.5t": { "info": "Obytné auto > 3.5t", "town": 50, "outskirts": 75, "expressway": 90, "highway": 90 } 
+  }
+  
   },
     
   "vignetteLinks": {
@@ -410,3 +424,4 @@
     "ALB": { "<= 3.5t": "https://www.autostradatirana.al/en/", "> 3.5t": "https://www.autostradatirana.al/en/" }
   }
 }
+
