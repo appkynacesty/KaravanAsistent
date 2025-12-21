@@ -40,19 +40,25 @@
     "sk": [
       { "id": 1, "typ": "Pravidlá: Rôzne pre Oblasti", "text": "Sledujte značenie 'Arrêté Municipal'. Na súkromných cestách so súhlasom majiteľa.", "ikona": "📜" },
       { "id": 2, "typ": "Dôležité: Eurotunnel", "text": "Vozidlá s pohonom na LPG/CNG majú prísny zákaz vstupu do Eurotunela pod Lamanšským prielivom.", "ikona": "🚫" },
-      { "id": 3, "typ": "Upozornenie", "text": "Tieto limity sú orientačné a nastavené podľa prísnejších pravidiel pre súpravy. Vždy sledujte lokálne dopravné značenie a technické limity vášho vozidla.", "ikona": "⚠️" }
+      { "id": 3, "typ": "Free-flow systém", "text": "Na niektorých diaľniciach (napr. A79, A13, A14) už brány nie sú. Systém nasníma vašu ŠPZ a vy musíte zaplatiť do 72 hodín online. (Link v Dialničná známka/mýto)", "ikona": "📜" },
+      { "id": 4, "typ": "Emisná nálepka Crit'Air", "text": "Pre vjazd do nízkoemisných zón (väčšina miest) je povinná nálepka. Objednajte len na oficiálnom webe: https://www.certificat-air.gouv.fr/", "ikona": "🍃" },
+      { "id": 5, "typ": "Upozornenie", "text": "Tieto limity sú orientačné a nastavené podľa prísnejších pravidiel pre súpravy. Vždy sledujte lokálne dopravné značenie a technické limity vášho vozidla.", "ikona": "⚠️" }
     ],
     "en": [
       { "id": 1, "typ": "Rules: Regional differences", "text": "Rules vary by municipality. Look for 'Arrêté Municipal' signs.", "ikona": "📜" },
       { "id": 2, "typ": "Important: Eurotunnel", "text": "LPG/CNG powered vehicles are strictly prohibited from entering the Eurotunnel.", "ikona": "🚫" },
-      { "id": 3, "typ": "Notice", "text": "These limits are indicative and based on stricter rules for vehicle combinations. Always follow local traffic signs and your vehicle's technical limits.", "ikona": "⚠️" }
+      { "id": 3, "typ": "Free-flow system", "text": "On some motorways (e.g. A79, A13, A14) there are no longer gates. The system will scan your license plate and you must pay online within 72 hours. (Link in Vignette/toll)", "ikona": "📜" },
+      { "id": 4, "typ": "Crit'Air Emission Sticker", "text": "A sticker is mandatory for entering low-emission zones (most cities). Order only from the official website: https://www.certificat-air.gouv.fr/", "ikona": "🍃" },
+      { "id": 5, "typ": "Notice", "text": "These limits are indicative and based on stricter rules for vehicle combinations. Always follow local traffic signs and your vehicle's technical limits.", "ikona": "⚠️" }
     ],
     "de": [
       { "id": 1, "typ": "Regeln: Regionale Unterschiede", "text": "Regeln variieren je nach Gemeinde. Achten Sie auf 'Arrêté Municipal' Schilder.", "ikona": "📜" },
       { "id": 2, "typ": "Wichtig: Eurotunnel", "text": "LPG/CNG-Fahrzeuge dürfen den Eurotunnel unter dem Ärmelkanal nicht befahren.", "ikona": "🚫" },
-      { "id": 3, "typ": "Hinweis", "text": "Diese Limits sind Richtwerte und nach strengeren Regeln für Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.", "ikona": "⚠️" }
+      { "id": 3, "typ": "Free-flow system", "text": "Auf einigen Autobahnen (z. B. A79, A13, A14) gibt es keine Schranken mehr. Das System scannt Ihr Kennzeichen, und Sie müssen innerhalb von 72 Stunden online bezahlen. (Link in: Vignette/Maut)", "ikona": "📜" },
+      { "id": 4, "typ": "Crit'Air Umweltplakette", "text": "Für die Einfahrt in Umweltzonen (die meisten Städte) ist eine Plakette obligatorisch. Nur auf der offiziellen Website bestellen: https://www.certificat-air.gouv.fr/", "ikona": "🍃" },
+      { "id": 5, "typ": "Hinweis", "text": "Diese Limits sind Richtwerte und nach strengeren Regeln für Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.", "ikona": "⚠️" }
     ]
-  },
+}
   "SK": {
     "sk": [
       { "id": 1, "typ": "Zákaz: Mimo Kempy", "text": "Prísny zákaz divokého kempovania v prírode a na parkoviskách.", "ikona": "🚫" },
@@ -560,10 +566,10 @@
     
   "vignetteLinks": {
     "SK": { "<= 3.5t": "https://eznamka.sk/", "> 3.5t": "https://eznamka.sk/" },
-    "AT": { "<= 3.5t": "https://shop.asfinag.at/sk/", "> 3.5t": "https://go-maut.at/go-maut/sk/" },
-    "DE": { "<= 3.5t": "https://www.adac.de/reise-freizeit/maut-vignette/", "> 3.5t": "https://www.toll-collect.de/sk/kunden/toll-collect-system/system-v-kocke.html" },
-    "CH": { "<= 3.5t": "https://www.ezv.admin.ch/ezv/sk/home/e-services/autobahnvignette.html", "> 3.5t": "https://www.ezv.admin.ch/ezv/sk/home/e-services/autobahnvignette.html" },
-    "FR": { "<= 3.5t": "https://www.autoroutes.fr/en/toll.htm", "> 3.5t": "https://www.autoroutes.fr/en/toll.htm" },
+    "AT": { "<= 3.5t": "https://shop.asfinag.at/", "> 3.5t": "https://go-maut.at/go-maut/" },
+    "DE": { "<= 3.5t": "Free", "> 3.5t": "Oslobodené (kat. M1)" },
+    "CH": { "<= 3.5t": "https://via.admin.ch/shop/dashboard", "> 3.5t": "https://via.admin.ch/shop/dashboard" },
+    "FR": { "<= 3.5t": "https://www.sanef.com", "> 3.5t": "https://www.sanef.com" },
     "IT": { "<= 3.5t": "https://www.autostrade.it/en/home", "> 3.5t": "https://www.autostrade.it/en/home" },
     "PL": { "<= 3.5t": "https://etoll.gov.pl/en/", "> 3.5t": "https://etoll.gov.pl/en/" },
     "FI": { "<= 3.5t": "https://vayla.fi/en/web/en/highways", "> 3.5t": "https://vayla.fi/en/web/en/highways" },
@@ -592,6 +598,7 @@
     "LU": { "<= 3.5t": "free", "> 3.5t": "https://www.eurovignettes.eu/" }
   }
 }
+
 
 
 
