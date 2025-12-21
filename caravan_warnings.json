@@ -3,17 +3,20 @@
     "sk": [
       { "id": 1, "typ": "Hlavný Zákaz: Nocovanie", "text": "V Rakúsku je vo väčšine spolkových krajín zakázané 'divoké kempovanie'. Hrozia vysoké pokuty (až do 500 €).", "ikona": "🚫" },
       { "id": 2, "typ": "Dôležité: Vesty a Lekárnička", "text": "Povinné reflexné vesty pre všetky osoby v kabíne a súprava prvej pomoci.", "ikona": "🚨" },
-      { "id": 3, "typ": "Upozornenie", "text": "Tieto limity sú orientačné a nastavené podľa prísnejších pravidiel pre súpravy. Vždy sledujte lokálne dopravné značenie a technické limity vášho vozidla.", "ikona": "⚠️" }
+      { "id": 3, "typ": "Varovanie: IG-L Zóny", "text": "V zónach IG-L (ochrana ovzdušia) hrozia za prekročenie rýchlosti dvojité pokuty (rýchlosť + ekológia).", "ikona": "🍃" },
+      { "id": 4, "typ": "Upozornenie", "text": "Tieto limity sú orientačné a nastavené podľa prísnejších pravidiel pre súpravy. Vždy sledujte lokálne dopravné značenie a technické limity vášho vozidla.", "ikona": "⚠️" }
     ],
     "en": [
       { "id": 1, "typ": "Main Restriction: Wild Camping", "text": "Wild camping is prohibited in most federal states. Fines can reach €500.", "ikona": "🚫" },
       { "id": 2, "typ": "Important: Vests and First Aid", "text": "Reflective vests for all passengers and a first aid kit are mandatory.", "ikona": "🚨" },
-      { "id": 3, "typ": "Notice", "text": "These limits are indicative and based on stricter rules for vehicle combinations. Always follow local traffic signs and your vehicle's technical limits.", "ikona": "⚠️" }
+      { "id": 3, "typ": "Warning: IG-L Zones", "text": "In IG-L zones (air protection), speeding results in double fines (speeding + environmental fine).", "ikona": "🍃" },
+      { "id": 4, "typ": "Notice", "text": "These limits are indicative and based on stricter rules for vehicle combinations. Always follow local traffic signs and your vehicle's technical limits.", "ikona": "⚠️" }
     ],
     "de": [
       { "id": 1, "typ": "Hauptverbot: Wildcamping", "text": "Wildcamping ist in den meisten Bundesländern verboten. Bußgelder bis zu 500 €.", "ikona": "🚫" },
       { "id": 2, "typ": "Wichtig: Westen und Verbandskasten", "text": "Warnwesten für alle Personen und ein Verbandskasten sind obligatorisch.", "ikona": "🚨" },
-      { "id": 3, "typ": "Hinweis", "text": "Diese Limits sind Richtwerte und nach strengeren Regeln für Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.", "ikona": "⚠️" }
+      { "id": 3, "typ": "Warnung: IG-L Zonen", "text": "In IG-L Zonen (Luftschutz) drohen bei Geschwindigkeitsüberschreitungen doppelte Bußgelder.", "ikona": "🍃" },
+      { "id": 4, "typ": "Hinweis", "text": "Diese Limits sind Richtwerte und nach strengeren Regeln für Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.", "ikona": "⚠️" }
     ]
   },
   "DE": {
@@ -36,17 +39,17 @@
   "FR": {
     "sk": [
       { "id": 1, "typ": "Pravidlá: Rôzne pre Oblasti", "text": "Sledujte značenie 'Arrêté Municipal'. Na súkromných cestách so súhlasom majiteľa.", "ikona": "📜" },
-      { "id": 2, "typ": "Dôležité: Hmotnosť nad 3,5t", "text": "Pri vyššej hmotnosti sú prísnejšie limity. Odporúčaný dýchací prístroj.", "ikona": "⚠️" },
+      { "id": 2, "typ": "Dôležité: Eurotunnel", "text": "Vozidlá s pohonom na LPG/CNG majú prísny zákaz vstupu do Eurotunela pod Lamanšským prielivom.", "ikona": "🚫" },
       { "id": 3, "typ": "Upozornenie", "text": "Tieto limity sú orientačné a nastavené podľa prísnejších pravidiel pre súpravy. Vždy sledujte lokálne dopravné značenie a technické limity vášho vozidla.", "ikona": "⚠️" }
     ],
     "en": [
       { "id": 1, "typ": "Rules: Regional differences", "text": "Rules vary by municipality. Look for 'Arrêté Municipal' signs.", "ikona": "📜" },
-      { "id": 2, "typ": "Important: Over 3.5t", "text": "Stricter speed limits apply if weight exceeds 3.5t.", "ikona": "⚠️" },
+      { "id": 2, "typ": "Important: Eurotunnel", "text": "LPG/CNG powered vehicles are strictly prohibited from entering the Eurotunnel.", "ikona": "🚫" },
       { "id": 3, "typ": "Notice", "text": "These limits are indicative and based on stricter rules for vehicle combinations. Always follow local traffic signs and your vehicle's technical limits.", "ikona": "⚠️" }
     ],
     "de": [
       { "id": 1, "typ": "Regeln: Regionale Unterschiede", "text": "Regeln variieren je nach Gemeinde. Achten Sie auf 'Arrêté Municipal' Schilder.", "ikona": "📜" },
-      { "id": 2, "typ": "Wichtig: Über 3,5t", "text": "Bei über 3,5 t gelten strengere Geschwindigkeitsbegrenzungen.", "ikona": "⚠️" },
+      { "id": 2, "typ": "Wichtig: Eurotunnel", "text": "LPG/CNG-Fahrzeuge dürfen den Eurotunnel unter dem Ärmelkanal nicht befahren.", "ikona": "🚫" },
       { "id": 3, "typ": "Hinweis", "text": "Diese Limits sind Richtwerte und nach strengeren Regeln für Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.", "ikona": "⚠️" }
     ]
   },
@@ -67,29 +70,35 @@
   "CH": {
     "sk": [
       { "id": 1, "typ": "Hlavný Zákaz: Kantóny", "text": "Pravidlá sa líšia podľa kantónov. Divoké kempovanie je väčšinou prísne zakázané.", "ikona": "🇨🇭" },
-      { "id": 2, "typ": "Upozornenie", "text": "Tieto limity sú orientačné a nastavené podľa prísnejších pravidiel pre súpravy. Vždy sledujte lokálne dopravné značenie a technické limity vášho vozidla.", "ikona": "⚠️" }
+      { "id": 2, "typ": "Varovanie: Rýchlosť", "text": "Extrémne vysoké pokuty za rýchlosť; prekročenie o 30 km/h môže viesť k zabaveniu auta.", "ikona": "👮" },
+      { "id": 3, "typ": "Upozornenie", "text": "Tieto limity sú orientačné a nastavené podľa prísnejších pravidiel pre súpravy. Vždy sledujte lokálne dopravné značenie a technické limity vášho vozidla.", "ikona": "⚠️" }
     ],
     "en": [
       { "id": 1, "typ": "Ban: Cantonal Rules", "text": "Rules vary by canton; wild camping is generally strictly prohibited.", "ikona": "🇨🇭" },
-      { "id": 2, "typ": "Notice", "text": "These limits are indicative and based on stricter rules for vehicle combinations. Always follow local traffic signs and your vehicle's technical limits.", "ikona": "⚠️" }
+      { "id": 2, "typ": "Warning: Speeding", "text": "Extremely high fines; exceeding the limit by 30 km/h can result in vehicle seizure.", "ikona": "👮" },
+      { "id": 3, "typ": "Notice", "text": "These limits are indicative and based on stricter rules for vehicle combinations. Always follow local traffic signs and your vehicle's technical limits.", "ikona": "⚠️" }
     ],
     "de": [
       { "id": 1, "typ": "Verbot: Kantonale Regeln", "text": "Regeln variieren je nach Kanton; Wildcamping ist meist streng verboten.", "ikona": "🇨🇭" },
-      { "id": 2, "typ": "Hinweis", "text": "Diese Limits sind Richtwerte und nach strengeren Regeln für Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.", "ikona": "⚠️" }
+      { "id": 2, "typ": "Warnung: Geschwindigkeit", "text": "Extrem hohe Bußgelder; Überschreitungen ab 30 km/h können zur Beschlagnahme führen.", "ikona": "👮" },
+      { "id": 3, "typ": "Hinweis", "text": "Diese Limits sind Richtwerte und nach strengeren Regeln für Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.", "ikona": "⚠️" }
     ]
   },
   "IT": {
     "sk": [
-      { "id": 1, "typ": "Pravidlá: Miestne obmedzenia", "text": "Na diaľničných odpočívadlách a v historických centrách je zákaz prísny.", "ikona": "⛔" },
-      { "id": 2, "typ": "Upozornenie", "text": "Tieto limity sú orientačné a nastavené podľa prísnejších pravidiel pre súpravy. Vždy sledujte lokálne dopravné značenie a technické limity vášho vozidla.", "ikona": "⚠️" }
+      { "id": 1, "typ": "Nadrozmerný náklad", "text": "Povinná hliníková reflexná tabuľa 50x50 cm pre náklad presahujúci vozidlo vzadu (napr. bicykle).", "ikona": "🟥" },
+      { "id": 2, "typ": "Pravidlá: Miestne obmedzenia", "text": "Na diaľničných odpočívadlách a v historických centrách (ZTL) je zákaz prísny.", "ikona": "⛔" },
+      { "id": 3, "typ": "Upozornenie", "text": "Tieto limity sú orientačné a nastavené podľa prísnejších pravidiel pre súpravy. Vždy sledujte lokálne dopravné značenie a technické limity vášho vozidla.", "ikona": "⚠️" }
     ],
     "en": [
-      { "id": 1, "typ": "Rules: Local Bans", "text": "Strict bans apply in motorway rest areas (Autogrill) and historic centers.", "ikona": "⛔" },
-      { "id": 2, "typ": "Notice", "text": "These limits are indicative and based on stricter rules for vehicle combinations. Always follow local traffic signs and your vehicle's technical limits.", "ikona": "⚠️" }
+      { "id": 1, "typ": "Oversized load", "text": "Mandatory aluminum reflective plate 50x50 cm for rear overhanging loads (e.g. bikes).", "ikona": "🟥" },
+      { "id": 2, "typ": "Rules: Local Bans", "text": "Strict bans apply in motorway rest areas (Autogrill) and historic centers (ZTL).", "ikona": "⛔" },
+      { "id": 3, "typ": "Notice", "text": "These limits are indicative and based on stricter rules for vehicle combinations. Always follow local traffic signs and your vehicle's technical limits.", "ikona": "⚠️" }
     ],
     "de": [
-      { "id": 1, "typ": "Regeln: Lokale Verbote", "text": "In Autobahnraststätten und historischen Zentren gelten strenge Verbote.", "ikona": "⛔" },
-      { "id": 2, "typ": "Hinweis", "text": "Diese Limits sind Richtwerte und nach strengeren Regeln für Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.", "ikona": "⚠️" }
+      { "id": 1, "typ": "Überbreite Ladung", "text": "Obligatorische Aluminium-Reflextafel 50x50 cm für nach hinten überstehende Ladung (z.B. Fahrräder).", "ikona": "🟥" },
+      { "id": 2, "typ": "Regeln: Lokale Verbote", "text": "In Autobahnraststätten und historischen Zentren (ZTL) gelten strenge Verbote.", "ikona": "⛔" },
+      { "id": 3, "typ": "Hinweis", "text": "Diese Limits sind Richtwerte und nach strengeren Regeln für Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.", "ikona": "⚠️" }
     ]
   },
   "PL": {
@@ -137,6 +146,40 @@
       { "id": 2, "typ": "Hinweis", "text": "Diese Limits sind Richtwerte und nach strengeren Regeln für Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.", "ikona": "⚠️" }
     ]
   },
+  "NO": {
+    "sk": [
+      { "id": 1, "typ": "Allemansretten: Povolené", "text": "Voľné kempovanie je povolené na 2 noci, aspoň 150m od obydlí. Pozor na lokálne zákazy v lete.", "ikona": "🇳🇴" },
+      { "id": 2, "typ": "Dôležité: Pásy a Svetlá", "text": "Celoročné svietenie je povinné. Prísne kontroly alkoholu (limit 0,2 promile).", "ikona": "🔦" },
+      { "id": 3, "typ": "Upozornenie", "text": "Tieto limity sú orientačné. Na úzkych cestách a v tuneloch sledujte špecifické značenie výšky a šírky.", "ikona": "⚠️" }
+    ],
+    "en": [
+      { "id": 1, "typ": "Allemansretten: Allowed", "text": "Wild camping allowed for 2 nights, at least 150m from houses. Watch for local summer bans.", "ikona": "🇳🇴" },
+      { "id": 2, "typ": "Important: Lights", "text": "Year-round headlights mandatory. Strict alcohol limits (0.2 per mille).", "ikona": "🔦" },
+      { "id": 3, "typ": "Notice", "text": "Limits are indicative. On narrow roads and in tunnels, watch for specific height and width signs.", "ikona": "⚠️" }
+    ],
+    "de": [
+      { "id": 1, "typ": "Jedermannsrecht: Erlaubt", "text": "Wildcamping für 2 Nächte erlaubt, mind. 150m von Häusern entfernt. Lokale Sommerverbote beachten.", "ikona": "🇳🇴" },
+      { "id": 2, "typ": "Wichtig: Licht", "text": "Ganzjähriges Licht ist Pflicht. Strenge Alkoholgrenzwerte (0,2 Promille).", "ikona": "🔦" },
+      { "id": 3, "typ": "Hinweis", "text": "Die Limits sind Richtwerte. Auf engen Straßen und in Tunneln auf Höhen- und Breitenschilder achten.", "ikona": "⚠️" }
+    ]
+  },
+  "IS": {
+    "sk": [
+      { "id": 1, "typ": "Kempovanie: Prísny Zákaz", "text": "Od roku 2015 je divoké kempovanie s karavanom/autom mimo oficiálnych kempov prísne zakázané.", "ikona": "🇮🇸" },
+      { "id": 2, "typ": "Off-road: Zakázané", "text": "Jazda mimo vyznačených ciest je nelegálna a trestaná extrémne vysokými pokutami.", "ikona": "🚫" },
+      { "id": 3, "typ": "Varovanie: F-Roads", "text": "Cesty označené 'F' sú určené len pre vozidlá 4x4. Pre karavany sú väčšinou neprístupné.", "ikona": "🏔️" }
+    ],
+    "en": [
+      { "id": 1, "typ": "Camping: Strict Ban", "text": "Since 2015, wild camping with a camper/car outside official campsites is strictly prohibited.", "ikona": "🇮🇸" },
+      { "id": 2, "typ": "Off-road: Prohibited", "text": "Driving off-road is illegal and punished with extremely high fines.", "ikona": "🚫" },
+      { "id": 3, "typ": "Warning: F-Roads", "text": "Roads marked with 'F' are for 4x4 vehicles only. Mostly inaccessible for campers.", "ikona": "🏔️" }
+    ],
+    "de": [
+      { "id": 1, "typ": "Camping: Strenges Verbot", "text": "Seit 2015 ist Wildcamping mit Wohnmobilen außerhalb offizieller Plätze streng verboten.", "ikona": "🇮🇸" },
+      { "id": 2, "typ": "Off-road: Verboten", "text": "Fahren abseits der Straßen ist illegal und wird mit extrem hohen Bußgeldern bestraft.", "ikona": "🚫" },
+      { "id": 3, "typ": "Warnung: F-Roads", "text": "Mit 'F' gekennzeichnete Straßen sind nur für 4x4-Fahrzeuge. Für Wohnmobile meist gesperrt.", "ikona": "🏔️" }
+    ]
+  },
   "DK": {
     "sk": [
       { "id": 1, "typ": "Divoké Kempovanie: Prísny Zákaz", "text": "Prísne zakázané mimo oficiálnych miest. Hrozia vysoké pokuty.", "ikona": "🚫" },
@@ -148,7 +191,7 @@
     ],
     "de": [
       { "id": 1, "typ": "Wildcamping: Strenges Verbot", "text": "Außerhalb offizieller Plätze streng verboten. Hohe Bußgelder.", "ikona": "🚫" },
-      { "id": 2, "typ": "Hinweis", "text": "Diese Limits sind Richtwerte und nach strengeren Regeln für Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.", "ikona": "⚠️" }
+      { "id": 2, "typ": "Hinweis", "text": "Diese Limits sind Richtwerte und nach strengeren Regeln for Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.", "ikona": "⚠️" }
     ]
   },
   "NL": {
@@ -162,38 +205,38 @@
     ],
     "de": [
       { "id": 1, "typ": "Wildcamping: Verboten", "text": "Wildcamping ist verboten. Ausruhen ohne Campingverhalten wird toleriert.", "ikona": "⛔" },
-      { "id": 2, "typ": "Hinweis", "text": "Diese Limits sind Richtwerte und nach strengeren Regeln für Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.", "ikona": "⚠️" }
+      { "id": 2, "typ": "Hinweis", "text": "Diese Limits sind Richtwerte und nach strengeren Regeln for Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.", "ikona": "⚠️" }
     ]
   },
   "BE": {
     "sk": [
-      { "id": 1, "typ": "Divoké Kempovanie: Zákaz", "text": "Nocovanie mimo kempov je zakázané. Niekde tolerovaná jedna noc na parkovisku.", "ikona": "🚫" },
+      { "id": 1, "typ": "Divoké Kempovanie: Zákaz", "text": "Nocovanie mimo kempov je zakázané. Niektoré mestské parkoviská zakazujú vjazd LPG vozidlám.", "ikona": "🚫" },
       { "id": 2, "typ": "Upozornenie", "text": "Tieto limity sú orientačné a nastavené podľa prísnejších pravidiel pre súpravy. Vždy sledujte lokálne dopravné značenie a technické limity vášho vozidla.", "ikona": "⚠️" }
     ],
     "en": [
-      { "id": 1, "typ": "Wild Camping: Prohibited", "text": "Overnight stays outside campsites are prohibited. Sometimes one night tolerated.", "ikona": "🚫" },
+      { "id": 1, "typ": "Wild Camping: Prohibited", "text": "Overnight stays outside campsites are prohibited. Some urban car parks ban LPG vehicles.", "ikona": "🚫" },
       { "id": 2, "typ": "Notice", "text": "These limits are indicative and based on stricter rules for vehicle combinations. Always follow local traffic signs and your vehicle's technical limits.", "ikona": "⚠️" }
     ],
     "de": [
-      { "id": 1, "typ": "Wildcamping: Verboten", "text": "Übernachten außerhalb von Campingplätzen verboten. Teils eine Nacht toleriert.", "ikona": "🚫" },
-      { "id": 2, "typ": "Hinweis", "text": "Diese Limits sind Richtwerte und nach strengeren Regeln für Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.", "ikona": "⚠️" }
+      { "id": 1, "typ": "Wildcamping: Verboten", "text": "Übernachten außerhalb von Campingplätzen verboten. Einige Stadtparkplätze verbieten LPG-Fahrzeugen die Einfahrt.", "ikona": "🚫" },
+      { "id": 2, "typ": "Hinweis", "text": "Diese Limits sind Richtwerte und nach strengeren Regeln for Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.", "ikona": "⚠️" }
     ]
   },
   "ES": {
     "sk": [
-      { "id": 1, "typ": "Státie vs Kempovanie", "text": "Státie je povolené, kempovanie (stôl, markíza, podpery) je prísne zakázané.", "ikona": "🅿️" },
-      { "id": 2, "typ": "Pravidlá regiónov", "text": "V pobrežných a chránených zónach je zákaz prísny. Kontrolujte miestne vyhlášky.", "ikona": "📜" },
+      { "id": 1, "typ": "Nadrozmerný náklad", "text": "Povinná tabuľa V-20. Ak náklad zaberá celú šírku auta, sú povinné dve tabule.", "ikona": "🟥" },
+      { "id": 2, "typ": "Státie vs Kempovanie", "text": "Státie je povolené, kempovanie (stôl, markíza, podpery) je prísne zakázané.", "ikona": "🅿️" },
       { "id": 3, "typ": "Upozornenie", "text": "Tieto limity sú orientačné a nastavené podľa prísnejších pravidiel pre súpravy. Vždy sledujte lokálne dopravné značenie a technické limity vášho vozidla.", "ikona": "⚠️" }
     ],
     "en": [
-      { "id": 1, "typ": "Parking vs Camping", "text": "Parking is allowed, but camping (table, awning, stabilizers) is strictly prohibited.", "ikona": "🅿️" },
-      { "id": 2, "typ": "Regional rules", "text": "Strict bans in coastal and protected zones. Check local ordinances.", "ikona": "📜" },
+      { "id": 1, "typ": "Oversized load", "text": "V-20 plate mandatory. If the load spans the full width of the car, two plates are required.", "ikona": "🟥" },
+      { "id": 2, "typ": "Parking vs Camping", "text": "Parking is allowed, but camping (table, awning, stabilizers) is strictly prohibited.", "ikona": "🅿️" },
       { "id": 3, "typ": "Notice", "text": "These limits are indicative and based on stricter rules for vehicle combinations. Always follow local traffic signs and your vehicle's technical limits.", "ikona": "⚠️" }
     ],
     "de": [
-      { "id": 1, "typ": "Parken vs Camping", "text": "Parken erlaubt, Camping (Tisch, Markise, Stützen) streng verboten.", "ikona": "🅿️" },
-      { "id": 2, "typ": "Regionale Regeln", "text": "In Küsten- und Schutzzonen gelten strenge Verbote. Lokale Verordnungen prüfen.", "ikona": "📜" },
-      { "id": 3, "typ": "Hinweis", "text": "Diese Limits sind Richtwerte und nach strengeren Regeln für Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.", "ikona": "⚠️" }
+      { "id": 1, "typ": "Überbreite Ladung", "text": "V-20 Tafel obligatorisch. Wenn die Ladung die gesamte Fahrzeugbreite einnimmt, sind zwei Tafeln erforderlich.", "ikona": "🟥" },
+      { "id": 2, "typ": "Parken vs Camping", "text": "Parken erlaubt, Camping (Tisch, Markise, Stützen) streng verboten.", "ikona": "🅿️" },
+      { "id": 3, "typ": "Hinweis", "text": "Diese Limits sind Richtwerte und nach strengeren Regeln for Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.", "ikona": "⚠️" }
     ]
   },
   "SLO": {
@@ -207,38 +250,41 @@
     ],
     "de": [
       { "id": 1, "typ": "Wildcamping: Strenges Verbot", "text": "Strenges Verbot von Übernachtungen in der Natur und auf Parkplätzen (bis 500 €).", "ikona": "🚫" },
-      { "id": 2, "typ": "Hinweis", "text": "Diese Limits sind Richtwerte und nach strengeren Regeln für Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.", "ikona": "⚠️" }
+      { "id": 2, "typ": "Hinweis", "text": "Diese Limits sind Richtwerte und nach strengeren Regeln for Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.", "ikona": "⚠️" }
     ]
   },
   "HU": {
     "sk": [
       { "id": 1, "typ": "Nocovanie mimo kempov: Zákaz", "text": "Nocovanie vo voľnej prírode a na parkoviskách je nelegálne.", "ikona": "⛔" },
-      { "id": 2, "typ": "Diaľničné poplatky!", "text": "Pozor na diaľničné známky v Maďarsku! Autá typu N1 (dodávky) a všetky obytné autá musia mať známku D2. Ak ťaháte príves za vozidlom D2, potrebujete preň dodatočnú známku kategórie U.", "ikona": "⚠️" },
+      { "id": 2, "typ": "Diaľničné poplatky!", "text": "Všetky obytné autá musia mať známku D2. Ak ťaháte príves za vozidlom D2, potrebujete preň dodatočnú známku U.", "ikona": "⚠️" },
       { "id": 3, "typ": "Upozornenie", "text": "Tieto limity sú orientačné a nastavené podľa prísnejších pravidiel pre súpravy. Vždy sledujte lokálne dopravné značenie a technické limity vášho vozidla.", "ikona": "⚠️" }
     ],
     "en": [
       { "id": 1, "typ": "Wild Camping: Prohibited", "text": "Staying overnight in nature or public car parks is illegal.", "ikona": "⛔" },
-      { "id": 2, "typ": "Toll Fees!", "text": "Attention regarding Hungarian vignettes! N1 category vehicles (vans) and all motorhomes must have a D2 vignette. If you are towing a trailer with a D2 category vehicle, an additional category U vignette is required for the trailer.", "ikona": "⚠️" },
+      { "id": 2, "typ": "Toll Fees!", "text": "All motorhomes must have a D2 vignette. Trailers behind D2 vehicles require an additional U vignette.", "ikona": "⚠️" },
       { "id": 3, "typ": "Notice", "text": "These limits are indicative and based on stricter rules for vehicle combinations. Always follow local traffic signs and your vehicle's technical limits.", "ikona": "⚠️" }
     ],
     "de": [
       { "id": 1, "typ": "Wildcamping: Verboten", "text": "Übernachten in der Natur oder auf öffentlichen Parkplätzen ist illegal.", "ikona": "⛔" },
-      { "id": 2, "typ": "Mautgebühren!", "text": "Achtung bei Autobahnvignetten in Ungarn! Fahrzeuge der Klasse N1 (Transporter) und alle Wohnmobile benötigen die D2-Vignette. Wenn Sie einen Anhänger hinter einem D2-Fahrzeug ziehen, ist für diesen eine zusätzliche Vignette der Klasse U erforderlich.", "ikona": "⚠️" },
-      { "id": 3, "typ": "Hinweis", "text": "Diese Limits sind Richtwerte und nach strengeren Regeln für Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.", "ikona": "⚠️" }
+      { "id": 2, "typ": "Mautgebühren!", "text": "Alle Wohnmobile benötigen die D2-Vignette. Anhänger hinter D2-Fahrzeugen benötigen eine zusätzliche U-Vignette.", "ikona": "⚠️" },
+      { "id": 3, "typ": "Hinweis", "text": "Diese Limits sind Richtwerte und nach strengeren Regeln for Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.", "ikona": "⚠️" }
     ]
   },
   "HR": {
     "sk": [
-      { "id": 1, "typ": "Wildcamping: Prísny Zákaz", "text": "Prísne trestané najmä pri mori a v národných parkoch. Pokuty až do 3000 HRK.", "ikona": "🚫" },
-      { "id": 2, "typ": "Upozornenie", "text": "Tieto limity sú orientačné a nastavené podľa prísnejších pravidiel pre súpravy. Vždy sledujte lokálne dopravné značenie a technické limity vášho vozidla.", "ikona": "⚠️" }
+      { "id": 1, "typ": "Wildcamping: Prísny Zákaz", "text": "Prísne trestané najmä pri mori a v národných parkoch. Pokuty až do 3000 HRK (cca 400 €).", "ikona": "🚫" },
+      { "id": 2, "typ": "Varovanie: Okuliare", "text": "Ak nosíte okuliare, je povinné mať v aute jeden kompletný náhradný pár.", "ikona": "👓" },
+      { "id": 3, "typ": "Upozornenie", "text": "Tieto limity sú orientačné a nastavené podľa prísnejších pravidiel pre súpravy. Vždy sledujte lokálne dopravné značenie a technické limity vášho vozidla.", "ikona": "⚠️" }
     ],
     "en": [
-      { "id": 1, "typ": "Wild Camping: Strict Ban", "text": "Strictest bans near the coast and in national parks. High fines up to 3000 HRK.", "ikona": "🚫" },
-      { "id": 2, "typ": "Notice", "text": "These limits are indicative and based on stricter rules for vehicle combinations. Always follow local traffic signs and your vehicle's technical limits.", "ikona": "⚠️" }
+      { "id": 1, "typ": "Wild Camping: Strict Ban", "text": "Strictest bans near the coast and in national parks. Fines up to 3000 HRK.", "ikona": "🚫" },
+      { "id": 2, "typ": "Warning: Glasses", "text": "If you wear prescription glasses, you must carry a spare pair in the car.", "ikona": "👓" },
+      { "id": 3, "typ": "Notice", "text": "These limits are indicative and based on stricter rules for vehicle combinations. Always follow local traffic signs and your vehicle's technical limits.", "ikona": "⚠️" }
     ],
     "de": [
-      { "id": 1, "typ": "Wildcamping: Strenges Verbot", "text": "Strenge Verbote an der Küste und in Nationalparks. Hohe Bußgelder.", "ikona": "🚫" },
-      { "id": 2, "typ": "Hinweis", "text": "Diese Limits sind Richtwerte und nach strengeren Regeln für Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.", "ikona": "⚠️" }
+      { "id": 1, "typ": "Wildcamping: Strenges Verbot", "text": "Strenge Verbote an der Küste und in Nationalparks. Bußgelder bis zu 3000 HRK.", "ikona": "🚫" },
+      { "id": 2, "typ": "Warnung: Brille", "text": "Brillenträger müssen ein Ersatzpaar im Fahrzeug mitführen.", "ikona": "👓" },
+      { "id": 3, "typ": "Hinweis", "text": "Diese Limits sind Richtwerte und nach strengeren Regeln for Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.", "ikona": "⚠️" }
     ]
   },
   "GR": {
@@ -252,7 +298,7 @@
     ],
     "de": [
       { "id": 1, "typ": "Wildcamping: Illegal", "text": "Offiziell verboten; in abgelegenen Gebieten in der Nebensaison teils toleriert.", "ikona": "⚠️" },
-      { "id": 2, "typ": "Hinweis", "text": "Diese Limits sind Richtwerte und nach strengeren Regeln für Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.", "ikona": "⚠️" }
+      { "id": 2, "typ": "Hinweis", "text": "Diese Limits sind Richtwerte und nach strengeren Regeln for Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.", "ikona": "⚠️" }
     ]
   },
   "SRB": {
@@ -266,7 +312,7 @@
     ],
     "de": [
       { "id": 1, "typ": "Wildcamping: Verboten", "text": "Übernachtungen in der Natur sind verboten. Nutzen Sie offizielle Campingplätze.", "ikona": "🚫" },
-      { "id": 2, "typ": "Hinweis", "text": "Diese Limits sind Richtwerte und nach strengeren Regeln für Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.", "ikona": "⚠️" }
+      { "id": 2, "typ": "Hinweis", "text": "Diese Limits sind Richtwerte und nach strengeren Regeln for Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.", "ikona": "⚠️" }
     ]
   },
   "BiH": {
@@ -280,7 +326,7 @@
     ],
     "de": [
       { "id": 1, "typ": "Wildcamping: Risiko/Verbot", "text": "Camping verboten; Minengefahr in abgelegenen Gebieten!", "ikona": "💣" },
-      { "id": 2, "typ": "Hinweis", "text": "Diese Limits sind Richtwerte und nach strengeren Regeln für Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.", "ikona": "⚠️" }
+      { "id": 2, "typ": "Hinweis", "text": "Diese Limits sind Richtwerte und nach strengeren Regeln for Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.", "ikona": "⚠️" }
     ]
   },
   "MNE": {
@@ -294,7 +340,7 @@
     ],
     "de": [
       { "id": 1, "typ": "Wildcamping: Verboten", "text": "Verboten an Stränden, in Nationalparks und in der Natur.", "ikona": "⛔" },
-      { "id": 2, "typ": "Hinweis", "text": "Diese Limits sind Richtwerte und nach strengeren Regeln für Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.", "ikona": "⚠️" }
+      { "id": 2, "typ": "Hinweis", "text": "Diese Limits sind Richtwerte und nach strengeren Regeln for Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.", "ikona": "⚠️" }
     ]
   },
   "ALB": {
@@ -308,7 +354,7 @@
     ],
     "de": [
       { "id": 1, "typ": "Wildcamping: Toleriert", "text": "Hohe Toleranz, aber verhalten Sie sich respektvoll gegenüber Natur und Einheimischen.", "ikona": "👍" },
-      { "id": 2, "typ": "Hinweis", "text": "Diese Limits sind Richtwerte und nach strengeren Regeln für Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.", "ikona": "⚠️" }
+      { "id": 2, "typ": "Hinweis", "text": "Diese Limits sind Richtwerte und nach strengeren Regeln for Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.", "ikona": "⚠️" }
     ]
   },
 
@@ -322,6 +368,8 @@
     "PL": { "country": "Poľsko", "<= 3.5t": { "town": 50, "outskirts": 70, "expressway": 80, "highway": 80 }, "> 3.5t": { "town": 50, "outskirts": 80, "expressway": 100, "highway": 100 } },
     "FI": { "country": "Fínsko", "<= 3.5t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 }, "> 3.5t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 } },
     "SE": { "country": "Švédsko", "<= 3.5t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 }, "> 3.5t": { "town": 50, "outskirts": 80, "expressway": 100, "highway": 110 } },
+    "NO": { "country": "Nórsko", "<= 3.5t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 }, "> 3.5t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 } },
+    "IS": { "country": "Island", "<= 3.5t": { "town": 50, "outskirts": 80, "expressway": 90, "highway": 90 }, "> 3.5t": { "town": 50, "outskirts": 80, "expressway": 90, "highway": 90 } },
     "DK": { "country": "Dánsko", "<= 3.5t": { "town": 50, "outskirts": 70, "expressway": 80, "highway": 80 }, "> 3.5t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 } },
     "NL": { "country": "Holandsko", "<= 3.5t": { "town": 50, "outskirts": 80, "expressway": 90, "highway": 90 }, "> 3.5t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 } },
     "BE": { "country": "Belgicko", "<= 3.5t": { "town": 50, "outskirts": 90, "expressway": 120, "highway": 120 }, "> 3.5t": { "town": 50, "outskirts": 90, "expressway": 90, "highway": 90 } },
@@ -346,6 +394,8 @@
     "PL": { "<= 3.5t": "https://etoll.gov.pl/en/", "> 3.5t": "https://etoll.gov.pl/en/" },
     "FI": { "<= 3.5t": "https://vayla.fi/en/web/en/highways", "> 3.5t": "https://vayla.fi/en/web/en/highways" },
     "SE": { "<= 3.5t": "https://www.transportstyrelsen.se/en/road/tolls-and-fees/", "> 3.5t": "https://www.transportstyrelsen.se/en/road/tolls-and-fees/" },
+    "NO": { "<= 3.5t": "https://www.autopass.no/en/", "> 3.5t": "https://www.autopass.no/en/" },
+    "IS": { "<= 3.5t": "https://www.vegagerdin.is/english", "> 3.5t": "https://www.vegagerdin.is/english" },
     "DK": { "<= 3.5t": "https://www.storebaelt.dk/english", "> 3.5t": "https://www.storebaelt.dk/english" },
     "NL": { "<= 3.5t": "https://www.rijkswaterstaat.nl/en/traveller-information", "> 3.5t": "https://www.rijkswaterstaat.nl/en/traveller-information" },
     "BE": { "<= 3.5t": "https://www.vignette.be/en", "> 3.5t": "https://www.vignette.be/en" },
@@ -360,11 +410,3 @@
     "ALB": { "<= 3.5t": "https://www.autostradatirana.al/en/", "> 3.5t": "https://www.autostradatirana.al/en/" }
   }
 }
-
-
-
-
-
-
-
-
