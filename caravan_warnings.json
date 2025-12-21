@@ -361,19 +361,19 @@
       "sk": [
         { "id": 1, "typ": "Mýto a známka", "text": "Vozidlá do 3,5t potrebujú e-známku. Nad 3,5t sa platí mýto cez palubnú jednotku MytoCZ.", "ikona": "🛣️" },
         { "id": 2, "typ": "Alkohol", "text": "V Česku platí nulová tolerancia alkoholu za volantom.", "ikona": "🍷" },
-        { "id": 3, "typ": "Reflexné vesty", "text": "Vesta je povinná pre každého, kto opúšťa vozidlo počas poruchy na ceste.", "ikona": "🦺" },
+        { "id": 3, "typ": "Reflexné vesty", "text": "Vesta je povinná pre každého, kto opúšťa vozidlo počas poruchy na ceste. Pri jazde s prívesom musia byť v aute náhradné žiarovky a poistky.", "ikona": "🦺" },
         { "id": 4, "typ": "Upozornenie", "text": "Tieto limity sú orientačné a nastavené podľa prísnejších pravidiel pre súpravy. Vždy sledujte lokálne dopravné značenie a technické limity vášho vozidla.", "ikona": "⚠️" }
       ],
       "en": [
         { "id": 1, "typ": "Toll and Vignette", "text": "Vehicles up to 3.5t need an e-vignette. Over 3.5t require an on-board unit (MytoCZ).", "ikona": "🛣️" },
         { "id": 2, "typ": "Alcohol", "text": "Zero tolerance for alcohol while driving.", "ikona": "🍷" },
-        { "id": 3, "typ": "Reflective Vests", "text": "A vest is mandatory for everyone leaving the vehicle during a breakdown.", "ikona": "🦺" },
+        { "id": 3, "typ": "Reflective Vests", "text": "A vest is mandatory for everyone leaving the vehicle during a breakdown. When driving with a trailer, spare bulbs and fuses must be in the car.", "ikona": "🦺" },
         { "id": 4, "typ": "Notice", "text": "These limits are indicative and based on stricter rules for vehicle combinations. Always follow local traffic signs and your vehicle's technical limits.", "ikona": "⚠️" }
       ],
       "de": [
         { "id": 1, "typ": "Maut und Vignette", "text": "Fahrzeuge bis 3,5t benötigen eine E-Vignette. Über 3,5t Maut über MytoCZ-Bordgerät.", "ikona": "🛣️" },
         { "id": 2, "typ": "Alkohol", "text": "Null-Toleranz-Grenze für Alkohol am Steuer.", "ikona": "🍷" },
-        { "id": 3, "typ": "Warnwesten", "text": "Westenpflicht für jede Person, die das Fahrzeug bei einer Panne verlässt.", "ikona": "🦺" },
+        { "id": 3, "typ": "Warnwesten", "text": "Westenpflicht für jede Person, die das Fahrzeug bei einer Panne verlässt. Beim Fahren mit Anhänger müssen Ersatzglühbirnen und -sicherungen im Auto mitgeführt werden.", "ikona": "🦺" },
         { "id": 4, "typ": "Hinweis", "text": "Diese Limits sind Richtwerte und nach strengeren Regeln für Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.", "ikona": "⚠️" }
       ]
     },
@@ -592,5 +592,6 @@
     "LU": { "<= 3.5t": "free", "> 3.5t": "https://www.eurovignettes.eu/" }
   }
 }
+
 
 
