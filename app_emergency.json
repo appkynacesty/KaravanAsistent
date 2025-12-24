@@ -1,72 +1,70 @@
 {
-  "version": "1.0.0",
-  "lastUpdated": "2025-12-13",
+  "version": "1.1.0",
+  "lastUpdated": "2025-12-24",
   "modules": [
     {
-      "icon": "traffic",
+      "icon": "build",
       "title": {
-        "sk": "Servis a Opravy na Ceste",
-        "en": "Roadside Service and Repairs",
-        "de": "Pannenhilfe und Reparaturen"
+        "sk": "Servis a Náhradné Diely",
+        "en": "Service and Spare Parts",
+        "de": "Service und Ersatzteile"
       },
       "sections": [
         {
           "heading": {
-            "sk": "Kontakt na Asistenčnú Službu",
-            "en": "Contact Roadside Assistance",
-            "de": "Kontakt Pannendienst"
+            "sk": "Špecializované Karavan Servisy",
+            "en": "Specialized Caravan Services",
+            "de": "Spezialisierte Wohnmobil-Werkstätten"
           },
           "content": {
-            "sk": "V prípade núdze najskôr kontaktujte vašu cestovnú asistenčnú službu (napr. ÚAMK, ADAC, AXA). Majte pripravené číslo poistky a presnú polohu.",
-            "en": "In an emergency, first contact your travel assistance service (e.g., ÚAMK, ADAC, AXA). Have your policy number and exact location ready.",
-            "de": "Kontaktieren Sie im Notfall zuerst Ihren Reiseassistenzdienst. Halten Sie Ihre Policennummer und den genauen Standort bereit."
-          }
-        },
-        {
-          "heading": {
-            "sk": "Odťahová služba (Nehoda)",
-            "en": "Towing Service (Accident)",
-            "de": "Abschleppdienst (Unfall)"
+            "sk": "Tu nájdete zoznam overených servisov pre váš karavan alebo obytné auto.",
+            "en": "Here you can find a list of verified services for your caravan or motorhome.",
+            "de": "Hier finden Sie eine Liste verifizierter Werkstätten für Ihr Wohnmobil."
           },
-          "content": {
-            "sk": "Ak vozidlo nie je pojazdné po nehode, použite overenú odťahovú službu. Európske číslo pre núdzovú linku: 112.",
-            "en": "If the vehicle is immobile after an accident, use a verified towing service. European emergency number: 112.",
-            "de": "Wenn das Fahrzeug nach einem Unfall fahruntüchtig ist, nutzen Sie einen verifizierten Abschleppdienst. Europäische Notrufnummer: 112."
-          }
+          "items": [
+            {
+              "name": "Karavan Servis ABC (Partner)",
+              "isPartner": true,
+              "url": "https://www.priklad-servis.sk",
+              "phone": "+421900111222"
+            },
+            {
+              "name": "E-shop s náhradnými dielmi XYZ",
+              "isPartner": false,
+              "url": "https://www.priklad-diely.sk",
+              "phone": ""
+            }
+          ]
         }
       ]
     },
     {
-      "icon": "balance",
+      "icon": "shopping_cart",
       "title": {
-        "sk": "Zdravotná a Právna Pomoc",
-        "en": "Health and Legal Aid",
-        "de": "Gesundheits- und Rechtshilfe"
+        "sk": "Užitočné Odkazy",
+        "en": "Useful Links",
+        "de": "Nützliche Links"
       },
       "sections": [
         {
           "heading": {
-            "sk": "Lekárska Pohotovosť",
-            "en": "Medical Emergency",
-            "de": "Ärztlicher Notfall"
+            "sk": "Požičovne a Príslušenstvo",
+            "en": "Rentals and Accessories",
+            "de": "Vermieter und Zubehör"
           },
           "content": {
-            "sk": "Pre život ohrozujúce stavy volajte 112 (Európa). Pre bežné zdravotné problémy vyhľadajte najbližšiu pohotovosť (Urgent).",
-            "en": "For life-threatening conditions, call 112 (Europe). For common health issues, find the nearest emergency room (Urgent Care).",
-            "de": "Rufen Sie bei lebensbedrohlichen Zuständen die 112 (Europa) an. Bei allgemeinen Gesundheitsproblemen suchen Sie die nächste Notaufnahme auf."
-          }
-        },
-        {
-          "heading": {
-            "sk": "Právne Poradenstvo",
-            "en": "Legal Advice",
-            "de": "Rechtsberatung"
+            "sk": "Vybavenie pre kemping a voľný čas od našich partnerov.",
+            "en": "Camping and leisure equipment from our partners.",
+            "de": "Camping- und Freizeitausrüstung von unseren Partnern."
           },
-          "content": {
-            "sk": "Pri riešení dopravných priestupkov alebo právnych problémov kontaktujte svoju poistovňu, ktorá môže zabezpečiť právnu pomoc.",
-            "en": "When dealing with traffic violations or legal issues, contact your insurance company, which may provide legal assistance.",
-            "de": "Wenden Sie sich bei Verkehrsverstößen oder rechtlichen Problemen an Ihre Versicherung, die möglicherweise Rechtsbeistand leistet."
-          }
+          "items": [
+            {
+              "name": "Kemping Svet",
+              "isPartner": true,
+              "url": "https://www.kempingsvet.sk",
+              "phone": ""
+            }
+          ]
         }
       ]
     }
