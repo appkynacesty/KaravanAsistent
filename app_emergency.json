@@ -1,5 +1,5 @@
 {
-  "version": "1.3.0",
+  "version": "1.4.0",
   "lastUpdated": "2025-12-24",
   "modules": [
     {
@@ -24,23 +24,25 @@
           "items": [
             {
               "name": {
-                "sk": "Karavan Servis ABC (Partner)",
-                "en": "Caravan Service ABC (Partner)",
-                "de": "Wohnmobil Service ABC (Partner)"
+                "sk": "Karavan Servis Bratislava",
+                "en": "Caravan Service Bratislava",
+                "de": "Wohnmobil Service Bratislava"
               },
               "isPartner": true,
-              "url": "https://www.priklad-servis.sk",
+              "country": "SK",
+              "url": "https://www.karavanservis.sk",
               "phone": "+421900111222"
             },
             {
               "name": {
-                "sk": "E-shop KempingSvet",
-                "en": "E-shop CampingWorld",
-                "de": "E-Shop CampingWelt"
+                "sk": "Caravan Metropol (Wien)",
+                "en": "Caravan Metropol (Vienna)",
+                "de": "Caravan Metropol (Wien)"
               },
               "isPartner": false,
-              "url": "https://www.kempingsvet.sk",
-              "phone": ""
+              "country": "AT",
+              "url": "https://www.caravan-metropol.at",
+              "phone": "+43123456789"
             }
           ]
         }
@@ -73,17 +75,19 @@
                 "de": "Park4Night (App)"
               },
               "isPartner": false,
+              "country": "ALL",
               "url": "https://park4night.com",
               "phone": ""
             },
             {
               "name": {
-                "sk": "Stellplatz.sk",
-                "en": "Stellplatz.sk",
-                "de": "Stellplatz.sk"
+                "sk": "Bezkempu.cz",
+                "en": "Bezkempu.cz",
+                "de": "Bezkempu.cz"
               },
               "isPartner": false,
-              "url": "https://www.stellplatz.sk",
+              "country": "CZ",
+              "url": "https://www.bezkempu.cz",
               "phone": ""
             }
           ]
@@ -107,28 +111,20 @@
                 "de": "E-Assistance Karte (SKP)"
               },
               "isPartner": false,
+              "country": "SK",
               "url": "https://www.skp.sk",
               "phone": ""
             },
             {
               "name": {
-                "sk": "Zjazdnosť ciest - SSC",
-                "en": "Road Conditions - SSC",
-                "de": "Straßenzustand - SSC"
+                "sk": "ÖAMTC (Rakúsky autoklub)",
+                "en": "ÖAMTC (Austrian Car Club)",
+                "de": "ÖAMTC (Der Mobilitätsclub)"
               },
               "isPartner": false,
-              "url": "https://www.zjazdnost.sk",
-              "phone": ""
-            },
-            {
-              "name": {
-                "sk": "Ceny palív v Európe",
-                "en": "Fuel Prices in Europe",
-                "de": "Kraftstoffpreise in Europa"
-              },
-              "isPartner": false,
-              "url": "https://www.tcs.ch/de/camping-reisen/reiseinfos/benzinpreise-europa.php",
-              "phone": ""
+              "country": "AT",
+              "url": "https://www.oeamtc.at",
+              "phone": "120"
             }
           ]
         }
@@ -149,9 +145,9 @@
             "de": "Vergünstigte Campingplätze"
           },
           "content": {
-            "sk": "Kempy, kde vám Karavan Asistent otvorí nové možnosti. Preukážte sa aktívnym predplatným a čerpajte výhody.",
-            "en": "Campsites where Karavan Asistent opens new possibilities. Show your active subscription and get benefits.",
-            "de": "Campingplätze, auf denen Karavan Asistent neue Möglichkeiten eröffnet. Zeigen Sie Ihr aktives Abonnement und nutzen Sie Vorteile."
+            "sk": "Kempy, kde vám Karavan Asistent otvorí nové možnosti.",
+            "en": "Campsites where Karavan Asistent opens new possibilities.",
+            "de": "Campingplätze, auf denen Karavan Asistent neue Möglichkeiten eröffnet."
           },
           "items": [
             {
@@ -161,18 +157,20 @@
                 "de": "Mara Camping (Liptov)"
               },
               "isPartner": true,
+              "country": "SK",
               "url": "https://www.maracamping.sk",
               "phone": "+421911122333"
             },
             {
               "name": {
-                "sk": "Camping Belá - Nižné Kamence",
-                "en": "Camping Belá",
-                "de": "Camping Belá"
+                "sk": "Camping am See (Wörthersee)",
+                "en": "Camping am See",
+                "de": "Camping am See"
               },
               "isPartner": true,
-              "url": "http://www.campingbela.eu",
-              "phone": "+421904123456"
+              "country": "AT",
+              "url": "https://www.camping-am-see.at",
+              "phone": "+43111222333"
             }
           ]
         }
