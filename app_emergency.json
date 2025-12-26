@@ -48,6 +48,22 @@
               "country": "AT",
               "url": "https://www.caravan-metropol.at",
               "phone": "+43123456789"
+            },
+            {
+              "name": {
+                "sk": "Skúška ",
+                "en": "Skúška ",
+                "de": "Skúška "
+              },
+              "isPartner": true,
+              "country": "DE",
+              "url": "https://appkynacesty.github.io/Locator/",
+              "phone": "",
+              "benefit": {
+                "sk": "10% zlava",
+                "en": "10% zlava",
+                "de": "10% zlava"
+              }
             }
           ]
         }
