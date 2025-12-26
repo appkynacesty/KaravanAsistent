@@ -1,6 +1,6 @@
 {
   "version": "1.5.0",
-  "lastUpdated": "2025-12-24",
+  "lastUpdated": "2025-12-26",
   "modules": [
     {
       "icon": "build",
@@ -186,6 +186,17 @@
               },
               "url": "https://www.camping-am-see.at",
               "phone": "+43111222333"
+            },
+            {
+              "name": {
+                "sk": "Testovaci kemp",
+                "en": "Testovaci kemp",
+                "de": "Testovaci kemp"
+              },
+              "isPartner": true,
+              "country": "SK",
+              "url": "https://appkynacesty.github.io/KaravanAsistent/#",
+              "phone": ""
             }
           ]
         }
