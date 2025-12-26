@@ -252,12 +252,6 @@
         "typ": "Upozornenie",
         "text": "Tieto limity sú orientačné a nastavené podľa prísnejších pravidiel pre súpravy. Vždy sledujte lokálne dopravné značenie a technické limity vášho vozidla.",
         "ikona": "⚠️"
-      },
-      {
-        "id": 3,
-        "typ": "Test",
-        "text": "Vkladanis",
-        "ikona": "🛠️"
       }
     ],
     "en": [
@@ -272,12 +266,6 @@
         "typ": "Notice",
         "text": "These limits are indicative and based on stricter rules for vehicle combinations. Always follow local traffic signs and your vehicle's technical limits.",
         "ikona": "⚠️"
-      },
-      {
-        "id": 3,
-        "typ": "En test",
-        "text": "Englicky",
-        "ikona": "🛠️"
       }
     ],
     "de": [
@@ -292,12 +280,6 @@
         "typ": "Hinweis",
         "text": "Diese Limits sind Richtwerte und nach strengeren Regeln für Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.",
         "ikona": "⚠️"
-      },
-      {
-        "id": 3,
-        "typ": "De tedt",
-        "text": "Spreche",
-        "ikona": "🛠️"
       }
     ]
   },
