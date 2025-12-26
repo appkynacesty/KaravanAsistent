@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Karavan Asistent</title>
+    <style>
+        body { font-family: -apple-system, sans-serif; max-width: 800px; margin: 10px auto; padding: 15px; background: #f0f2f5; color: #333; }
+        .card { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); margin-bottom: 20px; }
+        h2 { margin-top: 0; color: #007bff; font-size: 1.3em; border-bottom: 2px solid #f0f2f5; padding-bottom: 10px; }
+        label { font-weight: bold; font-size: 0.85em; display: block; margin-top: 15px; color: #555; }
+        input, select { width: 100%; margin: 5px 0 10px; padding: 12px; border: 1px solid #ccc; border-radius: 8px; box-sizing: border-box; font-size: 16px; }
+        .row { display: flex; gap: 10px; }
+        button { padding: 14px; border: none; border-radius: 8px; cursor: pointer; font-weight: bold; transition: 0.2s; }
+        .btn-add { background: #28a745; color: white; width: 100%; margin-top: 20px; font-size: 1.1em; }
+        .btn-load { background: #007bff; color: white; margin-bottom: 15px; width: 100%; }
+        .btn-delete { background: #dc3545; color: white; padding: 8px 15px; font-size: 0.85em; }
+        .item-row { display: flex; justify-content: space-between; align-items: center; padding: 15px; border-bottom: 1px solid #eee; }
+        .token-area { background: #fff3cd; border: 1px solid #ffeeba; padding: 15px; border-radius: 10px; margin-bottom: 20px; }
+        #status { padding: 15px; margin-top: 10px; border-radius: 8px; display: none; text-align: center; font-weight: bold; position: sticky; top: 10px; z-index: 100; }
+        .lang-group { background: #f9f9f9; padding: 10px; border-radius: 8px; margin-top: 5px; border: 1px dashed #ddd; }
+        small { color: #666; line-height: 1.4; }
+    </style>
+</head>
+<body>
+
+<div id="status"></div>
+
+<div class="token-area">
+    <strong>🔑 Prístupový kľúč (GitHub Token):</strong>
+    <input type="password" id="ghToken" placeholder="ghp_xxxxxxxxxxxxxxxxxxxx">
+    <small>Token nie je nikde ukladaný, po zatvorení okna ho treba vložiť znova.</small>
+</div>
+
+<div class="card">
+    <h2>➕ Pridať partnerský kemp</h2>
+    <form id="addForm">
+        <label>Názov kempu (Lokalizácia):</label>
+        <div class="lang-group">
+            <input type="text" id="name_sk" placeholder="Slovenský názov" required>
+            <input type="text" id="name_en" placeholder="English name (ak prázdne, použije sa SK)">
+            <input type="text" id="name_de" placeholder="Deutscher Name (ak prázdne, použije sa SK)">
+        </div>
+
+        <div class="row">
+            <div style="flex:1">
+                <label>Krajina (Kód):</label>
+                <input type="text" id="country" placeholder="SK" required>
+            </div>
+            <div style="flex:2">
+                <label>URL webu:</label>
+                <input type="url" id="url" placeholder="https://www.kemp.sk" required>
+            </div>
+        </div>
+
+        <label>Benefit pre členov:</label>
+        <div class="lang-group">
+            <input type="text" id="benefit_sk" placeholder="Benefit SK (napr. Zľava 10%)">
+            <input type="text" id="benefit_en" placeholder="Benefit EN">
+            <input type="text" id="benefit_de" placeholder="Benefit DE">
+        </div>
+
+        <label>Telefónne číslo (voliteľné):</label>
+        <input type="text" id="phone" placeholder="+421 ...">
+
+        <button type="submit" class="btn-add">🚀 Odoslať do aplikácie</button>
+    </form>
+</div>
+
+<div class="card">
+    <h2>📋 Aktuálne partnerské kempy</h2>
+    <button class="btn-load" onclick="loadItems()">🔄 Načítať zoznam z GitHubu</button>
+    <div id="itemList">
+        <p style="color: gray; text-align: center;">Zoznam zatiaľ nebol načítaný.</p>
+    </div>
+</div>
+
+<script>
+    // --- KONFIGURÁCIA ---
+    const GITHUB_USERNAME = 'appkynacesty'; // UPRAVIŤ
+    const GITHUB_REPO = 'KaravanAsistent'; // UPRAVIŤ
+    const GITHUB_FILE_PATH = 'app_emergency.json'; 
+    const PARTNER_MODULE_INDEX = 2; // Index modulu "Partnerské Kempy"
+    const PARTNER_SECTION_INDEX = 0; // Index sekcie "Zvýhodnené kempy"
+
+    function getToken() {
+        const t = document.getElementById('ghToken').value.trim();
+        if (!t) {
+            alert("Najprv vložte váš GitHub Token!");
+            window.scrollTo(0,0);
+            return null;
+        }
+        return t;
+    }
+
+    const apiUrl = `https://api.github.com/repos/${GITHUB_USERNAME}/${GITHUB_REPO}/contents/${GITHUB_FILE_PATH}`;
+
+    async function getGitHubData() {
+        const token = getToken();
+        if (!token) return null;
+
+        const res = await fetch(apiUrl, { 
+            headers: { 'Authorization': `token ${token}`, 'Cache-Control': 'no-cache' }
+        });
+        if (!res.ok) throw new Error("Chyba pripojenia. Skontrolujte token a názov repozitára.");
+        const data = await res.json();
+        const content = JSON.parse(decodeURIComponent(escape(window.atob(data.content))));
+        return { content, sha: data.sha };
+    }
+
+    async function saveToGitHub(newContent, sha, message) {
+        const token = getToken();
+        const encoded = window.btoa(unescape(encodeURIComponent(JSON.stringify(newContent, null, 2))));
+        const res = await fetch(apiUrl, {
+            method: 'PUT',
+            headers: { 'Authorization': `token ${token}`, 'Content-Type': 'application/json' },
+            body: JSON.stringify({ message, content: encoded, sha })
+        });
+        return res.ok;
+    }
+
+    async function loadItems() {
+        const listDiv = document.getElementById('itemList');
+        listDiv.innerHTML = "⌛ Načítavam dáta...";
+        try {
+            const data = await getGitHubData();
+            if (!data) return;
+            const items = data.content.modules[PARTNER_MODULE_INDEX].sections[PARTNER_SECTION_INDEX].items;
+            
+            listDiv.innerHTML = "";
+            if (items.length === 0) listDiv.innerHTML = "V zozname nie sú žiadne kempy.";
+
+            items.forEach((item, index) => {
+                const row = document.createElement('div');
+                row.className = 'item-row';
+                row.innerHTML = `
+                    <div class="item-info">
+                        <strong>${item.name.sk}</strong> [${item.country}]<br>
+                        <small>${item.url}</small>
+                    </div>
+                    <button class="btn-delete" onclick="deleteItem(${index})">Zmazať</button>
+                `;
+                listDiv.appendChild(row);
+            });
+        } catch (err) {
+            listDiv.innerHTML = "❌ Chyba: " + err.message;
+        }
+    }
+
+    document.getElementById('addForm').addEventListener('submit', async (e) => {
+        e.preventDefault();
+        showStatus("🚀 Prebieha zápis...", "#007bff", "white");
+
+        try {
+            const data = await getGitHubData();
+            if (!data) return;
+            const { content, sha } = data;
+            
+            const name_sk = document.getElementById('name_sk').value;
+            const b_sk = document.getElementById('benefit_sk').value;
+
+            const newItem = {
+                "name": {
+                    "sk": name_sk,
+                    "en": document.getElementById('name_en').value || name_sk,
+                    "de": document.getElementById('name_de').value || name_sk
+                },
+                "isPartner": true,
+                "country": document.getElementById('country').value.toUpperCase(),
+                "url": document.getElementById('url').value,
+                "phone": document.getElementById('phone').value || ""
+            };
+
+            if (b_sk) {
+                newItem.benefit = {
+                    "sk": b_sk,
+                    "en": document.getElementById('benefit_en').value || b_sk,
+                    "de": document.getElementById('benefit_de').value || b_sk
+                };
+            }
+
+            // Pridanie do štruktúry
+            content.modules[PARTNER_MODULE_INDEX].sections[PARTNER_SECTION_INDEX].items.push(newItem);
+            
+            // Aktualizácia globálneho dátumu
+            content.lastUpdated = new Date().toISOString().split('T')[0];
+
+            if (await saveToGitHub(content, sha, `Pridaný kemp: ${name_sk}`)) {
+                showStatus("✅ Úspešne uložené na GitHub!", "#28a745", "white");
+                document.getElementById('addForm').reset();
+                loadItems();
+            }
+        } catch (err) {
+            showStatus("❌ Chyba: " + err.message, "#dc3545", "white");
+        }
+    });
+
+    async function deleteItem(index) {
+        if (!confirm("Naozaj chcete tento kemp odstrániť zo zoznamu?")) return;
+        showStatus("🗑️ Odstraňujem...", "#007bff", "white");
+
+        try {
+            const data = await getGitHubData();
+            if (!data) return;
+            const { content, sha } = data;
+            
+            const removedName = content.modules[PARTNER_MODULE_INDEX].sections[PARTNER_SECTION_INDEX].items[index].name.sk;
+            content.modules[PARTNER_MODULE_INDEX].sections[PARTNER_SECTION_INDEX].items.splice(index, 1);
+            content.lastUpdated = new Date().toISOString().split('T')[0];
+
+            if (await saveToGitHub(content, sha, `Zmazaný kemp: ${removedName}`)) {
+                showStatus("✅ Záznam bol zmazaný!", "#28a745", "white");
+                loadItems();
+            }
+        } catch (err) {
+            showStatus("❌ Chyba pri mazaní.", "#dc3545", "white");
+        }
+    }
+
+    function showStatus(text, bg, color) {
+        const s = document.getElementById('status');
+        s.style.display = "block";
+        s.textContent = text;
+        s.style.backgroundColor = bg;
+        s.style.color = color;
+        setTimeout(() => { s.style.display = "none"; }, 5000);
+    }
+</script>
+
+</body>
+</html>
