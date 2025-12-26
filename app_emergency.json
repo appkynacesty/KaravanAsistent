@@ -186,22 +186,6 @@
               },
               "url": "https://www.camping-am-see.at",
               "phone": "+43111222333"
-            },
-            {
-              "name": {
-                "sk": "Test",
-                "en": "Štefan Ištok",
-                "de": "Štefan Ištok"
-              },
-              "isPartner": true,
-              "country": "DE",
-              "url": "https://appkynacesty.github.io/Locator/",
-              "phone": "+421949595557",
-              "benefit": {
-                "sk": "Skuska",
-                "en": "Skuska",
-                "de": "Skuska"
-              }
             }
           ]
         }
