@@ -38,6 +38,54 @@
     }
   ]
     },
+    {
+  "id": "accuracy_warning",
+  "title": {
+    "sk": "Presnosť a súkromie",
+    "en": "Accuracy and Privacy",
+    "de": "Genauigkeit und Privatsphäre"
+  },
+  "icon": "verified_user",
+  "sections": [
+    {
+      "heading": {
+        "sk": "VYHLÁSENIE O PRESNOSTI",
+        "en": "ACCURACY DISCLAIMER",
+        "de": "GENAUIGKEITSHINWEIS"
+      },
+      "content": {
+        "sk": "Funkcie využívajúce rozšírenú realitu a senzory (Vodováha, 3D náhľad parkovacieho miesta, Vyhľadávač satelitov a Dráha slnka) sú založené na algoritmoch pracujúcich s hardvérom vášho telefónu. Vzhľadom na technologické limity, magnetické rušenie (kovové časti karavanu) a rôznu kvalitu senzorov UPOZORŇUJEME, ŽE PRI MERANÍ URČITE VZNIKNÚ ODCHÝLKY. Výsledky považujte za informatívne a pred kritickými úkonmi ich overte fyzickým meradlom.",
+        "en": "Functions using augmented reality and sensors (Leveling, 3D parking preview, Satellite finder, and Sun path) are based on algorithms working with your phone's hardware. Due to technological limits, magnetic interference (metal parts of the caravan), and varying sensor quality, PLEASE NOTE THAT DEVIATIONS WILL CERTAINLY OCCUR. Consider the results informative and verify them with a physical tool before critical tasks.",
+        "de": "Funktionen, die Augmented Reality und Sensoren nutzen (Nivellierung, 3D-Parkplatzvorschau, Satellitenfinder und Sonnenverlauf), basieren auf Algorithmen, die mit der Hardware Ihres Telefons arbeiten. Aufgrund technologischer Grenzen, magnetischer Störungen (Metallteile des Wohnwagens) und unterschiedlicher Sensorqualität WEISEN WIR DARAUF HIN, DASS DEFINITIV ABWEICHUNGEN AUFTRETEN WERDEN. Betrachten Sie die Ergebnisse als informativ und überprüfen Sie diese vor kritischen Aufgaben mit einem physischen Messgerät."
+      }
+    },
+    {
+      "heading": {
+        "sk": "AKO KALIBROVAŤ KOMPAS",
+        "en": "HOW TO CALIBRATE THE COMPASS",
+        "de": "KOMPASS KALIBRIEREN"
+      },
+      "content": {
+        "sk": "Pre zníženie odchýlok pri funkciách 3D náhľad, Satelity a Dráha slnka je nutná kalibrácia: \n1. Otvorte danú funkciu.\n2. Držte telefón pevne a opakovane s ním vo vzduchu opíšte plynulý pohyb v tvare osmičky (symbol nekonečna).\n3. Nestojte priamo pri železných konštrukciách alebo silných magnetoch (reproduktory), ktoré meranie výrazne skresľujú.",
+        "en": "To reduce deviations in 3D preview, Satellite, and Sun path functions, calibration is required: \n1. Open the specific function.\n2. Hold the phone firmly and repeatedly draw a smooth figure-eight (infinity symbol) in the air.\n3. Do not stand directly near iron structures or strong magnets (speakers), which significantly distort the measurement.",
+        "de": "Um Abweichungen in den Funktionen 3D-Vorschau, Satellit und Sonnenverlauf zu reduzieren, ist eine Kalibrierung erforderlich: \n1. Öffnen Sie die entsprechende Funktion.\n2. Halten Sie das Telefon fest und zeichnen Sie wiederholt eine flüssige Achterfigur (Unendlichkeitssymbol) in die Luft.\n3. Stehen Sie nicht direkt neben Eisenkonstruktionen oder starken Magneten (Lautsprechern), die die Messung erheblich verfälschen."
+      }
+    },
+    {
+      "heading": {
+        "sk": "OCHRANA OSOBNÝCH ÚDAJOV",
+        "en": "PRIVACY POLICY",
+        "de": "DATENSCHUTZERKLÄRUNG"
+      },
+      "content": {
+        "sk": "Vaše súkromie je pre nás dôležité. Aplikácia pristupuje k polohe a kamere výhradne za účelom poskytovania funkcií (výpočet limitov, AR zobrazenie). Fotky z denníka zostávajú uložené lokálne vo vašom zariadení. Úplné znenie našich pravidiel ochrany súkromia nájdete na: https://appkynacesty.github.io/KaravanAsistent/",
+        "en": "Your privacy is important to us. The app accesses location and camera solely to provide features (limit calculations, AR display). Log photos remain stored locally on your device. For the full text of our privacy policy, visit: https://appkynacesty.github.io/KaravanAsistent/",
+        "de": "Ihre Privatsphäre ist uns wichtig. Die App greift ausschließlich auf Standort und Kamera zu, um Funktionen bereitzustellen (Limitberechnungen, AR-Anzeige). Log-Fotos verbleiben lokal auf Ihrem Gerät. Den vollständigen Text unserer Datenschutzerklärung finden Sie unter: https://appkynacesty.github.io/KaravanAsistent/"
+      }
+    }
+  ]
+    },
+    
     
     {
       "id": "intro_warnings",
