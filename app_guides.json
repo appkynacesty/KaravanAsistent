@@ -88,20 +88,6 @@
     }
   ]
     },
-    {
-      "heading": {
-        "sk": "OCHRANA OSOBNÝCH ÚDAJOV",
-        "en": "PRIVACY POLICY",
-        "de": "DATENSCHUTZERKLÄRUNG"
-      },
-      "content": {
-        "sk": "Vaše súkromie je pre nás dôležité. Aplikácia pristupuje k polohe a kamere výhradne za účelom poskytovania funkcií (výpočet limitov, AR zobrazenie). Fotky z denníka zostávajú uložené lokálne vo vašom zariadení. Úplné znenie našich pravidiel ochrany súkromia nájdete na: https://appkynacesty.github.io/KaravanAsistent/",
-        "en": "Your privacy is important to us. The app accesses location and camera solely to provide features (limit calculations, AR display). Log photos remain stored locally on your device. For the full text of our privacy policy, visit: https://appkynacesty.github.io/KaravanAsistent/",
-        "de": "Ihre Privatsphäre ist uns wichtig. Die App greift ausschließlich auf Standort und Kamera zu, um Funktionen bereitzustellen (Limitberechnungen, AR-Anzeige). Log-Fotos verbleiben lokal auf Ihrem Gerät. Den vollständigen Text unserer Datenschutzerklärung finden Sie unter: https://appkynacesty.github.io/KaravanAsistent/"
-      }
-    }
-  ]
-    },
     
     
     {
