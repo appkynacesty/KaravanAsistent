@@ -110,6 +110,28 @@
           },
           "items": [
             {
+  "name": {
+    "sk": "SATC (Slovenský autoturistický klub)",
+    "en": "SATC (Slovak Autotourist Club)",
+    "de": "SATC (Slowakischer Autotouristik-Klub)"
+  },
+  "isPartner": false,
+  "country": "SK",
+  "url": "https://www.satc.sk",
+  "phone": "18124"
+},
+{
+  "name": {
+    "sk": "ASA (Autoklub Slovakia Assistance)",
+    "en": "ASA (Autoclub Slovakia Assistance)",
+    "de": "ASA (Autoklub Slowakei Assistance)"
+  },
+  "isPartner": false,
+  "country": "SK",
+  "url": "https://www.asaassistance.sk",
+  "phone": "18112"
+},
+            {
               "name": {
                 "sk": "E-Asistenčná karta (SKP)",
                 "en": "E-Assistance Card (SKP)",
