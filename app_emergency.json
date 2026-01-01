@@ -121,6 +121,17 @@
               "phone": ""
             },
             {
+    "name": {
+      "sk": "ÚAMK (Český autoklub)",
+      "en": "ÚAMK (Czech Automobile Club)",
+      "de": "ÚAMK (Tschechischer Automobilclub)"
+    },
+    "isPartner": false,
+    "country": "CZ",
+    "url": "https://www.uamk.cz",
+    "phone": "1234"
+  },
+            {
               "name": {
                 "sk": "ÖAMTC (Rakúsky autoklub)",
                 "en": "ÖAMTC (Austrian Car Club)",
@@ -218,6 +229,83 @@
     "country": "SE",
     "url": "https://www.sosalarm.se",
     "phone": "112"
+  },
+            {
+    "name": {
+      "sk": "PZM (Poľský autoklub)",
+      "en": "PZM (Polish Motor Association)",
+      "de": "PZM (Polnischer Automobilverband)"
+    },
+    "isPartner": false,
+    "country": "PL",
+    "url": "https://www.pzm.pl",
+    "phone": "+48 22 532 84 00"
+  },
+  {
+    "name": {
+      "sk": "MAK (Maďarský autoklub)",
+      "en": "MAK (Hungarian Autoclub)",
+      "de": "MAK (Ungarischer Automobilclub)"
+    },
+    "isPartner": false,
+    "country": "HU",
+    "url": "https://www.autoklub.hu",
+    "phone": "188"
+  },
+  {
+    "name": {
+      "sk": "AMZS (Slovinský autoklub)",
+      "en": "AMZS (Slovenian Automobile Association)",
+      "de": "AMZS (Slowenischer Automobilclub)"
+    },
+    "isPartner": false,
+    "country": "SI",
+    "url": "https://www.amzs.si",
+    "phone": "1987"
+  },
+  {
+    "name": {
+      "sk": "ACR (Rumunský autoklub)",
+      "en": "ACR (Romanian Automobile Club)",
+      "de": "ACR (Rumänischer Automobilclub)"
+    },
+    "isPartner": false,
+    "country": "RO",
+    "url": "https://www.acr.ro",
+    "phone": "+40 21 222 22 22"
+  },
+  {
+    "name": {
+      "sk": "ACA (Francúzsky autoklub)",
+      "en": "ACA (Automobile Club Association France)",
+      "de": "ACA (Automobilclub Frankreich)"
+    },
+    "isPartner": false,
+    "country": "FR",
+    "url": "https://www.automobile-club.org",
+    "phone": "0800 08 92 22"
+  },
+  {
+    "name": {
+      "sk": "BIHAMK (Autoklub Bosny a Herc.)",
+      "en": "BIHAMK (Automobile Club of Bosnia and Herz.)",
+      "de": "BIHAMK (Automobilclub Bosnien und Herz.)"
+    },
+    "isPartner": false,
+    "country": "BA",
+    "url": "https://bihamk.ba",
+    "phone": "1282"
+  },
+  {
+    "name": {
+      "sk": "AMSS (Srbský autoklub)",
+      "en": "AMSS (Automobile Association of Serbia)",
+      "de": "AMSS (Automobilverband Serbien)"
+    },
+    "isPartner": false,
+    "country": "RS",
+    "url": "https://www.amss.org.rs",
+    "phone": "1987"
   }
           ]
         }
@@ -245,9 +333,9 @@
           "items": [
             {
               "name": {
-                "sk": "Mara Camping (Liptov)",
-                "en": "Mara Camping (Liptov)",
-                "de": "Mara Camping (Liptov)"
+                "sk": "Mara Camping (Ukážka)",
+                "en": "Mara Camping (Preview)",
+                "de": "Mara Camping (Vorschau)"
               },
               "isPartner": true,
               "country": "SK",
@@ -261,9 +349,9 @@
             },
             {
               "name": {
-                "sk": "Camping am See (Wörthersee)",
-                "en": "Camping am See",
-                "de": "Camping am See"
+                "sk": "Camping am See (Ukážka)",
+                "en": "Camping am See (Prewiev)",
+                "de": "Camping am See (Vorschau)"
               },
               "isPartner": true,
               "country": "AT",
