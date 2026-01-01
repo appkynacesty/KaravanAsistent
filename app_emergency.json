@@ -130,7 +130,95 @@
               "country": "AT",
               "url": "https://www.oeamtc.at",
               "phone": "120"
-            }
+            },
+            {
+    "name": {
+      "sk": "HAK (Chorvátsky autoklub)",
+      "en": "HAK (Croatian Automobile Club)",
+      "de": "HAK (Kroatischer Automobilclub)"
+    },
+    "isPartner": false,
+    "country": "HR",
+    "url": "https://www.hak.hr",
+    "phone": "1987"
+  },
+  {
+    "name": {
+      "sk": "ACI (Taliansky autoklub)",
+      "en": "ACI (Automobile Club d'Italia)",
+      "de": "ACI (Automobilclub Italien)"
+    },
+    "isPartner": false,
+    "country": "IT",
+    "url": "http://www.aci.it",
+    "phone": "803116"
+  },
+  {
+    "name": {
+      "sk": "RACE (Španielsky autoklub)",
+      "en": "RACE (Royal Automobile Club of Spain)",
+      "de": "RACE (Königlicher Automobilclub Spanien)"
+    },
+    "isPartner": false,
+    "country": "ES",
+    "url": "https://www.race.es",
+    "phone": "+34 91 594 93 47"
+  },
+  {
+    "name": {
+      "sk": "ELPA (Grécky autoklub)",
+      "en": "ELPA (Hellenic Automobile Association)",
+      "de": "ELPA (Griechischer Automobilclub)"
+    },
+    "isPartner": false,
+    "country": "GR",
+    "url": "http://www.elpa.gr",
+    "phone": "10400"
+  },
+  {
+    "name": {
+      "sk": "UAB (Bulharský autoklub)",
+      "en": "UAB (Union of Bulgarian Automobilists)",
+      "de": "UAB (Union der bulgarischen Automobilisten)"
+    },
+    "isPartner": false,
+    "country": "BG",
+    "url": "https://www.uab.org",
+    "phone": "146"
+  },
+  {
+    "name": {
+      "sk": "NAF (Nórsky autoklub)",
+      "en": "NAF (Norwegian Automobile Federation)",
+      "de": "NAF (Norwegischer Automobilverband)"
+    },
+    "isPartner": false,
+    "country": "NO",
+    "url": "https://www.naf.no",
+    "phone": "+47 23 21 31 00"
+  },
+  {
+    "name": {
+      "sk": "ADAC (Nemecký autoklub)",
+      "en": "ADAC (German Automobile Club)",
+      "de": "ADAC (Allgemeiner Deutscher Automobil-Club)"
+    },
+    "isPartner": false,
+    "country": "DE",
+    "url": "https://www.adac.de",
+    "phone": "+49 89 22 22 22"
+  },
+  {
+    "name": {
+      "sk": "SOS Alarm (Švédsko)",
+      "en": "SOS Alarm (Sweden)",
+      "de": "SOS Alarm (Schweden)"
+    },
+    "isPartner": false,
+    "country": "SE",
+    "url": "https://www.sosalarm.se",
+    "phone": "112"
+  }
           ]
         }
       ]
