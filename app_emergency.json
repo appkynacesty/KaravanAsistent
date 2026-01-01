@@ -24,9 +24,9 @@
           "items": [
             {
               "name": {
-                "sk": "Karavan Servis Bratislava",
-                "en": "Caravan Service Bratislava",
-                "de": "Wohnmobil Service Bratislava"
+                "sk": "Karavan Servis (Ukážka)",
+                "en": "Caravan Service (Prewiev)",
+                "de": "Wohnmobil Service (Vorschau)"
               },
               "isPartner": true,
               "country": "SK",
@@ -39,16 +39,101 @@
               "phone": "+421900111222"
             },
             {
-              "name": {
-                "sk": "Caravan Metropol (Wien)",
-                "en": "Caravan Metropol (Vienna)",
-                "de": "Caravan Metropol (Wien)"
-              },
-              "isPartner": false,
-              "country": "AT",
-              "url": "https://www.caravan-metropol.at",
-              "phone": "+43123456789"
-            }
+      "name": {
+        "sk": "Karavan.sk (Sereď/Bratislava)",
+        "en": "Karavan.sk (Sered/Bratislava)",
+        "de": "Karavan.sk (Sered/Bratislava)"
+      },
+      "isPartner": false,
+      "country": "SK",
+     
+      "url": "https://www.karavan.sk",
+      "phone": "+421915747474"
+    },
+    {
+      "name": {
+        "sk": "Hymer Centrum Praha",
+        "en": "Hymer Centre Prague",
+        "de": "Hymer Zentrum Prag"
+      },
+      "isPartner": false,
+      "country": "CZ",
+    
+      "url": "https://www.hymer.cz",
+      "phone": "+420235312738"
+    },
+    {
+      "name": {
+        "sk": "Adria Dom (Záhreb/Novo Mesto)",
+        "en": "Adria Dom (Zagreb/Novo Mesto)",
+        "de": "Adria Dom (Zagreb/Novo Mesto)"
+      },
+      "isPartner": false,
+      "country": "HR",
+     
+      "url": "https://www.adria-mobil.com",
+      "phone": "+38512345678"
+    },
+    {
+      "name": {
+        "sk": "Camping-Profi (Guntramsdorf)",
+        "en": "Camping-Profi (Guntramsdorf)",
+        "de": "Camping-Profi (Guntramsdorf)"
+      },
+      "isPartner": false,
+      "country": "AT",
+      
+      "url": "https://www.camping-profi.at",
+      "phone": "+432236506300"
+    },
+    {
+      "name": {
+        "sk": "Buerstner Magyarország (Budapešť)",
+        "en": "Buerstner Hungary (Budapest)",
+        "de": "Bürstner Ungarn (Budapest)"
+      },
+      "isPartner": false,
+      "country": "HU",
+      
+      "url": "https://www.buerstner.hu",
+      "phone": "+3612970118"
+    },
+    {
+      "name": {
+        "sk": "Camping Sport Magenta (Miláno)",
+        "en": "Camping Sport Magenta (Milan)",
+        "de": "Camping Sport Magenta (Mailand)"
+      },
+      "isPartner": false,
+      "country": "IT",
+     
+      "url": "https://www.campingsportmagenta.com",
+      "phone": "+39029790153"
+    },
+    {
+      "name": {
+        "sk": "Freedom Karavany (Brno)",
+        "en": "Freedom Caravans (Brno)",
+        "de": "Freedom Wohnmobile (Brünn)"
+      },
+      "isPartner": false,
+      "country": "CZ",
+  
+      "url": "https://www.freedom-karavany.cz",
+      "phone": "+420731154444"
+    },
+    {
+      "name": {
+        "sk": "Stellplatz.it (Južné Tirolsko)",
+        "en": "Stellplatz.it (South Tyrol)",
+        "de": "Stellplatz.it (Südtirol)"
+      },
+      "isPartner": false,
+      "country": "IT",
+      
+      "url": "https://www.stellplatz.it",
+      "phone": "+390471012345"
+    }
           ]
         }
       ]
