@@ -1148,7 +1148,7 @@
       {
         "id": 1,
         "typ": "Wildcamping: Prísny Zákaz",
-        "text": "Prísne trestané najmä pri mori a v národných parkoch. Pokuty až do 3000 HRK (cca 400 €).",
+        "text": "Prísne trestané najmä pri mori a v národných parkoch. Pokuty až do cca 400€.",
         "ikona": "🚫"
       },
       {
@@ -1180,7 +1180,7 @@
       {
         "id": 1,
         "typ": "Wild Camping: Strict Ban",
-        "text": "Strictest bans near the coast and in national parks. Fines up to 3000 HRK.",
+        "text": "Strictest bans near the coast and in national parks. Fines up to 400€.",
         "ikona": "🚫"
       },
       {
@@ -1212,7 +1212,7 @@
       {
         "id": 1,
         "typ": "Wildcamping: Strenges Verbot",
-        "text": "Strenge Verbote an der Küste und in Nationalparks. Bußgelder bis zu 3000 HRK.",
+        "text": "Strenge Verbote an der Küste und in Nationalparks. Bußgelder bis zu 400€.",
         "ikona": "🚫"
       },
       {
