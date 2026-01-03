@@ -1168,6 +1168,12 @@
         "typ": "Zákaz nocovania",
         "text": "Prísny zákaz prenocovania v karavane/aute mimo oficiálnych kempov. Týka sa to aj súkromných pozemkov a parkovísk. Pokuty sú vysoké a kontrolóri sú aktívni najmä v noci pri pobreží.",
         "ikona": "🚫"
+      },
+      {
+        "id": 5,
+        "typ": "Upozornenie: Silný vietor (Bóra)",
+        "text": "Pri silnom vetre (Bóra) bývajú diaľnice a mosty (Krk, Pag) pre karavany a vysoké vozidlá úplne uzavreté. Sledujte svetelné tabule a pri silnom vetre radšej jazdu prerušte na bezpečnom mieste.",
+        "ikona": "💨"
       }
     ],
     "en": [
@@ -1194,6 +1200,12 @@
         "typ": "Ban",
         "text": "Strict ban on overnight stays in campers/cars outside official campsites. This also applies to private land and public parking lots. Fines are high, and inspections are frequent, especially near the coast.",
         "ikona": "🚫"
+      },
+      {
+        "id": 5,
+        "typ": "Warning: Strong Wind (Bura)",
+        "text": "During strong winds (Bura), highways and bridges (Krk, Pag) are often closed to motorhomes and high-profile vehicles. Follow the electronic traffic signs and consider stopping in a safe place during heavy gusts.",
+        "ikona": "💨"
       }
     ],
     "de": [
@@ -1220,6 +1232,12 @@
         "typ": "Strenges Übernachtungsverbot",
         "text": "Strenges Übernachtungsverbot im Wohnmobil/Auto außerhalb offizieller Campingplätze. Dies gilt auch für Privatgrundstücke und Parkplätze. Die Bußgelder sind hoch, Kontrollen finden besonders an der Küste statt.",
         "ikona": "🚫"
+      },
+      {
+        "id": 5,
+        "typ": "Warnung: Starker Wind (Bora)",
+        "text": "Bei starkem Wind (Bora) werden Autobahnen und Brücken (Krk, Pag) oft für Wohnmobile und hohe Fahrzeuge gesperrt. Achten Sie auf die Anzeigetafeln und unterbrechen Sie die Fahrt bei starkem Wind an einem sicheren Ort.",
+        "ikona": "💨"
       }
     ]
   },
