@@ -531,9 +531,9 @@
     {
       "id": "emergency_help",
       "title": {
-        "sk": "Pomoc v núdzi",
-        "en": "Emergency Help",
-        "de": "Notfallhilfe"
+        "sk": "Odkazy",
+        "en": "Links",
+        "de": "Links"
       },
       "icon": "help_outline",
       "sections": [
@@ -544,9 +544,9 @@
             "de": "Wichtige Hotlines"
           },
           "content": {
-            "sk": "Prehľad dôležitých telefónnych čísel a asistenčných služieb platných v Európe (napr. 112). ",
-            "en": "Overview of important phone numbers and assistance services valid in Europe (e.g., 112).",
-            "de": "Übersicht wichtiger Telefonnummern und Notrufdienste, die in Europa gültig sind (z. B. 112)."
+            "sk": "Prehľad dôležitých odkazov pre pomoc na cestách, ako aj zoznam našich partnerských kempov a firiem.",
+            "en": "Overview of important roadside assistance links, as well as a list of our partner campsites and companies.",
+            "de": "Übersicht wichtiger Links zur Pannenhilfe sowie eine Liste unserer Partner-Campingplätze und Unternehmen."
           }
         }
       ]
@@ -614,9 +614,10 @@
             "de": "ÜBER DIE FUNKTION"
           },
           "content": {
-            "sk": "Tento modul využíva GPS, kompas a kameru na vizualizáciu skutočnej dráhy Slnka pre vašu aktuálnu polohu a dátum. .\n\nJe to kľúčový nástroj pre:\n\n* OPTIMALIZÁCIU SOLÁRNYCH PANELOV: Určenie najlepšieho miesta a optimálneho uhla sklonu na maximalizáciu získanej energie.\n* TIEŇOVÁ ANALÝZA: Zistenie, či a kedy budú vami vybrané miesto na kempovanie, panel alebo okno zatienené (napr. stromami, budovami).\n* ORIENTÁCIA KARAVANU: Určenie smeru Juhu (pre nastavenie satelitu) alebo Východu/Západu (pre tienenie).",
-            "en": "This module uses GPS, compass, and camera to visualize the actual path of the Sun for your current location and date.\n\nIt is a key tool for:\n\n* SOLAR PANEL OPTIMIZATION: Determining the best location and optimal tilt angle to maximize energy gain.\n* SHADOW ANALYSIS: Finding out if and when your chosen camping spot, panel, or window will be shaded (e.g., by trees, buildings).\n* CARAVAN ORIENTATION: Determining the direction of South (for satellite setup) or East/West (for shading).",
-            "de": "Dieses Modul verwendet GPS, Kompass und die Kamera zur Visualisierung des tatsächlichen Sonnenpfades für Ihren aktuellen Standort und Datum.\n\nEs ist ein Schlüsselwerkzeug für:\n\n* OPTIMIERUNG DER SOLARMODULE: Bestimmung des besten Standorts und des optimalen Neigungswinkels zur Maximierung des Energiegewinns.\n* SCHATTENANALYSE: Feststellen, ob und wann Ihr gewählter Campingplatz, Modul oder Fenster beschattet wird (z. B. durch Bäume, Gebäude).\n* WOHNWAGENORIENTIERUNG: Bestimmung der Südausrichtung (für die Satelliteneinrichtung) oder Ost/West (für die Beschattung)."
+            "sk": "Tento modul prepojí GPS, kompas a kameru vášho mobilu, aby vám priamo na displeji ukázal dráhu slnka presne tam, kde práve stojíte.\n\nPomôže vám:\n\n* VYŤAŽIŤ MAXIMUM ZO SLNKA: Nájdite najlepší flek a sklon panelov, aby ste čo najrýchlejšie dobili baterky.\n* NÁJSŤ IDEÁLNY TIEŇ: Okamžite uvidíte, kedy vám začne na auto svietiť slnko alebo kedy ho schová tieň stromov či budov.\n* SPRÁVNE ZAPARKOVAŤ: Jednoducho určte juh pre nastavenie satelitu alebo zistite, z ktorej strany bude ráno vychádzať slnko.",
+            "en": "This module uses your phone's GPS, compass, and camera to show you the sun's path directly on your screen, right where you're parked.\n\nIt helps you:\n\n* CATCH MORE SUN: Find the best spot and panel tilt to recharge your batteries as fast as possible.\n* FIND THE PERFECT SHADE: See exactly when the sun will hit your van or when trees and buildings will provide shade.\n* PARK LIKE A PRO: Easily find South for your satellite setup or check where the sunrise will hit your windows.",
+            "de": "Dieses Modul nutzt GPS, Kompass und Kamera, um Ihnen den Sonnenverlauf direkt auf dem Display anzuzeigen – genau dort, wo Sie gerade stehen.\n\nEs hilft Ihnen bei:\n\n* SONNE OPTIMAL NUTZEN: Finden Sie den besten Platz und Neigungswinkel für Ihre Panele, um die Bordbatterien maximal zu laden.\n* SCHATTEN RICHTIG PLANEN: Sehen Sie sofort, wann die Sonne auf Ihren Camper scheint oder wann Bäume und Gebäude für Schatten sorgen.\n* PERFEKT AUSRICHTEN: Finden Sie mühelos Süden für die Sat-Anlage oder checken Sie, von wo morgens die Sonne ins Fenster scheint."
+            
           }
         },
         {
@@ -626,9 +627,9 @@
             "de": "WIE ES FUNKTIONIERT"
           },
           "content": {
-            "sk": "Na základe vašej zemepisnej šírky a dĺžky (GPS) a aktuálneho dátumu modul počíta:\n\n1. AZIMUT (AZI) SLNKA: Uhol od Severu (0° - 360°).\n2. ELEVÁCIU (ELEV) SLNKA: Uhol od horizontu (0° - 90°).\n\nModul zobrazuje DRÁHU SLNKA ako sériu hodinových bodov (napr. 06:00, 09:00, 12:00, 15:00, 18:00 LOKÁLNEHO času), ktoré ukazujú, kade Slnko prejde počas dňa. ČERVENÝ SYMBOL SLNKA zobrazuje jeho aktuálnu polohu pre vami zvolený čas v spodnej lište.\n\nDÔLEŽITÉ: Presnosť výpočtov závisí od presného času, polohy GPS a správnej kalibrácie kompasu vášho telefónu.",
-            "en": "Based on your latitude and longitude (GPS) and the current date, the module calculates:\n\n1. SUN AZIMUTH (AZI): Angle from North (0° - 360°).\n2. SUN ELEVATION (ELEV): Angle from the horizon (0° - 90°).\n\nThe module displays the SUN PATH as a series of hourly points (e.g., 06:00, 09:00, 12:00, 15:00, 18:00 LOCAL time) that show where the Sun will travel during the day. The RED SUN SYMBOL shows its current position for the time you selected in the bottom bar.\n\nIMPORTANT: The accuracy of the calculations depends on the exact time, GPS location, and correct compass calibration of your phone.",
-            "de": "Basierend auf Ihrem Breiten- und Längengrad (GPS) und dem aktuellen Datum berechnet das Modul:\n\n1. SONNEN-AZIMUT (AZI): Winkel vom Norden (0° - 360°).\n2. SONNEN-ELEVATION (ELEV): Winkel vom Horizont (0° - 90°).\n\nDas Modul zeigt den SONNENPFAD als eine Reihe von Stundenpunkten (z. B. 06:00, 09:00, 12:00, 15:00, 18:00 LOKALZEIT), die zeigen, wo die Sonne im Laufe des Tages entlang wandert. Das ROTE SONNENSYMBOL zeigt ihre aktuelle Position für die von Ihnen in der unteren Leiste gewählte Zeit an.\n\nWICHTIG: Die Genauigkeit der Berechnungen hängt von der genauen Zeit, dem GPS-Standort und der korrekten Kompasskalibrierung Ihres Telefons ab."
+            "sk": "Modul vám ukáže celú dráhu slnka ako sériu bodov s časovými údajmi (napr. 09:00, 12:00, 15:00), aby ste presne vedeli, kade sa bude počas dňa hýbať. ČERVENÝ SYMBOL SLNKA zobrazuje jeho presnú polohu pre čas, ktorý si zvolíte na spodnej lište.\n\nDÔLEŽITÉ: Pre správne fungovanie potrebuje aplikácia prístup k GPS a presný čas.",
+            "en": "The module shows the entire path of the sun as a series of time markers (e.g., 09:00, 12:00, 15:00), so you know exactly where it will be throughout the day. The RED SUN SYMBOL shows the exact position for the time you select on the bottom slider.\n\nIMPORTANT: The app requires GPS access and the correct time to work accurately.",
+            "de": "Das Modul zeigt Ihnen den gesamten Sonnenverlauf als eine Reihe von Zeitpunkten (z. B. 09:00, 12:00, 15:00), damit Sie genau wissen, wie sie sich über den Tag bewegt. Das ROTE SONNENSYMBOL zeigt die genaue Position für die Zeit an, die Sie im unteren Schieberegler wählen.\n\nWICHTIG: Für eine korrekte Funktion benötigt die App GPS-Zugriff und die genaue Uhrzeit."
           }
         },
         {
