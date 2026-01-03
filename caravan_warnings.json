@@ -252,7 +252,31 @@
         "typ": "Upozornenie",
         "text": "Tieto limity sú orientačné a nastavené podľa prísnejších pravidiel pre súpravy. Vždy sledujte lokálne dopravné značenie a technické limity vášho vozidla.",
         "ikona": "⚠️"
-      }
+      },
+        {
+      "id": 3,
+      "typ": "Zákaz: Lesné cesty",
+      "text": "Prísny zákaz vjazdu a státia na lesných a poľných cestách (aj bez zákazu vjazdu). Riziko trestného stíhania.",
+      "ikona": "🌲"
+    },
+    {
+      "id": 4,
+      "typ": "Obmedzenie: Národné parky",
+      "text": "V národných parkoch (TANAP, NAPANT, atď.) je zakázané státie mimo vyhradených parkovísk, najmä po zotmení.",
+      "ikona": "🏔️"
+    },
+    {
+      "id": 5,
+      "typ": "Upozornenie: Hmotnosť",
+      "text": "Polícia sa zameriava na váženie vozidiel do 3.5t. Nulová tolerancia preťaženia nad technický limit vozidla.",
+      "ikona": "⚖️"
+    },
+    {
+      "id": 6,
+      "typ": "Dôležité: Plyn a Revízie",
+      "text": "V prípade nehody poisťovne striktne vyžadujú platné revízie plynových a elektrických zariadení v karavane.",
+      "ikona": "🔥"
+    }
     ],
     "en": [
       {
@@ -266,7 +290,31 @@
         "typ": "Notice",
         "text": "These limits are indicative and based on stricter rules for vehicle combinations. Always follow local traffic signs and your vehicle's technical limits.",
         "ikona": "⚠️"
-      }
+      },
+       {
+      "id": 3,
+      "typ": "Ban: Forest Roads",
+      "text": "Strict ban on driving and parking on forest and field roads (even without signs). Risk of criminal prosecution.",
+      "ikona": "🌲"
+    },
+    {
+      "id": 4,
+      "typ": "Restriction: National Parks",
+      "text": "In national parks (TANAP, NAPANT, etc.), parking outside designated areas is prohibited, especially after dark.",
+      "ikona": "🏔️"
+    },
+    {
+      "id": 5,
+      "typ": "Notice: Weight",
+      "text": "Police focus on weighing vehicles up to 3.5t. Zero tolerance for overloading above the technical limit.",
+      "ikona": "⚖️"
+    },
+    {
+      "id": 6,
+      "typ": "Important: Gas & Reviews",
+      "text": "In case of an accident, insurance companies strictly require valid inspections of gas and electrical equipment.",
+      "ikona": "🔥"
+    }
     ],
     "de": [
       {
@@ -280,7 +328,31 @@
         "typ": "Hinweis",
         "text": "Diese Limits sind Richtwerte und nach strengeren Regeln für Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.",
         "ikona": "⚠️"
-      }
+      },
+       {
+      "id": 3,
+      "typ": "Verbot: Waldwege",
+      "text": "Strenges Fahr- und Parkverbot auf Wald- und Feldwegen (auch ohne Verbotsschild). Risiko einer strafrechtlichen Verfolgung.",
+      "ikona": "🌲"
+    },
+    {
+      "id": 4,
+      "typ": "Einschränkung: Nationalparks",
+      "text": "In Nationalparks ist das Parken außerhalb ausgewiesener Flächen verboten, insbesondere nach Einbruch der Dunkelheit.",
+      "ikona": "🏔️"
+    },
+    {
+      "id": 5,
+      "typ": "Hinweis: Gewicht",
+      "text": "Die Polizei konzentriert sich auf das Wiegen von Fahrzeugen bis 3,5 t. Nulltoleranz bei Überladung.",
+      "ikona": "⚖️"
+    },
+    {
+      "id": 6,
+      "typ": "Wichtig: Gas & Prüfungen",
+      "text": "Im Falle eines Unfalls verlangen die Versicherungen strikt gültige Revisionen der Gas- und Elektroanlagen.",
+      "ikona": "🔥"
+    }
     ]
   },
   "CH": {
