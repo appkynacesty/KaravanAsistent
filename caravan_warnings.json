@@ -276,6 +276,12 @@
         "typ": "Dôležité: Plyn a Revízie",
         "text": "V prípade nehody poisťovne striktne vyžadujú platné revízie plynových a elektrických zariadení v karavane.",
         "ikona": "🔥"
+      },
+      {
+        "id": 7,
+        "typ": "Parkovanie: Bratislava (PAAS)",
+        "text": "Pozor na mestský parkovací systém PAAS. Mnohé zóny majú obmedzenú dĺžku vozidla (spravidla do 5.3m). Karavany a dlhšie dodávky môžu parkovať len na vyhradených miestach, inak hrozí papuča.",
+        "ikona": "🚐"
       }
     ],
     "en": [
@@ -314,6 +320,12 @@
         "typ": "Important: Gas & Reviews",
         "text": "In case of an accident, insurance companies strictly require valid inspections of gas and electrical equipment.",
         "ikona": "🔥"
+      },
+      {
+        "id": 7,
+        "typ": "Parking: Bratislava (PAAS)",
+        "text": "Watch out for the PAAS city parking system. Many zones have vehicle length restrictions (usually up to 5.3m). Motorhomes and longer vans can only park in designated areas, otherwise you risk a wheel clamp.",
+        "ikona": "🚐"
       }
     ],
     "de": [
@@ -352,6 +364,12 @@
         "typ": "Wichtig: Gas & Prüfungen",
         "text": "Im Falle eines Unfalls verlangen die Versicherungen strikt gültige Revisionen der Gas- und Elektroanlagen.",
         "ikona": "🔥"
+      },
+      {
+        "id": 7,
+        "typ": "Parken: Bratislava (PAAS)",
+        "text": "Achten Sie auf das städtische Parksystem PAAS. Viele Zonen haben Längenbeschränkungen für Fahrzeuge (meist bis 5,3 m). Wohnmobile und längere Transporter dürfen nur auf ausgewiesenen Plätzen parken.",
+        "ikona": "🚐"
       }
     ]
   },
