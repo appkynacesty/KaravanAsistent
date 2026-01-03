@@ -454,6 +454,12 @@
         "typ": "Upozornenie",
         "text": "Tieto limity sú orientačné a nastavené podľa prísnejších pravidiel pre súpravy. Vždy sledujte lokálne dopravné značenie a technické limity vášho vozidla.",
         "ikona": "⚠️"
+      },
+      {
+        "id": 4,
+        "typ": "Zákaz: Zóny ZTL v mestách",
+        "text": "Väčšina talianskych miest má v centrách zóny s obmedzeným vjazdom (ZTL). Vjazd je sledovaný kamerami a povolený len rezidentom. Pokuty sú automatické a vysoké. Vždy parkujte na okraji mesta (Parcheggio Scambiatore) alebo v „Area Camper“.",
+        "ikona": "📸"
       }
     ],
     "en": [
@@ -474,6 +480,12 @@
         "typ": "Notice",
         "text": "These limits are indicative and based on stricter rules for vehicle combinations. Always follow local traffic signs and your vehicle's technical limits.",
         "ikona": "⚠️"
+      },
+      {
+        "id": 4,
+        "typ": "Restriction: ZTL Zones",
+        "text": "Most Italian cities have Limited Traffic Zones (ZTL) in their centers. Entry is monitored by cameras and restricted to residents only. Fines are automatic and high. Always park on the city outskirts (Parcheggio Scambiatore) or in designated \"Area Camper\" sites.",
+        "ikona": "📸"
       }
     ],
     "de": [
@@ -494,6 +506,12 @@
         "typ": "Hinweis",
         "text": "Diese Limits sind Richtwerte und nach strengeren Regeln für Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.",
         "ikona": "⚠️"
+      },
+      {
+        "id": 4,
+        "typ": "Einschränkung: ZTL-Zonen",
+        "text": "Die meisten italienischen Städte haben verkehrsberuhigte Zonen (ZTL) in den Zentren. Die Einfahrt wird videoüberwacht und ist nur Anwohnern gestattet. Die Bußgelder sind hoch. Parken Sie immer am Stadtrand (Parcheggio Scambiatore) oder auf offiziellen „Area Camper“ Plätzen.",
+        "ikona": "📸"
       }
     ]
   },
