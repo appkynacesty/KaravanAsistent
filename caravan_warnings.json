@@ -1174,6 +1174,12 @@
         "typ": "Upozornenie: Silný vietor (Bóra)",
         "text": "Pri silnom vetre (Bóra) bývajú diaľnice a mosty (Krk, Pag) pre karavany a vysoké vozidlá úplne uzavreté. Sledujte svetelné tabule a pri silnom vetre radšej jazdu prerušte na bezpečnom mieste.",
         "ikona": "💨"
+      },
+      {
+        "id": 6,
+        "typ": "Hasiaci prístroj ",
+        "text": "Vozidlá kategórie N (často aj obytné dodávky) musia byť povinne vybavené hasiacim prístrojom (2kg pre N1, 6kg pre väčšie vozidlá).",
+        "ikona": "🧯"
       }
     ],
     "en": [
@@ -1206,6 +1212,12 @@
         "typ": "Warning: Strong Wind (Bura)",
         "text": "During strong winds (Bura), highways and bridges (Krk, Pag) are often closed to motorhomes and high-profile vehicles. Follow the electronic traffic signs and consider stopping in a safe place during heavy gusts.",
         "ikona": "💨"
+      },
+      {
+        "id": 6,
+        "typ": "Fire extinguisher",
+        "text": "Category N vehicles (including many camper vans) must be equipped with a fire extinguisher (2kg for N1, 6kg for larger vehicles).",
+        "ikona": "🧯"
       }
     ],
     "de": [
@@ -1238,6 +1250,12 @@
         "typ": "Warnung: Starker Wind (Bora)",
         "text": "Bei starkem Wind (Bora) werden Autobahnen und Brücken (Krk, Pag) oft für Wohnmobile und hohe Fahrzeuge gesperrt. Achten Sie auf die Anzeigetafeln und unterbrechen Sie die Fahrt bei starkem Wind an einem sicheren Ort.",
         "ikona": "💨"
+      },
+      {
+        "id": 6,
+        "typ": "Feuerlöscher",
+        "text": "Fahrzeuge der Kategorie N (einschließlich vieler Camper-Vans) müssen mit einem Feuerlöscher ausgestattet sein (2kg für N1, 6kg für größere Fahrzeuge).",
+        "ikona": "🧯"
       }
     ]
   },
