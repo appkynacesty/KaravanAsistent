@@ -440,19 +440,19 @@
           "items": [
             {
               "name": {
-                "sk": "Mara Camping (Ukážka)",
-                "en": "Mara Camping (Preview)",
-                "de": "Mara Camping (Vorschau)"
+                "sk": "Pullmann Piešťany (Ukážka)",
+                "en": "Pullmann Piešťany (Preview)",
+                "de": "Pullmann Piešťany (Vorschau)"
               },
               "isPartner": true,
               "country": "SK",
               "benefit": {
-                "sk": "Zľava 10% na ubytovanie (mimo sezóny)",
-                "en": "10% discount on stay (off-season)",
-                "de": "10% Rabatt auf Unterkunft (Nebensaison)"
+                "sk": "Pivko na privítanie.",
+                "en": "A welcome beer.",
+                "de": "Ein Begrüßungsbier."
               },
-              "url": "https://www.maracamping.sk",
-              "phone": "+421911122333"
+              "url": "https://www.campingpiestany.sk/",
+              "phone": "+421911201089"
             },
             {
               "name": {
@@ -460,7 +460,7 @@
                 "en": "Camping am See (Prewiev)",
                 "de": "Camping am See (Vorschau)"
               },
-              "isPartner": true,
+              "isPartner": false,
               "country": "AT",
               "benefit": {
                 "sk": "Káva alebo čaj k pobytu zdarma",
