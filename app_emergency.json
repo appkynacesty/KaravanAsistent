@@ -428,12 +428,12 @@
       "sections": [
         {
           "heading": {
-            "sk": "Zvýhodnené kempy",
-            "en": "Discounted Campsites",
-            "de": "Vergünstigte Campingplätze"
+            "sk": "Partnerské Kempy",
+            "en": "Partner Campsites",
+            "de": "Partner-Campingplätze"
           },
           "content": {
-            "sk": "Kempy, kde vám Karavan Asistent otvorí nové možnosti. Exkluzívne pre majiteľov PLNEJ VERZIE – recepcia kontroluje verziu bez označenia 'Trial'. Zoznam neustále rastie.",
+            "sk": "Kempy, kde vám Karavan Asistent otvorí nové možnosti. Exkluzívne pre majiteľov PLNEJ VERZIE – recepcia kontroluje verziu bez označenia 'Trial'. Zoznam stále budujeme.",
             "en": "Campsites where Karavan Asistent unlocks new possibilities. Exclusively for FULL VERSION users – reception verifies the app without the 'Trial' label. The list is constantly growing.",
             "de": "Campingplätze, bei denen Ihnen Karavan Asistent neue Möglichkeiten eröffnet. Exklusiv für Nutzer der VOLLVERSION – die Rezeption prüft die Version ohne den 'Trial'-Hinweis. Die Liste wird ständig erweitert."
           },
@@ -470,6 +470,47 @@
               "url": "https://www.camping-am-see.at",
               "phone": "+43111222333"
             }
+          ]
+        }
+      ]
+    },
+    {
+      "icon": "rv_hookup",
+  "title": {
+    "sk": "Požičovne Karavanov",
+    "en": "Caravan Rentals",
+    "de": "Wohnmobilvermietung"
+  },
+  "sections": [
+    {
+      "heading": {
+        "sk": "Požičovne Karavanov",
+        "en": "Caravan Rentals",
+        "de": "Wohnmobilvermietung"
+      },
+      "content": {
+        "sk": "Zoznam overených požičovní, kde si môžete prenajať svoj domov na kolesách.",
+        "en": "A list of verified rentals where you can rent your home on wheels.",
+        "de": "Eine Liste geprüfter Vermietungen, in denen Sie Ihr Zuhause auf Rädern mieten können."
+      },
+          "items": [
+            {
+              "name": {
+                "sk": "Môj Karavan (Ukážka)",
+                "en": "Môj Karavan (Preview)",
+                "de": "Môj Karavan (Vorschau)"
+              },
+              "isPartner": true,
+              "country": "SK",
+              "benefit": {
+                "sk": "SNP 137, Žiar nad Hronom",
+                "en": "SNP 137, Žiar nad Hronom",
+                "de": "SNP 137, Žiar nad Hronom"
+              },
+              "url": "https://www.mojkaravan.eu/",
+              "phone": " +421903805833"
+            }
+            
           ]
         }
       ]
