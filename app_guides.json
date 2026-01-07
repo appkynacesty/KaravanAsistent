@@ -187,62 +187,62 @@
     },
     {
       "id": "travel_log",
-      "title": {
-        "sk": "Cestovný denník",
-        "en": "Travel Log",
-        "de": "Reisetagebuch"
+  "title": {
+    "sk": "Cestovný denník",
+    "en": "Travel Log",
+    "de": "Reisetagebuch"
+  },
+  "icon": "map",
+  "sections": [
+    {
+      "heading": {
+        "sk": "AKO POUŽÍVAŤ CESTOVNÝ DENNÍK",
+        "en": "HOW TO USE THE TRAVEL LOG",
+        "de": "WIE MAN DAS REISELAGEBUCH BENUTZT"
       },
-      "icon": "map",
-      "sections": [
-        {
-          "heading": {
-            "sk": "AKO POUŽÍVAŤ CESTOVNÝ DENNÍK",
-            "en": "HOW TO USE THE TRAVEL LOG",
-            "de": "WIE MAN DAS REISELAGEBUCH BENUTZT"
-          },
-          "content": {
-            "sk": "Cestovný denník slúži na uchovávanie spomienok na miesta, ktoré ste navštívili, a na zaznamenanie presnej GPS polohy vášho parkovacieho miesta. Je rozdelený na dve záložky (tlačidlá v spodnej lište): 'Nový záznam' a 'Zoznam záznamov'.",
-            "en": "The travel log is used to keep memories of places you have visited and to record the exact GPS location of your parking spot. It is divided into two tabs (buttons in the bottom bar): 'New Entry' and 'List of Entries'.",
-            "de": "Das Reisetagebuch dient dazu, Erinnerungen an besuchte Orte festzuhalten und die genaue GPS-Position Ihres Parkplatzes zu speichern. Es ist in zwei Registerkarten (Schaltflächen in der unteren Leiste) unterteilt: 'Neuer Eintrag' und 'Liste der Einträge'."
-          }
-        },
-        {
-          "heading": {
-            "sk": "ZÁLOŽKA 1: NOVÝ ZÁZNAM / EDITÁCIA",
-            "en": "TAB 1: NEW ENTRY / EDITING",
-            "de": "REGISTERKARTE 1: NEUER EINTRAG / BEARBEITUNG"
-          },
-          "content": {
-            "sk": "Táto záložka slúži na vytvorenie nového záznamu alebo na úpravu existujúceho. \n\n* ZÍSKANIE POLOHY: Pred uložením nového záznamu je NEVYHNUTNÉ stlačiť tlačidlo 'ZÍSKAŤ POLOHU'. Aplikácia získa aktuálne GPS súradnice a dátum/čas, ktoré budú uložené spolu so záznamom.\n* POPIS: Pridajte svoj zážitok, poznámky o mieste alebo servisné informácie (napr. 'Tiché parkovisko pri jazere', 'Chyba v elektrine').\n* FOTKY: Môžete pridať až dve fotky z galérie. Tieto sú priamo uložené v internej pamäti aplikácie a pri zdieľaní sa prenášajú spolu s textom.\n* EDITÁCIA: Ak začnete upravovať starý záznam, môžete zmeniť popis a fotky. Ak v režime editácie stlačíte 'ZÍSKAŤ POLOHU', pôvodné GPS súradnice sa prepíšu novými.",
-            "en": "This tab is used to create a new entry or edit an existing one. \n\n* **Get Location:** Before saving a new entry, it is NECESSARY to press the 'GET LOCATION' button. The application will obtain the current GPS coordinates and date/time, which will be saved with the entry.\n* DESCRIPTION: Add your experience, notes about the place, or service information (e.g., 'Quiet parking by the lake', 'Electrical fault').\n* PHOTOS: You can add up to two photos from the gallery. These are stored directly in the internal memory of the application and are transferred along with the text when shared.\n* EDITING: If you start editing an old entry, you can change the description and photos. If you press 'GET LOCATION' in edit mode, the original GPS coordinates will be overwritten with new ones.",
-            "de": "Diese Registerkarte dient zum Erstellen eines neuen Eintrags oder zum Bearbeiten eines bestehenden. \n\n* Standort abrufen: Vor dem Speichern eines neuen Eintrags ist es UNVERZICHTBAR, die Schaltfläche 'STANDORT ABRUFEN' zu drücken. Die Anwendung ruft die aktuellen GPS-Koordinaten und das Datum/die Uhrzeit ab, die zusammen mit dem Eintrag gespeichert werden.\n* BESCHREIBUNG: Fügen Sie Ihre Erfahrungen, Notizen zum Ort oder Serviceinformationen hinzu (z. B. 'Ruhiger Parkplatz am See', 'Elektrischer Fehler').\n* **Fotos:** Sie können bis zu zwei Fotos aus der Galerie hinzufügen. Diese werden direkt im internen Speicher der Anwendung gespeichert und beim Teilen zusammen mit dem Text übertragen.\n* BEARBEITUNG: Wenn Sie einen alten Eintrag bearbeiten, können Sie die Beschreibung und Fotos ändern. Wenn Sie im Bearbeitungsmodus 'STANDORT ABRUFEN' drücken, werden die ursprünglichen GPS-Koordinaten durch neue überschrieben."
-          }
-        },
-        {
-          "heading": {
-            "sk": "ZÁLOŽKA 2: ZOZNAM ZÁZNAMOV",
-            "en": "TAB 2: LIST OF ENTRIES",
-            "de": "REGISTERKARTE 2: LISTE DER EINTRÄGE"
-          },
-          "content": {
-            "sk": "Tu nájdete všetky doteraz uložené zastávky. Záznamy sú usporiadané chronologicky.\n\n* ZDIEĽAŤ CELÝ VÝLET: Tlačidlo na vrchu zoznamu vygeneruje SÚHRN všetkých zastávok s dátumom začiatku a konca cesty. Vytvorí tiež odkaz (Google Content URL) na predbežnú mapu trasy a priloží všetky fotky, ktoré boli v záznamoch uložené, pripravené na zdieľanie napr. na sociálnych sieťach.\n* AKCIE (TRI BODKY): Pri každom zázname máte možnosť Upraviť (vráti vás na záložku 'Nový záznam') alebo Zmazať záznam.\n* ZDIEĽAŤ JEDNOTLIVÝ ZÁZNAM: Ikona zdieľania (štvorec so šípkou) umožní zdieľať iba text a fotky jedného konkrétneho miesta.",
-            "en": "Here you will find all the stops saved so far. Entries are organized chronologically.\n\n* SHARE ENTIRE TRIP: The button at the top of the list generates a SUMMARY of all stops with the start and end date of the trip. It also creates a link (Google Content URL) to a preliminary route map and attaches all photos that were saved in the entries, ready to be shared, e.g., on social media.\n* ACTIONS (THREE DOTS): For each entry, you have the option to Edit (returns you to the 'New Entry' tab) or Delete the entry.\n* SHARE INDIVIDUAL ENTRY: The share icon (square with an arrow) allows sharing only the text and photos of one specific location.",
-            "de": "Hier finden Sie alle bisher gespeicherten Stopps. Die Einträge sind chronologisch geordnet.\n\n* GESAMTE REISE TEILEN: Die Schaltfläche oben in der Liste generiert eine ZUSAMMENFASSUNG aller Stopps mit dem Start- und Enddatum der Reise. Sie erstellt auch einen Link (Google Content URL) zu einer vorläufigen Routenkarte und hängt alle in den Einträgen gespeicherten Fotos an, bereit zum Teilen, z. B. in sozialen Medien.\n* AKTIONEN (DREI PUNKTE): Bei jedem Eintrag haben Sie die Möglichkeit, den Eintrag zu Bearbeiten (kehrt zur Registerkarte 'Neuer Eintrag' zurück) oder zu Löschen.\n* EINZELNEN EINTRAG TEILEN: Das Teilen-Symbol (Quadrat mit Pfeil) ermöglicht das Teilen nur des Textes und der Fotos eines bestimmten Ortes."
-          }
-        },
-        {
-          "heading": {
-            "sk": "DÔLEŽITÉ: SPRÁVA DÁT",
-            "en": "IMPORTANT: DATA MANAGEMENT",
-            "de": "WICHTIG: DATENVERWALTUNG"
-          },
-          "content": {
-            "sk": "Tlačidlo 'ZMAZAŤ VŠETKY ZÁZNAMY' na záložke 'Nový záznam' slúži na kompletné vyčistenie denníka a prípravu na novú cestu. Zmaže VŠETKY záznamy a ich lokálne uložené fotky. Táto akcia je nevratná.\n\n\u00A0",
-            "en": "The 'DELETE ALL ENTRIES' button on the 'New Entry' clears the entire log to prepare for a new trip. It deletes ALL entries and their locally stored photos. This action is irreversible.\n\n\u00A0",
-            "de": "Die Schaltfläche 'ALLE EINTRÄGE LÖSCHEN' auf der Registerkarte 'Neuer Eintrag' leert das gesamte Protokoll, um eine neue Reise vorzubereiten. Es löscht ALLE Einträge und ihre lokal gespeicherten Fotos. Diese Aktion ist irreversibel.\n\n\u00A0"
-          }
-        }
-      ]
+      "content": {
+        "sk": "Cestovný denník slúži na uchovávanie spomienok na miesta, ktoré ste navštívili, a na zaznamenanie presnej GPS polohy vášho dobrodružstva. Aplikácia je rozdelená na tri hlavné časti: „Nový záznam“, „Zoznam zastávok“ a „História výletov“.",
+        "en": "The travel log is designed to keep memories of the places you've visited and record the exact GPS location of your adventures. The app is divided into three main parts: 'New Entry,' 'Stop List,' and 'Trip History.'",
+        "de": "Das Reisetagebuch dient dazu, Erinnerungen an besuchte Orte festzuhalten und die genaue GPS-Position Ihres Abenteuers zu speichern. Die App ist in drei Hauptbereiche unterteilt: „Neuer Eintrag“, „Stoppliste“ und „Reiseverlauf“."
+      }
+    },
+    {
+      "heading": {
+        "sk": "ZÁLOŽKA 1: NOVÝ ZÁZNAM / ÚPRAVA",
+        "en": "TAB 1: NEW ENTRY / EDITING",
+        "de": "REGISTERKARTE 1: NEUER EINTRAG / BEARBEITUNG"
+      },
+      "content": {
+        "sk": "Táto časť slúži na zaznamenanie momentov z vašej aktuálnej polohy.\n\n* ZÍSKANIE POLOHY: Pred uložením stlačte tlačidlo „ZÍSKAŤ POLOHU“. Aplikácia načíta vaše súradnice a čas. Bez tohto kroku nie je možné nový záznam vytvoriť.\n* POPIS A FOTKY: Pridajte text o mieste a až dve fotografie. Fotky sa ukladajú priamo v aplikácii.\n* ÚPRAVA: Ak v zozname vyberiete možnosť „Upraviť“, vrátite sa sem a môžete zmeniť text alebo fotky. Opätovným stlačením „Získať polohu“ aktualizujete súradnice na tie súčasné.",
+        "en": "This section is for capturing moments from your current location.\n\n* GET LOCATION: Before saving, press the 'GET LOCATION' button. The app fetches your coordinates and time. This step is required to create a new entry.\n* DESCRIPTION AND PHOTOS: Add a note and up to two photos. Photos are stored within the app.\n* EDITING: If you select 'Edit' in the list, you will return here to update the text or photos. Pressing 'Get Location' again will overwrite the original coordinates with your current ones.",
+        "de": "Dieser Bereich dient dazu, Momente von Ihrem aktuellen Standort festzuhalten.\n\n* STANDORT ABRUFEN: Drücken Sie vor dem Speichern die Schaltfläche „STANDORT ABRUFEN“. Die App lädt Ihre Koordinaten und die Uhrzeit. Ohne diesen Schritt kann kein neuer Eintrag erstellt werden.\n* BESCHREIBUNG UND FOTOS: Fügen Sie eine Notiz und bis zu zwei Fotos hinzu. Die Fotos werden direkt in der App gespeichert.\n* BEARBEITUNG: Wenn Sie in der Liste „Bearbeiten“ wählen, kehren Sie hierher zurück. Durch erneutes Klicken auf „Standort abrufen“ werden die ursprünglichen Koordinaten durch die aktuellen ersetzt."
+      }
+    },
+    {
+      "heading": {
+        "sk": "ZÁLOŽKA 2: ZOZNAM ZASTÁVOK (AKTUÁLNY VÝLET)",
+        "en": "TAB 2: STOP LIST (CURRENT TRIP)",
+        "de": "REGISTERKARTE 2: STOPPLISTE (AKTUELLE REISE)"
+      },
+      "content": {
+        "sk": "Tu vidíte body vašej prebiehajúcej cesty.\n\n* ZDIEĽANIE VÝLETU: Tlačidlo „Zdieľať výlet“ vytvorí súhrn cesty s fotkami a odkazom na mapu, kde sú body prepojené do jednej trasy.\n* MAPA: Kliknutím na súradnice sa miesto otvorí v navigácii.\n* ULOŽIŤ VÝLET DO ARCHÍVU: Keď sa cesta skončí, použite tlačidlo „Uložiť výlet“. Zoznam sa presunie do Histórie, čím sa aktuálny denník vyčistí a pripraví na nové dobrodružstvo.",
+        "en": "Here you can see all points of your ongoing journey.\n\n* SHARE TRIP: The 'Share Trip' button creates a summary with photos and a map link where points are connected into a route.\n* MAP: Tapping the coordinates opens the spot in your navigation.\n* SAVE TRIP TO ARCHIVE: When your journey ends, use the 'Save Trip' button. The list moves to History, clearing your current log for your next big adventure.",
+        "de": "Hier sehen Sie alle Punkte Ihrer laufenden Reise.\n\n* REISE TEILEN: Die Schaltfläche „Reise teilen“ erstellt eine Zusammenfassung mit Fotos und einem Karten-Link, bei dem alle Punkte zu einer Route verbunden sind.\n* KARTE: Durch Klicken auf die Koordinaten wird dieser Ort in Ihrer Navigation geöffnet.\n* REISE INS ARCHIV SPEICHERN: Wenn die Reise zu Ende ist, nutzen Sie „Reise speichern“. Die Liste wird in den Verlauf verschoben und das aktuelle Tagebuch für ein neues Abenteuer geleert."
+      }
+    },
+    {
+      "heading": {
+        "sk": "ZÁLOŽKA 3: HISTÓRIA VÝLETOV (ARCHÍV)",
+        "en": "TAB 3: TRIP HISTORY (ARCHIVE)",
+        "de": "REGISTERKARTE 3: REISEVERLAUF (ARCHIV)"
+      },
+      "content": {
+        "sk": "Tu nájdete všetky svoje minulé uložené cesty.\n\n* SPÄTNÉ PREZERANIE: Uložený výlet môžete znova otvoriť, zdieľať alebo vymazať.\n* IKONA PERA: Umožňuje vám vrátiť starší výlet späť do aktuálneho zoznamu, ak v ňom chcete pokračovať (len ak je aktuálny zoznam prázdny).\n\n\u00A0",
+        "en": "Here you will find all your past saved journeys.\n\n* REVIEWING: You can reopen, share, or delete any saved trip.\n* EDIT ICON: Allows you to restore an older trip back to the current list to continue it (only if your current list is empty).\n\n\u00A0",
+        "de": "Hier finden Sie alle Ihre vergangenen gespeicherten Reisen.\n\n* RÜCKBLICK: Sie können jede Reise wieder öffnen, teilen oder löschen.\n* STIFT-SYMBOL: Ermöglicht es Ihnen, eine ältere Reise in die aktuelle Liste zurückzuholen (nur wenn die aktuelle Liste leer ist).\n\n\u00A0"
+      }
+    }
+  ]
     },
     {
       "id": "ar_space_planning",
