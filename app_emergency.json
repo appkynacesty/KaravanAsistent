@@ -207,14 +207,14 @@
           "items": [
             {
   "name": {
-    "sk": "SATC (Slovenský autoturistický klub)",
-    "en": "SATC (Slovak Autotourist Club)",
-    "de": "SATC (Slowakischer Autotouristik-Klub)"
+    "sk": "UAMK (Slovenský autotuklub)",
+    "en": "UAMK (Slovak Automobile Club",
+    "de": "UAMK (Slowakischer Automobil Klub)"
   },
   "isPartner": false,
   "country": "SK",
-  "url": "https://www.satc.sk",
-  "phone": "18124"
+  "url": "https://www.uamksr.sk",
+  "phone": "18123"
 },
 {
   "name": {
@@ -224,7 +224,7 @@
   },
   "isPartner": false,
   "country": "SK",
-  "url": "https://www.asaassistance.sk",
+  "url": "https://www.asaauto.sk",
   "phone": "18112"
 },
             {
