@@ -160,6 +160,17 @@
           "items": [
             {
               "name": {
+                "sk": "Najlepšie karavanistické tipy",
+                "en": "Top tips for caravanners",
+                "de": "Die besten Tipps für Camper"
+              },
+              "isPartner": true,
+              "country": "ALL",
+              "url": "https://www.kempy-chaty.cz/turistika/cestovani-s-karavanem",
+              "phone": ""
+            },
+            {
+              "name": {
                 "sk": "Park4Night (Aplikácia)",
                 "en": "Park4Night (App)",
                 "de": "Park4Night (App)"
