@@ -7,133 +7,151 @@
       "title": {
         "sk": "Servis a Náhradné Diely",
         "en": "Service and Spare Parts",
-        "de": "Service und Ersatzteile"
+        "de": "Service und Ersatzteile",
+        "cz": "Servis a Náhradní Díly",
+        "hu": "Szerviz és Alkatrészek"
       },
       "sections": [
         {
           "heading": {
             "sk": "Servis a doplnky",
             "en": "Service and accessories",
-            "de": "Service und Zubehör"
+            "de": "Service und Zubehör",
+            "cz": "Servis a doplňky",
+            "hu": "Szerviz és kiegészítők"
           },
           "content": {
             "sk": "Zoznam overených servisov, predajcov náhradných dielov a kempingových doplnkov.",
             "en": "List of verified services, spare parts dealers and camping accessories.",
-            "de": "Liste verifizierter Werkstätten, Ersatzteilhändler und Campingzubehör."
+            "de": "Liste verifizierter Werkstätten, Ersatzteilhändler und Campingzubehör.",
+            "cz": "Seznam ověřených servisů, prodejců náhradních dílů a kempingových doplňků.",
+            "hu": "Ellenőrzött szervizek, alkatrészkereskedők és kemping kiegészítők listája."
           },
           "items": [
             {
               "name": {
                 "sk": "Karavan Servis (Ukážka)",
                 "en": "Caravan Service (Prewiev)",
-                "de": "Wohnmobil Service (Vorschau)"
+                "de": "Wohnmobil Service (Vorschau)",
+                "cz": "Karavan Servis (Ukázka)",
+                "hu": "Lakóautó Szerviz (Ízelítő)"
               },
               "isPartner": true,
               "country": "SK",
               "benefit": {
                 "sk": "Zľava 5% na servisné práce",
                 "en": "5% discount on service labor",
-                "de": "5% Rabatt auf Servicearbeiten"
+                "de": "5% Rabatt auf Servicearbeiten",
+                "cz": "Sleva 5 % na servisní práce",
+                "hu": "5% kedvezmény a szervizmunkára"
               },
               "url": "https://www.karavanservis.sk",
               "phone": "+421900111222"
             },
             {
-      "name": {
-        "sk": "Karavan.sk (Sereď/Bratislava)",
-        "en": "Karavan.sk (Sered/Bratislava)",
-        "de": "Karavan.sk (Sered/Bratislava)"
-      },
-      "isPartner": false,
-      "country": "SK",
-     
-      "url": "https://www.karavan.sk",
-      "phone": "+421915747474"
-    },
-    {
-      "name": {
-        "sk": "Hymer Centrum Praha",
-        "en": "Hymer Centre Prague",
-        "de": "Hymer Zentrum Prag"
-      },
-      "isPartner": false,
-      "country": "CZ",
-    
-      "url": "https://www.hymer.cz",
-      "phone": "+420235312738"
-    },
-    {
-      "name": {
-        "sk": "Adria Dom (Záhreb/Novo Mesto)",
-        "en": "Adria Dom (Zagreb/Novo Mesto)",
-        "de": "Adria Dom (Zagreb/Novo Mesto)"
-      },
-      "isPartner": false,
-      "country": "HR",
-     
-      "url": "https://www.adria-mobil.com",
-      "phone": "+38512345678"
-    },
-    {
-      "name": {
-        "sk": "Camping-Profi (Guntramsdorf)",
-        "en": "Camping-Profi (Guntramsdorf)",
-        "de": "Camping-Profi (Guntramsdorf)"
-      },
-      "isPartner": false,
-      "country": "AT",
-      
-      "url": "https://www.camping-profi.at",
-      "phone": "+432236506300"
-    },
-    {
-      "name": {
-        "sk": "Buerstner Magyarország (Budapešť)",
-        "en": "Buerstner Hungary (Budapest)",
-        "de": "Bürstner Ungarn (Budapest)"
-      },
-      "isPartner": false,
-      "country": "HU",
-      
-      "url": "https://www.buerstner.hu",
-      "phone": "+3612970118"
-    },
-    {
-      "name": {
-        "sk": "Camping Sport Magenta (Miláno)",
-        "en": "Camping Sport Magenta (Milan)",
-        "de": "Camping Sport Magenta (Mailand)"
-      },
-      "isPartner": false,
-      "country": "IT",
-     
-      "url": "https://www.campingsportmagenta.com",
-      "phone": "+39029790153"
-    },
-    {
-      "name": {
-        "sk": "Freedom Karavany (Brno)",
-        "en": "Freedom Caravans (Brno)",
-        "de": "Freedom Wohnmobile (Brünn)"
-      },
-      "isPartner": false,
-      "country": "CZ",
-  
-      "url": "https://www.freedom-karavany.cz",
-      "phone": "+420731154444"
-    },
-    {
-      "name": {
-        "sk": "Stellplatz.it (Južné Tirolsko)",
-        "en": "Stellplatz.it (South Tyrol)",
-        "de": "Stellplatz.it (Südtirol)"
-      },
-      "isPartner": false,
-      "country": "IT",
-      
-      "url": "https://www.stellplatz.it",
-      "phone": "+390471012345"
-    }
+              "name": {
+                "sk": "Karavan.sk (Sereď/Bratislava)",
+                "en": "Karavan.sk (Sered/Bratislava)",
+                "de": "Karavan.sk (Sered/Bratislava)",
+                "cz": "Karavan.sk (Sereď/Bratislava)",
+                "hu": "Karavan.sk (Szered/Pozsony)"
+              },
+              "isPartner": false,
+              "country": "SK",
+              "url": "https://www.karavan.sk",
+              "phone": "+421915747474"
+            },
+            {
+              "name": {
+                "sk": "Hymer Centrum Praha",
+                "en": "Hymer Centre Prague",
+                "de": "Hymer Zentrum Prag",
+                "cz": "Hymer Centrum Praha",
+                "hu": "Hymer Centrum Prága"
+              },
+              "isPartner": false,
+              "country": "CZ",
+              "url": "https://www.hymer.cz",
+              "phone": "+420235312738"
+            },
+            {
+              "name": {
+                "sk": "Adria Dom (Záhreb/Novo Mesto)",
+                "en": "Adria Dom (Zagreb/Novo Mesto)",
+                "de": "Adria Dom (Zagreb/Novo Mesto)",
+                "cz": "Adria Dom (Záhřeb/Novo Mesto)",
+                "hu": "Adria Dom (Zágráb/Novo Mesto)"
+              },
+              "isPartner": false,
+              "country": "HR",
+              "url": "https://www.adria-mobil.com",
+              "phone": "+38512345678"
+            },
+            {
+              "name": {
+                "sk": "Camping-Profi (Guntramsdorf)",
+                "en": "Camping-Profi (Guntramsdorf)",
+                "de": "Camping-Profi (Guntramsdorf)",
+                "cz": "Camping-Profi (Guntramsdorf)",
+                "hu": "Camping-Profi (Guntramsdorf)"
+              },
+              "isPartner": false,
+              "country": "AT",
+              "url": "https://www.camping-profi.at",
+              "phone": "+432236506300"
+            },
+            {
+              "name": {
+                "sk": "Buerstner Magyarország (Budapešť)",
+                "en": "Buerstner Hungary (Budapest)",
+                "de": "Bürstner Ungarn (Budapest)",
+                "cz": "Buerstner Maďarsko (Budapešť)",
+                "hu": "Buerstner Magyarország (Budapest)"
+              },
+              "isPartner": false,
+              "country": "HU",
+              "url": "https://www.buerstner.hu",
+              "phone": "+3612970118"
+            },
+            {
+              "name": {
+                "sk": "Camping Sport Magenta (Miláno)",
+                "en": "Camping Sport Magenta (Milan)",
+                "de": "Camping Sport Magenta (Mailand)",
+                "cz": "Camping Sport Magenta (Milán)",
+                "hu": "Camping Sport Magenta (Milánó)"
+              },
+              "isPartner": false,
+              "country": "IT",
+              "url": "https://www.campingsportmagenta.com",
+              "phone": "+39029790153"
+            },
+            {
+              "name": {
+                "sk": "Freedom Karavany (Brno)",
+                "en": "Freedom Caravans (Brno)",
+                "de": "Freedom Wohnmobile (Brünn)",
+                "cz": "Freedom Karavany (Brno)",
+                "hu": "Freedom Karavany (Brünn)"
+              },
+              "isPartner": false,
+              "country": "CZ",
+              "url": "https://www.freedom-karavany.cz",
+              "phone": "+420731154444"
+            },
+            {
+              "name": {
+                "sk": "Stellplatz.it (Južné Tirolsko)",
+                "en": "Stellplatz.it (South Tyrol)",
+                "de": "Stellplatz.it (Südtirol)",
+                "cz": "Stellplatz.it (Jižní Tyrolsko)",
+                "hu": "Stellplatz.it (Dél-Tirol)"
+              },
+              "isPartner": false,
+              "country": "IT",
+              "url": "https://www.stellplatz.it",
+              "phone": "+390471012345"
+            }
           ]
         }
       ]
@@ -143,26 +161,34 @@
       "title": {
         "sk": "Užitočné Odkazy",
         "en": "Useful Links",
-        "de": "Nützliche Links"
+        "de": "Nützliche Links",
+        "cz": "Užitečné Odkazy",
+        "hu": "Hasznos Linkek"
       },
       "sections": [
         {
           "heading": {
             "sk": "Vyhľadávanie kempov",
             "en": "Camp Search",
-            "de": "Campingplatzsuche"
+            "de": "Campingplatzsuche",
+            "cz": "Vyhledávání kempů",
+            "hu": "Kempingkereső"
           },
           "content": {
             "sk": "Najlepšie aplikácie a weby na hľadanie miesta pre váš nocľah.",
             "en": "Best apps and websites to find a place to stay.",
-            "de": "Beste Apps und Websites, um eine Unterkunft zu finden."
+            "de": "Beste Apps und Websites, um eine Unterkunft zu finden.",
+            "cz": "Nejlepší aplikace a weby pro hledání místa k noclehu.",
+            "hu": "A legjobb alkalmazások és weboldalak szálláskereséshez."
           },
           "items": [
             {
               "name": {
                 "sk": "Čerstvé tipy na výlety",
                 "en": "Fresh Road Trip Inspo",
-                "de": "Frische Inspiration für die nächste Tour"
+                "de": "Frische Inspiration für die nächste Tour",
+                "cz": "Čerstvé tipy na výlety",
+                "hu": "Friss tippek kirándulásokhoz"
               },
               "isPartner": true,
               "country": "ALL",
@@ -173,7 +199,9 @@
               "name": {
                 "sk": "Park4Night (Aplikácia)",
                 "en": "Park4Night (App)",
-                "de": "Park4Night (App)"
+                "de": "Park4Night (App)",
+                "cz": "Park4Night (Aplikace)",
+                "hu": "Park4Night (Alkalmazás)"
               },
               "isPartner": false,
               "country": "ALL",
@@ -184,7 +212,9 @@
               "name": {
                 "sk": "Bezkempu.cz",
                 "en": "Bezkempu.cz",
-                "de": "Bezkempu.cz"
+                "de": "Bezkempu.cz",
+                "cz": "Bezkempu.cz",
+                "hu": "Bezkempu.cz"
               },
               "isPartner": false,
               "country": "CZ",
@@ -197,41 +227,51 @@
           "heading": {
             "sk": "Pomoc v núdzi",
             "en": "Emergency Help",
-            "de": "Notfallhilfe"
+            "de": "Notfallhilfe",
+            "cz": "Pomoc v nouzi",
+            "hu": "Segítségnyújtás"
           },
           "content": {
             "sk": "Dôležité odkazy pre neočakávané situácie na cestách.",
             "en": "Important links for unexpected situations on the road.",
-            "de": "Wichtige Links für unerwartete Situationen unterwegs."
+            "de": "Wichtige Links für unerwartete Situationen unterwegs.",
+            "cz": "Důležité odkazy pro neočekávané situace na cestách.",
+            "hu": "Fontos linkek váratlan útközbeni helyzetekhez."
           },
           "items": [
             {
-  "name": {
-    "sk": "UAMK (Slovenský autotuklub)",
-    "en": "UAMK (Slovak Automobile Club",
-    "de": "UAMK (Slowakischer Automobil Klub)"
-  },
-  "isPartner": false,
-  "country": "SK",
-  "url": "https://www.uamksr.sk",
-  "phone": "18123"
-},
-{
-  "name": {
-    "sk": "ASA (Autoklub Slovakia Assistance)",
-    "en": "ASA (Autoclub Slovakia Assistance)",
-    "de": "ASA (Autoklub Slowakei Assistance)"
-  },
-  "isPartner": false,
-  "country": "SK",
-  "url": "https://www.asaauto.sk",
-  "phone": "18112"
-},
+              "name": {
+                "sk": "UAMK (Slovenský autotuklub)",
+                "en": "UAMK (Slovak Automobile Club",
+                "de": "UAMK (Slowakischer Automobil Klub)",
+                "cz": "UAMK (Slovenský autoklub)",
+                "hu": "UAMK (Szlovák Autóklub)"
+              },
+              "isPartner": false,
+              "country": "SK",
+              "url": "https://www.uamksr.sk",
+              "phone": "18123"
+            },
+            {
+              "name": {
+                "sk": "ASA (Autoklub Slovakia Assistance)",
+                "en": "ASA (Autoclub Slovakia Assistance)",
+                "de": "ASA (Autoklub Slowakei Assistance)",
+                "cz": "ASA (Autoklub Slovakia Assistance)",
+                "hu": "ASA (Autoklub Slovakia Assistance)"
+              },
+              "isPartner": false,
+              "country": "SK",
+              "url": "https://www.asaauto.sk",
+              "phone": "18112"
+            },
             {
               "name": {
                 "sk": "E-Asistenčná karta (SKP)",
                 "en": "E-Assistance Card (SKP)",
-                "de": "E-Assistance Karte (SKP)"
+                "de": "E-Assistance Karte (SKP)",
+                "cz": "E-Asistenční karta (SKP)",
+                "hu": "E-Asszisztencia kártya (SKP)"
               },
               "isPartner": false,
               "country": "SK",
@@ -239,21 +279,25 @@
               "phone": ""
             },
             {
-    "name": {
-      "sk": "ÚAMK (Český autoklub)",
-      "en": "ÚAMK (Czech Automobile Club)",
-      "de": "ÚAMK (Tschechischer Automobilclub)"
-    },
-    "isPartner": false,
-    "country": "CZ",
-    "url": "https://www.uamk.cz",
-    "phone": "1234"
-  },
+              "name": {
+                "sk": "ÚAMK (Český autoklub)",
+                "en": "ÚAMK (Czech Automobile Club)",
+                "de": "ÚAMK (Tschechischer Automobilclub)",
+                "cz": "ÚAMK (Český autoklub)",
+                "hu": "ÚAMK (Cseh Autóklub)"
+              },
+              "isPartner": false,
+              "country": "CZ",
+              "url": "https://www.uamk.cz",
+              "phone": "1234"
+            },
             {
               "name": {
                 "sk": "ÖAMTC (Rakúsky autoklub)",
                 "en": "ÖAMTC (Austrian Car Club)",
-                "de": "ÖAMTC (Der Mobilitätsclub)"
+                "de": "ÖAMTC (Der Mobilitätsclub)",
+                "cz": "ÖAMTC (Rakouský autoklub)",
+                "hu": "ÖAMTC (Osztrák Autóklub)"
               },
               "isPartner": false,
               "country": "AT",
@@ -261,170 +305,200 @@
               "phone": "120"
             },
             {
-    "name": {
-      "sk": "HAK (Chorvátsky autoklub)",
-      "en": "HAK (Croatian Automobile Club)",
-      "de": "HAK (Kroatischer Automobilclub)"
-    },
-    "isPartner": false,
-    "country": "HR",
-    "url": "https://www.hak.hr",
-    "phone": "1987"
-  },
-  {
-    "name": {
-      "sk": "ACI (Taliansky autoklub)",
-      "en": "ACI (Automobile Club d'Italia)",
-      "de": "ACI (Automobilclub Italien)"
-    },
-    "isPartner": false,
-    "country": "IT",
-    "url": "http://www.aci.it",
-    "phone": "803116"
-  },
-  {
-    "name": {
-      "sk": "RACE (Španielsky autoklub)",
-      "en": "RACE (Royal Automobile Club of Spain)",
-      "de": "RACE (Königlicher Automobilclub Spanien)"
-    },
-    "isPartner": false,
-    "country": "ES",
-    "url": "https://www.race.es",
-    "phone": "+34 91 594 93 47"
-  },
-  {
-    "name": {
-      "sk": "ELPA (Grécky autoklub)",
-      "en": "ELPA (Hellenic Automobile Association)",
-      "de": "ELPA (Griechischer Automobilclub)"
-    },
-    "isPartner": false,
-    "country": "GR",
-    "url": "http://www.elpa.gr",
-    "phone": "10400"
-  },
-  {
-    "name": {
-      "sk": "UAB (Bulharský autoklub)",
-      "en": "UAB (Union of Bulgarian Automobilists)",
-      "de": "UAB (Union der bulgarischen Automobilisten)"
-    },
-    "isPartner": false,
-    "country": "BG",
-    "url": "https://www.uab.org",
-    "phone": "146"
-  },
-  {
-    "name": {
-      "sk": "NAF (Nórsky autoklub)",
-      "en": "NAF (Norwegian Automobile Federation)",
-      "de": "NAF (Norwegischer Automobilverband)"
-    },
-    "isPartner": false,
-    "country": "NO",
-    "url": "https://www.naf.no",
-    "phone": "+47 23 21 31 00"
-  },
-  {
-    "name": {
-      "sk": "ADAC (Nemecký autoklub)",
-      "en": "ADAC (German Automobile Club)",
-      "de": "ADAC (Allgemeiner Deutscher Automobil-Club)"
-    },
-    "isPartner": false,
-    "country": "DE",
-    "url": "https://www.adac.de",
-    "phone": "+49 89 22 22 22"
-  },
-  {
-    "name": {
-      "sk": "SOS Alarm (Švédsko)",
-      "en": "SOS Alarm (Sweden)",
-      "de": "SOS Alarm (Schweden)"
-    },
-    "isPartner": false,
-    "country": "SE",
-    "url": "https://www.sosalarm.se",
-    "phone": "112"
-  },
+              "name": {
+                "sk": "HAK (Chorvátsky autoklub)",
+                "en": "HAK (Croatian Automobile Club)",
+                "de": "HAK (Kroatischer Automobilclub)",
+                "cz": "HAK (Chorvatský autoklub)",
+                "hu": "HAK (Horvát Autóklub)"
+              },
+              "isPartner": false,
+              "country": "HR",
+              "url": "https://www.hak.hr",
+              "phone": "1987"
+            },
             {
-    "name": {
-      "sk": "PZM (Poľský autoklub)",
-      "en": "PZM (Polish Motor Association)",
-      "de": "PZM (Polnischer Automobilverband)"
-    },
-    "isPartner": false,
-    "country": "PL",
-    "url": "https://www.pzm.pl",
-    "phone": "+48 22 532 84 00"
-  },
-  {
-    "name": {
-      "sk": "MAK (Maďarský autoklub)",
-      "en": "MAK (Hungarian Autoclub)",
-      "de": "MAK (Ungarischer Automobilclub)"
-    },
-    "isPartner": false,
-    "country": "HU",
-    "url": "https://www.autoklub.hu",
-    "phone": "188"
-  },
-  {
-    "name": {
-      "sk": "AMZS (Slovinský autoklub)",
-      "en": "AMZS (Slovenian Automobile Association)",
-      "de": "AMZS (Slowenischer Automobilclub)"
-    },
-    "isPartner": false,
-    "country": "SI",
-    "url": "https://www.amzs.si",
-    "phone": "1987"
-  },
-  {
-    "name": {
-      "sk": "ACR (Rumunský autoklub)",
-      "en": "ACR (Romanian Automobile Club)",
-      "de": "ACR (Rumänischer Automobilclub)"
-    },
-    "isPartner": false,
-    "country": "RO",
-    "url": "https://www.acr.ro",
-    "phone": "+40 21 222 22 22"
-  },
-  {
-    "name": {
-      "sk": "ACA (Francúzsky autoklub)",
-      "en": "ACA (Automobile Club Association France)",
-      "de": "ACA (Automobilclub Frankreich)"
-    },
-    "isPartner": false,
-    "country": "FR",
-    "url": "https://www.automobile-club.org",
-    "phone": "0800 08 92 22"
-  },
-  {
-    "name": {
-      "sk": "BIHAMK (Autoklub Bosny a Herc.)",
-      "en": "BIHAMK (Automobile Club of Bosnia and Herz.)",
-      "de": "BIHAMK (Automobilclub Bosnien und Herz.)"
-    },
-    "isPartner": false,
-    "country": "BA",
-    "url": "https://bihamk.ba",
-    "phone": "1282"
-  },
-  {
-    "name": {
-      "sk": "AMSS (Srbský autoklub)",
-      "en": "AMSS (Automobile Association of Serbia)",
-      "de": "AMSS (Automobilverband Serbien)"
-    },
-    "isPartner": false,
-    "country": "RS",
-    "url": "https://www.amss.org.rs",
-    "phone": "1987"
-  }
+              "name": {
+                "sk": "ACI (Taliansky autoklub)",
+                "en": "ACI (Automobile Club d'Italia)",
+                "de": "ACI (Automobilclub Italien)",
+                "cz": "ACI (Italský autoklub)",
+                "hu": "ACI (Olasz Autóklub)"
+              },
+              "isPartner": false,
+              "country": "IT",
+              "url": "http://www.aci.it",
+              "phone": "803116"
+            },
+            {
+              "name": {
+                "sk": "RACE (Španielsky autoklub)",
+                "en": "RACE (Royal Automobile Club of Spain)",
+                "de": "RACE (Königlicher Automobilclub Spanien)",
+                "cz": "RACE (Španělský autoklub)",
+                "hu": "RACE (Spanyol Autóklub)"
+              },
+              "isPartner": false,
+              "country": "ES",
+              "url": "https://www.race.es",
+              "phone": "+34 91 594 93 47"
+            },
+            {
+              "name": {
+                "sk": "ELPA (Grécky autoklub)",
+                "en": "ELPA (Hellenic Automobile Association)",
+                "de": "ELPA (Griechischer Automobilclub)",
+                "cz": "ELPA (Řecký autoklub)",
+                "hu": "ELPA (Görög Autóklub)"
+              },
+              "isPartner": false,
+              "country": "GR",
+              "url": "http://www.elpa.gr",
+              "phone": "10400"
+            },
+            {
+              "name": {
+                "sk": "UAB (Bulharský autoklub)",
+                "en": "UAB (Union of Bulgarian Automobilists)",
+                "de": "UAB (Union der bulgarischen Automobilisten)",
+                "cz": "UAB (Bulharský autoklub)",
+                "hu": "UAB (Bolgár Autóklub)"
+              },
+              "isPartner": false,
+              "country": "BG",
+              "url": "https://www.uab.org",
+              "phone": "146"
+            },
+            {
+              "name": {
+                "sk": "NAF (Nórsky autoklub)",
+                "en": "NAF (Norwegian Automobile Federation)",
+                "de": "NAF (Norwegischer Automobilverband)",
+                "cz": "NAF (Norský autoklub)",
+                "hu": "NAF (Norvég Autóklub)"
+              },
+              "isPartner": false,
+              "country": "NO",
+              "url": "https://www.naf.no",
+              "phone": "+47 23 21 31 00"
+            },
+            {
+              "name": {
+                "sk": "ADAC (Nemecký autoklub)",
+                "en": "ADAC (German Automobile Club)",
+                "de": "ADAC (Allgemeiner Deutscher Automobil-Club)",
+                "cz": "ADAC (Německý autoklub)",
+                "hu": "ADAC (Német Autóklub)"
+              },
+              "isPartner": false,
+              "country": "DE",
+              "url": "https://www.adac.de",
+              "phone": "+49 89 22 22 22"
+            },
+            {
+              "name": {
+                "sk": "SOS Alarm (Švédsko)",
+                "en": "SOS Alarm (Sweden)",
+                "de": "SOS Alarm (Schweden)",
+                "cz": "SOS Alarm (Švédsko)",
+                "hu": "SOS Alarm (Svédország)"
+              },
+              "isPartner": false,
+              "country": "SE",
+              "url": "https://www.sosalarm.se",
+              "phone": "112"
+            },
+            {
+              "name": {
+                "sk": "PZM (Poľský autoklub)",
+                "en": "PZM (Polish Motor Association)",
+                "de": "PZM (Polnischer Automobilverband)",
+                "cz": "PZM (Polský autoklub)",
+                "hu": "PZM (Lengyel Autóklub)"
+              },
+              "isPartner": false,
+              "country": "PL",
+              "url": "https://www.pzm.pl",
+              "phone": "+48 22 532 84 00"
+            },
+            {
+              "name": {
+                "sk": "MAK (Maďarský autoklub)",
+                "en": "MAK (Hungarian Autoclub)",
+                "de": "MAK (Ungarischer Automobilclub)",
+                "cz": "MAK (Maďarský autoklub)",
+                "hu": "MAK (Magyar Autóklub)"
+              },
+              "isPartner": false,
+              "country": "HU",
+              "url": "https://www.autoklub.hu",
+              "phone": "188"
+            },
+            {
+              "name": {
+                "sk": "AMZS (Slovinský autoklub)",
+                "en": "AMZS (Slovenian Automobile Association)",
+                "de": "AMZS (Slowenischer Automobilclub)",
+                "cz": "AMZS (Slovinský autoklub)",
+                "hu": "AMZS (Szlovén Autóklub)"
+              },
+              "isPartner": false,
+              "country": "SI",
+              "url": "https://www.amzs.si",
+              "phone": "1987"
+            },
+            {
+              "name": {
+                "sk": "ACR (Rumunský autoklub)",
+                "en": "ACR (Romanian Automobile Club)",
+                "de": "ACR (Rumänischer Automobilclub)",
+                "cz": "ACR (Rumunský autoklub)",
+                "hu": "ACR (Román Autóklub)"
+              },
+              "isPartner": false,
+              "country": "RO",
+              "url": "https://www.acr.ro",
+              "phone": "+40 21 222 22 22"
+            },
+            {
+              "name": {
+                "sk": "ACA (Francúzsky autoklub)",
+                "en": "ACA (Automobile Club Association France)",
+                "de": "ACA (Automobilclub Frankreich)",
+                "cz": "ACA (Francouzský autoklub)",
+                "hu": "ACA (Francia Autóklub)"
+              },
+              "isPartner": false,
+              "country": "FR",
+              "url": "https://www.automobile-club.org",
+              "phone": "0800 08 92 22"
+            },
+            {
+              "name": {
+                "sk": "BIHAMK (Autoklub Bosny a Herc.)",
+                "en": "BIHAMK (Automobile Club of Bosnia and Herz.)",
+                "de": "BIHAMK (Automobilclub Bosnien und Herz.)",
+                "cz": "BIHAMK (Autoklub Bosny a Herc.)",
+                "hu": "BIHAMK (Bosznia-Hercegovinai Autóklub)"
+              },
+              "isPartner": false,
+              "country": "BA",
+              "url": "https://bihamk.ba",
+              "phone": "1282"
+            },
+            {
+              "name": {
+                "sk": "AMSS (Srbský autoklub)",
+                "en": "AMSS (Automobile Association of Serbia)",
+                "de": "AMSS (Automobilverband Serbien)",
+                "cz": "AMSS (Srbský autoklub)",
+                "hu": "AMSS (Szerb Autóklub)"
+              },
+              "isPartner": false,
+              "country": "RS",
+              "url": "https://www.amss.org.rs",
+              "phone": "1987"
+            }
           ]
         }
       ]
@@ -434,33 +508,43 @@
       "title": {
         "sk": "Partnerské Kempy",
         "en": "Partner Campsites",
-        "de": "Partner-Campingplätze"
+        "de": "Partner-Campingplätze",
+        "cz": "Partnerské Kempy",
+        "hu": "Partner Kempingek"
       },
       "sections": [
         {
           "heading": {
             "sk": "Partnerské Kempy",
             "en": "Partner Campsites",
-            "de": "Partner-Campingplätze"
+            "de": "Partner-Campingplätze",
+            "cz": "Partnerské Kempy",
+            "hu": "Partner Kempingek"
           },
           "content": {
             "sk": "Kempy, kde vám Karavan Asistent otvorí nové možnosti. Exkluzívne pre majiteľov PLNEJ VERZIE – recepcia kontroluje verziu bez označenia 'Trial'. Zoznam stále budujeme.",
             "en": "Campsites where Karavan Asistent unlocks new possibilities. Exclusively for FULL VERSION users – reception verifies the app without the 'Trial' label. The list is constantly growing.",
-            "de": "Campingplätze, bei denen Ihnen Karavan Asistent neue Möglichkeiten eröffnet. Exklusiv für Nutzer der VOLLVERSION – die Rezeption prüft die Version ohne den 'Trial'-Hinweis. Die Liste wird ständig erweitert."
+            "de": "Campingplätze, bei denen Ihnen Karavan Asistent neue Möglichkeiten eröffnet. Exklusiv für Nutzer der VOLLVERSION – die Rezeption prüft die Version ohne den 'Trial'-Hinweis. Die Liste wird ständig erweitert.",
+            "cz": "Kempy, kde vám Karavan Asistent otevře nové možnosti. Exkluzivně pro majitele PLNÉ VERZE – recepce kontroluje verzi bez označení 'Trial'. Seznam stále budujeme.",
+            "hu": "Kempingek, ahol a Karavan Asistent új lehetőségeket nyit meg. Kizárólag a TELJES VERZIÓ tulajdonosainak – a recepció ellenőrzi a 'Trial' jelölés nélküli verziót. A lista folyamatosan bővül."
           },
           "items": [
             {
               "name": {
                 "sk": "Pullmann Piešťany (Ukážka)",
                 "en": "Pullmann Piešťany (Preview)",
-                "de": "Pullmann Piešťany (Vorschau)"
+                "de": "Pullmann Piešťany (Vorschau)",
+                "cz": "Pullmann Piešťany (Ukázka)",
+                "hu": "Pullmann Pöstyén (Ízelítő)"
               },
               "isPartner": true,
               "country": "SK",
               "benefit": {
                 "sk": "Pivko na privítanie.",
                 "en": "A welcome beer.",
-                "de": "Ein Begrüßungsbier."
+                "de": "Ein Begrüßungsbier.",
+                "cz": "Pivo na uvítanou.",
+                "hu": "Üdvözlő sör."
               },
               "url": "https://www.campingpiestany.sk/",
               "phone": "+421911201089"
@@ -469,14 +553,18 @@
               "name": {
                 "sk": "Camping am See (Ukážka)",
                 "en": "Camping am See (Prewiev)",
-                "de": "Camping am See (Vorschau)"
+                "de": "Camping am See (Vorschau)",
+                "cz": "Camping am See (Ukázka)",
+                "hu": "Camping am See (Ízelítő)"
               },
               "isPartner": false,
               "country": "AT",
               "benefit": {
                 "sk": "",
                 "en": "",
-                "de": ""
+                "de": "",
+                "cz": "",
+                "hu": ""
               },
               "url": "https://www.camping-am-see.at",
               "phone": "+43111222333"
@@ -487,41 +575,50 @@
     },
     {
       "icon": "rv_hookup",
-  "title": {
-    "sk": "Požičovne Karavanov",
-    "en": "Caravan Rentals",
-    "de": "Wohnmobilvermietung"
-  },
-  "sections": [
-    {
-      "heading": {
+      "title": {
         "sk": "Požičovne Karavanov",
         "en": "Caravan Rentals",
-        "de": "Wohnmobilvermietung"
+        "de": "Wohnmobilvermietung",
+        "cz": "Půjčovny Karavanů",
+        "hu": "Lakóautó Kölcsönzők"
       },
-      "content": {
-        "sk": "Zoznam overených požičovní, kde si môžete prenajať svoj domov na kolesách.",
-        "en": "A list of verified rentals where you can rent your home on wheels.",
-        "de": "Eine Liste geprüfter Vermietungen, in denen Sie Ihr Zuhause auf Rädern mieten können."
-      },
+      "sections": [
+        {
+          "heading": {
+            "sk": "Požičovne Karavanov",
+            "en": "Caravan Rentals",
+            "de": "Wohnmobilvermietung",
+            "cz": "Půjčovny Karavanů",
+            "hu": "Lakóautó Kölcsönzők"
+          },
+          "content": {
+            "sk": "Zoznam overených požičovní, kde si môžete prenajať svoj domov na kolesách.",
+            "en": "A list of verified rentals where you can rent your home on wheels.",
+            "de": "Eine Liste geprüfter Vermietungen, in denen Sie Ihr Zuhause auf Rädern mieten können.",
+            "cz": "Seznam ověřených půjčoven, kde si můžete pronajmout svůj domov na kolech.",
+            "hu": "Ellenőrzött kölcsönzők listája, ahol kibérelheti otthonát a kerekeken."
+          },
           "items": [
             {
               "name": {
                 "sk": "Môj Karavan (Ukážka)",
                 "en": "Môj Karavan (Preview)",
-                "de": "Môj Karavan (Vorschau)"
+                "de": "Môj Karavan (Vorschau)",
+                "cz": "Môj Karavan (Ukázka)",
+                "hu": "Môj Karavan (Ízelítő)"
               },
               "isPartner": true,
               "country": "SK",
               "benefit": {
                 "sk": "SNP 137, Žiar nad Hronom",
                 "en": "SNP 137, Žiar nad Hronom",
-                "de": "SNP 137, Žiar nad Hronom"
+                "de": "SNP 137, Žiar nad Hronom",
+                "cz": "SNP 137, Žiar nad Hronom",
+                "hu": "SNP 137, Garamszentkereszt"
               },
               "url": "https://www.mojkaravan.eu/",
               "phone": " +421903805833"
             }
-            
           ]
         }
       ]
