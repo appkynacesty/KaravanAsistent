@@ -77,6 +77,58 @@
         "text": "Diese Limits sind Richtwerte und nach strengeren Regeln für Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.",
         "ikona": "⚠️"
       }
+    ],
+    "cs": [
+      {
+        "id": 1,
+        "typ": "Hlavní Zákaz: Nocování",
+        "text": "V Rakousku je ve většině spolkových zemí zakázáno 'divoké kempování'. Hrozí vysoké pokuty (až do 500 €).",
+        "ikona": "🚫"
+      },
+      {
+        "id": 2,
+        "typ": "Důležité: Vesty a Lékárnička",
+        "text": "Povinné reflexní vesty pro všechny osoby v kabině a sada první pomoci.",
+        "ikona": "🚨"
+      },
+      {
+        "id": 3,
+        "typ": "Varování: IG-L Zóny",
+        "text": "V zónách IG-L (ochrana ovzduší) hrozí za překročení rychlosti dvojité pokuty (rychlost + ekologie).",
+        "ikona": "🍃"
+      },
+      {
+        "id": 4,
+        "typ": "Upozornění",
+        "text": "Tyto limity jsou orientační a nastaveny podle přísnějších pravidel pro soupravy. Vždy sledujte lokální dopravní značení a technické limity vašeho vozidla.",
+        "ikona": "⚠️"
+      }
+    ],
+    "hu": [
+      {
+        "id": 1,
+        "typ": "Fő tilalom: Vadkempingezés",
+        "text": "Ausztria legtöbb tartományában tilos a 'vadkempingezés'. Magas bírságok várhatók (akár 500 €-ig).",
+        "ikona": "🚫"
+      },
+      {
+        "id": 2,
+        "typ": "Fontos: Mellények és Elsősegélycsomag",
+        "text": "Kötelező a láthatósági mellény minden utas számára és az elsősegélycsomag.",
+        "ikona": "🚨"
+      },
+      {
+        "id": 3,
+        "typ": "Figyelem: IG-L zónák",
+        "text": "Az IG-L zónákban (levegővédelem) gyorshajtás esetén dupla bírság jár (sebesség + környezetvédelmi bírság).",
+        "ikona": "🍃"
+      },
+      {
+        "id": 4,
+        "typ": "Tájékoztatás",
+        "text": "Ezek a határértékek tájékoztató jellegűek, a járműszerelvényekre vonatkozó szigorúbb szabályokon alapulnak. Mindig kövesse a helyi jelzőtáblákat és járműve műszaki határait.",
+        "ikona": "⚠️"
+      }
     ]
   },
   "DE": {
@@ -137,6 +189,46 @@
         "id": 3,
         "typ": "Hinweis",
         "text": "Diese Limits sind Richtwerte und nach strengeren Regeln für Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.",
+        "ikona": "⚠️"
+      }
+    ],
+    "cs": [
+      {
+        "id": 1,
+        "typ": "Krátkodobé Stání: Možné",
+        "text": "Povoleno na jednu noc pro obnovení schopnosti řídit, pokud to nezakazuje značka.",
+        "ikona": "🅿️"
+      },
+      {
+        "id": 2,
+        "typ": "Důležité: Ekologické Zóny",
+        "text": "Mnoho měst vyžaduje pro vjezd 'Umweltplakette' (ekologická známka).",
+        "ikona": "🌿"
+      },
+      {
+        "id": 3,
+        "typ": "Upozornění",
+        "text": "Tyto limity jsou orientační a nastaveny podle přísnějších pravidel pro soupravy. Vždy sledujte lokální dopravní značení a technické limity vašeho vozidla.",
+        "ikona": "⚠️"
+      }
+    ],
+    "hu": [
+      {
+        "id": 1,
+        "typ": "Rövid távú tartózkodás: Lehetséges",
+        "text": "Egy éjszakára engedélyezett a vezetési képesség helyreállítása érdekében, hacsak tábla nem tiltja.",
+        "ikona": "🅿️"
+      },
+      {
+        "id": 2,
+        "typ": "Fontos: Környezetvédelmi zónák",
+        "text": "Sok város 'Umweltplakette' (környezetvédelmi matrica) meglétét követeli meg a behajtáshoz.",
+        "hu": "🌿"
+      },
+      {
+        "id": 3,
+        "typ": "Tájékoztatás",
+        "text": "Ezek a határértékek tájékoztató jellegűek, a járműszerelvényekre vonatkozó szigorúbb szabályokon alapulnak. Mindig kövesse a helyi jelzőtáblákat és járműve műszaki határait.",
         "ikona": "⚠️"
       }
     ]
@@ -235,6 +327,70 @@
         "id": 5,
         "typ": "Hinweis",
         "text": "Diese Limits sind Richtwerte und nach strengeren Regeln für Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.",
+        "ikona": "⚠️"
+      }
+    ],
+    "cs": [
+      {
+        "id": 1,
+        "typ": "Pravidla: Regionální rozdíly",
+        "text": "Sledujte značení 'Arrêté Municipal'. Na soukromých cestách se souhlasem majitele.",
+        "ikona": "📜"
+      },
+      {
+        "id": 2,
+        "typ": "Důležité: Eurotunnel",
+        "text": "Vozidla s pohonem na LPG/CNG mají přísný zákaz vstupu do Eurotunelu pod Lamanšským průlivem.",
+        "ikona": "🚫"
+      },
+      {
+        "id": 3,
+        "typ": "Free-flow systém",
+        "text": "Na některých dálnicích (např. A79, A13, A14) již nejsou mýtné brány. Systém nasnímá vaši registrační značku a musíte zaplatit do 72 hodin online.",
+        "ikona": "📜"
+      },
+      {
+        "id": 4,
+        "typ": "Emisní plaketa Crit'Air",
+        "text": "Pro vjezd do nízkoemisních zón (většina měst) je povinná nálepka. Objednávejte pouze na oficiálním webu: https://www.certificat-air.gouv.fr/",
+        "ikona": "🍃"
+      },
+      {
+        "id": 5,
+        "typ": "Upozornění",
+        "text": "Tyto limity jsou orientační a nastaveny podle přísnějších pravidel pro soupravy. Vždy sledujte lokální dopravní značení a technické limity vašeho vozidla.",
+        "ikona": "⚠️"
+      }
+    ],
+    "hu": [
+      {
+        "id": 1,
+        "typ": "Szabályok: Regionális különbségek",
+        "text": "Figyelje az 'Arrêté Municipal' jelzéseket. Magánutakon a tulajdonos beleegyezése szükséges.",
+        "ikona": "📜"
+      },
+      {
+        "id": 2,
+        "typ": "Fontos: Eurotunnel",
+        "text": "LPG/CNG üzemű járművek számára szigorúan tilos a behajtás a Csatorna-alagútba (Eurotunnel).",
+        "ikona": "🚫"
+      },
+      {
+        "id": 3,
+        "typ": "Free-flow rendszer",
+        "text": "Bizonyos autópályákon (pl. A79, A13, A14) már nincsenek kapuk. A rendszer leolvassa a rendszámot, és 72 órán belül online kell fizetni.",
+        "ikona": "📜"
+      },
+      {
+        "id": 4,
+        "typ": "Crit'Air környezetvédelmi matrica",
+        "text": "Az alacsony kibocsátású zónákba (legtöbb város) kötelező a matrica. Csak a hivatalos weboldalról rendeljen: https://www.certificat-air.gouv.fr/",
+        "ikona": "🍃"
+      },
+      {
+        "id": 5,
+        "typ": "Tájékoztatás",
+        "text": "Ezek a határértékek tájékoztató jellegűek, a járműszerelvényekre vonatkozó szigorúbb szabályokon alapulnak. Mindig kövesse a helyi jelzőtáblákat.",
         "ikona": "⚠️"
       }
     ]
@@ -371,9 +527,97 @@
         "text": "Achten Sie auf das städtische Parksystem PAAS. Viele Zonen haben Längenbeschränkungen für Fahrzeuge (meist bis 5,3 m). Wohnmobile und längere Transporter dürfen nur auf ausgewiesenen Plätzen parken.",
         "ikona": "🚐"
       }
+    ],
+    "cs": [
+      {
+        "id": 1,
+        "typ": "Zákaz: Mimo kempy",
+        "text": "Přísný zákaz divokého kempování v přírodě a na parkovištích.",
+        "ikona": "🚫"
+      },
+      {
+        "id": 2,
+        "typ": "Upozornění",
+        "text": "Tyto limity jsou orientační a nastaveny podle přísnějších pravidel pro soupravy. Vždy sledujte lokální dopravní značení a technické limity vašeho vozidla.",
+        "ikona": "⚠️"
+      },
+      {
+        "id": 3,
+        "typ": "Zákaz: Lesní cesty",
+        "text": "Přísný zákaz vjezdu a stání na lesních a polních cestách (i bez zákazu vjezdu). Riziko trestního stíhání.",
+        "ikona": "🌲"
+      },
+      {
+        "id": 4,
+        "typ": "Omezení: Národní parky",
+        "text": "V národních parcích (TANAP, NAPANT, atd.) je zakázáno stání mimo vyhrazená parkoviště, zejména po setmění.",
+        "ikona": "🏔️"
+      },
+      {
+        "id": 5,
+        "typ": "Upozornění: Hmotnost",
+        "text": "Policie se zaměřuje na vážení vozidel do 3.5t. Nulová tolerance přetížení nad technický limit vozidla.",
+        "ikona": "⚖️"
+      },
+      {
+        "id": 6,
+        "typ": "Důležité: Plyn a revize",
+        "text": "V případě nehody pojišťovny striktně vyžadují platné revize plynových a elektrických zařízení v karavanu.",
+        "ikona": "🔥"
+      },
+      {
+        "id": 7,
+        "typ": "Parkování: Bratislava (PAAS)",
+        "text": "Pozor na městský parkovací systém PAAS. Mnohé zóny mají omezenou délku vozidla (zpravidla do 5.3m). Karavany mohou parkovat jen na vyhrazených místech.",
+        "ikona": "🚐"
+      }
+    ],
+    "hu": [
+      {
+        "id": 1,
+        "typ": "Tiltás: Kempingeken kívül",
+        "text": "Szigorúan tilos a vadkempingezés a természetben és a parkolókban.",
+        "ikona": "🚫"
+      },
+      {
+        "id": 2,
+        "typ": "Tájékoztatás",
+        "text": "Ezek a határértékek tájékoztató jellegűek, a járműszerelvényekre vonatkozó szigorúbb szabályokon alapulnak.",
+        "ikona": "⚠️"
+      },
+      {
+        "id": 3,
+        "typ": "Tiltás: Erdei utak",
+        "text": "Szigorúan tilos a behajtás és a várakozás az erdei és mezei utakon (tiltó tábla nélkül is). Büntetőjogi felelősség kockázata.",
+        "ikona": "🌲"
+      },
+      {
+        "id": 4,
+        "typ": "Korlátozás: Nemzeti parkok",
+        "text": "A nemzeti parkokban (TANAP, NAPANT stb.) tilos a kijelölt parkolókon kívüli várakozás, különösen sötétedés után.",
+        "ikona": "🏔️"
+      },
+      {
+        "id": 5,
+        "typ": "Tájékoztatás: Súly",
+        "text": "A rendőrség kiemelten ellenőrzi a 3,5 tonnáig terjedő járművek súlyát. Zéró tolerancia a túlsúlyra.",
+        "ikona": "⚖️"
+      },
+      {
+        "id": 6,
+        "typ": "Fontos: Gáz és felülvizsgálat",
+        "text": "Baleset esetén a biztosítók szigorúan megkövetelik a lakókocsi gáz- és elektromos berendezéseinek érvényes felülvizsgálatát.",
+        "ikona": "🔥"
+      },
+      {
+        "id": 7,
+        "typ": "Parkolás: Pozsony (PAAS)",
+        "text": "Figyelem a PAAS városi parkolási rendszerre. Sok zónában korlátozzák a jármű hosszát (általában 5,3 m-ig).",
+        "ikona": "🚐"
+      }
     ]
   },
-  "CH": {
+ "CH": {
     "sk": [
       {
         "id": 1,
@@ -431,6 +675,46 @@
         "id": 3,
         "typ": "Hinweis",
         "text": "Diese Limits sind Richtwerte und nach strengeren Regeln für Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.",
+        "ikona": "⚠️"
+      }
+    ],
+    "cs": [
+      {
+        "id": 1,
+        "typ": "Hlavní Zákaz: Kantony",
+        "text": "Pravidla se liší podle kantonů. Divoké kempování je většinou přísně zakázáno.",
+        "ikona": "🇨🇭"
+      },
+      {
+        "id": 2,
+        "typ": "Varování: Rychlost",
+        "text": "Extrémně vysoké pokuty za rychlost; překročení o 30 km/h může vést k zabavení auta.",
+        "ikona": "👮"
+      },
+      {
+        "id": 3,
+        "typ": "Upozornění",
+        "text": "Tyto limity jsou orientační a nastaveny podle přísnějších pravidel pro soupravy. Vždy sledujte lokální dopravní značení a technické limity vašeho vozidla.",
+        "ikona": "⚠️"
+      }
+    ],
+    "hu": [
+      {
+        "id": 1,
+        "typ": "Fő tilalom: Kantonok",
+        "text": "A szabályok kantononként változnak. A vadkempingezés többnyire szigorúan tilos.",
+        "ikona": "🇨🇭"
+      },
+      {
+        "id": 2,
+        "typ": "Figyelem: Sebesség",
+        "text": "Rendkívül magas gyorshajtási bírságok; a 30 km/h feletti túllépés az autó lefoglalásához is vezethet.",
+        "ikona": "👮"
+      },
+      {
+        "id": 3,
+        "typ": "Tájékoztatás",
+        "text": "Ezek a határértékek tájékoztató jellegűek, a járműszerelvényekre vonatkozó szigorúbb szabályokon alapulnak.",
         "ikona": "⚠️"
       }
     ]
@@ -513,6 +797,58 @@
         "text": "Die meisten italienischen Städte haben verkehrsberuhigte Zonen (ZTL) in den Zentren. Die Einfahrt wird videoüberwacht und ist nur Anwohnern gestattet. Die Bußgelder sind hoch. Parken Sie immer am Stadtrand (Parcheggio Scambiatore) oder auf offiziellen „Area Camper“ Plätzen.",
         "ikona": "📸"
       }
+    ],
+    "cs": [
+      {
+        "id": 1,
+        "typ": "Nadrozměrný náklad",
+        "text": "Povinná hliníková reflexní tabule 50x50 cm pro náklad přesahující vozidlo vzadu (např. kola).",
+        "ikona": "🟥"
+      },
+      {
+        "id": 2,
+        "typ": "Pravidla: Místní omezení",
+        "text": "Na dálničních odpočívadlech a v historických centrech (ZTL) platí přísný zákaz.",
+        "ikona": "⛔"
+      },
+      {
+        "id": 3,
+        "typ": "Upozornění",
+        "text": "Tyto limity jsou orientační a nastaveny podle přísnějších pravidel pro soupravy. Vždy sledujte lokální dopravní značení a technické limity vašeho vozidla.",
+        "ikona": "⚠️"
+      },
+      {
+        "id": 4,
+        "typ": "Zákaz: Zóny ZTL ve městech",
+        "text": "Většina italských měst má v centrech zóny s omezeným vjezdem (ZTL). Vjezd je sledován kamerami a povolen jen rezidentům. Pokuty jsou automatické a vysoké. Vždy parkujte na okraji města (Parcheggio Scambiatore) nebo v „Area Camper“.",
+        "ikona": "📸"
+      }
+    ],
+    "hu": [
+      {
+        "id": 1,
+        "typ": "Túlméretes rakomány",
+        "text": "Kötelező az 50x50 cm-es alumínium fényvisszaverő tábla a hátul túlnyúló rakományhoz (pl. kerékpárok).",
+        "ikona": "🟥"
+      },
+      {
+        "id": 2,
+        "typ": "Szabályok: Helyi korlátozások",
+        "text": "Az autópálya-pihenőkben és a történelmi központokban (ZTL) szigorú tilalom érvényes.",
+        "ikona": "⛔"
+      },
+      {
+        "id": 3,
+        "typ": "Tájékoztatás",
+        "text": "Ezek a határértékek tájékoztató jellegűek, a járműszerelvényekre vonatkozó szigorúbb szabályokon alapulnak.",
+        "ikona": "⚠️"
+      },
+      {
+        "id": 4,
+        "typ": "Tiltás: Városi ZTL zónák",
+        "text": "A legtöbb olasz város központjában korlátozott behajtási zónák (ZTL) vannak. A belépést kamerák figyelik, és csak a lakosoknak engedélyezett. A bírságok automatikusak és magasak. Mindig a város szélén (Parcheggio Scambiatore) vagy „Area Camper” helyeken parkoljon.",
+        "ikona": "📸"
+      }
     ]
   },
   "PL": {
@@ -573,6 +909,46 @@
         "id": 3,
         "typ": "Hinweis",
         "text": "Diese Limits sind Richtwerte und nach strengeren Regeln für Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.",
+        "ikona": "⚠️"
+      }
+    ],
+    "cs": [
+      {
+        "id": 1,
+        "typ": "Divoké kempování: Zakázáno",
+        "text": "Zakázáno na veřejných parkovištích, pokud není označeno jinak.",
+        "ikona": "🚫"
+      },
+      {
+        "id": 2,
+        "typ": "Vjezdy do měst",
+        "text": "Pozor na zóny s omezením vjezdu pro karavany a těžká vozidla.",
+        "ikona": "⚠️"
+      },
+      {
+        "id": 3,
+        "typ": "Upozornění",
+        "text": "Tyto limity jsou orientační a nastaveny podle přísnějších pravidel pro soupravy. Vždy sledujte lokální dopravní značení a technické limity vašeho vozidla.",
+        "ikona": "⚠️"
+      }
+    ],
+    "hu": [
+      {
+        "id": 1,
+        "typ": "Vadkempingezés: Tilos",
+        "text": "Közterületi parkolókban általában tilos, hacsak másként nem jelzik.",
+        "ikona": "🚫"
+      },
+      {
+        "id": 2,
+        "typ": "Városi behajtás",
+        "text": "Ügyeljen a lakóautókra és nehéz gépjárművekre vonatkozó behajtási korlátozásokra.",
+        "ikona": "⚠️"
+      },
+      {
+        "id": 3,
+        "typ": "Tájékoztatás",
+        "text": "Ezek a határértékek tájékoztató jellegűek, a járműszerelvényekre vonatkozó szigorúbb szabályokon alapulnak.",
         "ikona": "⚠️"
       }
     ]
@@ -655,9 +1031,61 @@
         "text": "Diese Limits sind Richtwerte und nach strengeren Regeln für Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.",
         "ikona": "⚠️"
       }
+    ],
+    "cs": [
+      {
+        "id": 1,
+        "typ": "Everyman's Right: Povoleno",
+        "text": "Krátkodobé nocování na nezastavěných pozemcích mimo obydlí je povoleno.",
+        "ikona": "🌲"
+      },
+      {
+        "id": 2,
+        "typ": "Bezpečnost a výbava",
+        "text": "Potkávací světla jsou povinná celoročně. Zimní pneumatiky jsou povinné od 1.11. do 31.3., pokud je na cestách sníh nebo námraza.",
+        "ikona": "❄️"
+      },
+      {
+        "id": 3,
+        "typ": "Pozor na zvěř",
+        "text": "V severních oblastech hrozí vysoké riziko kolize se soby a losy, zejména za soumraku.",
+        "ikona": "🦌"
+      },
+      {
+        "id": 4,
+        "typ": "Upozornění",
+        "text": "Tyto limity jsou orientační a nastaveny podle přísnějších pravidel pro soupravy. Vždy sledujte lokální dopravní značení a technické limity vašeho vozidla.",
+        "ikona": "⚠️"
+      }
+    ],
+    "hu": [
+      {
+        "id": 1,
+        "typ": "Everyman's Right: Engedélyezett",
+        "text": "A beépítetlen, lakóházaktól távol eső területeken a rövid távú éjszakázás engedélyezett.",
+        "ikona": "🌲"
+      },
+      {
+        "id": 2,
+        "typ": "Biztonság és felszerelés",
+        "text": "A tompított fényszóró használata egész évben kötelező. Téli gumiabroncs november 1. és március 31. között kötelező, ha az útviszonyok megkövetelik.",
+        "ikona": "❄️"
+      },
+      {
+        "id": 3,
+        "typ": "Vadvilág figyelmeztetés",
+        "text": "Az északi területeken nagy a rénszarvasokkal és jávorszarvasokkal való ütközés veszélye, különösen szürkületkor.",
+        "ikona": "🦌"
+      },
+      {
+        "id": 4,
+        "typ": "Tájékoztatás",
+        "text": "Ezek a határértékek tájékoztató jellegűek, a járműszerelvényekre vonatkozó szigorúbb szabályokon alapulnak.",
+        "ikona": "⚠️"
+      }
     ]
   },
-  "SE": {
+ "SE": {
     "sk": [
       {
         "id": 1,
@@ -715,6 +1143,46 @@
         "id": 3,
         "typ": "Hinweis",
         "text": "Diese Limits sind Richtwerte und nach strengeren Regeln für Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.",
+        "ikona": "⚠️"
+      }
+    ],
+    "cs": [
+      {
+        "id": 1,
+        "typ": "Allemansrätten: Povoleno",
+        "text": "Povoleno na 24h mimo soukromé pozemky. Pouze stání, nikoliv kempování.",
+        "ikona": "🏕️"
+      },
+      {
+        "id": 2,
+        "typ": "Mosty a městské mýto",
+        "text": "Mosty (Motala, Sundsvall) a města (Stockholm, Göteborg) se platí zpětně. Doporučená registrace: https://www.epass24.com",
+        "ikona": "🌉"
+      },
+      {
+        "id": 3,
+        "typ": "Upozornění",
+        "text": "Tyto limity jsou orientační a nastaveny podle přísnějších pravidel pro soupravy. Vždy sledujte lokální dopravní značení a technické limity vašeho vozidla.",
+        "ikona": "⚠️"
+      }
+    ],
+    "hu": [
+      {
+        "id": 1,
+        "typ": "Allemansrätten: Engedélyezett",
+        "text": "24 órán át engedélyezett magánterületen kívül. Csak várakozás, kempingezés nélkül.",
+        "ikona": "🏕️"
+      },
+      {
+        "id": 2,
+        "typ": "Hidak és városi útdíj",
+        "text": "A hidak (Motala, Sundsvall) és városok (Stockholm, Göteborg) díját utólag kell fizetni. Regisztráció: https://www.epass24.com",
+        "ikona": "🌉"
+      },
+      {
+        "id": 3,
+        "typ": "Tájékoztatás",
+        "text": "Ezek a határértékek tájékoztató jellegűek, a járműszerelvényekre vonatkozó szigorúbb szabályokon alapulnak.",
         "ikona": "⚠️"
       }
     ]
@@ -779,6 +1247,46 @@
         "text": "Die Limits sind Richtwerte. Auf engen Straßen und in Tunneln auf Höhen- und Breitenschilder achten.",
         "ikona": "⚠️"
       }
+    ],
+    "cs": [
+      {
+        "id": 1,
+        "typ": "Allemansretten: Povoleno",
+        "text": "Volné kempování je povoleno na 2 noci, alespoň 150m od obydlí. Pozor na lokální zákazy v létě.",
+        "ikona": "🇳🇴"
+      },
+      {
+        "id": 2,
+        "typ": "Důležité: Pásy a Světla",
+        "text": "Celoroční svícení je povinné. Přísné kontroly alkoholu (limit 0,2 promile).",
+        "ikona": "🔦"
+      },
+      {
+        "id": 3,
+        "typ": "Upozornění",
+        "text": "Tyto limity jsou orientační. Na úzkých cestách a v tunelech sledujte specifické značení výšky a šířky.",
+        "ikona": "⚠️"
+      }
+    ],
+    "hu": [
+      {
+        "id": 1,
+        "typ": "Allemansretten: Engedélyezett",
+        "text": "A vadkempingezés 2 éjszakára engedélyezett, legalább 150 méterre a házaktól. Ügyeljen a helyi nyári tilalmakra.",
+        "ikona": "🇳🇴"
+      },
+      {
+        "id": 2,
+        "typ": "Fontos: Övek és világítás",
+        "text": "Egész évben kötelező a világítás. Szigorú alkohollimit (0,2 ezrelék).",
+        "ikona": "🔦"
+      },
+      {
+        "id": 3,
+        "typ": "Tájékoztatás",
+        "text": "Ezek a határértékek tájékoztató jellegűek. Keskeny utakon és alagutakban figyelje a magasság- és szélességkorlátozásokat.",
+        "ikona": "⚠️"
+      }
     ]
   },
   "IS": {
@@ -841,6 +1349,46 @@
         "text": "Mit 'F' gekennzeichnete Straßen sind nur für 4x4-Fahrzeuge. Für Wohnmobile meist gesperrt.",
         "ikona": "🏔️"
       }
+    ],
+    "cs": [
+      {
+        "id": 1,
+        "typ": "Kempování: Přísný zákaz",
+        "text": "Od roku 2015 je divoké kempování s karavanem/autem mimo oficiální kempy přísně zakázáno.",
+        "ikona": "🇮🇸"
+      },
+      {
+        "id": 2,
+        "typ": "Off-road: Zakázáno",
+        "text": "Jízda mimo vyznačené cesty je nelegální a trestaná extrémně vysokými pokutami.",
+        "ikona": "🚫"
+      },
+      {
+        "id": 3,
+        "typ": "Varování: F-Roads",
+        "text": "Cesty označené 'F' jsou určeny pouze pro vozidla 4x4. Pro karavany jsou většinou nepřístupné.",
+        "ikona": "🏔️"
+      }
+    ],
+    "hu": [
+      {
+        "id": 1,
+        "typ": "Kempingezés: Szigorú tilalom",
+        "text": "2015 óta a lakókocsival/autóval történő vadkempingezés a hivatalos kempingeken kívül szigorúan tilos.",
+        "ikona": "🇮🇸"
+      },
+      {
+        "id": 2,
+        "typ": "Off-road: Tilos",
+        "text": "A kijelölt utakon kívüli vezetés illegális, és rendkívül magas bírsággal büntetik.",
+        "ikona": "🚫"
+      },
+      {
+        "id": 3,
+        "typ": "Figyelem: F-Roads",
+        "text": "Az 'F' jelzésű utak csak 4x4-es járművek számára fenntartottak. Lakókocsik számára többnyire járhatatlanok.",
+        "ikona": "🏔️"
+      }
     ]
   },
   "DK": {
@@ -882,7 +1430,35 @@
       {
         "id": 2,
         "typ": "Hinweis",
-        "text": "Diese Limits sind Richtwerte und nach strengeren Regeln for Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.",
+        "text": "Diese Limits sind Richtwerte und nach strengeren Regeln für Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.",
+        "ikona": "⚠️"
+      }
+    ],
+    "cs": [
+      {
+        "id": 1,
+        "typ": "Divoké kempování: Přísný zákaz",
+        "text": "Přísně zakázáno mimo oficiální místa. Hrozí vysoké pokuty.",
+        "ikona": "🚫"
+      },
+      {
+        "id": 2,
+        "typ": "Upozornění",
+        "text": "Tyto limity jsou orientační a nastaveny podle přísnějších pravidel pro soupravy. Vždy sledujte lokální dopravní značení a technické limity vašeho vozidla.",
+        "ikona": "⚠️"
+      }
+    ],
+    "hu": [
+      {
+        "id": 1,
+        "typ": "Vadkempingezés: Szigorú tilalom",
+        "text": "Hivatalos helyeken kívül szigorúan tilos. Magas bírságok várhatóak.",
+        "ikona": "🚫"
+      },
+      {
+        "id": 2,
+        "typ": "Tájékoztatás",
+        "text": "Ezek a határértékek tájékoztató jellegűek, a járműszerelvényekre vonatkozó szigorúbb szabályokon alapulnak.",
         "ikona": "⚠️"
       }
     ]
@@ -929,6 +1505,34 @@
         "text": "Diese Limits sind Richtwerte und nach strengeren Regeln for Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.",
         "ikona": "⚠️"
       }
+    ],
+    "cs": [
+      {
+        "id": 1,
+        "typ": "Wildparken: Zakázáno",
+        "text": "Divoké kempování je zakázáno. Stání na odpočinek tolerováno bez kempovacího chování.",
+        "ikona": "⛔"
+      },
+      {
+        "id": 2,
+        "typ": "Upozornění",
+        "text": "Tyto limity jsou orientační a nastaveny podle přísnějších pravidel pro soupravy. Vždy sledujte lokální dopravní značení a technické limity vašeho vozidla.",
+        "ikona": "⚠️"
+      }
+    ],
+    "hu": [
+      {
+        "id": 1,
+        "typ": "Wildparken: Tilos",
+        "text": "A vadkempingezés tilos. A pihenési célú megállás kempingezési tevékenység nélkül megengedett.",
+        "ikona": "⛔"
+      },
+      {
+        "id": 2,
+        "typ": "Tájékoztatás",
+        "text": "Ezek a határértékek tájékoztató jellegűek, a járműszerelvényekre vonatkozó szigorúbb szabályokon alapulnak.",
+        "ikona": "⚠️"
+      }
     ]
   },
   "BE": {
@@ -940,7 +1544,7 @@
         "ikona": "🚫"
       },
       {
-        "id": 2,
+        "id": 3,
         "typ": "Upozornenie",
         "text": "Tieto limity sú orientačné a nastavené podľa prísnejších pravidiel pre súpravy. Vždy sledujte lokálne dopravné značenie a technické limity vášho vozidla.",
         "ikona": "⚠️"
@@ -954,7 +1558,7 @@
         "ikona": "🚫"
       },
       {
-        "id": 2,
+        "id": 3,
         "typ": "Notice",
         "text": "These limits are indicative and based on stricter rules for vehicle combinations. Always follow local traffic signs and your vehicle's technical limits.",
         "ikona": "⚠️"
@@ -968,9 +1572,37 @@
         "ikona": "🚫"
       },
       {
-        "id": 2,
+        "id": 3,
         "typ": "Hinweis",
         "text": "Diese Limits sind Richtwerte und nach strengeren Regeln for Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.",
+        "ikona": "⚠️"
+      }
+    ],
+    "cs": [
+      {
+        "id": 1,
+        "typ": "Divoké kempování: Zákaz",
+        "text": "Nocování mimo kempy je zakázáno. Některá městská parkoviště zakazují vjezd LPG vozidlům.",
+        "ikona": "🚫"
+      },
+      {
+        "id": 2,
+        "typ": "Upozornění",
+        "text": "Tyto limity jsou orientační a nastaveny podle přísnějších pravidel pro soupravy. Vždy sledujte lokální dopravní značení a technické limity vašeho vozidla.",
+        "ikona": "⚠️"
+      }
+    ],
+    "hu": [
+      {
+        "id": 1,
+        "typ": "Vadkempingezés: Tilos",
+        "text": "Kempingeken kívül az éjszakázás tilos. Egyes városi parkolók tiltják az LPG járművek behajtását.",
+        "ikona": "🚫"
+      },
+      {
+        "id": 2,
+        "typ": "Tájékoztatás",
+        "text": "Ezek a határértékek tájékoztató jellegűek, a járműszerelvényekre vonatkozó szigorúbb szabályokon alapulnak.",
         "ikona": "⚠️"
       }
     ]
@@ -1035,6 +1667,46 @@
         "text": "Diese Limits sind Richtwerte und nach strengeren Regeln for Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.",
         "ikona": "⚠️"
       }
+    ],
+    "cs": [
+      {
+        "id": 1,
+        "typ": "Nadrozměrný náklad",
+        "text": "Povinná tabule V-20. Pokud náklad zabírá celou šířku auta, jsou povinné dvě tabule.",
+        "ikona": "🟥"
+      },
+      {
+        "id": 2,
+        "typ": "Stání vs Kempování",
+        "text": "Stání je povoleno, kempování (stůl, markýza, podpěry) je přísně zakázáno.",
+        "ikona": "🅿️"
+      },
+      {
+        "id": 3,
+        "typ": "Upozornění",
+        "text": "Tyto limity jsou orientační a nastaveny podle přísnějších pravidel pro soupravy. Vždy sledujte lokální dopravní značení a technické limity vašeho vozidla.",
+        "ikona": "⚠️"
+      }
+    ],
+    "hu": [
+      {
+        "id": 1,
+        "typ": "Túlméretes rakomány",
+        "text": "V-20 tábla kötelező. Ha a rakomány a gépkocsi teljes szélességét elfoglalja, két tábla használata kötelező.",
+        "ikona": "🟥"
+      },
+      {
+        "id": 2,
+        "typ": "Várakozás vs Kempingezés",
+        "text": "A várakozás megengedett, de a kempingezés (asztal, előtető, támasztóbakok) szigorúan tilos.",
+        "ikona": "🅿️"
+      },
+      {
+        "id": 3,
+        "typ": "Tájékoztatás",
+        "text": "Ezek a határértékek tájékoztató jellegűek, a járműszerelvényekre vonatkozó szigorúbb szabályokon alapulnak.",
+        "ikona": "⚠️"
+      }
     ]
   },
   "SLO": {
@@ -1077,6 +1749,34 @@
         "id": 2,
         "typ": "Hinweis",
         "text": "Diese Limits sind Richtwerte und nach strengeren Regeln for Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.",
+        "ikona": "⚠️"
+      }
+    ],
+    "cs": [
+      {
+        "id": 1,
+        "typ": "Divoké kempování: Přísný zákaz",
+        "text": "Přísný zákaz nocování v přírodě a na parkovištích (pokuta až 500 €).",
+        "ikona": "🚫"
+      },
+      {
+        "id": 2,
+        "typ": "Upozornění",
+        "text": "Tyto limity jsou orientační a nastaveny podle přísnějších pravidel pro soupravy. Vždy sledujte lokální dopravní značení a technické limity vašeho vozidla.",
+        "ikona": "⚠️"
+      }
+    ],
+    "hu": [
+      {
+        "id": 1,
+        "typ": "Vadkempingezés: Szigorú tilalom",
+        "text": "A természetben és parkolókban történő éjszakázás szigorúan tilos (akár 500 € bírság).",
+        "ikona": "🚫"
+      },
+      {
+        "id": 2,
+        "typ": "Tájékoztatás",
+        "text": "Ezek a határértékek tájékoztató jellegűek, a járműszerelvényekre vonatkozó szigorúbb szabályokon alapulnak.",
         "ikona": "⚠️"
       }
     ]
@@ -1139,6 +1839,46 @@
         "id": 3,
         "typ": "Hinweis",
         "text": "Diese Limits sind Richtwerte und nach strengeren Regeln for Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.",
+        "ikona": "⚠️"
+      }
+    ],
+    "cs": [
+      {
+        "id": 1,
+        "typ": "Nocování mimo kempy: Zákaz",
+        "text": "Nocování ve volné přírodě a na parkovištích je nelegální.",
+        "ikona": "⛔"
+      },
+      {
+        "id": 2,
+        "typ": "Dálniční poplatky!",
+        "text": "Všechny obytné vozy musí mít známku D2. Pokud táhnete přívěs za vozidlem D2, potřebujete pro něj dodatečnou známku U.",
+        "ikona": "⚠️"
+      },
+      {
+        "id": 3,
+        "typ": "Upozornění",
+        "text": "Tyto limity jsou orientační a nastaveny podle přísnějších pravidel pro soupravy. Vždy sledujte lokální dopravní značení a technické limity vašeho vozidla.",
+        "ikona": "⚠️"
+      }
+    ],
+    "hu": [
+      {
+        "id": 1,
+        "typ": "Éjszakázás kempingen kívül: Tilos",
+        "text": "A vadonban és parkolókban történő éjszakázás illegális.",
+        "ikona": "⛔"
+      },
+      {
+        "id": 2,
+        "typ": "Autópályadíjak!",
+        "text": "Minden lakóautónak D2 matricával kell rendelkeznie. Ha D2 kategóriájú járművel utánfutót vontat, ahhoz kiegészítő U matrica szükséges.",
+        "ikona": "⚠️"
+      },
+      {
+        "id": 3,
+        "typ": "Tájékoztatás",
+        "text": "Ezek a határértékek tájékoztató jellegűek, a járműszerelvényekre vonatkozó szigorúbb szabályokon alapulnak.",
         "ikona": "⚠️"
       }
     ]
@@ -1257,6 +1997,82 @@
         "text": "Fahrzeuge der Kategorie N (einschließlich vieler Camper-Vans) müssen mit einem Feuerlöscher ausgestattet sein (2kg für N1, 6kg für größere Fahrzeuge).",
         "ikona": "🧯"
       }
+    ],
+    "cs": [
+      {
+        "id": 1,
+        "typ": "Wildcamping: Přísný zákaz",
+        "text": "Přísně trestáno zejména u moře a v národních parcích. Pokuty až do cca 400 €.",
+        "ikona": "🚫"
+      },
+      {
+        "id": 2,
+        "typ": "Varování: Brýle",
+        "text": "Pokud nosíte brýle, je povinné mít v autě jeden kompletní náhradní pár.",
+        "ikona": "👓"
+      },
+      {
+        "id": 3,
+        "typ": "Upozornění",
+        "text": "Tyto limity jsou orientační a nastaveny podle přísnějších pravidel pro soupravy. Vždy sledujte lokální dopravní značení a technické limity vašeho vozidla.",
+        "ikona": "⚠️"
+      },
+      {
+        "id": 4,
+        "typ": "Zákaz nocování",
+        "text": "Přísný zákaz přenocování v karavanu/autě mimo oficiální kempy. Týká se to i soukromých pozemků a parkovišť. Pokuty jsou vysoké a kontroly jsou aktivní zejména v noci u pobřeží.",
+        "ikona": "🚫"
+      },
+      {
+        "id": 5,
+        "typ": "Upozornění: Silný vítr (Bóra)",
+        "text": "Při silném větru (Bóra) bývají dálnice a mosty (Krk, Pag) pro karavany a vysoká vozidla zcela uzavřeny. Sledujte světelné tabule a při silném větru raději jízdu přerušte na bezpečném místě.",
+        "ikona": "💨"
+      },
+      {
+        "id": 6,
+        "typ": "Hasicí přístroj",
+        "text": "Vozidla kategorie N (často i obytné dodávky) musí být povinně vybavena hasicím přístrojem (2 kg pro N1, 6 kg pro větší vozidla).",
+        "ikona": "🧯"
+      }
+    ],
+    "hu": [
+      {
+        "id": 1,
+        "typ": "Vadkempingezés: Szigorú tilalom",
+        "text": "Szigorúan büntetik, különösen a tengerparton és a nemzeti parkokban. A bírság akár 400 € is lehet.",
+        "ikona": "🚫"
+      },
+      {
+        "id": 2,
+        "typ": "Figyelem: Szemüveg",
+        "text": "Ha szemüveget visel, kötelező egy teljes készlet tartalék szemüveget tartani az autóban.",
+        "ikona": "👓"
+      },
+      {
+        "id": 3,
+        "typ": "Tájékoztatás",
+        "text": "Ezek a határértékek tájékoztató jellegűek, a járműszerelvényekre vonatkozó szigorúbb szabályokon alapulnak.",
+        "ikona": "⚠️"
+      },
+      {
+        "id": 4,
+        "typ": "Éjszakázási tilalom",
+        "text": "Szigorúan tilos lakókocsiban/autóban éjszakázni a hivatalos kempingeken kívül. Ez a magánterületekre és parkolókra is vonatkozik. A bírságok magasak, és az ellenőrök különösen éjszaka aktívak a part mentén.",
+        "ikona": "🚫"
+      },
+      {
+        "id": 5,
+        "typ": "Figyelem: Erős szél (Bóra)",
+        "text": "Erős szél (Bóra) esetén az autópályákat és hidakat (Krk, Pag) teljesen lezárják a lakókocsik és magas járművek előtt. Figyelje a fényjelző táblákat, és erős szélben szakítsa meg az utat egy biztonságos helyen.",
+        "ikona": "💨"
+      },
+      {
+        "id": 6,
+        "typ": "Tűzoltó készülék",
+        "text": "Az N kategóriájú járműveket (gyakran a lakóautókat is) kötelező tűzoltó készülékkel felszerelni (2 kg az N1, 6 kg a nagyobb járművek esetén).",
+        "ikona": "🧯"
+      }
     ]
   },
   "GR": {
@@ -1299,6 +2115,34 @@
         "id": 2,
         "typ": "Hinweis",
         "text": "Diese Limits sind Richtwerte und nach strengeren Regeln for Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.",
+        "ikona": "⚠️"
+      }
+    ],
+    "cs": [
+      {
+        "id": 1,
+        "typ": "Divoké kempování: Nelegální",
+        "text": "Oficiálně zakázáno, mimo sezónu v odlehlých oblastech někdy tolerováno.",
+        "ikona": "⚠️"
+      },
+      {
+        "id": 2,
+        "typ": "Upozornění",
+        "text": "Tyto limity jsou orientační a nastaveny podle přísnějších pravidel pro soupravy. Vždy sledujte lokální dopravní značení a technické limity vašeho vozidla.",
+        "ikona": "⚠️"
+      }
+    ],
+    "hu": [
+      {
+        "id": 1,
+        "typ": "Vadkempingezés: Illegális",
+        "text": "Hivatalosan tilos; a szezonon kívül a távoli területeken néha tolerálják.",
+        "ikona": "⚠️"
+      },
+      {
+        "id": 2,
+        "typ": "Tájékoztatás",
+        "text": "Ezek a határértékek tájékoztató jellegűek, a járműszerelvényekre vonatkozó szigorúbb szabályokon alapulnak.",
         "ikona": "⚠️"
       }
     ]
@@ -1345,6 +2189,34 @@
         "text": "Diese Limits sind Richtwerte und nach strengeren Regeln for Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.",
         "ikona": "⚠️"
       }
+    ],
+    "cs": [
+      {
+        "id": 1,
+        "typ": "Mimo kempy: Zákaz",
+        "text": "Nocování ve volné přírodě je zakázáno. Používejte oficiální kempy.",
+        "ikona": "🚫"
+      },
+      {
+        "id": 2,
+        "typ": "Upozornění",
+        "text": "Tyto limity jsou orientační a nastaveny podle přísnějších pravidel pro soupravy. Vždy sledujte lokální dopravní značení a technické limity vašeho vozidla.",
+        "ikona": "⚠️"
+      }
+    ],
+    "hu": [
+      {
+        "id": 1,
+        "typ": "Kempingen kívül: Tilos",
+        "text": "A szabadban történő éjszakázás tilos. Használja a hivatalos kempingeket.",
+        "ikona": "🚫"
+      },
+      {
+        "id": 2,
+        "typ": "Tájékoztatás",
+        "text": "Ezek a határértékek tájékoztató jellegűek, a járműszerelvényekre vonatkozó szigorúbb szabályokon alapulnak.",
+        "ikona": "⚠️"
+      }
     ]
   },
   "BiH": {
@@ -1387,6 +2259,34 @@
         "id": 2,
         "typ": "Hinweis",
         "text": "Diese Limits sind Richtwerte und nach strengeren Regeln for Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.",
+        "ikona": "⚠️"
+      }
+    ],
+    "cs": [
+      {
+        "id": 1,
+        "typ": "Mimo kempy: Riziko/Zákaz",
+        "text": "Zákaz kempování a riziko nevybuchlých min v odlehlých oblastech!",
+        "ikona": "💣"
+      },
+      {
+        "id": 2,
+        "typ": "Upozornění",
+        "text": "Tyto limity jsou orientační a nastaveny podle přísnějších pravidel pro soupravy. Vždy sledujte lokální dopravní značení a technické limity vašeho vozidla.",
+        "ikona": "⚠️"
+      }
+    ],
+    "hu": [
+      {
+        "id": 1,
+        "typ": "Kempingen kívül: Kockázat/Tilalom",
+        "text": "A kempingezés tilos, és a távoli területeken fel nem robbant aknák veszélye áll fenn!",
+        "ikona": "💣"
+      },
+      {
+        "id": 2,
+        "typ": "Tájékoztatás",
+        "text": "Ezek a határértékek tájékoztató jellegűek, a járműszerelvényekre vonatkozó szigorúbb szabályokon alapulnak.",
         "ikona": "⚠️"
       }
     ]
@@ -1433,6 +2333,34 @@
         "text": "Diese Limits sind Richtwerte und nach strengeren Regeln for Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.",
         "ikona": "⚠️"
       }
+    ],
+    "cs": [
+      {
+        "id": 1,
+        "typ": "Divoké kempování: Zákaz",
+        "text": "Zákaz na plážích, v národních parcích a ve volné přírodě.",
+        "ikona": "⛔"
+      },
+      {
+        "id": 2,
+        "typ": "Upozornění",
+        "text": "Tyto limity jsou orientační a nastaveny podle přísnějších pravidel pro soupravy. Vždy sledujte lokální dopravní značení a technické limity vašeho vozidla.",
+        "ikona": "⚠️"
+      }
+    ],
+    "hu": [
+      {
+        "id": 1,
+        "typ": "Vadkempingezés: Tilos",
+        "text": "Tilos a strandokon, a nemzeti parkokban és a szabad természetben.",
+        "ikona": "⛔"
+      },
+      {
+        "id": 2,
+        "typ": "Tájékoztatás",
+        "text": "Ezek a határértékek tájékoztató jellegűek, a járműszerelvényekre vonatkozó szigorúbb szabályokon alapulnak.",
+        "ikona": "⚠️"
+      }
     ]
   },
   "ALB": {
@@ -1475,6 +2403,34 @@
         "id": 2,
         "typ": "Hinweis",
         "text": "Diese Limits sind Richtwerte und nach strengeren Regeln for Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.",
+        "ikona": "⚠️"
+      }
+    ],
+    "cs": [
+      {
+        "id": 1,
+        "typ": "Divoké kempování: Tolerováno",
+        "text": "Tolerance je vysoká, ale buďte ohleduplní k přírodě a místním.",
+        "ikona": "👍"
+      },
+      {
+        "id": 2,
+        "typ": "Upozornění",
+        "text": "Tyto limity jsou orientační a nastaveny podle přísnějších pravidel pro soupravy. Vždy sledujte lokální dopravní značení a technické limity vašeho vozidla.",
+        "ikona": "⚠️"
+      }
+    ],
+    "hu": [
+      {
+        "id": 1,
+        "typ": "Vadkempingezés: Tolerált",
+        "text": "A tolerancia magas, de legyen tekintettel a természetre és a helyiekre.",
+        "ikona": "👍"
+      },
+      {
+        "id": 2,
+        "typ": "Tájékoztatás",
+        "text": "Ezek a határértékek tájékoztató jellegűek, a járműszerelvényekre vonatkozó szigorúbb szabályokon alapulnak.",
         "ikona": "⚠️"
       }
     ]
@@ -1575,6 +2531,70 @@
         "text": "In Prag gelten blaue Zonen für Anwohner. Das Parken von Wohnmobilen im erweiterten Stadtzentrum ist fast unmöglich; nutzen Sie stattdessen P+R-Parkplätze oder offizielle Campingplätze (z. B. im Stadtteil Troja).",
         "ikona": "🅿️"
       }
+    ],
+    "cs": [
+      {
+        "id": 1,
+        "typ": "Mýto a známka",
+        "text": "Vozidla do 3,5t potřebují e-známku. Nad 3,5t se platí mýto přes palubní jednotku MytoCZ.",
+        "ikona": "🛣️"
+      },
+      {
+        "id": 2,
+        "typ": "Alkohol",
+        "text": "V Česku platí nulová tolerance alkoholu za volantem.",
+        "ikona": "🍷"
+      },
+      {
+        "id": 3,
+        "typ": "Reflexní vesty",
+        "text": "Vesta je povinná pro každého, kdo opouští vozidlo během poruchy na silnici. Při jízdě s přívěsem musí být v autě náhradní žárovky a pojistky.",
+        "ikona": "🦺"
+      },
+      {
+        "id": 4,
+        "typ": "Upozornění",
+        "text": "Tyto limity jsou orientační a nastaveny podle přísnějších pravidel pro soupravy. Vždy sledujte lokální dopravní značení a technické limity vašeho vozidla.",
+        "ikona": "⚠️"
+      },
+      {
+        "id": 5,
+        "typ": "Omezení: Parkovací zóny Praha",
+        "text": "V Praze platí modré zóny pro rezidenty. Karavany mají parkování v širším centru téměř znemožněno; využijte raději záchytná parkoviště P+R nebo oficiální kempy (např. v Troji).",
+        "ikona": "🅿️"
+      }
+    ],
+    "hu": [
+      {
+        "id": 1,
+        "typ": "Útdíj és matrica",
+        "text": "3,5 tonnáig e-matrica szükséges. 3,5 tonna felett útdíjat kell fizetni a MytoCZ fedélzeti egységen keresztül.",
+        "ikona": "🛣️"
+      },
+      {
+        "id": 2,
+        "typ": "Alkohol",
+        "text": "Csehországban zéró tolerancia van érvényben az alkoholos befolyásoltsággal szemben.",
+        "ikona": "🍷"
+      },
+      {
+        "id": 3,
+        "typ": "Láthatósági mellény",
+        "text": "Mindenki számára kötelező a mellény, aki meghibásodás esetén kiszáll a járműből. Utánfutóval való közlekedéskor pótalkatrészeket (izzók, biztosítékok) kell tartani az autóban.",
+        "ikona": "🦺"
+      },
+      {
+        "id": 4,
+        "typ": "Tájékoztatás",
+        "text": "Ezek a határértékek tájékoztató jellegűek, a járműszerelvényekre vonatkozó szigorúbb szabályokon alapulnak.",
+        "ikona": "⚠️"
+      },
+      {
+        "id": 5,
+        "typ": "Korlátozás: Prágai parkolási zónák",
+        "text": "Prágában a lakosok számára fenntartott kék zónák érvényesek. A lakóautók parkolása a tágabb városközpontban szinte lehetetlen; használja inkább a P+R parkolókat vagy a hivatalos kempingeket (pl. Troja).",
+        "ikona": "🅿️"
+      }
     ]
   },
   "PT": {
@@ -1653,6 +2673,58 @@
         "id": 4,
         "typ": "Hinweis",
         "text": "Diese Limits sind Richtwerte und nach strengeren Regeln für Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.",
+        "ikona": "⚠️"
+      }
+    ],
+    "cs": [
+      {
+        "id": 1,
+        "typ": "Platba mýta",
+        "text": "Mnoho dálnic má výhradně elektronické mýtné. Doporučuje se zařízení Via Verde.",
+        "ikona": "💳"
+      },
+      {
+        "id": 2,
+        "typ": "Nocování",
+        "text": "Divoké kempování je zakázáno. Povoleno je pouze na vyhrazených místech (AS) na max. 48 h.",
+        "ikona": "🚫"
+      },
+      {
+        "id": 3,
+        "typ": "Kamery",
+        "text": "Používání palubních kamer (dashcam) je v Portugalsku právní šedou zónou, pozor na soukromí.",
+        "ikona": "📷"
+      },
+      {
+        "id": 4,
+        "typ": "Upozornění",
+        "text": "Tyto limity jsou orientační a nastaveny podle přísnějších pravidel pro soupravy. Vždy sledujte lokální dopravní značení a technické limity vašeho vozidla.",
+        "ikona": "⚠️"
+      }
+    ],
+    "hu": [
+      {
+        "id": 1,
+        "typ": "Útdíj fizetés",
+        "text": "Sok autópályán kizárólag elektronikus útdíj van. Via Verde eszköz használata javasolt.",
+        "ikona": "💳"
+      },
+      {
+        "id": 2,
+        "typ": "Éjszakázás",
+        "text": "A vadkempingezés tilos. Csak kijelölt helyeken (AS) engedélyezett, maximum 48 órára.",
+        "ikona": "🚫"
+      },
+      {
+        "id": 3,
+        "typ": "Menetrögzítők",
+        "text": "A fedélzeti kamerák használata Portugáliában jogi szürke zóna, ügyeljen a személyiségi jogokra.",
+        "ikona": "📷"
+      },
+      {
+        "id": 4,
+        "typ": "Tájékoztatás",
+        "text": "Ezek a határértékek tájékoztató jellegűek, a járműszerelvényekre vonatkozó szigorúbb szabályokon alapulnak.",
         "ikona": "⚠️"
       }
     ]
@@ -1753,6 +2825,70 @@
         "text": "Diese Limits sind Richtwerte und nach strengeren Regeln für Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.",
         "ikona": "⚠️"
       }
+    ],
+    "cs": [
+      {
+        "id": 1,
+        "typ": "Divoké kempování",
+        "text": "Oficiálně zakázáno, ale v přírodě mimo národní parky a pláže často tolerováno.",
+        "ikona": "🚐"
+      },
+      {
+        "id": 2,
+        "typ": "Rovinieta",
+        "text": "Pro všechny kategorie vozidel je povinná elektronická známka (Rovinieta).",
+        "ikona": "🇷🇴"
+      },
+      {
+        "id": 3,
+        "typ": "Stav silnic",
+        "text": "Mimo hlavní tahy mohou být silnice v horším stavu. Pozor na toulavá zvířata.",
+        "ikona": "🐾"
+      },
+      {
+        "id": 4,
+        "typ": "Hasicí přístroj",
+        "text": "Povinnou výbavou jsou dva výstražné trojúhelníky a hasicí přístroj.",
+        "ikona": "🧯"
+      },
+      {
+        "id": 2,
+        "typ": "Upozornění",
+        "text": "Tyto limity jsou orientační a nastaveny podle přísnějších pravidel pro soupravy. Vždy sledujte lokální dopravní značení a technické limity vašeho vozidla.",
+        "ikona": "⚠️"
+      }
+    ],
+    "hu": [
+      {
+        "id": 1,
+        "typ": "Vadkempingezés",
+        "text": "Hivatalosan tilos, de a természetben, a nemzeti parkokon és strandokon kívül gyakran tolerálják.",
+        "ikona": "🚐"
+      },
+      {
+        "id": 2,
+        "typ": "Rovinieta",
+        "text": "Minden járműkategória számára kötelező az elektronikus matrica (Rovinieta).",
+        "ikona": "🇷🇴"
+      },
+      {
+        "id": 3,
+        "typ": "Útviszonyok",
+        "text": "A főutakon kívül az utak állapota rosszabb lehet. Vigyázzon a kóbor állatokra.",
+        "ikona": "🐾"
+      },
+      {
+        "id": 4,
+        "typ": "Tűzoltó készülék",
+        "text": "A kötelező felszerelés része két elakadásjelző háromszög és egy tűzoltó készülék.",
+        "ikona": "🧯"
+      },
+      {
+        "id": 5,
+        "typ": "Tájékoztatás",
+        "text": "Ezek a határértékek tájékoztató jellegűek, a járműszerelvényekre vonatkozó szigorúbb szabályokon alapulnak.",
+        "ikona": "⚠️"
+      }
     ]
   },
   "BG": {
@@ -1849,6 +2985,70 @@
         "id": 5,
         "typ": "Hinweis",
         "text": "Diese Limits sind Richtwerte und nach strengeren Regeln für Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.",
+        "ikona": "⚠️"
+      }
+    ],
+    "cs": [
+      {
+        "id": 1,
+        "typ": "Divoké kempování",
+        "text": "Přísně zakázáno, zejména v blízkosti pláží a v chráněných územích. Hrozí vysoké pokuty.",
+        "ikona": "🚫"
+      },
+      {
+        "id": 2,
+        "typ": "E-Vignette",
+        "text": "Pro všechna vozidla do 3,5t je povinná e-známka. Nad 3,5t se platí mýto (BG Toll).",
+        "ikona": "🇧🇬"
+      },
+      {
+        "id": 3,
+        "typ": "Světla",
+        "text": "Celoroční svícení potkávacími světly je povinné.",
+        "ikona": "💡"
+      },
+      {
+        "id": 4,
+        "typ": "Bezpečnost",
+        "text": "Doporučuje se parkovat na hlídaných parkovištích nebo v kempech.",
+        "ikona": "🔒"
+      },
+      {
+        "id": 5,
+        "typ": "Upozornění",
+        "text": "Tyto limity jsou orientační a nastaveny podle přísnějších pravidel pro soupravy. Vždy sledujte lokální dopravní značení a technické limity vašeho vozidla.",
+        "ikona": "⚠️"
+      }
+    ],
+    "hu": [
+      {
+        "id": 1,
+        "typ": "Vadkempingezés",
+        "text": "Szigorúan tilos, különösen a strandok közelében és a védett területeken. Magas bírságok várhatók.",
+        "ikona": "🚫"
+      },
+      {
+        "id": 2,
+        "typ": "E-matrica",
+        "text": "Minden 3,5 tonna alatti járműnek kötelező az e-matrica. 3,5 tonna felett útdíjat kell fizetni (BG Toll).",
+        "ikona": "🇧🇬"
+      },
+      {
+        "id": 3,
+        "typ": "Világítás",
+        "text": "Egész évben kötelező a tompított fényszóró használata.",
+        "ikona": "💡"
+      },
+      {
+        "id": 4,
+        "typ": "Biztonság",
+        "text": "Javasolt őrzött parkolókban vagy kempingekben parkolni.",
+        "ikona": "🔒"
+      },
+      {
+        "id": 5,
+        "typ": "Tájékoztatás",
+        "text": "Ezek a határértékek tájékoztató jellegűek, a járműszerelvényekre vonatkozó szigorúbb szabályokon alapulnak.",
         "ikona": "⚠️"
       }
     ]
@@ -1949,6 +3149,70 @@
         "text": "Diese Limits sind Richtwerte und nach strengeren Regeln für Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.",
         "ikona": "⚠️"
       }
+    ],
+    "cs": [
+      {
+        "id": 1,
+        "typ": "Divoké kempování",
+        "text": "Povoleno na státních pozemcích a určených místech RMK, pokud není uvedeno jinak.",
+        "ikona": "🌲"
+      },
+      {
+        "id": 2,
+        "typ": "Mýto pro nákladní",
+        "text": "Vozidla nad 3,5t platí silniční poplatek podle času. Do 3,5t je jízda zdarma.",
+        "ikona": "🇪🇪"
+      },
+      {
+        "id": 3,
+        "typ": "Příroda",
+        "text": "Kempování ve státních lesích (RMK) je povoleno na určených bezplatných místech.",
+        "ikona": "🌲"
+      },
+      {
+        "id": 4,
+        "typ": "Zvěř",
+        "text": "Vysoké riziko kolize s losy, zejména za úsvitu a soumraku.",
+        "ikona": "🦌"
+      },
+      {
+        "id": 5,
+        "typ": "Upozornění",
+        "text": "Tyto limity jsou orientační a nastaveny podle přísnějších pravidel pro soupravy. Vždy sledujte lokální dopravní značení a technické limity vašeho vozidla.",
+        "ikona": "⚠️"
+      }
+    ],
+    "hu": [
+      {
+        "id": 1,
+        "typ": "Vadkempingezés",
+        "text": "Állami földeken és a kijelölt RMK-helyeken engedélyezett, hacsak másként nincs jelezve.",
+        "ikona": "🌲"
+      },
+      {
+        "id": 2,
+        "typ": "Úthasználati díj",
+        "text": "A 3,5 tonna feletti járművek időalapú díjat fizetnek. 3,5 tonna alatt az úthasználat ingyenes.",
+        "ikona": "🇪🇪"
+      },
+      {
+        "id": 3,
+        "typ": "Természet",
+        "text": "Az állami erdőkben (RMK) a kijelölt ingyenes helyeken megengedett a kempingezés.",
+        "ikona": "🌲"
+      },
+      {
+        "id": 4,
+        "typ": "Vadvilág",
+        "text": "A jávorszarvasokkal való ütközés kockázata magas, különösen hajnalban és szürkületkor.",
+        "ikona": "🦌"
+      },
+      {
+        "id": 5,
+        "typ": "Tájékoztatás",
+        "text": "Ezek a határértékek tájékoztató jellegűek, a járműszerelvényekre vonatkozó szigorúbb szabályokon alapulnak.",
+        "ikona": "⚠️"
+      }
     ]
   },
   "LV": {
@@ -2047,6 +3311,70 @@
         "text": "Diese Limits sind Richtwerte und nach strengeren Regeln für Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.",
         "ikona": "⚠️"
       }
+    ],
+    "cs": [
+      {
+        "id": 1,
+        "typ": "Divoké kempování",
+        "text": "Povoleno mimo soukromé pozemky, národní parky a pláže. Vždy hledejte značení.",
+        "ikona": "🚐"
+      },
+      {
+        "id": 2,
+        "typ": "Eurovignette",
+        "text": "Povinná pro vozidla nad 3,0t na hlavních tazích. Do 3t je zdarma.",
+        "ikona": "🇱🇻"
+      },
+      {
+        "id": 3,
+        "typ": "Jūrmala",
+        "text": "Vjezd do oblasti Jūrmala je v sezóně zpoplatněn speciálním poplatkem.",
+        "ikona": "🏖️"
+      },
+      {
+        "id": 4,
+        "typ": "Pneumatiky",
+        "text": "Zimní pneumatiky jsou povinné od 1. prosince do 1. března.",
+        "ikona": "❄️"
+      },
+      {
+        "id": 5,
+        "typ": "Upozornění",
+        "text": "Tyto limity jsou orientační a nastaveny podle přísnějších pravidel pro soupravy. Vždy sledujte lokální dopravní značení a technické limity vašeho vozidla.",
+        "ikona": "⚠️"
+      }
+    ],
+    "hu": [
+      {
+        "id": 1,
+        "typ": "Vadkempingezés",
+        "text": "Magánterületen, nemzeti parkokon és strandokon kívül engedélyezett. Mindig keresse a jelzéseket.",
+        "ikona": "🚐"
+      },
+      {
+        "id": 2,
+        "typ": "Eurovignette",
+        "text": "A főutakon a 3,0 tonna feletti járművek számára kötelező. 3 tonna alatt ingyenes.",
+        "ikona": "🇱🇻"
+      },
+      {
+        "id": 3,
+        "typ": "Jūrmala",
+        "text": "A Jūrmala területére való belépés a szezonban külön díjköteles.",
+        "ikona": "🏖️"
+      },
+      {
+        "id": 4,
+        "typ": "Gumiabroncsok",
+        "text": "A téli gumiabroncsok használata december 1. és március 1. között kötelező.",
+        "ikona": "❄️"
+      },
+      {
+        "id": 5,
+        "typ": "Tájékoztatás",
+        "text": "Ezek a határértékek tájékoztató jellegűek, a járműszerelvényekre vonatkozó szigorúbb szabályokon alapulnak.",
+        "ikona": "⚠️"
+      }
     ]
   },
   "LT": {
@@ -2136,13 +3464,77 @@
       {
         "id": 4,
         "typ": "Dashcam",
-        "text": "Dashcams sind erlaubt, die Veröffentlichung von Gesichtern jedoch illegal.",
+        "text": "Dashcams are allowed, but publishing footage with visible faces is illegal.",
         "ikona": "🎞️"
       },
       {
         "id": 5,
         "typ": "Hinweis",
         "text": "Diese Limits sind Richtwerte und nach strengeren Regeln für Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.",
+        "ikona": "⚠️"
+      }
+    ],
+    "cs": [
+      {
+        "id": 1,
+        "typ": "Divoké kempování",
+        "text": "Obecně povoleno na jednu noc mimo města a soukromé pozemky, pokud není zákaz.",
+        "ikona": "🌲"
+      },
+      {
+        "id": 2,
+        "typ": "Vinjetė",
+        "text": "Vozidla nad 3,5t (kategorie M2, M3, N1-N3) musí mít e-známku.",
+        "ikona": "🇱🇹"
+      },
+      {
+        "id": 3,
+        "typ": "Písečné duny",
+        "text": "Na Kurské kose platí přísná pravidla pro pohyb vozidel a mýto za vjezd.",
+        "ikona": "🏜️"
+      },
+      {
+        "id": 4,
+        "typ": "Dashcam",
+        "text": "Palubní kamery jsou povoleny, ale zveřejňování záznamu s tvářemi je nelegální.",
+        "ikona": "🎞️"
+      },
+      {
+        "id": 5,
+        "typ": "Upozornění",
+        "text": "Tyto limity jsou orientační a nastaveny podle přísnějších pravidel pro soupravy. Vždy sledujte lokální dopravní značení a technické limity vašeho vozidla.",
+        "ikona": "⚠️"
+      }
+    ],
+    "hu": [
+      {
+        "id": 1,
+        "typ": "Vadkempingezés",
+        "text": "Városokon és magánterületeken kívül általában egy éjszakára engedélyezett, hacsak nem tilos.",
+        "ikona": "🌲"
+      },
+      {
+        "id": 2,
+        "typ": "Vinjetė",
+        "text": "A 3,5 tonna feletti járműveknek (M2, M3, N1-N3 kategória) e-matricával kell rendelkezniük.",
+        "ikona": "🇱🇹"
+      },
+      {
+        "id": 3,
+        "typ": "Homokdűnék",
+        "text": "A Kur-földnyelven szigorú közlekedési szabályok és belépési díj van érvényben.",
+        "ikona": "🏜️"
+      },
+      {
+        "id": 4,
+        "typ": "Dashcam",
+        "text": "A fedélzeti kamerák használata megengedett, de az arcokat tartalmazó felvételek közzététele illegális.",
+        "ikona": "🎞️"
+      },
+      {
+        "id": 5,
+        "typ": "Tájékoztatás",
+        "text": "Ezek a határértékek tájékoztató jellegűek, a járműszerelvényekre vonatkozó szigorúbb szabályokon alapulnak.",
         "ikona": "⚠️"
       }
     ]
@@ -2241,6 +3633,70 @@
         "id": 5,
         "typ": "Hinweis",
         "text": "Diese Limits sind Richtwerte und nach strengeren Regeln für Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.",
+        "ikona": "⚠️"
+      }
+    ],
+    "cs": [
+      {
+        "id": 1,
+        "typ": "Divoké kempování",
+        "text": "Přísně zakázáno na celém území státu. Parkování v noci je povoleno pouze na P+R nebo v kempech.",
+        "ikona": "🚫"
+      },
+      {
+        "id": 2,
+        "typ": "Bezplatné cesty",
+        "text": "Dálnice v Lucembursku jsou pro vozidla do 12t bezplatné.",
+        "ikona": "🇱🇺"
+      },
+      {
+        "id": 3,
+        "typ": "Palivo",
+        "text": "Ceny paliv jsou zde často nižší než v okolních státech. Čerpací stanice bývají velmi vytížené.",
+        "ikona": "⛽"
+      },
+      {
+        "id": 4,
+        "typ": "Parkování",
+        "text": "Parkování s karavanem v Lucemburku je velmi omezené, doporučuje se využít parkoviště P+R.",
+        "ikona": "🅿️"
+      },
+      {
+        "id": 5,
+        "typ": "Upozornění",
+        "text": "Tyto limity jsou orientační a nastaveny podle přísnějších pravidel pro soupravy. Vždy sledujte lokální dopravní značení a technické limity vašeho vozidla.",
+        "ikona": "⚠️"
+      }
+    ],
+    "hu": [
+      {
+        "id": 1,
+        "typ": "Vadkempingezés",
+        "text": "Az ország egész területén szigorúan tilos. Az éjszakai parkolás csak P+R parkolókban vagy kempingekben engedélyezett.",
+        "ikona": "🚫"
+      },
+      {
+        "id": 2,
+        "typ": "Díjmentes utak",
+        "text": "Luxemburgban az autópályák használata a 12 tonna alatti járművek számára ingyenes.",
+        "ikona": "🇱🇺"
+      },
+      {
+        "id": 3,
+        "typ": "Üzemanyag",
+        "text": "Az üzemanyagárak itt gyakran alacsonyabbak, mint a szomszédos országokban. A töltőállomások rendkívül forgalmasak.",
+        "ikona": "⛽"
+      },
+      {
+        "id": 4,
+        "typ": "Parkolás",
+        "text": "A lakókocsival való parkolás Luxemburg városában nagyon korlátozott; javasolt a P+R parkolók használata.",
+        "ikona": "🅿️"
+      },
+      {
+        "id": 5,
+        "typ": "Tájékoztatás",
+        "text": "Ezek a határértékek tájékoztató jellegűek, a járműszerelvényekre vonatkozó szigorúbb szabályokon alapulnak.",
         "ikona": "⚠️"
       }
     ]
