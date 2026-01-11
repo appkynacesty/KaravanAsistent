@@ -2497,129 +2497,191 @@
     }
   },
   "vignetteLinks": {
-    "SK": {
-      "<= 3.5t": "https://eznamka.sk/",
-      "> 3.5t": "https://eznamka.sk/"
-    },
-    "AT": {
-      "<= 3.5t": "https://shop.asfinag.at/",
-      "> 3.5t": "https://go-maut.at/go-maut/"
-    },
-    "DE": {
-      "<= 3.5t": "Free",
-      "> 3.5t": "Oslobodené (kat. M1)"
-    },
-    "CH": {
-      "<= 3.5t": "https://via.admin.ch/shop/dashboard",
-      "> 3.5t": "https://via.admin.ch/shop/dashboard"
-    },
-    "FR": {
-      "<= 3.5t": "https://www.sanef.com",
-      "> 3.5t": "https://www.sanef.com"
-    },
-    "IT": {
-      "<= 3.5t": "https://www.autostrade.it/en/home",
-      "> 3.5t": "https://www.autostrade.it/en/home"
-    },
-    "PL": {
-      "<= 3.5t": "https://etoll.gov.pl/en/",
-      "> 3.5t": "https://etoll.gov.pl/en/"
-    },
-    "FI": {
-      "<= 3.5t": "www.free.eu",
-      "> 3.5t": "www.free.eu"
-    },
-    "SE": {
-      "<= 3.5t": "free",
-      "> 3.5t": "free"
-    },
-    "NO": {
-      "<= 3.5t": "https://www.autopass.no",
-      "> 3.5t": "https://www.autopass.no"
-    },
-    "IS": {
-      "<= 3.5t": "free",
-      "> 3.5t": "free"
-    },
-    "DK": {
-      "<= 3.5t": "free",
-      "> 3.5t": "free"
-    },
-    "NL": {
-      "<= 3.5t": "free",
-      "> 3.5t": "free"
-    },
-    "BE": {
-      "<= 3.5t": "free",
-      "> 3.5t": "https://www.viapass.be"
-    },
-    "ES": {
-      "<= 3.5t": "https://www.mitma.gob.es",
-      "> 3.5t": "https://www.mitma.gob.es"
-    },
-    "SLO": {
-      "<= 3.5t": "https://evinjeta.dars.si",
-      "> 3.5t": "https://darsgo.si"
-    },
-    "HU": {
-      "<= 3.5t": "https://nemzetiutdij.hu",
-      "> 3.5t": "https://hu-go.hu"
-    },
-    "HR": {
-      "<= 3.5t": "https://hac.hr",
-      "> 3.5t": "https://hac.hr"
-    },
-    "GR": {
-      "<= 3.5t": "https://www.egnatia.eu",
-      "> 3.5t": "https://www.egnatia.eu"
-    },
-    "SRB": {
-      "<= 3.5t": "https://www.putevi-srbije.rs",
-      "> 3.5t": "https://www.putevi-srbije.rs"
-    },
-    "BiH": {
-      "<= 3.5t": "https://www.jpautoceste.ba",
-      "> 3.5t": "https://www.jpautoceste.ba"
-    },
-    "MNE": {
-      "<= 3.5t": "https://monteput.me",
-      "> 3.5t": "https://monteput.me"
-    },
-    "ALB": {
-      "<= 3.5t": "https://arrsh.gov.al",
-      "> 3.5t": "https://arrsh.gov.al"
-    },
-    "CZ": {
-      "<= 3.5t": "https://edalnice.cz",
-      "> 3.5t": "https://mytocz.eu"
-    },
-    "PT": {
-      "<= 3.5t": "https://www.portugaltolls.com",
-      "> 3.5t": "https://www.viaverde.pt"
-    },
-    "RO": {
-      "<= 3.5t": "https://www.roviniete.ro",
-      "> 3.5t": "https://www.roviniete.ro"
-    },
-    "BG": {
-      "<= 3.5t": "https://www.bgtoll.bg",
-      "> 3.5t": "https://www.bgtoll.bg"
-    },
-    "EE": {
-      "<= 3.5t": "free",
-      "> 3.5t": "https://www.roadtoll.ee"
-    },
-    "LV": {
-      "<= 3.5t": "free",
-      "> 3.5t": "https://www.lvvignette.eu"
-    },
-    "LT": {
-      "<= 3.5t": "free",
-      "> 3.5t": "https://keliumokestis.lt"
-    },
-    "LU": {
-      "<= 3.5t": "free",
-      "> 3.5t": "https://www.eurovignettes.eu"
-    }
+"SK": {
+    "<= 3.5t": "https://eznamka.sk/",
+    "m1_under_35t": "https://eznamka.sk/",
+    "n1_over_35t": "https://eznamka.sk/",
+    "car_trailer_over_35t": "https://eznamka.sk/"
+  },
+  "AT": {
+    "<= 3.5t": "https://shop.asfinag.at/",
+    "m1_under_35t": "https://shop.asfinag.at/",
+    "n1_over_35t": "https://go-maut.at/go-maut/",
+    "car_trailer_over_35t": "https://shop.asfinag.at/"
+  },
+  "DE": {
+    "<= 3.5t": "Free",
+    "m1_under_35t": "Free",
+    "n1_over_35t": "Oslobodené (kat. M1)",
+    "car_trailer_over_35t": "Free"
+  },
+  "CH": {
+    "<= 3.5t": "https://via.admin.ch/shop/dashboard",
+    "m1_under_35t": "https://via.admin.ch/shop/dashboard",
+    "n1_over_35t": "https://via.admin.ch/shop/dashboard",
+    "car_trailer_over_35t": "https://via.admin.ch/shop/dashboard"
+  },
+  "FR": {
+    "<= 3.5t": "https://www.sanef.com",
+    "m1_under_35t": "https://www.sanef.com",
+    "n1_over_35t": "https://www.sanef.com",
+    "car_trailer_over_35t": "https://www.sanef.com"
+  },
+  "IT": {
+    "<= 3.5t": "https://www.autostrade.it/en/home",
+    "m1_under_35t": "https://www.autostrade.it/en/home",
+    "n1_over_35t": "https://www.autostrade.it/en/home",
+    "car_trailer_over_35t": "https://www.autostrade.it/en/home"
+  },
+  "PL": {
+    "<= 3.5t": "https://etoll.gov.pl/en/",
+    "m1_under_35t": "https://etoll.gov.pl/en/",
+    "n1_over_35t": "https://etoll.gov.pl/en/",
+    "car_trailer_over_35t": "https://etoll.gov.pl/en/"
+  },
+  "FI": {
+    "<= 3.5t": "www.free.eu",
+    "m1_under_35t": "www.free.eu",
+    "n1_over_35t": "www.free.eu",
+    "car_trailer_over_35t": "www.free.eu"
+  },
+  "SE": {
+    "<= 3.5t": "free",
+    "m1_under_35t": "free",
+    "n1_over_35t": "free",
+    "car_trailer_over_35t": "free"
+  },
+  "NO": {
+    "<= 3.5t": "https://www.autopass.no",
+    "m1_under_35t": "https://www.autopass.no",
+    "n1_over_35t": "https://www.autopass.no",
+    "car_trailer_over_35t": "https://www.autopass.no"
+  },
+  "IS": {
+    "<= 3.5t": "free",
+    "m1_under_35t": "free",
+    "n1_over_35t": "free",
+    "car_trailer_over_35t": "free"
+  },
+  "DK": {
+    "<= 3.5t": "free",
+    "m1_under_35t": "free",
+    "n1_over_35t": "free",
+    "car_trailer_over_35t": "free"
+  },
+  "NL": {
+    "<= 3.5t": "free",
+    "m1_under_35t": "free",
+    "n1_over_35t": "free",
+    "car_trailer_over_35t": "free"
+  },
+  "BE": {
+    "<= 3.5t": "free",
+    "m1_under_35t": "free",
+    "n1_over_35t": "https://www.viapass.be",
+    "car_trailer_over_35t": "free"
+  },
+  "ES": {
+    "<= 3.5t": "https://www.mitma.gob.es",
+    "m1_under_35t": "https://www.mitma.gob.es",
+    "n1_over_35t": "https://www.mitma.gob.es",
+    "car_trailer_over_35t": "https://www.mitma.gob.es"
+  },
+  "SLO": {
+    "<= 3.5t": "https://evinjeta.dars.si",
+    "m1_under_35t": "https://evinjeta.dars.si",
+    "n1_over_35t": "https://darsgo.si",
+    "car_trailer_over_35t": "https://evinjeta.dars.si"
+  },
+  "HU": {
+    "<= 3.5t": "https://nemzetiutdij.hu",
+    "m1_under_35t": "https://nemzetiutdij.hu",
+    "n1_over_35t": "https://hu-go.hu",
+    "car_trailer_over_35t": "https://nemzetiutdij.hu"
+  },
+  "HR": {
+    "<= 3.5t": "https://hac.hr",
+    "m1_under_35t": "https://hac.hr",
+    "n1_over_35t": "https://hac.hr",
+    "car_trailer_over_35t": "https://hac.hr"
+  },
+  "GR": {
+    "<= 3.5t": "https://www.egnatia.eu",
+    "m1_under_35t": "https://www.egnatia.eu",
+    "n1_over_35t": "https://www.egnatia.eu",
+    "car_trailer_over_35t": "https://www.egnatia.eu"
+  },
+  "SRB": {
+    "<= 3.5t": "https://www.putevi-srbije.rs",
+    "m1_under_35t": "https://www.putevi-srbije.rs",
+    "n1_over_35t": "https://www.putevi-srbije.rs",
+    "car_trailer_over_35t": "https://www.putevi-srbije.rs"
+  },
+  "BiH": {
+    "<= 3.5t": "https://www.jpautoceste.ba",
+    "m1_under_35t": "https://www.jpautoceste.ba",
+    "n1_over_35t": "https://www.jpautoceste.ba",
+    "car_trailer_over_35t": "https://www.jpautoceste.ba"
+  },
+  "MNE": {
+    "<= 3.5t": "https://monteput.me",
+    "m1_under_35t": "https://monteput.me",
+    "n1_over_35t": "https://monteput.me",
+    "car_trailer_over_35t": "https://monteput.me"
+  },
+  "ALB": {
+    "<= 3.5t": "https://arrsh.gov.al",
+    "m1_under_35t": "https://arrsh.gov.al",
+    "n1_over_35t": "https://arrsh.gov.al",
+    "car_trailer_over_35t": "https://arrsh.gov.al"
+  },
+  "CZ": {
+    "<= 3.5t": "https://edalnice.cz",
+    "m1_under_35t": "https://edalnice.cz",
+    "n1_over_35t": "https://mytocz.eu",
+    "car_trailer_over_35t": "https://edalnice.cz"
+  },
+  "PT": {
+    "<= 3.5t": "https://www.portugaltolls.com",
+    "m1_under_35t": "https://www.portugaltolls.com",
+    "n1_over_35t": "https://www.viaverde.pt",
+    "car_trailer_over_35t": "https://www.portugaltolls.com"
+  },
+  "RO": {
+    "<= 3.5t": "https://www.roviniete.ro",
+    "m1_under_35t": "https://www.roviniete.ro",
+    "n1_over_35t": "https://www.roviniete.ro",
+    "car_trailer_over_35t": "https://www.roviniete.ro"
+  },
+  "BG": {
+    "<= 3.5t": "https://www.bgtoll.bg",
+    "m1_under_35t": "https://www.bgtoll.bg",
+    "n1_over_35t": "https://www.bgtoll.bg",
+    "car_trailer_over_35t": "https://www.bgtoll.bg"
+  },
+  "EE": {
+    "<= 3.5t": "free",
+    "m1_under_35t": "free",
+    "n1_over_35t": "https://www.roadtoll.ee",
+    "car_trailer_over_35t": "free"
+  },
+  "LV": {
+    "<= 3.5t": "free",
+    "m1_under_35t": "free",
+    "n1_over_35t": "https://www.lvvignette.eu",
+    "car_trailer_over_35t": "free"
+  },
+  "LT": {
+    "<= 3.5t": "free",
+    "m1_under_35t": "free",
+    "n1_over_35t": "https://keliumokestis.lt",
+    "car_trailer_over_35t": "free"
+  },
+  "LU": {
+    "<= 3.5t": "free",
+    "m1_under_35t": "free",
+    "n1_over_35t": "https://www.eurovignettes.eu",
+    "car_trailer_over_35t": "free"
+  }
   }
 }
