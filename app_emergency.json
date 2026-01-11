@@ -8,7 +8,7 @@
         "sk": "Servis a Náhradné Diely",
         "en": "Service and Spare Parts",
         "de": "Service und Ersatzteile",
-        "cz": "Servis a Náhradní Díly",
+        "cs": "Servis a Náhradní Díly",
         "hu": "Szerviz és Alkatrészek"
       },
       "sections": [
@@ -17,14 +17,14 @@
             "sk": "Servis a doplnky",
             "en": "Service and accessories",
             "de": "Service und Zubehör",
-            "cz": "Servis a doplňky",
+            "cs": "Servis a doplňky",
             "hu": "Szerviz és kiegészítők"
           },
           "content": {
             "sk": "Zoznam overených servisov, predajcov náhradných dielov a kempingových doplnkov.",
             "en": "List of verified services, spare parts dealers and camping accessories.",
             "de": "Liste verifizierter Werkstätten, Ersatzteilhändler und Campingzubehör.",
-            "cz": "Seznam ověřených servisů, prodejců náhradních dílů a kempingových doplňků.",
+            "cs": "Seznam ověřených servisů, prodejců náhradních dílů a kempingových doplňků.",
             "hu": "Ellenőrzött szervizek, alkatrészkereskedők és kemping kiegészítők listája."
           },
           "items": [
@@ -33,7 +33,7 @@
                 "sk": "Karavan Servis (Ukážka)",
                 "en": "Caravan Service (Prewiev)",
                 "de": "Wohnmobil Service (Vorschau)",
-                "cz": "Karavan Servis (Ukázka)",
+                "cs": "Karavan Servis (Ukázka)",
                 "hu": "Lakóautó Szerviz (Ízelítő)"
               },
               "isPartner": true,
@@ -42,7 +42,7 @@
                 "sk": "Zľava 5% na servisné práce",
                 "en": "5% discount on service labor",
                 "de": "5% Rabatt auf Servicearbeiten",
-                "cz": "Sleva 5 % na servisní práce",
+                "cs": "Sleva 5 % na servisní práce",
                 "hu": "5% kedvezmény a szervizmunkára"
               },
               "url": "https://www.karavanservis.sk",
@@ -53,7 +53,7 @@
                 "sk": "Karavan.sk (Sereď/Bratislava)",
                 "en": "Karavan.sk (Sered/Bratislava)",
                 "de": "Karavan.sk (Sered/Bratislava)",
-                "cz": "Karavan.sk (Sereď/Bratislava)",
+                "cs": "Karavan.sk (Sereď/Bratislava)",
                 "hu": "Karavan.sk (Szered/Pozsony)"
               },
               "isPartner": false,
@@ -66,7 +66,7 @@
                 "sk": "Hymer Centrum Praha",
                 "en": "Hymer Centre Prague",
                 "de": "Hymer Zentrum Prag",
-                "cz": "Hymer Centrum Praha",
+                "cs": "Hymer Centrum Praha",
                 "hu": "Hymer Centrum Prága"
               },
               "isPartner": false,
@@ -79,7 +79,7 @@
                 "sk": "Adria Dom (Záhreb/Novo Mesto)",
                 "en": "Adria Dom (Zagreb/Novo Mesto)",
                 "de": "Adria Dom (Zagreb/Novo Mesto)",
-                "cz": "Adria Dom (Záhřeb/Novo Mesto)",
+                "cs": "Adria Dom (Záhřeb/Novo Mesto)",
                 "hu": "Adria Dom (Zágráb/Novo Mesto)"
               },
               "isPartner": false,
@@ -92,7 +92,7 @@
                 "sk": "Camping-Profi (Guntramsdorf)",
                 "en": "Camping-Profi (Guntramsdorf)",
                 "de": "Camping-Profi (Guntramsdorf)",
-                "cz": "Camping-Profi (Guntramsdorf)",
+                "cs": "Camping-Profi (Guntramsdorf)",
                 "hu": "Camping-Profi (Guntramsdorf)"
               },
               "isPartner": false,
@@ -105,7 +105,7 @@
                 "sk": "Buerstner Magyarország (Budapešť)",
                 "en": "Buerstner Hungary (Budapest)",
                 "de": "Bürstner Ungarn (Budapest)",
-                "cz": "Buerstner Maďarsko (Budapešť)",
+                "cs": "Buerstner Maďarsko (Budapešť)",
                 "hu": "Buerstner Magyarország (Budapest)"
               },
               "isPartner": false,
@@ -118,7 +118,7 @@
                 "sk": "Camping Sport Magenta (Miláno)",
                 "en": "Camping Sport Magenta (Milan)",
                 "de": "Camping Sport Magenta (Mailand)",
-                "cz": "Camping Sport Magenta (Milán)",
+                "cs": "Camping Sport Magenta (Milán)",
                 "hu": "Camping Sport Magenta (Milánó)"
               },
               "isPartner": false,
@@ -131,7 +131,7 @@
                 "sk": "Freedom Karavany (Brno)",
                 "en": "Freedom Caravans (Brno)",
                 "de": "Freedom Wohnmobile (Brünn)",
-                "cz": "Freedom Karavany (Brno)",
+                "cs": "Freedom Karavany (Brno)",
                 "hu": "Freedom Karavany (Brünn)"
               },
               "isPartner": false,
@@ -144,7 +144,7 @@
                 "sk": "Stellplatz.it (Južné Tirolsko)",
                 "en": "Stellplatz.it (South Tyrol)",
                 "de": "Stellplatz.it (Südtirol)",
-                "cz": "Stellplatz.it (Jižní Tyrolsko)",
+                "cs": "Stellplatz.it (Jižní Tyrolsko)",
                 "hu": "Stellplatz.it (Dél-Tirol)"
               },
               "isPartner": false,
@@ -162,7 +162,7 @@
         "sk": "Užitočné Odkazy",
         "en": "Useful Links",
         "de": "Nützliche Links",
-        "cz": "Užitečné Odkazy",
+        "cs": "Užitečné Odkazy",
         "hu": "Hasznos Linkek"
       },
       "sections": [
@@ -171,14 +171,14 @@
             "sk": "Vyhľadávanie kempov",
             "en": "Camp Search",
             "de": "Campingplatzsuche",
-            "cz": "Vyhledávání kempů",
+            "cs": "Vyhledávání kempů",
             "hu": "Kempingkereső"
           },
           "content": {
             "sk": "Najlepšie aplikácie a weby na hľadanie miesta pre váš nocľah.",
             "en": "Best apps and websites to find a place to stay.",
             "de": "Beste Apps und Websites, um eine Unterkunft zu finden.",
-            "cz": "Nejlepší aplikace a weby pro hledání místa k noclehu.",
+            "cs": "Nejlepší aplikace a weby pro hledání místa k noclehu.",
             "hu": "A legjobb alkalmazások és weboldalak szálláskereséshez."
           },
           "items": [
@@ -187,7 +187,7 @@
                 "sk": "Čerstvé tipy na výlety",
                 "en": "Fresh Road Trip Inspo",
                 "de": "Frische Inspiration für die nächste Tour",
-                "cz": "Čerstvé tipy na výlety",
+                "cs": "Čerstvé tipy na výlety",
                 "hu": "Friss tippek kirándulásokhoz"
               },
               "isPartner": true,
@@ -200,7 +200,7 @@
                 "sk": "Park4Night (Aplikácia)",
                 "en": "Park4Night (App)",
                 "de": "Park4Night (App)",
-                "cz": "Park4Night (Aplikace)",
+                "cs": "Park4Night (Aplikace)",
                 "hu": "Park4Night (Alkalmazás)"
               },
               "isPartner": false,
@@ -213,7 +213,7 @@
                 "sk": "Bezkempu.cz",
                 "en": "Bezkempu.cz",
                 "de": "Bezkempu.cz",
-                "cz": "Bezkempu.cz",
+                "cs": "Bezkempu.cz",
                 "hu": "Bezkempu.cz"
               },
               "isPartner": false,
@@ -228,14 +228,14 @@
             "sk": "Pomoc v núdzi",
             "en": "Emergency Help",
             "de": "Notfallhilfe",
-            "cz": "Pomoc v nouzi",
+            "cs": "Pomoc v nouzi",
             "hu": "Segítségnyújtás"
           },
           "content": {
             "sk": "Dôležité odkazy pre neočakávané situácie na cestách.",
             "en": "Important links for unexpected situations on the road.",
             "de": "Wichtige Links für unerwartete Situationen unterwegs.",
-            "cz": "Důležité odkazy pro neočekávané situace na cestách.",
+            "cs": "Důležité odkazy pro neočekávané situace na cestách.",
             "hu": "Fontos linkek váratlan útközbeni helyzetekhez."
           },
           "items": [
@@ -244,7 +244,7 @@
                 "sk": "UAMK (Slovenský autotuklub)",
                 "en": "UAMK (Slovak Automobile Club",
                 "de": "UAMK (Slowakischer Automobil Klub)",
-                "cz": "UAMK (Slovenský autoklub)",
+                "cs": "UAMK (Slovenský autoklub)",
                 "hu": "UAMK (Szlovák Autóklub)"
               },
               "isPartner": false,
@@ -257,7 +257,7 @@
                 "sk": "ASA (Autoklub Slovakia Assistance)",
                 "en": "ASA (Autoclub Slovakia Assistance)",
                 "de": "ASA (Autoklub Slowakei Assistance)",
-                "cz": "ASA (Autoklub Slovakia Assistance)",
+                "cs": "ASA (Autoklub Slovakia Assistance)",
                 "hu": "ASA (Autoklub Slovakia Assistance)"
               },
               "isPartner": false,
@@ -270,7 +270,7 @@
                 "sk": "E-Asistenčná karta (SKP)",
                 "en": "E-Assistance Card (SKP)",
                 "de": "E-Assistance Karte (SKP)",
-                "cz": "E-Asistenční karta (SKP)",
+                "cs": "E-Asistenční karta (SKP)",
                 "hu": "E-Asszisztencia kártya (SKP)"
               },
               "isPartner": false,
@@ -283,7 +283,7 @@
                 "sk": "ÚAMK (Český autoklub)",
                 "en": "ÚAMK (Czech Automobile Club)",
                 "de": "ÚAMK (Tschechischer Automobilclub)",
-                "cz": "ÚAMK (Český autoklub)",
+                "cs": "ÚAMK (Český autoklub)",
                 "hu": "ÚAMK (Cseh Autóklub)"
               },
               "isPartner": false,
@@ -296,7 +296,7 @@
                 "sk": "ÖAMTC (Rakúsky autoklub)",
                 "en": "ÖAMTC (Austrian Car Club)",
                 "de": "ÖAMTC (Der Mobilitätsclub)",
-                "cz": "ÖAMTC (Rakouský autoklub)",
+                "cs": "ÖAMTC (Rakouský autoklub)",
                 "hu": "ÖAMTC (Osztrák Autóklub)"
               },
               "isPartner": false,
@@ -309,7 +309,7 @@
                 "sk": "HAK (Chorvátsky autoklub)",
                 "en": "HAK (Croatian Automobile Club)",
                 "de": "HAK (Kroatischer Automobilclub)",
-                "cz": "HAK (Chorvatský autoklub)",
+                "cs": "HAK (Chorvatský autoklub)",
                 "hu": "HAK (Horvát Autóklub)"
               },
               "isPartner": false,
@@ -322,7 +322,7 @@
                 "sk": "ACI (Taliansky autoklub)",
                 "en": "ACI (Automobile Club d'Italia)",
                 "de": "ACI (Automobilclub Italien)",
-                "cz": "ACI (Italský autoklub)",
+                "cs": "ACI (Italský autoklub)",
                 "hu": "ACI (Olasz Autóklub)"
               },
               "isPartner": false,
@@ -335,7 +335,7 @@
                 "sk": "RACE (Španielsky autoklub)",
                 "en": "RACE (Royal Automobile Club of Spain)",
                 "de": "RACE (Königlicher Automobilclub Spanien)",
-                "cz": "RACE (Španělský autoklub)",
+                "cs": "RACE (Španělský autoklub)",
                 "hu": "RACE (Spanyol Autóklub)"
               },
               "isPartner": false,
@@ -348,7 +348,7 @@
                 "sk": "ELPA (Grécky autoklub)",
                 "en": "ELPA (Hellenic Automobile Association)",
                 "de": "ELPA (Griechischer Automobilclub)",
-                "cz": "ELPA (Řecký autoklub)",
+                "cs": "ELPA (Řecký autoklub)",
                 "hu": "ELPA (Görög Autóklub)"
               },
               "isPartner": false,
@@ -361,7 +361,7 @@
                 "sk": "UAB (Bulharský autoklub)",
                 "en": "UAB (Union of Bulgarian Automobilists)",
                 "de": "UAB (Union der bulgarischen Automobilisten)",
-                "cz": "UAB (Bulharský autoklub)",
+                "cs": "UAB (Bulharský autoklub)",
                 "hu": "UAB (Bolgár Autóklub)"
               },
               "isPartner": false,
@@ -374,7 +374,7 @@
                 "sk": "NAF (Nórsky autoklub)",
                 "en": "NAF (Norwegian Automobile Federation)",
                 "de": "NAF (Norwegischer Automobilverband)",
-                "cz": "NAF (Norský autoklub)",
+                "cs": "NAF (Norský autoklub)",
                 "hu": "NAF (Norvég Autóklub)"
               },
               "isPartner": false,
@@ -387,7 +387,7 @@
                 "sk": "ADAC (Nemecký autoklub)",
                 "en": "ADAC (German Automobile Club)",
                 "de": "ADAC (Allgemeiner Deutscher Automobil-Club)",
-                "cz": "ADAC (Německý autoklub)",
+                "cs": "ADAC (Německý autoklub)",
                 "hu": "ADAC (Német Autóklub)"
               },
               "isPartner": false,
@@ -400,7 +400,7 @@
                 "sk": "SOS Alarm (Švédsko)",
                 "en": "SOS Alarm (Sweden)",
                 "de": "SOS Alarm (Schweden)",
-                "cz": "SOS Alarm (Švédsko)",
+                "cs": "SOS Alarm (Švédsko)",
                 "hu": "SOS Alarm (Svédország)"
               },
               "isPartner": false,
@@ -413,7 +413,7 @@
                 "sk": "PZM (Poľský autoklub)",
                 "en": "PZM (Polish Motor Association)",
                 "de": "PZM (Polnischer Automobilverband)",
-                "cz": "PZM (Polský autoklub)",
+                "cs": "PZM (Polský autoklub)",
                 "hu": "PZM (Lengyel Autóklub)"
               },
               "isPartner": false,
@@ -426,7 +426,7 @@
                 "sk": "MAK (Maďarský autoklub)",
                 "en": "MAK (Hungarian Autoclub)",
                 "de": "MAK (Ungarischer Automobilclub)",
-                "cz": "MAK (Maďarský autoklub)",
+                "cs": "MAK (Maďarský autoklub)",
                 "hu": "MAK (Magyar Autóklub)"
               },
               "isPartner": false,
@@ -439,7 +439,7 @@
                 "sk": "AMZS (Slovinský autoklub)",
                 "en": "AMZS (Slovenian Automobile Association)",
                 "de": "AMZS (Slowenischer Automobilclub)",
-                "cz": "AMZS (Slovinský autoklub)",
+                "cs": "AMZS (Slovinský autoklub)",
                 "hu": "AMZS (Szlovén Autóklub)"
               },
               "isPartner": false,
@@ -452,7 +452,7 @@
                 "sk": "ACR (Rumunský autoklub)",
                 "en": "ACR (Romanian Automobile Club)",
                 "de": "ACR (Rumänischer Automobilclub)",
-                "cz": "ACR (Rumunský autoklub)",
+                "cs": "ACR (Rumunský autoklub)",
                 "hu": "ACR (Román Autóklub)"
               },
               "isPartner": false,
@@ -465,7 +465,7 @@
                 "sk": "ACA (Francúzsky autoklub)",
                 "en": "ACA (Automobile Club Association France)",
                 "de": "ACA (Automobilclub Frankreich)",
-                "cz": "ACA (Francouzský autoklub)",
+                "cs": "ACA (Francouzský autoklub)",
                 "hu": "ACA (Francia Autóklub)"
               },
               "isPartner": false,
@@ -478,7 +478,7 @@
                 "sk": "BIHAMK (Autoklub Bosny a Herc.)",
                 "en": "BIHAMK (Automobile Club of Bosnia and Herz.)",
                 "de": "BIHAMK (Automobilclub Bosnien und Herz.)",
-                "cz": "BIHAMK (Autoklub Bosny a Herc.)",
+                "cs": "BIHAMK (Autoklub Bosny a Herc.)",
                 "hu": "BIHAMK (Bosznia-Hercegovinai Autóklub)"
               },
               "isPartner": false,
@@ -491,7 +491,7 @@
                 "sk": "AMSS (Srbský autoklub)",
                 "en": "AMSS (Automobile Association of Serbia)",
                 "de": "AMSS (Automobilverband Serbien)",
-                "cz": "AMSS (Srbský autoklub)",
+                "cs": "AMSS (Srbský autoklub)",
                 "hu": "AMSS (Szerb Autóklub)"
               },
               "isPartner": false,
@@ -509,7 +509,7 @@
         "sk": "Partnerské Kempy",
         "en": "Partner Campsites",
         "de": "Partner-Campingplätze",
-        "cz": "Partnerské Kempy",
+        "cs": "Partnerské Kempy",
         "hu": "Partner Kempingek"
       },
       "sections": [
@@ -518,14 +518,14 @@
             "sk": "Partnerské Kempy",
             "en": "Partner Campsites",
             "de": "Partner-Campingplätze",
-            "cz": "Partnerské Kempy",
+            "cs": "Partnerské Kempy",
             "hu": "Partner Kempingek"
           },
           "content": {
             "sk": "Kempy, kde vám Karavan Asistent otvorí nové možnosti. Exkluzívne pre majiteľov PLNEJ VERZIE – recepcia kontroluje verziu bez označenia 'Trial'. Zoznam stále budujeme.",
             "en": "Campsites where Karavan Asistent unlocks new possibilities. Exclusively for FULL VERSION users – reception verifies the app without the 'Trial' label. The list is constantly growing.",
             "de": "Campingplätze, bei denen Ihnen Karavan Asistent neue Möglichkeiten eröffnet. Exklusiv für Nutzer der VOLLVERSION – die Rezeption prüft die Version ohne den 'Trial'-Hinweis. Die Liste wird ständig erweitert.",
-            "cz": "Kempy, kde vám Karavan Asistent otevře nové možnosti. Exkluzivně pro majitele PLNÉ VERZE – recepce kontroluje verzi bez označení 'Trial'. Seznam stále budujeme.",
+            "cs": "Kempy, kde vám Karavan Asistent otevře nové možnosti. Exkluzivně pro majitele PLNÉ VERZE – recepce kontroluje verzi bez označení 'Trial'. Seznam stále budujeme.",
             "hu": "Kempingek, ahol a Karavan Asistent új lehetőségeket nyit meg. Kizárólag a TELJES VERZIÓ tulajdonosainak – a recepció ellenőrzi a 'Trial' jelölés nélküli verziót. A lista folyamatosan bővül."
           },
           "items": [
@@ -534,7 +534,7 @@
                 "sk": "Pullmann Piešťany (Ukážka)",
                 "en": "Pullmann Piešťany (Preview)",
                 "de": "Pullmann Piešťany (Vorschau)",
-                "cz": "Pullmann Piešťany (Ukázka)",
+                "cs": "Pullmann Piešťany (Ukázka)",
                 "hu": "Pullmann Pöstyén (Ízelítő)"
               },
               "isPartner": true,
@@ -543,7 +543,7 @@
                 "sk": "Pivko na privítanie.",
                 "en": "A welcome beer.",
                 "de": "Ein Begrüßungsbier.",
-                "cz": "Pivo na uvítanou.",
+                "cs": "Pivo na uvítanou.",
                 "hu": "Üdvözlő sör."
               },
               "url": "https://www.campingpiestany.sk/",
@@ -554,7 +554,7 @@
                 "sk": "Camping am See (Ukážka)",
                 "en": "Camping am See (Prewiev)",
                 "de": "Camping am See (Vorschau)",
-                "cz": "Camping am See (Ukázka)",
+                "cs": "Camping am See (Ukázka)",
                 "hu": "Camping am See (Ízelítő)"
               },
               "isPartner": false,
@@ -563,7 +563,7 @@
                 "sk": "",
                 "en": "",
                 "de": "",
-                "cz": "",
+                "cs": "",
                 "hu": ""
               },
               "url": "https://www.camping-am-see.at",
@@ -579,7 +579,7 @@
         "sk": "Požičovne Karavanov",
         "en": "Caravan Rentals",
         "de": "Wohnmobilvermietung",
-        "cz": "Půjčovny Karavanů",
+        "cs": "Půjčovny Karavanů",
         "hu": "Lakóautó Kölcsönzők"
       },
       "sections": [
@@ -588,14 +588,14 @@
             "sk": "Požičovne Karavanov",
             "en": "Caravan Rentals",
             "de": "Wohnmobilvermietung",
-            "cz": "Půjčovny Karavanů",
+            "cs": "Půjčovny Karavanů",
             "hu": "Lakóautó Kölcsönzők"
           },
           "content": {
             "sk": "Zoznam overených požičovní, kde si môžete prenajať svoj domov na kolesách.",
             "en": "A list of verified rentals where you can rent your home on wheels.",
             "de": "Eine Liste geprüfter Vermietungen, in denen Sie Ihr Zuhause auf Rädern mieten können.",
-            "cz": "Seznam ověřených půjčoven, kde si můžete pronajmout svůj domov na kolech.",
+            "cs": "Seznam ověřených půjčoven, kde si můžete pronajmout svůj domov na kolech.",
             "hu": "Ellenőrzött kölcsönzők listája, ahol kibérelheti otthonát a kerekeken."
           },
           "items": [
@@ -604,7 +604,7 @@
                 "sk": "Môj Karavan (Ukážka)",
                 "en": "Môj Karavan (Preview)",
                 "de": "Môj Karavan (Vorschau)",
-                "cz": "Môj Karavan (Ukázka)",
+                "cs": "Môj Karavan (Ukázka)",
                 "hu": "Môj Karavan (Ízelítő)"
               },
               "isPartner": true,
@@ -613,7 +613,7 @@
                 "sk": "SNP 137, Žiar nad Hronom",
                 "en": "SNP 137, Žiar nad Hronom",
                 "de": "SNP 137, Žiar nad Hronom",
-                "cz": "SNP 137, Žiar nad Hronom",
+                "cs": "SNP 137, Žiar nad Hronom",
                 "hu": "SNP 137, Garamszentkereszt"
               },
               "url": "https://www.mojkaravan.eu/",
