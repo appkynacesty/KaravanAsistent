@@ -2245,7 +2245,7 @@
       }
     ]
   },
-  {
+ 
   "speedLimits": {
     "SK": {
       "country": "Slovensko",
@@ -2496,7 +2496,7 @@
       "car_trailer_over_35t": { "town": 50, "outskirts": 75, "expressway": 90, "highway": 90 }
     }
   }
-}
+},
   "vignetteLinks": {
     "SK": {
       "<= 3.5t": "https://eznamka.sk/",
