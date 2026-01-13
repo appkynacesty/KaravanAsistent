@@ -2439,30 +2439,36 @@
     "sk": [
       {
         "id": 1,
+        "typ": "Dôležité upozornenie",
+        "text": "Pre Českú republiku sú použité najprisnejšie limity, ale platia limity uvedené v technickom preukaze pre váš karavan/príves. skontrolujte si preto technické limity vášho vozidla!",
+        "ikona": "ℹ️"
+      },
+      {
+        "id": 2,
         "typ": "Mýto a známka",
         "text": "Vozidlá do 3,5t potrebujú e-známku. Nad 3,5t sa platí mýto cez palubnú jednotku MytoCZ.",
         "ikona": "🛣️"
       },
       {
-        "id": 2,
+        "id": 3,
         "typ": "Alkohol",
         "text": "V Česku platí nulová tolerancia alkoholu za volantom.",
         "ikona": "🍷"
       },
       {
-        "id": 3,
+        "id": 4,
         "typ": "Reflexné vesty",
         "text": "Vesta je povinná pre každého, kto opúšťa vozidlo počas poruchy na ceste. Pri jazde s prívesom musia byť v aute náhradné žiarovky a poistky.",
         "ikona": "🦺"
       },
       {
-        "id": 4,
+        "id": 5,
         "typ": "Upozornenie",
         "text": "Tieto limity sú orientačné a nastavené podľa prísnejších pravidiel pre súpravy. Vždy sledujte lokálne dopravné značenie a technické limity vášho vozidla.",
         "ikona": "⚠️"
       },
       {
-        "id": 5,
+        "id": 6,
         "typ": "Obmedzenie: Parkovacie zóny Praha",
         "text": "V Prahe platia modré zóny pre rezidentov. Karavany majú parkovanie v širšom centre takmer znemožnené; využite radšej záchytné parkoviská P+R alebo oficiálne kempy (napr. na Tróji).",
         "ikona": "🅿️"
@@ -2471,30 +2477,36 @@
     "en": [
       {
         "id": 1,
+        "typ": "Important Notice",
+        "text": "For the Czech Republic, the strictest limits are used, but the limits stated in the technical certificate for your caravan/trailer apply. Therefore, check the technical limits of your vehicle!",
+        "ikona": "ℹ️"
+      },
+      {
+        "id": 2,
         "typ": "Toll and Vignette",
         "text": "Vehicles up to 3.5t need an e-vignette. Over 3.5t require an on-board unit (MytoCZ).",
         "ikona": "🛣️"
       },
       {
-        "id": 2,
+        "id": 3,
         "typ": "Alcohol",
         "text": "Zero tolerance for alcohol while driving.",
         "ikona": "🍷"
       },
       {
-        "id": 3,
+        "id": 4,
         "typ": "Reflective Vests",
         "text": "A vest is mandatory for everyone leaving the vehicle during a breakdown. When driving with a trailer, spare bulbs and fuses must be in the car.",
         "ikona": "🦺"
       },
       {
-        "id": 4,
+        "id": 5,
         "typ": "Notice",
         "text": "These limits are indicative and based on stricter rules for vehicle combinations. Always follow local traffic signs and your vehicle's technical limits.",
         "ikona": "⚠️"
       },
       {
-        "id": 5,
+        "id": 6,
         "typ": "Restriction: Prague Parking Zones",
         "text": "Blue zones for residents apply throughout Prague. Motorhomes are almost restricted from parking in the wider city center; use P+R parking lots or official campsites (e.g., in the Troja district) instead.",
         "ikona": "🅿️"
@@ -2503,30 +2515,36 @@
     "de": [
       {
         "id": 1,
+        "typ": "Wichtiger Hinweis",
+        "text": "Für die Tschechische Republik werden die strengsten Grenzwerte herangezogen, es gelten jedoch die im technischen Zertifikat Ihres Wohnwagens/Anhängers angegebenen Grenzwerte. Überprüfen Sie daher die technischen Grenzen Ihres Fahrzeugs!",
+        "ikona": "ℹ️"
+      },
+      {
+        "id": 2,
         "typ": "Maut und Vignette",
         "text": "Fahrzeuge bis 3,5t benötigen eine E-Vignette. Über 3,5t Maut über MytoCZ-Bordgerät.",
         "ikona": "🛣️"
       },
       {
-        "id": 2,
+        "id": 3,
         "typ": "Alkohol",
         "text": "Null-Toleranz-Grenze für Alkohol am Steuer.",
         "ikona": "🍷"
       },
       {
-        "id": 3,
+        "id": 4,
         "typ": "Warnwesten",
-        "text": "Westenpflicht für jede Person, die das Fahrzeug bei einer Panne verlässt. Beim Fahren mit Anhänger müssen Ersatzglühbirnen und -sicherungen im Auto mitgeführt werden.",
+        "text": "Westenpflicht für jede person, die das Fahrzeug bei einer Panne verlässt. Beim Fahren mit Anhänger müssen Ersatzglühbirnen und -sicherungen im Auto mitgeführt werden.",
         "ikona": "🦺"
       },
       {
-        "id": 4,
+        "id": 5,
         "typ": "Hinweis",
         "text": "Diese Limits sind Richtwerte und nach strengeren Regeln für Gespanne festgelegt. Beachten Sie immer die lokale Beschilderung und die technischen Limits Ihres Fahrzeugs.",
         "ikona": "⚠️"
       },
       {
-        "id": 5,
+        "id": 6,
         "typ": "Einschränkung: Parkzonen Prag",
         "text": "In Prag gelten blaue Zonen für Anwohner. Das Parken von Wohnmobilen im erweiterten Stadtzentrum ist fast unmöglich; nutzen Sie stattdessen P+R-Parkplätze oder offizielle Campingplätze (z. B. im Stadtteil Troja).",
         "ikona": "🅿️"
@@ -2535,30 +2553,36 @@
     "cs": [
       {
         "id": 1,
+        "typ": "Důležité upozornění",
+        "text": "Pro Českou republiku jsou použity nejpřísnější limity, ale platí limity uvedené v technickém průkazu pro váš karavan/přívěs. Zkontrolujte si proto technické limity vašeho vozidla!",
+        "ikona": "ℹ️"
+      },
+      {
+        "id": 2,
         "typ": "Mýto a známka",
         "text": "Vozidla do 3,5t potřebují e-známku. Nad 3,5t se platí mýto přes palubní jednotku MytoCZ.",
         "ikona": "🛣️"
       },
       {
-        "id": 2,
+        "id": 3,
         "typ": "Alkohol",
         "text": "V Česku platí nulová tolerance alkoholu za volantem.",
         "ikona": "🍷"
       },
       {
-        "id": 3,
+        "id": 4,
         "typ": "Reflexní vesty",
         "text": "Vesta je povinná pro každého, kdo opouští vozidlo během poruchy na silnici. Při jízdě s přívěsem musí být v autě náhradní žárovky a pojistky.",
         "ikona": "🦺"
       },
       {
-        "id": 4,
+        "id": 5,
         "typ": "Upozornění",
         "text": "Tyto limity jsou orientační a nastaveny podle přísnějších pravidel pro soupravy. Vždy sledujte lokální dopravní značení a technické limity vašeho vozidla.",
         "ikona": "⚠️"
       },
       {
-        "id": 5,
+        "id": 6,
         "typ": "Omezení: Parkovací zóny Praha",
         "text": "V Praze platí modré zóny pro rezidenty. Karavany mají parkování v širším centru téměř znemožněno; využijte raději záchytná parkoviště P+R nebo oficiální kempy (např. v Troji).",
         "ikona": "🅿️"
@@ -2567,30 +2591,36 @@
     "hu": [
       {
         "id": 1,
+        "typ": "Fontos figyelmeztetés",
+        "text": "Csehország esetében a legszigorúbb határértékek kerülnek alkalmazásra, de a lakókocsi/utánfutó forgalmi engedélyében szereplő határértékek az irányadóak. Ezért ellenőrizze járműve műszaki adatait!",
+        "ikona": "ℹ️"
+      },
+      {
+        "id": 2,
         "typ": "Útdíj és matrica",
         "text": "3,5 tonnáig e-matrica szükséges. 3,5 tonna felett útdíjat kell fizetni a MytoCZ fedélzeti egységen keresztül.",
         "ikona": "🛣️"
       },
       {
-        "id": 2,
+        "id": 3,
         "typ": "Alkohol",
         "text": "Csehországban zéró tolerancia van érvényben az alkoholos befolyásoltsággal szemben.",
         "ikona": "🍷"
       },
       {
-        "id": 3,
+        "id": 4,
         "typ": "Láthatósági mellény",
         "text": "Mindenki számára kötelező a mellény, aki meghibásodás esetén kiszáll a járműből. Utánfutóval való közlekedéskor pótalkatrészeket (izzók, biztosítékok) kell tartani az autóban.",
         "ikona": "🦺"
       },
       {
-        "id": 4,
+        "id": 5,
         "typ": "Tájékoztatás",
         "text": "Ezek a határértékek tájékoztató jellegűek, a járműszerelvényekre vonatkozó szigorúbb szabályokon alapulnak.",
         "ikona": "⚠️"
       },
       {
-        "id": 5,
+        "id": 6,
         "typ": "Korlátozás: Prágai parkolási zónák",
         "text": "Prágában a lakosok számára fenntartott kék zónák érvényesek. A lakóautók parkolása a tágabb városközpontban szinte lehetetlen; használja inkább a P+R parkolókat vagy a hivatalos kempingeket (pl. Troja).",
         "ikona": "🅿️"
