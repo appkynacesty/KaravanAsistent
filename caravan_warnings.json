@@ -1792,7 +1792,7 @@
       {
         "id": 2,
         "typ": "Diaľničné poplatky!",
-        "text": "Všetky obytné autá musia mať známku D2. Ak ťaháte príves za vozidlom D2, potrebujete preň dodatočnú známku U.",
+        "text": "Všetky obytné autá N1 musia mať známku D2. Ak ťaháte príves za vozidlom D2, potrebujete preň dodatočnú známku U.",
         "ikona": "⚠️"
       },
       {
@@ -1812,7 +1812,7 @@
       {
         "id": 2,
         "typ": "Toll Fees!",
-        "text": "All motorhomes must have a D2 vignette. Trailers behind D2 vehicles require an additional U vignette.",
+        "text": "All motorhomes N1 must have a D2 vignette. Trailers behind D2 vehicles require an additional U vignette.",
         "ikona": "⚠️"
       },
       {
@@ -1832,7 +1832,7 @@
       {
         "id": 2,
         "typ": "Mautgebühren!",
-        "text": "Alle Wohnmobile benötigen die D2-Vignette. Anhänger hinter D2-Fahrzeugen benötigen eine zusätzliche U-Vignette.",
+        "text": "Alle Wohnmobile N1 benötigen die D2-Vignette. Anhänger hinter D2-Fahrzeugen benötigen eine zusätzliche U-Vignette.",
         "ikona": "⚠️"
       },
       {
@@ -1852,7 +1852,7 @@
       {
         "id": 2,
         "typ": "Dálniční poplatky!",
-        "text": "Všechny obytné vozy musí mít známku D2. Pokud táhnete přívěs za vozidlem D2, potřebujete pro něj dodatečnou známku U.",
+        "text": "Všechny obytné vozy N1 musí mít známku D2. Pokud táhnete přívěs za vozidlem D2, potřebujete pro něj dodatečnou známku U.",
         "ikona": "⚠️"
       },
       {
@@ -1872,7 +1872,7 @@
       {
         "id": 2,
         "typ": "Autópályadíjak!",
-        "text": "Minden lakóautónak D2 matricával kell rendelkeznie. Ha D2 kategóriájú járművel utánfutót vontat, ahhoz kiegészítő U matrica szükséges.",
+        "text": "Minden N1 lakóautónak D2 matricával kell rendelkeznie. Ha D2 kategóriájú járművel utánfutót vontat, ahhoz kiegészítő U matrica szükséges.",
         "ikona": "⚠️"
       },
       {
