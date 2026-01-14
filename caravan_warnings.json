@@ -4082,7 +4082,7 @@
   "HU": {
     "<= 3.5t": "https://nemzetiutdij.hu",
     "m1_under_35t": "https://nemzetiutdij.hu",
-    "n1_over_35t": "https://hu-go.hu",
+    "n1_over_35t": "https://nemzetiutdij.hu",
     "car_trailer_over_35t": "https://nemzetiutdij.hu"
   },
   "HR": {
