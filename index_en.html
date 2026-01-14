@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caravan Assistant - Your travel partner</title>
+    
+    <link rel="icon" type="image/png" href="android-chrome-512x512.png">
+
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; color: #333; margin: 0; background: #f4f7f6; }
+        .container { max-width: 900px; margin: auto; padding: 20px; }
+        
+        /* Zmena pozadia hlavičky na bledomodrú */
+        header { 
+            background: #add8e6; 
+            color: #2c3e50; 
+            padding: 40px 20px; 
+            text-align: center; 
+            position: relative; 
+        }
+
+        /* Štýl pre prepínač jazykov */
+        .lang-switcher {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            font-size: 0.9em;
+        }
+        .lang-switcher a {
+            text-decoration: none;
+            color: #2c3e50;
+            font-weight: bold;
+            margin-left: 10px;
+            opacity: 0.6;
+        }
+        .lang-switcher a.active {
+            opacity: 1;
+            border-bottom: 2px solid #2c3e50;
+        }
+
+        /* Štýl pre banner, aby nepresahoval obrazovku */
+        .header-banner {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        /* Štýl pre kontajner tlačidla */
+        .btn-google-play {
+            display: inline-block;
+            text-decoration: none;
+            transition: transform 0.2s; 
+        }
+
+        /* Ošetrenie veľkosti obrázka */
+        .play-store-img {
+            width: 200px;  
+            height: auto;  
+            display: block;
+        }
+
+        /* Efekt po prejdení myšou */
+        .btn-google-play:hover {
+            transform: scale(1.05); 
+        }
+
+        .btn { display: inline-block; padding: 15px 30px; background: #000; color: white; border-radius: 8px; text-decoration: none; font-weight: bold; margin-top: 20px; }
+        .feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 40px; }
+        .feature-card { background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        .feature-card h3 { color: #2980b9; margin-top: 0; }
+        .privacy-box { background: #ddd; padding: 30px; border-radius: 12px; margin-top: 60px; font-size: 0.9em; }
+        h2 { text-align: center; color: #2c3e50; }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="lang-switcher">
+        <a href="index.html">SK</a>
+        <a href="index_en.html" class="active">EN</a>
+        <a href="index_de.html">DE</a>
+    </div>
+    <img src="banner_en.png" alt="Caravan Assistant Banner" class="header-banner">
+    <h2>Everything for stress-free caravanning, in one app.</h2>
+    
+    <a href="https://play.google.com/store/apps/details?id=sk.karavan.asistent&pcampaignid=web_share" target="_blank" class="btn-google-play">
+        <img src="google-play.png" alt="Download on Google Play" class="play-store-img">
+    </a>
+</header>
+
+<div class="container">
+    <h2>What can your new app do?</h2>
+<div class="feature-grid">
+    <div class="feature-card">
+        <h3>🌍 Smart Warning</h3>
+        <p>Maximum speed limits for your vehicle and local restrictions on the display immediately upon entering the country. Purchase E-vignettes without fees.</p>
+    </div>
+    <div class="feature-card">
+        <h3>📐 AR Master</h3>
+        <p>Leveling (Bubble level - without placing the mobile on the kitchen counter), parking spot planner and sun path in augmented reality (simply in the camera preview directly on the mobile display).</p>
+    </div>
+    <div class="feature-card">
+        <h3>🔋 Calculators</h3>
+        <p>Self-sufficiency calculation (gas, water, electricity) for peaceful "wild" camping and caravan payload control for correct load distribution and safe driving (calculation of pressure on the towing device).</p>
+    </div>
+    <div class="feature-card">
+        <h3>🛰️ Technical assistant</h3>
+        <p>AR Satellite finder (in the camera preview), checklist before the trip - no more stress on the highway: "Did I forget to secure the fridge?" and a simple GPS navigator that will lead you to the caravan, or to the stand with the best beer.</p>
+    </div>
+    <div class="feature-card">
+        <h3>📖 Travel Diary</h3>
+        <p>Saving places with photos and sharing an interactive trip map with one click.</p>
+    </div>
+    <div class="feature-card">
+        <h3>🎁 Benefits</h3>
+        <p>With our application partners, you can use various advantages or get a small gift</p>
+    </div>
+</div>
+
+
+    <div class="privacy-box" id="privacy">
+    <h2>Privacy Policy</h2>
+    <p>Last update: 1.1.2026</p>
+
+    <h3>1. Location (GPS)</h3>
+    <p>The application accesses the location of the device for the purposes of automatically loading the traffic regulations of the given country, displaying the position of the sun/satellites and for the function of saving parking spaces in the Travel Diary and the "Where I park" module. These data are processed exclusively locally in the device and are not sent to any external servers.</p>
+
+    <h3>2. Camera and AR technology</h3>
+    <p>Access to the camera is used for augmented reality functions (AR Leveling, AR Spot Planner, Sun Path and Satellites). The camera image only serves for real-time visualization, is not recorded or sent anywhere.</p>
+
+    <h3>3. Motion sensors (Accelerometer and Gyroscope)</h3>
+    <p>The application uses motion sensors to measure the tilt of the caravan and determine the direction to the satellites/sun. These data are processed in real time in order to calculate the level and orientation in space.</p>
+
+    <h3>4. Storage and photos</h3>
+    <p>The application requires access to storage for saving photos and text records within the Travel Diary, as well as for saving vehicle settings and energy balance calculations. These files are stored in the application's internal memory. The user has full control over their deletion or voluntary sharing on social networks (via the Android system interface).</p>
+
+    <h3>5. Purchase processing</h3>
+    <p>All financial transactions are processed through the <strong>Google Play Billing</strong> system. The developer does not have access to your credit card data or bank information.</p>
+
+    <h3>6. Third party links</h3>
+    <p>The application provides links to official portals for the purchase of highway vignettes, or our partners' websites. These websites are operated by third parties and are governed by their own privacy policies.</p>
+
+    <h3>7. Local data processing</h3>
+    <p>All calculations (load distribution, payload, energy self-sufficiency) take place exclusively on your device. No entered parameters about your vehicle are collected on our servers.</p>
+
+    <h3>8. Contact</h3>
+    <p>In case of questions regarding data protection, please contact us at: <a href="mailto: karavanasistent@gmail.com" style="color: inherit; text-decoration: none; font-weight: bold;">
+    karavanasistent@gmail.com
+  </a>   </p>
+</div>
+
+</div>
+
+<footer style="text-align:center; padding: 40px;">
+    &copy; 2025 Caravan Assistant
+</footer>
+
+</body>
+</html>
