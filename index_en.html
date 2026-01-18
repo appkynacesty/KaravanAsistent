@@ -46,8 +46,16 @@
             border-radius: 8px;
         }
 
-        /* Štýl pre kontajner tlačidla */
-        .btn-google-play {
+        /* Štýl pre kontajner tlačidiel */
+        .store-buttons {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .btn-store {
             display: inline-block;
             text-decoration: none;
             transition: transform 0.2s; 
@@ -61,7 +69,7 @@
         }
 
         /* Efekt po prejdení myšou */
-        .btn-google-play:hover {
+        .btn-store:hover {
             transform: scale(1.05); 
         }
 
@@ -84,9 +92,14 @@
     <img src="banner_en.png" alt="Caravan Assistant Banner" class="header-banner">
     <h2>Everything for stress-free caravanning, in one app.</h2>
     
-    <a href="https://play.google.com/store/apps/details?id=sk.karavan.asistent&pcampaignid=web_share" target="_blank" class="btn-google-play">
-        <img src="google-play.png" alt="Download on Google Play" class="play-store-img">
-    </a>
+    <div class="store-buttons">
+        <a href="https://play.google.com/store/apps/details?id=sk.karavan.asistent&pcampaignid=web_share" target="_blank" class="btn-store">
+            <img src="google-play.png" alt="Download on Google Play" class="play-store-img">
+        </a>
+        <a href="#" class="btn-store">
+            <img src="ios_logo.svg" alt="Coming soon on App Store" class="play-store-img">
+        </a>
+    </div>
 </header>
 
 <div class="container">
@@ -133,10 +146,10 @@
     <p>The application uses motion sensors to measure the tilt of the caravan and determine the direction to the satellites/sun. These data are processed in real time in order to calculate the level and orientation in space.</p>
 
     <h3>4. Storage and photos</h3>
-    <p>The application requires access to storage for saving photos and text records within the Travel Diary, as well as for saving vehicle settings and energy balance calculations. These files are stored in the application's internal memory. The user has full control over their deletion or voluntary sharing on social networks (via the Android system interface).</p>
+    <p>The application requires access to storage for saving photos and text records within the Travel Diary, as well as for saving vehicle settings and energy balance calculations. These files are stored in the application's internal memory. The user has full control over their deletion or voluntary sharing on social networks (via the system interface).</p>
 
     <h3>5. Purchase processing</h3>
-    <p>All financial transactions are processed through the <strong>Google Play Billing</strong> system. The developer does not have access to your credit card data or bank information.</p>
+    <p>All financial transactions are processed through the <strong>Google Play Billing</strong> and <strong>Apple App Store</strong> systems. The developer does not have access to your credit card data or bank information.</p>
 
     <h3>6. Third party links</h3>
     <p>The application provides links to official portals for the purchase of highway vignettes, or our partners' websites. These websites are operated by third parties and are governed by their own privacy policies.</p>
@@ -147,7 +160,24 @@
     <h3>8. Contact</h3>
     <p>In case of questions regarding data protection, please contact us at: <a href="mailto: karavanasistent@gmail.com" style="color: inherit; text-decoration: none; font-weight: bold;">
     karavanasistent@gmail.com
-  </a>   </p>
+  </a>    </p>
+
+    <hr style="margin: 40px 0; border: 0; border-top: 1px solid #ccc;">
+
+    <h2 id="terms">Terms of Use</h2>
+    <p>By using the Caravan Assistant application, you agree to the following terms:</p>
+    
+    <h3>1. Use of the Application</h3>
+    <p>The application serves as an assistance tool for caravanners. All measurements and calculations (including AR functions and calculators) are indicative. The user is obliged to verify the measurement results with certified tools (e.g., classic bubble level, calibrated scale, etc.).</p>
+
+    <h3>2. Limitation of Liability</h3>
+    <p>The author of the application bears no responsibility for damage to property, health, or fines imposed in road traffic resulting from incorrect use of the application or reliance on the data provided.</p>
+
+    <h3>3. Apple License Agreement (EULA)</h3>
+    <p>For users of the iOS platform, the use of the application is also subject to the standard terms of Apple (Standard Apple Licensed Application End User License Agreement), which can be found at: <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" style="color: #2980b9;">Apple EULA</a>.</p>
+
+    <h3>4. Payments and Premium</h3>
+    <p>The purchase of the Premium version is a one-time purchase and is linked to your account in the respective store (Google Play / App Store). The Premium function can be restored on a new device using the "Restore Purchases" function.</p>
 </div>
 
 </div>
