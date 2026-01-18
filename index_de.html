@@ -46,8 +46,16 @@
             border-radius: 8px;
         }
 
-        /* Štýl pre kontajner tlačidla */
-        .btn-google-play {
+        /* Štýl pre kontajner tlačidiel */
+        .store-buttons {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .btn-store {
             display: inline-block;
             text-decoration: none;
             transition: transform 0.2s; 
@@ -61,7 +69,7 @@
         }
 
         /* Efekt po prejdení myšou */
-        .btn-google-play:hover {
+        .btn-store:hover {
             transform: scale(1.05); 
         }
 
@@ -84,9 +92,14 @@
     <img src="banner_de.png" alt="Karavan Asistent Banner" class="header-banner">
     <h2>Alles für stressfreies Caravaning in einer App.</h2>
     
-    <a href="https://play.google.com/store/apps/details?id=sk.karavan.asistent&pcampaignid=web_share" target="_blank" class="btn-google-play">
-        <img src="google-play.png" alt="Auf Google Play laden" class="play-store-img">
-    </a>
+    <div class="store-buttons">
+        <a href="https://play.google.com/store/apps/details?id=sk.karavan.asistent&pcampaignid=web_share" target="_blank" class="btn-store">
+            <img src="google-play.png" alt="Auf Google Play laden" class="play-store-img">
+        </a>
+        <a href="#" class="btn-store">
+            <img src="ios_logo.svg" alt="Demnächst im App Store" class="play-store-img">
+        </a>
+    </div>
 </header>
 
 <div class="container">
@@ -133,10 +146,10 @@
     <p>Die App nutzt Bewegungssensoren, um die Neigung des Wohnwagens zu messen und die Richtung zu den Satelliten/der Sonne zu bestimmen. Diese Daten werden in Echtzeit verarbeitet, um die Ebene und Orientierung im Raum zu berechnen.</p>
 
     <h3>4. Speicher und Fotos</h3>
-    <p>Die App benötigt Zugriff auf den Speicher, um Fotos und Textaufzeichnungen im Reisetagebuch zu speichern sowie um Fahrzeugeinstellungen und Energiebilanzberechnungen zu sichern. Diese Dateien werden im internen Speicher der App abgelegt. Der Nutzer hat die volle Kontrolle über deren Löschung oder die freiwillige Teilung in sozialen Netzwerken (über die Android-Systemschnittstelle).</p>
+    <p>Die App benötigt Zugriff auf den Speicher, um Fotos und Textaufzeichnungen im Reisetagebuch zu speichern sowie um Fahrzeugeinstellungen und Energiebilanzberechnungen zu sichern. Diese Dateien werden im internen Speicher der App abgelegt. Der Nutzer hat die volle Kontrolle über deren Löschung oder die freiwillige Teilung in sozialen Netzwerken (über die System-Schnittstelle).</p>
 
     <h3>5. Zahlungsabwicklung</h3>
-    <p>Alle Finanztransaktionen werden über das <strong>Google Play Billing</strong> System abgewickelt. Der Entwickler hat keinen Zugriff auf Ihre Kreditkartendaten oder Bankinformationen.</p>
+    <p>Alle Finanztransaktionen werden über die Systeme <strong>Google Play Billing</strong> und <strong>Apple App Store</strong> abgewickelt. Der Entwickler hat keinen Zugriff auf Ihre Kreditkartendaten oder Bankinformationen.</p>
 
     <h3>6. Links zu Drittanbietern</h3>
     <p>Die App bietet Links zu offiziellen Portalen für den Kauf von Autobahnvignetten oder zu Websites unserer Partner an. Diese Websites werden von Dritten betrieben und unterliegen deren eigenen Datenschutzbestimmungen.</p>
@@ -147,7 +160,24 @@
     <h3>8. Kontakt</h3>
     <p>Bei Fragen zum Datenschutz kontaktieren Sie uns bitte unter: <a href="mailto: karavanasistent@gmail.com" style="color: inherit; text-decoration: none; font-weight: bold;">
     karavanasistent@gmail.com
-  </a>   </p>
+  </a>    </p>
+
+    <hr style="margin: 40px 0; border: 0; border-top: 1px solid #ccc;">
+
+    <h2 id="terms">Nutzungsbedingungen (Terms of Use)</h2>
+    <p>Durch die Nutzung der App Karavan Asistent erklären Sie sich mit den folgenden Bedingungen einverstanden:</p>
+    
+    <h3>1. Nutzung der App</h3>
+    <p>Die App dient als Assistenzwerkzeug für Camper. Alle Messungen und Berechnungen (einschließlich AR-Funktionen und Rechner) sind Richtwerte. Der Nutzer ist verpflichtet, Messergebnisse mit zertifizierten Werkzeugen (z. B. klassische Wasserwaage, kalibrierte Waage usw.) zu überprüfen.</p>
+
+    <h3>2. Haftungsausschluss</h3>
+    <p>Der Autor der App übernimmt keine Haftung für Sachschäden, Gesundheitsschäden oder Bußgelder im Straßenverkehr, die durch eine unsachgemäße Nutzung der App oder das Vertrauen auf die bereitgestellten Daten entstehen.</p>
+
+    <h3>3. Apple Lizenzvereinbarung (EULA)</h3>
+    <p>Für Nutzer der iOS-Plattform unterliegt die Nutzung der App zusätzlich den Standardbedingungen von Apple (Standard Apple Licensed Application End User License Agreement), einzusehen unter: <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" style="color: #2980b9;">Apple EULA</a>.</p>
+
+    <h3>4. Zahlungen und Premium</h3>
+    <p>Der Kauf der Premium-Version ist eine einmalige Zahlung und an Ihr Konto im jeweiligen Store (Google Play / App Store) gebunden. Die Premium-Funktion kann auf einem neuen Gerät mithilfe der Funktion "Käufe wiederherstellen" (Restore Purchases) reaktiviert werden.</p>
 </div>
 
 </div>
