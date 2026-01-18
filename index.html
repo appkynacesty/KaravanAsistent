@@ -46,22 +46,29 @@
             border-radius: 8px;
         }
 
-        /* Štýl pre kontajner tlačidla */
-        .btn-google-play {
-            display: inline-block;
-            text-decoration: none;
-            transition: transform 0.2s; /* Jemný efekt pri prejdení myšou */
+        /* Štýl pre kontajner tlačidiel */
+        .store-buttons {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
         }
 
-        /* Ošetrenie veľkosti obrázka */
+        .btn-store {
+            display: inline-block;
+            text-decoration: none;
+            transition: transform 0.2s;
+        }
+
+        /* Ošetrenie veľkosti obrázkov */
         .play-store-img {
-            width: 200px;  /* Šírka tlačidla - môžeš upraviť podľa potreby */
-            height: auto;  /* Výška sa dopočíta automaticky, aby sa zachoval pomer strán */
+            width: 200px;  /* Šírka tlačidla */
+            height: auto;
             display: block;
         }
 
-        /* Efekt po prejdení myšou (dobrovoľné) */
-        .btn-google-play:hover {
+        .btn-store:hover {
             transform: scale(1.05); /* Tlačidlo sa jemne zväčší */
         }
 
@@ -84,9 +91,14 @@
     <img src="banner.png" alt="Karavan Asistent Banner" class="header-banner">
     <h2>Všetko pre karavaning bez stresu, v jednej aplikácii.</h2>
     
-    <a href="https://play.google.com/store/apps/details?id=sk.karavan.asistent&pcampaignid=web_share" target="_blank" class="btn-google-play">
-        <img src="google-play.png" alt="Stiahnuť na Google Play" class="play-store-img">
-    </a>
+    <div class="store-buttons">
+        <a href="https://play.google.com/store/apps/details?id=sk.karavan.asistent&pcampaignid=web_share" target="_blank" class="btn-store">
+            <img src="google-play.png" alt="Stiahnuť na Google Play" class="play-store-img">
+        </a>
+        <a href="#" class="btn-store">
+            <img src="ios_logo.svg" alt="Už čoskoro na App Store" class="play-store-img">
+        </a>
+    </div>
 </header>
 
 <div class="container">
@@ -136,7 +148,7 @@
     <p>Aplikácia vyžaduje prístup k úložisku na ukladanie fotografií a textových záznamov v rámci Cestovného denníka, ako aj pre ukladanie nastavení vozidla a výpočtov energetickej bilancie. Tieto súbory sú uložené v internej pamäti aplikácie. Používateľ má plnú kontrolu nad ich zmazaním alebo dobrovoľným zdieľaním na sociálne siete (cez systémové rozhranie Android).</p>
 
     <h3>5. Spracovanie nákupov</h3>
-    <p>Všetky finančné transakcie sú spracovávané prostredníctvom systému <strong>Google Play Billing</strong>. Vývojár nemá prístup k údajom o vašej platobnej karte ani k bankovým informáciám.</p>
+    <p>Všetky finančné transakcie sú spracovávané prostredníctvom systémov <strong>Google Play Billing</strong> a <strong>Apple App Store</strong>. Vývojár nemá prístup k údajom o vašej platobnej karte ani k bankovým informáciám.</p>
 
     <h3>6. Odkazy na tretie strany</h3>
     <p>Aplikácia poskytuje odkazy na oficiálne portály pre nákup diaľničných známok, alebo stránky našich partnerov. Tieto webové stránky sú prevádzkované tretími stranami a riadia sa vlastnými zásadami ochrany osobných údajov.</p>
@@ -147,7 +159,23 @@
     <h3>8. Kontakt</h3>
     <p>V prípade otázok ohľadom ochrany údajov nás kontaktujte na:  <a href="mailto: karavanasistent@gmail.com" style="color: inherit; text-decoration: none; font-weight: bold;">
     karavanasistent@gmail.com
-  </a>   </p>
+  </a>    </p>
+
+    <hr style="margin: 40px 0; border: 0; border-top: 1px solid #ccc;">
+
+    <h2 id="terms">Všeobecné podmienky používania (Terms of Use)</h2>
+    <p>Používaním aplikácie Karavan Asistent súhlasíte s nasledujúcimi podmienkami:</p>
+    
+    <h3>1. Používanie aplikácie</h3>
+    <p>Aplikácia slúži ako asistenčný nástroj pre karavanistov. Všetky merania a výpočty (vrátane AR funkcií a kalkulačiek) sú orientačné. Používateľ je povinný výsledky merania overiť certifikovanými nástrojmi (napr. klasická vodováha, kalibrovaná váha a pod.).</p>
+
+    <h3>2. Obmedzenie zodpovednosti</h3>
+    <p>Autor aplikácie nenesie žiadnu zodpovednosť za škody na majetku, zdraví alebo pokuty udelené v cestnej premávke, ktoré by vznikli v dôsledku nesprávneho použitia aplikácie alebo spoliehania sa na poskytnuté údaje.</p>
+
+    <h3>3. Licenčná zmluva Apple (EULA)</h3>
+    <p>Pre používateľov platformy iOS sa na používanie aplikácie vzťahujú aj štandardné podmienky spoločnosti Apple (Standard Apple Licensed Application End User License Agreement), ktoré nájdete na adrese: <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" style="color: #2980b9;">Apple EULA</a>.</p>
+    <h3>4. Platby a Premium</h3>
+    <p>Nákup Premium verzie je jednorazový a viazaný na váš účet v príslušnom obchode (Google Play / App Store). Funkciu Premium je možné obnoviť na novom zariadení pomocou funkcie "Restore Purchases".</p>
 </div>
 
 </div>
