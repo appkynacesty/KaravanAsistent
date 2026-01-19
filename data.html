@@ -42,11 +42,13 @@
             <option value="2,0" selected>🏕 Partnerské kempy</option>
         </select>
 
-        <label>Názov (SK / EN / DE):</label>
+        <label>Názov (SK / EN / DE / CS / HU):</label>
         <div class="lang-group">
             <input type="text" id="name_sk" placeholder="Slovenský názov" required>
             <input type="text" id="name_en" placeholder="English (voliteľné)">
             <input type="text" id="name_de" placeholder="Deutsch (voliteľné)">
+            <input type="text" id="name_cs" placeholder="Čeština (voliteľné)">
+            <input type="text" id="name_hu" placeholder="Magyar (voliteľné)">
         </div>
 
         <div class="row">
@@ -71,6 +73,8 @@
             <input type="text" id="benefit_sk" placeholder="Benefit SK">
             <input type="text" id="benefit_en" placeholder="Benefit EN">
             <input type="text" id="benefit_de" placeholder="Benefit DE">
+            <input type="text" id="benefit_cs" placeholder="Benefit CS">
+            <input type="text" id="benefit_hu" placeholder="Benefit HU">
         </div>
 
         <label>Telefón:</label>
@@ -171,7 +175,9 @@
             "name": { 
                 "sk": name_sk, 
                 "en": document.getElementById('name_en').value || name_sk, 
-                "de": document.getElementById('name_de').value || name_sk 
+                "de": document.getElementById('name_de').value || name_sk,
+                "cs": document.getElementById('name_cs').value || name_sk,
+                "hu": document.getElementById('name_hu').value || name_sk
             },
             "isPartner": document.getElementById('isPartner').value === "true",
             "country": document.getElementById('country').value.toUpperCase(),
@@ -183,7 +189,9 @@
             newItem.benefit = { 
                 "sk": b_sk, 
                 "en": document.getElementById('benefit_en').value || b_sk, 
-                "de": document.getElementById('benefit_de').value || b_sk 
+                "de": document.getElementById('benefit_de').value || b_sk,
+                "cs": document.getElementById('benefit_cs').value || b_sk,
+                "hu": document.getElementById('benefit_hu').value || b_sk
             };
         }
 
