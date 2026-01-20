@@ -50,11 +50,11 @@
             },
             {
               "name": {
-                "sk": "Karavan.sk (Sereď/Bratislava)",
-                "en": "Karavan.sk (Sered/Bratislava)",
-                "de": "Karavan.sk (Sered/Bratislava)",
-                "cs": "Karavan.sk (Sereď/Bratislava)",
-                "hu": "Karavan.sk (Szered/Pozsony)"
+                "sk": "Karavan.sk ",
+                "en": "Karavan.sk ",
+                "de": "Karavan.sk ",
+                "cs": "Karavan.sk ",
+                "hu": "Karavan.sk "
               },
               "isPartner": false,
               "country": "SK",
