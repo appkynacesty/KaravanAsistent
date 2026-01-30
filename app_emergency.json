@@ -581,6 +581,26 @@
               },
               "url": "https://www.camping-am-see.at",
               "phone": "+43111222333"
+            },
+            {
+              "name": {
+                "sk": "Bystrina Resort",
+                "en": "Bystrina Resort",
+                "de": "Bystrina Resort",
+                "cs": "Bystrina Resort",
+                "hu": "Bystrina Resort"
+              },
+              "isPartner": true,
+              "country": "SK",
+              "url": "https://bystrinaresort.sk/kemping-bystrina/",
+              "phone": "+421 44 5548 163",
+              "benefit": {
+                "sk": "5% zľava na ubytovanie ",
+                "en": "5% discount on accommodation",
+                "de": "5% Rabatt auf die Unterkunft",
+                "cs": "5% sleva na ubytování",
+                "hu": "5% kedvezmény a szállás árából"
+              }
             }
           ]
         }
