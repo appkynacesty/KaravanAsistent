@@ -544,26 +544,6 @@
           "items": [
             {
               "name": {
-                "sk": "Pullmann Piešťany (Ukážka)",
-                "en": "Pullmann Piešťany (Preview)",
-                "de": "Pullmann Piešťany (Vorschau)",
-                "cs": "Pullmann Piešťany (Ukázka)",
-                "hu": "Pullmann Pöstyén (Ízelítő)"
-              },
-              "isPartner": true,
-              "country": "SK",
-              "benefit": {
-                "sk": "Pivko na privítanie.",
-                "en": "A welcome beer.",
-                "de": "Ein Begrüßungsbier.",
-                "cs": "Pivo na uvítanou.",
-                "hu": "Üdvözlő sör."
-              },
-              "url": "https://www.campingpiestany.sk/",
-              "phone": "+421911201089"
-            },
-            {
-              "name": {
                 "sk": "Camping am See (Ukážka)",
                 "en": "Camping am See (Prewiev)",
                 "de": "Camping am See (Vorschau)",
