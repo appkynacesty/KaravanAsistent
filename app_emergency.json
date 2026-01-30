@@ -1,6 +1,6 @@
 {
   "version": "1.5.0",
-  "lastUpdated": "2025-12-26",
+  "lastUpdated": "2026-01-30",
   "modules": [
     {
       "icon": "build",
@@ -498,6 +498,19 @@
               "country": "RS",
               "url": "https://www.amss.org.rs",
               "phone": "1987"
+            },
+            {
+              "name": {
+                "sk": "Caravan 24 - Fórum",
+                "en": "Caravan 24 - Fórum",
+                "de": "Caravan 24 - Fórum",
+                "cs": "Caravan 24 - Fórum",
+                "hu": "Caravan 24 - Fórum"
+              },
+              "isPartner": true,
+              "country": "CZ",
+              "url": "https://www.caravan24.cz/index.php#gsc.tab=0",
+              "phone": ""
             }
           ]
         }
