@@ -14,7 +14,8 @@
         button { padding: 14px; border: none; border-radius: 8px; cursor: pointer; font-weight: bold; transition: 0.2s; -webkit-appearance: none; }
         .btn-add { background: #28a745; color: white; width: 100%; margin-top: 20px; font-size: 1.1em; }
         .btn-load { background: #007bff; color: white; margin-bottom: 15px; width: 100%; }
-        .btn-delete { background: #dc3545; color: white; padding: 8px 15px; font-size: 0.85em; width: auto; }
+        .btn-delete { background: #dc3545; color: white; padding: 8px 15px; font-size: 0.85em; width: auto; margin-left: 5px; }
+        .btn-edit { background: #ffc107; color: black; padding: 8px 15px; font-size: 0.85em; width: auto; }
         .item-row { display: flex; justify-content: space-between; align-items: center; padding: 12px; border-bottom: 1px solid #eee; }
         .token-area { background: #fff3cd; border: 1px solid #ffeeba; padding: 15px; border-radius: 10px; margin-bottom: 20px; }
         #status { padding: 15px; margin-top: 10px; border-radius: 8px; display: none; text-align: center; font-weight: bold; position: fixed; top: 10px; left: 50%; transform: translateX(-50%); z-index: 1000; min-width: 250px; box-shadow: 0 4px 12px rgba(0,0,0,0.2); }
@@ -32,11 +33,13 @@
 </div>
 
 <div class="card">
-    <h2>➕ Pridať nový záznam</h2>
+    <h2 id="formTitle">➕ Pridať nový záznam</h2>
     <form id="addForm">
+        <input type="hidden" id="editData" value="">
         <label>Kam pridať záznam?</label>
         <select id="targetSelect" required>
             <option value="0,0">🛠 Servis a doplnky</option>
+            <option value="0,1">🚐 Požičovne Karavanov</option>
             <option value="1,0">🔍 Vyhľadávanie kempov (Odkazy)</option>
             <option value="1,1">🆘 Pomoc v núdzi (Odkazy)</option>
             <option value="2,0" selected>🏕 Partnerské kempy</option>
@@ -80,7 +83,8 @@
         <label>Telefón:</label>
         <input type="text" id="phone" placeholder="+421...">
 
-        <button type="submit" class="btn-add">🚀 Odoslať na GitHub</button>
+        <button type="submit" id="btnSubmit" class="btn-add">🚀 Odoslať na GitHub</button>
+        <button type="button" id="btnCancelEdit" class="btn-load" style="display:none; margin-top:10px; background:#6c757d;" onclick="cancelEdit()">Zrušiť úpravu</button>
     </form>
 </div>
 
@@ -138,6 +142,7 @@
                 header.style.padding = "5px 10px";
                 header.style.fontWeight = "bold";
                 header.style.fontSize = "0.8em";
+                header.style.marginTop = "10px";
                 header.textContent = `${mod.title.sk} > ${sec.heading.sk}`;
                 listDiv.appendChild(header);
 
@@ -145,11 +150,14 @@
                     const row = document.createElement('div');
                     row.className = 'item-row';
                     row.innerHTML = `
-                        <div style="font-size: 0.9em;">
+                        <div style="font-size: 0.9em; flex: 1;">
                             <strong>${item.name.sk}</strong><br>
                             <small>${item.url}</small>
                         </div>
-                        <button class="btn-delete" onclick="deleteItem(${modIdx}, ${secIdx}, ${itemIdx})">Zmazať</button>
+                        <div>
+                            <button class="btn-edit" onclick="editItem(${modIdx}, ${secIdx}, ${itemIdx})">Upraviť</button>
+                            <button class="btn-delete" onclick="deleteItem(${modIdx}, ${secIdx}, ${itemIdx})">Zmazať</button>
+                        </div>
                     `;
                     listDiv.appendChild(row);
                 });
@@ -158,8 +166,56 @@
         showStatus("✅ Dáta načítané", "#d4edda", "#155724");
     }
 
+    async function editItem(mIdx, sIdx, iIdx) {
+        const data = await getGitHubData();
+        if (!data) return;
+        const item = data.content.modules[mIdx].sections[sIdx].items[iIdx];
+
+        document.getElementById('editData').value = `${mIdx},${sIdx},${iIdx}`;
+        document.getElementById('targetSelect').value = `${mIdx},${sIdx}`;
+        
+        document.getElementById('name_sk').value = item.name.sk;
+        document.getElementById('name_en').value = item.name.en || "";
+        document.getElementById('name_de').value = item.name.de || "";
+        document.getElementById('name_cs').value = item.name.cs || "";
+        document.getElementById('name_hu').value = item.name.hu || "";
+        
+        document.getElementById('country').value = item.country;
+        document.getElementById('isPartner').value = item.isPartner.toString();
+        document.getElementById('url').value = item.url;
+        document.getElementById('phone').value = item.phone || "";
+
+        if (item.benefit) {
+            document.getElementById('benefit_sk').value = item.benefit.sk || "";
+            document.getElementById('benefit_en').value = item.benefit.en || "";
+            document.getElementById('benefit_de').value = item.benefit.de || "";
+            document.getElementById('benefit_cs').value = item.benefit.cs || "";
+            document.getElementById('benefit_hu').value = item.benefit.hu || "";
+        } else {
+            document.getElementById('benefit_sk').value = "";
+            document.getElementById('benefit_en').value = "";
+            document.getElementById('benefit_de').value = "";
+            document.getElementById('benefit_cs').value = "";
+            document.getElementById('benefit_hu').value = "";
+        }
+
+        document.getElementById('formTitle').innerText = "✏️ Upraviť záznam";
+        document.getElementById('btnSubmit').innerText = "💾 Uložiť zmeny";
+        document.getElementById('btnCancelEdit').style.display = "block";
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function cancelEdit() {
+        document.getElementById('addForm').reset();
+        document.getElementById('editData').value = "";
+        document.getElementById('formTitle').innerText = "➕ Pridať nový záznam";
+        document.getElementById('btnSubmit').innerText = "🚀 Odoslať na GitHub";
+        document.getElementById('btnCancelEdit').style.display = "none";
+    }
+
     document.getElementById('addForm').addEventListener('submit', async (e) => {
         e.preventDefault();
+        const editVal = document.getElementById('editData').value;
         const target = document.getElementById('targetSelect').value.split(',');
         const mIdx = parseInt(target[0]);
         const sIdx = parseInt(target[1]);
@@ -195,12 +251,23 @@
             };
         }
 
-        data.content.modules[mIdx].sections[sIdx].items.push(newItem);
+        if (editVal) {
+            const parts = editVal.split(',');
+            const oldM = parseInt(parts[0]);
+            const oldS = parseInt(parts[1]);
+            const oldI = parseInt(parts[2]);
+            // Zmažeme starý a vložíme nový (ak sa zmenil modul/sekcia, zmaže sa zo starého miesta)
+            data.content.modules[oldM].sections[oldS].items.splice(oldI, 1);
+            data.content.modules[mIdx].sections[sIdx].items.push(newItem);
+        } else {
+            data.content.modules[mIdx].sections[sIdx].items.push(newItem);
+        }
+
         data.content.lastUpdated = new Date().toISOString().split('T')[0];
 
-        if (await saveToGitHub(data.content, data.sha, `Pridané: ${name_sk}`)) {
+        if (await saveToGitHub(data.content, data.sha, `Zmena: ${name_sk}`)) {
             showStatus("✅ Uložené!", "#28a745", "white");
-            document.getElementById('addForm').reset();
+            cancelEdit();
             loadItems();
         }
     });
