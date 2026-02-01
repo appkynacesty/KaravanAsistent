@@ -20,9 +20,9 @@
         #status { padding: 15px; margin-top: 10px; border-radius: 8px; display: none; text-align: center; font-weight: bold; position: fixed; top: 10px; left: 50%; transform: translateX(-50%); z-index: 1000; min-width: 250px; box-shadow: 0 4px 12px rgba(0,0,0,0.2); }
         .country-header { background: #343a40; color: white; padding: 8px 15px; border-radius: 5px; margin-top: 20px; font-weight: bold; }
         .warning-box { border-left: 4px solid #dc3545; background: #fff9f9; padding: 10px; margin: 5px 0; font-size: 0.9em; }
-        .btn-delete { background: #ff4d4d; color: white; border-radius: 5px; padding: 5px 10px; font-size: 0.7em; float: right; }
+        .btn-delete { background: #ff4d4d; color: white; border-radius: 5px; padding: 5px 10px; font-size: 0.7em; float: right; margin-left: 5px; }
+        .btn-edit { background: #ffc107; color: black; border-radius: 5px; padding: 5px 10px; font-size: 0.7em; float: right; }
         .limit-info { font-size: 0.8em; color: #666; padding: 8px; background: #eee; margin-bottom: 10px; border-radius: 0 0 8px 8px; }
-        .lang-tag { font-size: 0.7em; background: #ddd; padding: 2px 4px; border-radius: 3px; margin-right: 5px; }
     </style>
 </head>
 <body>
@@ -35,8 +35,9 @@
 </div>
 
 <div class="card">
-    <h2>➕ Pridať Varovanie</h2>
+    <h2 id="formTitle">➕ Pridať Varovanie</h2>
     <form id="warningForm">
+        <input type="hidden" id="editIndex" value="-1">
         <label>Krajina (Kód napr. AT, DE, SK):</label>
         <input type="text" id="wCountry" placeholder="AT" required maxlength="2" style="text-transform: uppercase;">
 
@@ -47,13 +48,27 @@
         <textarea id="wText_sk" rows="2" placeholder="Text varovania (Slovensky)" required></textarea>
 
         <label>Preklady (Ak prázdne, použije sa SK text):</label>
-        <input type="text" id="wType_en" placeholder="Type (English)">
-        <textarea id="wText_en" rows="2" placeholder="Text (English)"></textarea>
         
-        <input type="text" id="wType_de" placeholder="Typ (Deutsch)">
-        <textarea id="wText_de" rows="2" placeholder="Text (Deutsch)"></textarea>
+        <div class="row">
+            <div style="flex:1"><input type="text" id="wType_cs" placeholder="Typ (Čeština)"></div>
+            <div style="flex:1"><input type="text" id="wType_en" placeholder="Type (English)"></div>
+        </div>
+        <div class="row">
+            <textarea id="wText_cs" rows="2" placeholder="Text (Čeština)"></textarea>
+            <textarea id="wText_en" rows="2" placeholder="Text (English)"></textarea>
+        </div>
 
-        <button type="submit" class="btn-add">⚠️ Pridať varovanie</button>
+        <div class="row">
+            <div style="flex:1"><input type="text" id="wType_de" placeholder="Typ (Deutsch)"></div>
+            <div style="flex:1"><input type="text" id="wType_hu" placeholder="Típus (Magyar)"></div>
+        </div>
+        <div class="row">
+            <textarea id="wText_de" rows="2" placeholder="Text (Deutsch)"></textarea>
+            <textarea id="wText_hu" rows="2" placeholder="Szöveg (Magyar)"></textarea>
+        </div>
+
+        <button type="submit" id="btnSubmit" class="btn-add">⚠️ Pridať varovanie</button>
+        <button type="button" id="btnCancelEdit" class="btn-load" style="display:none; margin-top:10px;" onclick="cancelEdit()">Zrušiť úpravu</button>
     </form>
 </div>
 
@@ -129,6 +144,7 @@
                 row.className = 'item-row';
                 row.innerHTML = `
                     <button class="btn-delete" onclick="deleteWarning('${code}', ${idx})">Zmazať</button>
+                    <button class="btn-edit" onclick="editWarning('${code}', ${idx})">Upraviť</button>
                     <div class="warning-box">
                         ${item.ikona} <strong>${item.typ}</strong><br>${item.text}
                     </div>
@@ -139,40 +155,77 @@
         });
     }
 
-    document.getElementById('warningForm').addEventListener('submit', async (e) => {
-        e.preventDefault();
-        const code = document.getElementById('wCountry').value.toUpperCase();
+    async function editWarning(code, idx) {
         const data = await getGitHubData();
         if (!data) return;
 
-        if (!data.content[code]) data.content[code] = { sk: [], en: [], de: [] };
+        const sk = data.content[code].sk[idx];
+        const cs = (data.content[code].cs && data.content[code].cs[idx]) || {};
+        const en = (data.content[code].en && data.content[code].en[idx]) || {};
+        const de = (data.content[code].de && data.content[code].de[idx]) || {};
+        const hu = (data.content[code].hu && data.content[code].hu[idx]) || {};
 
-        const id = data.content[code].sk.length + 1;
+        document.getElementById('editIndex').value = idx;
+        document.getElementById('wCountry').value = code;
+        document.getElementById('wIcon').value = sk.ikona;
+        document.getElementById('wType_sk').value = sk.typ;
+        document.getElementById('wText_sk').value = sk.text;
+        
+        document.getElementById('wType_cs').value = cs.typ || "";
+        document.getElementById('wText_cs').value = cs.text || "";
+        document.getElementById('wType_en').value = en.typ || "";
+        document.getElementById('wText_en').value = en.text || "";
+        document.getElementById('wType_de').value = de.typ || "";
+        document.getElementById('wText_de').value = de.text || "";
+        document.getElementById('wType_hu').value = hu.typ || "";
+        document.getElementById('wText_hu').value = hu.text || "";
+
+        document.getElementById('formTitle').innerText = "✏️ Upraviť Varovanie";
+        document.getElementById('btnSubmit').innerText = "💾 Uložiť zmeny";
+        document.getElementById('btnCancelEdit').style.display = "block";
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function cancelEdit() {
+        document.getElementById('warningForm').reset();
+        document.getElementById('editIndex').value = "-1";
+        document.getElementById('formTitle').innerText = "➕ Pridať Varovanie";
+        document.getElementById('btnSubmit').innerText = "⚠️ Pridať varovanie";
+        document.getElementById('btnCancelEdit').style.display = "none";
+    }
+
+    document.getElementById('warningForm').addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const code = document.getElementById('wCountry').value.toUpperCase();
+        const editIdx = parseInt(document.getElementById('editIndex').value);
+        const data = await getGitHubData();
+        if (!data) return;
+
+        if (!data.content[code]) data.content[code] = { sk: [], cs: [], en: [], de: [], hu: [] };
+        if (!data.content[code].cs) data.content[code].cs = [];
+        if (!data.content[code].hu) data.content[code].hu = [];
+
         const ikona = document.getElementById('wIcon').value;
         const sk_typ = document.getElementById('wType_sk').value;
         const sk_text = document.getElementById('wText_sk').value;
 
-        // Pridanie do SK
-        data.content[code].sk.push({ id, typ: sk_typ, text: sk_text, ikona });
+        const id = editIdx !== -1 ? data.content[code].sk[editIdx].id : data.content[code].sk.length + 1;
 
-        // Pridanie do EN (použije EN vstup alebo SK zálohu)
-        data.content[code].en.push({
-            id,
-            typ: document.getElementById('wType_en').value || sk_typ,
-            text: document.getElementById('wText_en').value || sk_text,
-            ikona
+        const langs = ['sk', 'cs', 'en', 'de', 'hu'];
+        langs.forEach(l => {
+            const typ = document.getElementById('wType_' + l).value || sk_typ;
+            const text = document.getElementById('wText_' + l).value || sk_text;
+            const entry = { id, typ, text, ikona };
+            
+            if (editIdx !== -1) {
+                data.content[code][l][editIdx] = entry;
+            } else {
+                data.content[code][l].push(entry);
+            }
         });
 
-        // Pridanie do DE (použije DE vstup alebo SK zálohu)
-        data.content[code].de.push({
-            id,
-            typ: document.getElementById('wType_de').value || sk_typ,
-            text: document.getElementById('wText_de').value || sk_text,
-            ikona
-        });
-
-        if (await saveToGitHub(data.content, data.sha, `Varovanie ${code}`)) {
-            document.getElementById('warningForm').reset();
+        if (await saveToGitHub(data.content, data.sha, `Zmena ${code}`)) {
+            cancelEdit();
             loadAll();
         }
     });
@@ -198,7 +251,7 @@
                 highway: parseInt(document.getElementById('l2_h').value)
             }
         };
-        if (!data.content[code]) data.content[code] = { sk: [], en: [], de: [] };
+        if (!data.content[code]) data.content[code] = { sk: [], cs: [], en: [], de: [], hu: [] };
 
         await saveToGitHub(data.content, data.sha, `Limity ${code}`);
         loadAll();
@@ -209,9 +262,9 @@
         const data = await getGitHubData();
         if (!data) return;
 
-        data.content[code].sk.splice(idx, 1);
-        data.content[code].en.splice(idx, 1);
-        data.content[code].de.splice(idx, 1);
+        ['sk', 'cs', 'en', 'de', 'hu'].forEach(l => {
+            if (data.content[code][l]) data.content[code][l].splice(idx, 1);
+        });
 
         await saveToGitHub(data.content, data.sha, `Zmazané ${code}`);
         loadAll();
