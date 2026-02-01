@@ -38,8 +38,17 @@
     <h2 id="formTitle">➕ Pridať Varovanie</h2>
     <form id="warningForm">
         <input type="hidden" id="editIndex" value="-1">
-        <label>Krajina (Kód napr. AT, DE, SK):</label>
-        <input type="text" id="wCountry" placeholder="AT" required maxlength="2" style="text-transform: uppercase;">
+        
+        <div class="row">
+            <div style="flex:2">
+                <label>Krajina (AT, DE, SK):</label>
+                <input type="text" id="wCountry" placeholder="AT" required maxlength="2" style="text-transform: uppercase;">
+            </div>
+            <div style="flex:1">
+                <label>Poradie (1 = prvý):</label>
+                <input type="number" id="wOrder" placeholder="1" min="1">
+            </div>
+        </div>
 
         <div class="row">
             <div style="flex:1"><label>Ikona:</label><input type="text" id="wIcon" placeholder="🚫" required></div>
@@ -146,7 +155,7 @@
                     <button class="btn-delete" onclick="deleteWarning('${code}', ${idx})">Zmazať</button>
                     <button class="btn-edit" onclick="editWarning('${code}', ${idx})">Upraviť</button>
                     <div class="warning-box">
-                        ${item.ikona} <strong>${item.typ}</strong><br>${item.text}
+                        <small>#${idx + 1}</small> | ${item.ikona} <strong>${item.typ}</strong><br>${item.text}
                     </div>
                 `;
                 sec.appendChild(row);
@@ -167,6 +176,7 @@
 
         document.getElementById('editIndex').value = idx;
         document.getElementById('wCountry').value = code;
+        document.getElementById('wOrder').value = idx + 1;
         document.getElementById('wIcon').value = sk.ikona;
         document.getElementById('wType_sk').value = sk.typ;
         document.getElementById('wText_sk').value = sk.text;
@@ -198,33 +208,38 @@
         e.preventDefault();
         const code = document.getElementById('wCountry').value.toUpperCase();
         const editIdx = parseInt(document.getElementById('editIndex').value);
+        const desiredOrder = parseInt(document.getElementById('wOrder').value) - 1;
         const data = await getGitHubData();
         if (!data) return;
 
         if (!data.content[code]) data.content[code] = { sk: [], cs: [], en: [], de: [], hu: [] };
-        if (!data.content[code].cs) data.content[code].cs = [];
-        if (!data.content[code].hu) data.content[code].hu = [];
+        ['sk', 'cs', 'en', 'de', 'hu'].forEach(l => { if (!data.content[code][l]) data.content[code][l] = []; });
 
         const ikona = document.getElementById('wIcon').value;
         const sk_typ = document.getElementById('wType_sk').value;
         const sk_text = document.getElementById('wText_sk').value;
+        
+        // Ak upravujeme, najprv vyberieme staré záznamy zo všetkých jazykov
+        if (editIdx !== -1) {
+            ['sk', 'cs', 'en', 'de', 'hu'].forEach(l => data.content[code][l].splice(editIdx, 1));
+        }
 
-        const id = editIdx !== -1 ? data.content[code].sk[editIdx].id : data.content[code].sk.length + 1;
+        const id = editIdx !== -1 ? (editIdx + 1) : (data.content[code].sk.length + 1);
 
-        const langs = ['sk', 'cs', 'en', 'de', 'hu'];
-        langs.forEach(l => {
+        ['sk', 'cs', 'en', 'de', 'hu'].forEach(l => {
             const typ = document.getElementById('wType_' + l).value || sk_typ;
             const text = document.getElementById('wText_' + l).value || sk_text;
             const entry = { id, typ, text, ikona };
             
-            if (editIdx !== -1) {
-                data.content[code][l][editIdx] = entry;
+            // Vloženie na požadovanú pozíciu
+            if (!isNaN(desiredOrder) && desiredOrder >= 0) {
+                data.content[code][l].splice(desiredOrder, 0, entry);
             } else {
                 data.content[code][l].push(entry);
             }
         });
 
-        if (await saveToGitHub(data.content, data.sha, `Zmena ${code}`)) {
+        if (await saveToGitHub(data.content, data.sha, `Zmena poradia/obsahu ${code}`)) {
             cancelEdit();
             loadAll();
         }
