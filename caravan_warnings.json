@@ -398,6 +398,12 @@
   "SK": {
     "sk": [
       {
+        "id": 8,
+        "typ": "Benefit pre vás!",
+        "text": "Na Slovensku máme partnerov, u ktorých s full verziou aplikácie čerpáte exkluzívne zľavy. Pozrite si ich v sekcii \"Odkazy a Partneri\".",
+        "ikona": "🎁"
+      },
+      {
         "id": 1,
         "typ": "Zákaz: Mimo Kempy",
         "text": "Prísny zákaz divokého kempovania v prírode a na parkoviskách.",
@@ -438,15 +444,15 @@
         "typ": "Parkovanie: Bratislava (PAAS)",
         "text": "Pozor na mestský parkovací systém PAAS. Mnohé zóny majú obmedzenú dĺžku vozidla (spravidla do 5.3m). Karavany a dlhšie dodávky môžu parkovať len na vyhradených miestach, inak hrozí papuča.",
         "ikona": "🚐"
-      },
-      {
-        "id": 0,
-        "typ": "Benefit pre vás!",
-        "text": "Na Slovensku máme partnerov, u ktorých s full verziou aplikácie čerpáte exkluzívne zľavy. Pozrite si ich v sekcii \"Odkazy a Partneri\".",
-        "ikona": "🎁"
       }
     ],
     "en": [
+      {
+        "id": 8,
+        "typ": "Benefit for you",
+        "text": "We have partners in Slovakia where you can enjoy exclusive discounts with your app. Check the \"Links & Partners\" section.",
+        "ikona": "🎁"
+      },
       {
         "id": 1,
         "typ": "Ban: Outside Campsites",
@@ -488,15 +494,15 @@
         "typ": "Parking: Bratislava (PAAS)",
         "text": "Watch out for the PAAS city parking system. Many zones have vehicle length restrictions (usually up to 5.3m). Motorhomes and longer vans can only park in designated areas, otherwise you risk a wheel clamp.",
         "ikona": "🚐"
-      },
-      {
-        "id": 0,
-        "typ": "Benefit for you",
-        "text": "We have partners in Slovakia where you can enjoy exclusive discounts with your app. Check the \"Links & Partners\" section.",
-        "ikona": "🎁"
       }
     ],
     "de": [
+      {
+        "id": 8,
+        "typ": "Ihr Vorteil",
+        "text": "Wir haben Partner in der Slowakei, bei denen Sie mit Ihrer App exklusive Rabatte erhalten. Mehr im Bereich \"Links & Partner\".",
+        "ikona": "🎁"
+      },
       {
         "id": 1,
         "typ": "Verbot: Außerhalb von Campingplätzen",
@@ -538,15 +544,15 @@
         "typ": "Parken: Bratislava (PAAS)",
         "text": "Achten Sie auf das städtische Parksystem PAAS. Viele Zonen haben Längenbeschränkungen für Fahrzeuge (meist bis 5,3 m). Wohnmobile und längere Transporter dürfen nur auf ausgewiesenen Plätzen parken.",
         "ikona": "🚐"
-      },
-      {
-        "id": 0,
-        "typ": "Ihr Vorteil",
-        "text": "Wir haben Partner in der Slowakei, bei denen Sie mit Ihrer App exklusive Rabatte erhalten. Mehr im Bereich \"Links & Partner\".",
-        "ikona": "🎁"
       }
     ],
     "cs": [
+      {
+        "id": 8,
+        "typ": "Benefit pro vás",
+        "text": "Na Slovensku máme partnery, u kterých s plnou verzí aplikace čerpáte exkluzivní slevy. Podívejte se do sekce \"Odkazy a Partneri\".",
+        "ikona": "🎁"
+      },
       {
         "id": 1,
         "typ": "Zákaz: Mimo kempy",
@@ -588,15 +594,15 @@
         "typ": "Parkování: Bratislava (PAAS)",
         "text": "Pozor na městský parkovací systém PAAS. Mnohé zóny mají omezenou délku vozidla (zpravidla do 5.3m). Karavany mohou parkovat jen na vyhrazených místech.",
         "ikona": "🚐"
-      },
-      {
-        "id": 0,
-        "typ": "Benefit pro vás",
-        "text": "Na Slovensku máme partnery, u kterých s plnou verzí aplikace čerpáte exkluzivní slevy. Podívejte se do sekce \"Odkazy a Partneri\".",
-        "ikona": "🎁"
       }
     ],
     "hu": [
+      {
+        "id": 8,
+        "typ": "Kedvezmény Önnek",
+        "text": "Szlovákiában olyan partnereink vannak, ahol az alkalmazással exkluzív kedvezményeket kaphat. Részletek a \"Linkek és Partnerek\" menüben.",
+        "ikona": "🎁"
+      },
       {
         "id": 1,
         "typ": "Tiltás: Kempingeken kívül",
@@ -638,12 +644,6 @@
         "typ": "Parkolás: Pozsony (PAAS)",
         "text": "Figyelem a PAAS városi parkolási rendszerre. Sok zónában korlátozzák a jármű hosszát (általában 5,3 m-ig).",
         "ikona": "🚐"
-      },
-      {
-        "id": 0,
-        "typ": "Kedvezmény Önnek",
-        "text": "Szlovákiában olyan partnereink vannak, ahol az alkalmazással exkluzív kedvezményeket kaphat. Részletek a \"Linkek és Partnerek\" menüben.",
-        "ikona": "🎁"
       }
     ]
   },
