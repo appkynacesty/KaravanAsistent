@@ -440,7 +440,7 @@
         "ikona": "🚐"
       },
       {
-        "id": 8,
+        "id": 0,
         "typ": "Benefit pre vás!",
         "text": "Na Slovensku máme partnerov, u ktorých s full verziou aplikácie čerpáte exkluzívne zľavy. Pozrite si ich v sekcii \"Odkazy a Partneri\".",
         "ikona": "🎁"
@@ -490,7 +490,7 @@
         "ikona": "🚐"
       },
       {
-        "id": 8,
+        "id": 0,
         "typ": "Benefit for you",
         "text": "We have partners in Slovakia where you can enjoy exclusive discounts with your app. Check the \"Links & Partners\" section.",
         "ikona": "🎁"
@@ -540,7 +540,7 @@
         "ikona": "🚐"
       },
       {
-        "id": 8,
+        "id": 0,
         "typ": "Ihr Vorteil",
         "text": "Wir haben Partner in der Slowakei, bei denen Sie mit Ihrer App exklusive Rabatte erhalten. Mehr im Bereich \"Links & Partner\".",
         "ikona": "🎁"
@@ -590,7 +590,7 @@
         "ikona": "🚐"
       },
       {
-        "id": 8,
+        "id": 0,
         "typ": "Benefit pro vás",
         "text": "Na Slovensku máme partnery, u kterých s plnou verzí aplikace čerpáte exkluzivní slevy. Podívejte se do sekce \"Odkazy a Partneri\".",
         "ikona": "🎁"
@@ -640,7 +640,7 @@
         "ikona": "🚐"
       },
       {
-        "id": 8,
+        "id": 0,
         "typ": "Kedvezmény Önnek",
         "text": "Szlovákiában olyan partnereink vannak, ahol az alkalmazással exkluzív kedvezményeket kaphat. Részletek a \"Linkek és Partnerek\" menüben.",
         "ikona": "🎁"
