@@ -438,6 +438,12 @@
         "typ": "Parkovanie: Bratislava (PAAS)",
         "text": "Pozor na mestský parkovací systém PAAS. Mnohé zóny majú obmedzenú dĺžku vozidla (spravidla do 5.3m). Karavany a dlhšie dodávky môžu parkovať len na vyhradených miestach, inak hrozí papuča.",
         "ikona": "🚐"
+      },
+      {
+        "id": 8,
+        "typ": "Benefit pre vás!",
+        "text": "Na Slovensku máme partnerov, u ktorých s full verziou aplikácie čerpáte exkluzívne zľavy. Pozrite si ich v sekcii \"Odkazy a Partneri\".",
+        "ikona": "🎁"
       }
     ],
     "en": [
@@ -482,6 +488,12 @@
         "typ": "Parking: Bratislava (PAAS)",
         "text": "Watch out for the PAAS city parking system. Many zones have vehicle length restrictions (usually up to 5.3m). Motorhomes and longer vans can only park in designated areas, otherwise you risk a wheel clamp.",
         "ikona": "🚐"
+      },
+      {
+        "id": 8,
+        "typ": "Benefit for you",
+        "text": "We have partners in Slovakia where you can enjoy exclusive discounts with your app. Check the \"Links & Partners\" section.",
+        "ikona": "🎁"
       }
     ],
     "de": [
@@ -526,6 +538,12 @@
         "typ": "Parken: Bratislava (PAAS)",
         "text": "Achten Sie auf das städtische Parksystem PAAS. Viele Zonen haben Längenbeschränkungen für Fahrzeuge (meist bis 5,3 m). Wohnmobile und längere Transporter dürfen nur auf ausgewiesenen Plätzen parken.",
         "ikona": "🚐"
+      },
+      {
+        "id": 8,
+        "typ": "Ihr Vorteil",
+        "text": "Wir haben Partner in der Slowakei, bei denen Sie mit Ihrer App exklusive Rabatte erhalten. Mehr im Bereich \"Links & Partner\".",
+        "ikona": "🎁"
       }
     ],
     "cs": [
@@ -570,6 +588,12 @@
         "typ": "Parkování: Bratislava (PAAS)",
         "text": "Pozor na městský parkovací systém PAAS. Mnohé zóny mají omezenou délku vozidla (zpravidla do 5.3m). Karavany mohou parkovat jen na vyhrazených místech.",
         "ikona": "🚐"
+      },
+      {
+        "id": 8,
+        "typ": "Benefit pro vás",
+        "text": "Na Slovensku máme partnery, u kterých s plnou verzí aplikace čerpáte exkluzivní slevy. Podívejte se do sekce \"Odkazy a Partneri\".",
+        "ikona": "🎁"
       }
     ],
     "hu": [
@@ -614,10 +638,16 @@
         "typ": "Parkolás: Pozsony (PAAS)",
         "text": "Figyelem a PAAS városi parkolási rendszerre. Sok zónában korlátozzák a jármű hosszát (általában 5,3 m-ig).",
         "ikona": "🚐"
+      },
+      {
+        "id": 8,
+        "typ": "Kedvezmény Önnek",
+        "text": "Szlovákiában olyan partnereink vannak, ahol az alkalmazással exkluzív kedvezményeket kaphat. Részletek a \"Linkek és Partnerek\" menüben.",
+        "ikona": "🎁"
       }
     ]
   },
- "CH": {
+  "CH": {
     "sk": [
       {
         "id": 1,
@@ -1085,7 +1115,7 @@
       }
     ]
   },
- "SE": {
+  "SE": {
     "sk": [
       {
         "id": 1,
@@ -3734,440 +3764,1229 @@
   "speedLimits": {
     "SK": {
       "country": "Slovensko",
-      "<= 3.5t": { "town": 50, "outskirts": 90, "expressway": 100, "highway": 110 },
-      "> 3.5t": { "town": 50, "outskirts": 90, "expressway": 90, "highway": 90 },
-      "m1_under_35t": { "town": 50, "outskirts": 90, "expressway": 130, "highway": 130 },
-      "n1_over_35t": { "town": 50, "outskirts": 80, "expressway": 90, "highway": 90 },
-      "car_trailer_over_35t": { "town": 50, "outskirts": 90, "expressway": 90, "highway": 90 }
+      "<= 3.5t": {
+        "town": 50,
+        "outskirts": 90,
+        "expressway": 100,
+        "highway": 110
+      },
+      "> 3.5t": {
+        "town": 50,
+        "outskirts": 90,
+        "expressway": 90,
+        "highway": 90
+      },
+      "m1_under_35t": {
+        "town": 50,
+        "outskirts": 90,
+        "expressway": 130,
+        "highway": 130
+      },
+      "n1_over_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 90,
+        "highway": 90
+      },
+      "car_trailer_over_35t": {
+        "town": 50,
+        "outskirts": 90,
+        "expressway": 90,
+        "highway": 90
+      }
     },
     "AT": {
       "country": "Rakúsko",
-      "<= 3.5t": { "town": 50, "outskirts": 80, "expressway": 100, "highway": 100 },
-      "> 3.5t": { "town": 50, "outskirts": 70, "expressway": 80, "highway": 80 },
-      "m1_under_35t": { "town": 50, "outskirts": 100, "expressway": 100, "highway": 130 },
-      "n1_over_35t": { "town": 50, "outskirts": 70, "expressway": 80, "highway": 80 },
-      "car_trailer_over_35t": { "town": 50, "outskirts": 70, "expressway": 80, "highway": 100 }
+      "<= 3.5t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 100,
+        "highway": 100
+      },
+      "> 3.5t": {
+        "town": 50,
+        "outskirts": 70,
+        "expressway": 80,
+        "highway": 80
+      },
+      "m1_under_35t": {
+        "town": 50,
+        "outskirts": 100,
+        "expressway": 100,
+        "highway": 130
+      },
+      "n1_over_35t": {
+        "town": 50,
+        "outskirts": 70,
+        "expressway": 80,
+        "highway": 80
+      },
+      "car_trailer_over_35t": {
+        "town": 50,
+        "outskirts": 70,
+        "expressway": 80,
+        "highway": 100
+      }
     },
     "DE": {
       "country": "Nemecko",
-      "<= 3.5t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 },
-      "> 3.5t": { "town": 50, "outskirts": 80, "expressway": 100, "highway": 100 },
-      "m1_under_35t": { "town": 50, "outskirts": 100, "expressway": 130, "highway": 130 },
-      "n1_over_35t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 100 },
-      "car_trailer_over_35t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 }
+      "<= 3.5t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 80
+      },
+      "> 3.5t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 100,
+        "highway": 100
+      },
+      "m1_under_35t": {
+        "town": 50,
+        "outskirts": 100,
+        "expressway": 130,
+        "highway": 130
+      },
+      "n1_over_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 100
+      },
+      "car_trailer_over_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 80
+      }
     },
     "FR": {
       "country": "Francúzsko",
-      "<= 3.5t": { "town": 50, "outskirts": 80, "expressway": 110, "highway": 130 },
-      "> 3.5t": { "town": 50, "outskirts": 80, "expressway": 100, "highway": 110 },
-      "m1_under_35t": { "town": 50, "outskirts": 80, "expressway": 110, "highway": 130 },
-      "n1_over_35t": { "town": 50, "outskirts": 80, "expressway": 100, "highway": 110 },
-      "car_trailer_over_35t": { "town": 50, "outskirts": 80, "expressway": 90, "highway": 90 }
+      "<= 3.5t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 110,
+        "highway": 130
+      },
+      "> 3.5t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 100,
+        "highway": 110
+      },
+      "m1_under_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 110,
+        "highway": 130
+      },
+      "n1_over_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 100,
+        "highway": 110
+      },
+      "car_trailer_over_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 90,
+        "highway": 90
+      }
     },
     "IT": {
       "country": "Taliansko",
-      "<= 3.5t": { "town": 50, "outskirts": 70, "expressway": 70, "highway": 80 },
-      "> 3.5t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 100 },
-      "m1_under_35t": { "town": 50, "outskirts": 90, "expressway": 110, "highway": 130 },
-      "n1_over_35t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 100 },
-      "car_trailer_over_35t": { "town": 50, "outskirts": 70, "expressway": 70, "highway": 80 }
+      "<= 3.5t": {
+        "town": 50,
+        "outskirts": 70,
+        "expressway": 70,
+        "highway": 80
+      },
+      "> 3.5t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 100
+      },
+      "m1_under_35t": {
+        "town": 50,
+        "outskirts": 90,
+        "expressway": 110,
+        "highway": 130
+      },
+      "n1_over_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 100
+      },
+      "car_trailer_over_35t": {
+        "town": 50,
+        "outskirts": 70,
+        "expressway": 70,
+        "highway": 80
+      }
     },
     "CH": {
       "country": "Švajčiarsko",
-      "<= 3.5t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 },
-      "> 3.5t": { "town": 50, "outskirts": 80, "expressway": 100, "highway": 100 },
-      "m1_under_35t": { "town": 50, "outskirts": 80, "expressway": 100, "highway": 120 },
-      "n1_over_35t": { "town": 50, "outskirts": 80, "expressway": 100, "highway": 100 },
-      "car_trailer_over_35t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 }
+      "<= 3.5t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 80
+      },
+      "> 3.5t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 100,
+        "highway": 100
+      },
+      "m1_under_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 100,
+        "highway": 120
+      },
+      "n1_over_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 100,
+        "highway": 100
+      },
+      "car_trailer_over_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 80
+      }
     },
     "PL": {
       "country": "Poľsko",
-      "<= 3.5t": { "town": 50, "outskirts": 70, "expressway": 80, "highway": 80 },
-      "> 3.5t": { "town": 50, "outskirts": 80, "expressway": 100, "highway": 100 },
-      "m1_under_35t": { "town": 50, "outskirts": 90, "expressway": 120, "highway": 140 },
-      "n1_over_35t": { "town": 50, "outskirts": 80, "expressway": 100, "highway": 100 },
-      "car_trailer_over_35t": { "town": 50, "outskirts": 70, "expressway": 80, "highway": 80 }
+      "<= 3.5t": {
+        "town": 50,
+        "outskirts": 70,
+        "expressway": 80,
+        "highway": 80
+      },
+      "> 3.5t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 100,
+        "highway": 100
+      },
+      "m1_under_35t": {
+        "town": 50,
+        "outskirts": 90,
+        "expressway": 120,
+        "highway": 140
+      },
+      "n1_over_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 100,
+        "highway": 100
+      },
+      "car_trailer_over_35t": {
+        "town": 50,
+        "outskirts": 70,
+        "expressway": 80,
+        "highway": 80
+      }
     },
     "FI": {
       "country": "Fínsko",
-      "<= 3.5t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 },
-      "> 3.5t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 },
-      "m1_under_35t": { "town": 50, "outskirts": 80, "expressway": 100, "highway": 120 },
-      "n1_over_35t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 },
-      "car_trailer_over_35t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 }
+      "<= 3.5t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 80
+      },
+      "> 3.5t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 80
+      },
+      "m1_under_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 100,
+        "highway": 120
+      },
+      "n1_over_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 80
+      },
+      "car_trailer_over_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 80
+      }
     },
     "SE": {
       "country": "Švédsko",
-      "<= 3.5t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 },
-      "> 3.5t": { "town": 50, "outskirts": 80, "expressway": 100, "highway": 110 },
-      "m1_under_35t": { "town": 50, "outskirts": 70, "expressway": 110, "highway": 110 },
-      "n1_over_35t": { "town": 50, "outskirts": 80, "expressway": 90, "highway": 90 },
-      "car_trailer_over_35t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 }
+      "<= 3.5t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 80
+      },
+      "> 3.5t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 100,
+        "highway": 110
+      },
+      "m1_under_35t": {
+        "town": 50,
+        "outskirts": 70,
+        "expressway": 110,
+        "highway": 110
+      },
+      "n1_over_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 90,
+        "highway": 90
+      },
+      "car_trailer_over_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 80
+      }
     },
     "NO": {
       "country": "Nórsko",
-      "<= 3.5t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 },
-      "> 3.5t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 },
-      "m1_under_35t": { "town": 50, "outskirts": 80, "expressway": 110, "highway": 110 },
-      "n1_over_35t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 },
-      "car_trailer_over_35t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 }
+      "<= 3.5t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 80
+      },
+      "> 3.5t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 80
+      },
+      "m1_under_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 110,
+        "highway": 110
+      },
+      "n1_over_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 80
+      },
+      "car_trailer_over_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 80
+      }
     },
     "IS": {
       "country": "Island",
-      "<= 3.5t": { "town": 50, "outskirts": 80, "expressway": 90, "highway": 90 },
-      "> 3.5t": { "town": 50, "outskirts": 80, "expressway": 90, "highway": 90 },
-      "m1_under_35t": { "town": 50, "outskirts": 90, "expressway": 90, "highway": 90 },
-      "n1_over_35t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 },
-      "car_trailer_over_35t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 }
+      "<= 3.5t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 90,
+        "highway": 90
+      },
+      "> 3.5t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 90,
+        "highway": 90
+      },
+      "m1_under_35t": {
+        "town": 50,
+        "outskirts": 90,
+        "expressway": 90,
+        "highway": 90
+      },
+      "n1_over_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 80
+      },
+      "car_trailer_over_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 80
+      }
     },
     "DK": {
       "country": "Dánsko",
-      "<= 3.5t": { "town": 50, "outskirts": 70, "expressway": 80, "highway": 80 },
-      "> 3.5t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 },
-      "m1_under_35t": { "town": 50, "outskirts": 80, "expressway": 110, "highway": 130 },
-      "n1_over_35t": { "town": 50, "outskirts": 70, "expressway": 80, "highway": 80 },
-      "car_trailer_over_35t": { "town": 50, "outskirts": 70, "expressway": 80, "highway": 80 }
+      "<= 3.5t": {
+        "town": 50,
+        "outskirts": 70,
+        "expressway": 80,
+        "highway": 80
+      },
+      "> 3.5t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 80
+      },
+      "m1_under_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 110,
+        "highway": 130
+      },
+      "n1_over_35t": {
+        "town": 50,
+        "outskirts": 70,
+        "expressway": 80,
+        "highway": 80
+      },
+      "car_trailer_over_35t": {
+        "town": 50,
+        "outskirts": 70,
+        "expressway": 80,
+        "highway": 80
+      }
     },
     "NL": {
       "country": "Holandsko",
-      "<= 3.5t": { "town": 50, "outskirts": 80, "expressway": 90, "highway": 90 },
-      "> 3.5t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 },
-      "m1_under_35t": { "town": 50, "outskirts": 80, "expressway": 100, "highway": 100 },
-      "n1_over_35t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 },
-      "car_trailer_over_35t": { "town": 50, "outskirts": 80, "expressway": 90, "highway": 90 }
+      "<= 3.5t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 90,
+        "highway": 90
+      },
+      "> 3.5t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 80
+      },
+      "m1_under_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 100,
+        "highway": 100
+      },
+      "n1_over_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 80
+      },
+      "car_trailer_over_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 90,
+        "highway": 90
+      }
     },
     "BE": {
       "country": "Belgicko",
-      "<= 3.5t": { "town": 50, "outskirts": 90, "expressway": 120, "highway": 120 },
-      "> 3.5t": { "town": 50, "outskirts": 90, "expressway": 90, "highway": 90 },
-      "m1_under_35t": { "town": 50, "outskirts": 90, "expressway": 120, "highway": 120 },
-      "n1_over_35t": { "town": 50, "outskirts": 90, "expressway": 90, "highway": 90 },
-      "car_trailer_over_35t": { "town": 50, "outskirts": 90, "expressway": 120, "highway": 120 }
+      "<= 3.5t": {
+        "town": 50,
+        "outskirts": 90,
+        "expressway": 120,
+        "highway": 120
+      },
+      "> 3.5t": {
+        "town": 50,
+        "outskirts": 90,
+        "expressway": 90,
+        "highway": 90
+      },
+      "m1_under_35t": {
+        "town": 50,
+        "outskirts": 90,
+        "expressway": 120,
+        "highway": 120
+      },
+      "n1_over_35t": {
+        "town": 50,
+        "outskirts": 90,
+        "expressway": 90,
+        "highway": 90
+      },
+      "car_trailer_over_35t": {
+        "town": 50,
+        "outskirts": 90,
+        "expressway": 120,
+        "highway": 120
+      }
     },
     "ES": {
       "country": "Španielsko",
-      "<= 3.5t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 90 },
-      "> 3.5t": { "town": 50, "outskirts": 90, "expressway": 120, "highway": 120 },
-      "m1_under_35t": { "town": 50, "outskirts": 90, "expressway": 100, "highway": 120 },
-      "n1_over_35t": { "town": 50, "outskirts": 80, "expressway": 90, "highway": 90 },
-      "car_trailer_over_35t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 90 }
+      "<= 3.5t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 90
+      },
+      "> 3.5t": {
+        "town": 50,
+        "outskirts": 90,
+        "expressway": 120,
+        "highway": 120
+      },
+      "m1_under_35t": {
+        "town": 50,
+        "outskirts": 90,
+        "expressway": 100,
+        "highway": 120
+      },
+      "n1_over_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 90,
+        "highway": 90
+      },
+      "car_trailer_over_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 90
+      }
     },
     "SLO": {
       "country": "Slovinsko",
-      "<= 3.5t": { "town": 50, "outskirts": 90, "expressway": 100, "highway": 100 },
-      "> 3.5t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 },
-      "m1_under_35t": { "town": 50, "outskirts": 90, "expressway": 110, "highway": 130 },
-      "n1_over_35t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 },
-      "car_trailer_over_35t": { "town": 50, "outskirts": 80, "expressway": 100, "highway": 100 }
+      "<= 3.5t": {
+        "town": 50,
+        "outskirts": 90,
+        "expressway": 100,
+        "highway": 100
+      },
+      "> 3.5t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 80
+      },
+      "m1_under_35t": {
+        "town": 50,
+        "outskirts": 90,
+        "expressway": 110,
+        "highway": 130
+      },
+      "n1_over_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 80
+      },
+      "car_trailer_over_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 100,
+        "highway": 100
+      }
     },
     "HU": {
       "country": "Maďarsko",
-      "<= 3.5t": { "town": 50, "outskirts": 70, "expressway": 80, "highway": 80 },
-      "> 3.5t": { "town": 50, "outskirts": 70, "expressway": 80, "highway": 80 },
-      "m1_under_35t": { "town": 50, "outskirts": 90, "expressway": 110, "highway": 130 },
-      "n1_over_35t": { "town": 50, "outskirts": 70, "expressway": 80, "highway": 80 },
-      "car_trailer_over_35t": { "town": 50, "outskirts": 70, "expressway": 80, "highway": 80 }
+      "<= 3.5t": {
+        "town": 50,
+        "outskirts": 70,
+        "expressway": 80,
+        "highway": 80
+      },
+      "> 3.5t": {
+        "town": 50,
+        "outskirts": 70,
+        "expressway": 80,
+        "highway": 80
+      },
+      "m1_under_35t": {
+        "town": 50,
+        "outskirts": 90,
+        "expressway": 110,
+        "highway": 130
+      },
+      "n1_over_35t": {
+        "town": 50,
+        "outskirts": 70,
+        "expressway": 80,
+        "highway": 80
+      },
+      "car_trailer_over_35t": {
+        "town": 50,
+        "outskirts": 70,
+        "expressway": 80,
+        "highway": 80
+      }
     },
     "HR": {
       "country": "Chorvátsko",
-      "<= 3.5t": { "town": 50, "outskirts": 80, "expressway": 90, "highway": 90 },
-      "> 3.5t": { "town": 50, "outskirts": 80, "expressway": 90, "highway": 90 },
-      "m1_under_35t": { "town": 50, "outskirts": 90, "expressway": 110, "highway": 130 },
-      "n1_over_35t": { "town": 50, "outskirts": 80, "expressway": 90, "highway": 90 },
-      "car_trailer_over_35t": { "town": 50, "outskirts": 80, "expressway": 90, "highway": 90 }
+      "<= 3.5t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 90,
+        "highway": 90
+      },
+      "> 3.5t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 90,
+        "highway": 90
+      },
+      "m1_under_35t": {
+        "town": 50,
+        "outskirts": 90,
+        "expressway": 110,
+        "highway": 130
+      },
+      "n1_over_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 90,
+        "highway": 90
+      },
+      "car_trailer_over_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 90,
+        "highway": 90
+      }
     },
     "GR": {
       "country": "Grécko",
-      "<= 3.5t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 },
-      "> 3.5t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 },
-      "m1_under_35t": { "town": 50, "outskirts": 90, "expressway": 110, "highway": 130 },
-      "n1_over_35t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 },
-      "car_trailer_over_35t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 }
+      "<= 3.5t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 80
+      },
+      "> 3.5t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 80
+      },
+      "m1_under_35t": {
+        "town": 50,
+        "outskirts": 90,
+        "expressway": 110,
+        "highway": 130
+      },
+      "n1_over_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 80
+      },
+      "car_trailer_over_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 80
+      }
     },
     "SRB": {
       "country": "Srbsko",
-      "<= 3.5t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 },
-      "> 3.5t": { "town": 50, "outskirts": 80, "expressway": 100, "highway": 100 },
-      "m1_under_35t": { "town": 50, "outskirts": 80, "expressway": 100, "highway": 130 },
-      "n1_over_35t": { "town": 50, "outskirts": 80, "expressway": 100, "highway": 100 },
-      "car_trailer_over_35t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 }
+      "<= 3.5t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 80
+      },
+      "> 3.5t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 100,
+        "highway": 100
+      },
+      "m1_under_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 100,
+        "highway": 130
+      },
+      "n1_over_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 100,
+        "highway": 100
+      },
+      "car_trailer_over_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 80
+      }
     },
     "BiH": {
       "country": "Bosna a Hercegovina",
-      "<= 3.5t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 },
-      "> 3.5t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 },
-      "m1_under_35t": { "town": 50, "outskirts": 80, "expressway": 100, "highway": 130 },
-      "n1_over_35t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 },
-      "car_trailer_over_35t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 }
+      "<= 3.5t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 80
+      },
+      "> 3.5t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 80
+      },
+      "m1_under_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 100,
+        "highway": 130
+      },
+      "n1_over_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 80
+      },
+      "car_trailer_over_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 80
+      }
     },
     "MNE": {
       "country": "Čierna Hora",
-      "<= 3.5t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 },
-      "> 3.5t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 },
-      "m1_under_35t": { "town": 50, "outskirts": 80, "expressway": 100, "highway": 100 },
-      "n1_over_35t": { "town": 50, "outskirts": 70, "expressway": 80, "highway": 80 },
-      "car_trailer_over_35t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 }
+      "<= 3.5t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 80
+      },
+      "> 3.5t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 80
+      },
+      "m1_under_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 100,
+        "highway": 100
+      },
+      "n1_over_35t": {
+        "town": 50,
+        "outskirts": 70,
+        "expressway": 80,
+        "highway": 80
+      },
+      "car_trailer_over_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 80
+      }
     },
     "ALB": {
       "country": "Albánsko",
-      "<= 3.5t": { "town": 40, "outskirts": 70, "expressway": 80, "highway": 80 },
-      "> 3.5t": { "town": 40, "outskirts": 80, "expressway": 80, "highway": 90 },
-      "m1_under_35t": { "town": 40, "outskirts": 80, "expressway": 90, "highway": 110 },
-      "n1_over_35t": { "town": 35, "outskirts": 70, "expressway": 80, "highway": 80 },
-      "car_trailer_over_35t": { "town": 35, "outskirts": 70, "expressway": 80, "highway": 80 }
+      "<= 3.5t": {
+        "town": 40,
+        "outskirts": 70,
+        "expressway": 80,
+        "highway": 80
+      },
+      "> 3.5t": {
+        "town": 40,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 90
+      },
+      "m1_under_35t": {
+        "town": 40,
+        "outskirts": 80,
+        "expressway": 90,
+        "highway": 110
+      },
+      "n1_over_35t": {
+        "town": 35,
+        "outskirts": 70,
+        "expressway": 80,
+        "highway": 80
+      },
+      "car_trailer_over_35t": {
+        "town": 35,
+        "outskirts": 70,
+        "expressway": 80,
+        "highway": 80
+      }
     },
     "CZ": {
       "country": "Česko",
-      "<= 3.5t": { "info": "Auto + Príves", "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 },
-      "> 3.5t": { "info": "Obytné auto > 3.5t", "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 },
-      "m1_under_35t": { "town": 50, "outskirts": 90, "expressway": 110, "highway": 130 },
-      "n1_over_35t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 },
-      "car_trailer_over_35t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 }
+      "<= 3.5t": {
+        "info": "Auto + Príves",
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 80
+      },
+      "> 3.5t": {
+        "info": "Obytné auto > 3.5t",
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 80
+      },
+      "m1_under_35t": {
+        "town": 50,
+        "outskirts": 90,
+        "expressway": 110,
+        "highway": 130
+      },
+      "n1_over_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 80
+      },
+      "car_trailer_over_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 80
+      }
     },
     "PT": {
       "country": "Portugalsko",
-      "<= 3.5t": { "town": 50, "outskirts": 70, "expressway": 80, "highway": 100 },
-      "> 3.5t": { "info": "Obytné auto > 3.5t", "town": 50, "outskirts": 80, "expressway": 80, "highway": 90 },
-      "m1_under_35t": { "town": 50, "outskirts": 90, "expressway": 100, "highway": 120 },
-      "n1_over_35t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 90 },
-      "car_trailer_over_35t": { "town": 50, "outskirts": 70, "expressway": 80, "highway": 100 }
+      "<= 3.5t": {
+        "town": 50,
+        "outskirts": 70,
+        "expressway": 80,
+        "highway": 100
+      },
+      "> 3.5t": {
+        "info": "Obytné auto > 3.5t",
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 90
+      },
+      "m1_under_35t": {
+        "town": 50,
+        "outskirts": 90,
+        "expressway": 100,
+        "highway": 120
+      },
+      "n1_over_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 90
+      },
+      "car_trailer_over_35t": {
+        "town": 50,
+        "outskirts": 70,
+        "expressway": 80,
+        "highway": 100
+      }
     },
     "RO": {
       "country": "Rumunsko",
-      "<= 3.5t": { "info": "Auto + Príves", "town": 50, "outskirts": 80, "expressway": 90, "highway": 110 },
-      "> 3.5t": { "info": "Obytné auto > 3.5t", "town": 50, "outskirts": 80, "expressway": 90, "highway": 110 },
-      "m1_under_35t": { "town": 50, "outskirts": 90, "expressway": 100, "highway": 130 },
-      "n1_over_35t": { "town": 50, "outskirts": 80, "expressway": 90, "highway": 110 },
-      "car_trailer_over_35t": { "town": 50, "outskirts": 80, "expressway": 90, "highway": 110 }
+      "<= 3.5t": {
+        "info": "Auto + Príves",
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 90,
+        "highway": 110
+      },
+      "> 3.5t": {
+        "info": "Obytné auto > 3.5t",
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 90,
+        "highway": 110
+      },
+      "m1_under_35t": {
+        "town": 50,
+        "outskirts": 90,
+        "expressway": 100,
+        "highway": 130
+      },
+      "n1_over_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 90,
+        "highway": 110
+      },
+      "car_trailer_over_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 90,
+        "highway": 110
+      }
     },
     "BG": {
       "country": "Bulharsko",
-      "<= 3.5t": { "info": "Auto + Príves", "town": 50, "outskirts": 70, "expressway": 90, "highway": 100 },
-      "> 3.5t": { "info": "Obytné auto > 3.5t", "town": 50, "outskirts": 80, "expressway": 90, "highway": 100 },
-      "m1_under_35t": { "town": 50, "outskirts": 90, "expressway": 120, "highway": 140 },
-      "n1_over_35t": { "town": 50, "outskirts": 80, "expressway": 90, "highway": 100 },
-      "car_trailer_over_35t": { "town": 50, "outskirts": 70, "expressway": 90, "highway": 100 }
+      "<= 3.5t": {
+        "info": "Auto + Príves",
+        "town": 50,
+        "outskirts": 70,
+        "expressway": 90,
+        "highway": 100
+      },
+      "> 3.5t": {
+        "info": "Obytné auto > 3.5t",
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 90,
+        "highway": 100
+      },
+      "m1_under_35t": {
+        "town": 50,
+        "outskirts": 90,
+        "expressway": 120,
+        "highway": 140
+      },
+      "n1_over_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 90,
+        "highway": 100
+      },
+      "car_trailer_over_35t": {
+        "town": 50,
+        "outskirts": 70,
+        "expressway": 90,
+        "highway": 100
+      }
     },
     "EE": {
       "country": "Estónsko",
-      "<= 3.5t": { "info": "Auto + Príves", "town": 50, "outskirts": 90, "expressway": 90, "highway": 90 },
-      "> 3.5t": { "info": "Obytné auto > 3.5t", "town": 50, "outskirts": 90, "expressway": 90, "highway": 90 },
-      "m1_under_35t": { "town": 50, "outskirts": 90, "expressway": 90, "highway": 110 },
-      "n1_over_35t": { "town": 50, "outskirts": 90, "expressway": 90, "highway": 90 },
-      "car_trailer_over_35t": { "town": 50, "outskirts": 90, "expressway": 90, "highway": 90 }
+      "<= 3.5t": {
+        "info": "Auto + Príves",
+        "town": 50,
+        "outskirts": 90,
+        "expressway": 90,
+        "highway": 90
+      },
+      "> 3.5t": {
+        "info": "Obytné auto > 3.5t",
+        "town": 50,
+        "outskirts": 90,
+        "expressway": 90,
+        "highway": 90
+      },
+      "m1_under_35t": {
+        "town": 50,
+        "outskirts": 90,
+        "expressway": 90,
+        "highway": 110
+      },
+      "n1_over_35t": {
+        "town": 50,
+        "outskirts": 90,
+        "expressway": 90,
+        "highway": 90
+      },
+      "car_trailer_over_35t": {
+        "town": 50,
+        "outskirts": 90,
+        "expressway": 90,
+        "highway": 90
+      }
     },
     "LV": {
       "country": "Lotyšsko",
-      "<= 3.5t": { "info": "Auto + Príves", "town": 50, "outskirts": 80, "expressway": 80, "highway": 90 },
-      "> 3.5t": { "info": "Obytné auto > 3.5t", "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 },
-      "m1_under_35t": { "town": 50, "outskirts": 90, "expressway": 90, "highway": 90 },
-      "n1_over_35t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 80 },
-      "car_trailer_over_35t": { "town": 50, "outskirts": 80, "expressway": 80, "highway": 90 }
+      "<= 3.5t": {
+        "info": "Auto + Príves",
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 90
+      },
+      "> 3.5t": {
+        "info": "Obytné auto > 3.5t",
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 80
+      },
+      "m1_under_35t": {
+        "town": 50,
+        "outskirts": 90,
+        "expressway": 90,
+        "highway": 90
+      },
+      "n1_over_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 80
+      },
+      "car_trailer_over_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 80,
+        "highway": 90
+      }
     },
     "LT": {
       "country": "Litva",
-      "<= 3.5t": { "info": "Auto + Príves", "town": 50, "outskirts": 90, "expressway": 90, "highway": 90 },
-      "> 3.5t": { "info": "Obytné auto > 3.5t", "town": 50, "outskirts": 80, "expressway": 90, "highway": 90 },
-      "m1_under_35t": { "town": 50, "outskirts": 90, "expressway": 110, "highway": 130 },
-      "n1_over_35t": { "town": 50, "outskirts": 80, "expressway": 90, "highway": 90 },
-      "car_trailer_over_35t": { "town": 50, "outskirts": 90, "expressway": 90, "highway": 90 }
+      "<= 3.5t": {
+        "info": "Auto + Príves",
+        "town": 50,
+        "outskirts": 90,
+        "expressway": 90,
+        "highway": 90
+      },
+      "> 3.5t": {
+        "info": "Obytné auto > 3.5t",
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 90,
+        "highway": 90
+      },
+      "m1_under_35t": {
+        "town": 50,
+        "outskirts": 90,
+        "expressway": 110,
+        "highway": 130
+      },
+      "n1_over_35t": {
+        "town": 50,
+        "outskirts": 80,
+        "expressway": 90,
+        "highway": 90
+      },
+      "car_trailer_over_35t": {
+        "town": 50,
+        "outskirts": 90,
+        "expressway": 90,
+        "highway": 90
+      }
     },
     "LU": {
       "country": "Luxembursko",
-      "<= 3.5t": { "info": "Auto + Príves", "town": 50, "outskirts": 75, "expressway": 90, "highway": 90 },
-      "> 3.5t": { "info": "Obytné auto > 3.5t", "town": 50, "outskirts": 75, "expressway": 90, "highway": 90 },
-      "m1_under_35t": { "town": 50, "outskirts": 90, "expressway": 110, "highway": 130 },
-      "n1_over_35t": { "town": 50, "outskirts": 75, "expressway": 90, "highway": 90 },
-      "car_trailer_over_35t": { "town": 50, "outskirts": 75, "expressway": 90, "highway": 90 }
-    
+      "<= 3.5t": {
+        "info": "Auto + Príves",
+        "town": 50,
+        "outskirts": 75,
+        "expressway": 90,
+        "highway": 90
+      },
+      "> 3.5t": {
+        "info": "Obytné auto > 3.5t",
+        "town": 50,
+        "outskirts": 75,
+        "expressway": 90,
+        "highway": 90
+      },
+      "m1_under_35t": {
+        "town": 50,
+        "outskirts": 90,
+        "expressway": 110,
+        "highway": 130
+      },
+      "n1_over_35t": {
+        "town": 50,
+        "outskirts": 75,
+        "expressway": 90,
+        "highway": 90
+      },
+      "car_trailer_over_35t": {
+        "town": 50,
+        "outskirts": 75,
+        "expressway": 90,
+        "highway": 90
+      }
     }
   },
   "vignetteLinks": {
-"SK": {
-    "<= 3.5t": "https://eznamka.sk/",
-    "m1_under_35t": "https://eznamka.sk/",
-    "n1_over_35t": "https://eznamka.sk/",
-    "car_trailer_over_35t": "https://eznamka.sk/"
-  },
-  "AT": {
-    "<= 3.5t": "https://shop.asfinag.at/",
-    "m1_under_35t": "https://shop.asfinag.at/",
-    "n1_over_35t": "https://go-maut.at/go-maut/",
-    "car_trailer_over_35t": "https://shop.asfinag.at/"
-  },
-  "DE": {
-    "<= 3.5t": "Free",
-    "m1_under_35t": "Free",
-    "n1_over_35t": "Oslobodené (kat. M1)",
-    "car_trailer_over_35t": "Free"
-  },
-  "CH": {
-    "<= 3.5t": "https://via.admin.ch/shop/dashboard",
-    "m1_under_35t": "https://via.admin.ch/shop/dashboard",
-    "n1_over_35t": "https://via.admin.ch/shop/dashboard",
-    "car_trailer_over_35t": "https://via.admin.ch/shop/dashboard"
-  },
-  "FR": {
-    "<= 3.5t": "https://www.sanef.com",
-    "m1_under_35t": "https://www.sanef.com",
-    "n1_over_35t": "https://www.sanef.com",
-    "car_trailer_over_35t": "https://www.sanef.com"
-  },
-  "IT": {
-    "<= 3.5t": "https://www.autostrade.it/en/home",
-    "m1_under_35t": "https://www.autostrade.it/en/home",
-    "n1_over_35t": "https://www.autostrade.it/en/home",
-    "car_trailer_over_35t": "https://www.autostrade.it/en/home"
-  },
-  "PL": {
-    "<= 3.5t": "https://etoll.gov.pl/en/",
-    "m1_under_35t": "https://etoll.gov.pl/en/",
-    "n1_over_35t": "https://etoll.gov.pl/en/",
-    "car_trailer_over_35t": "https://etoll.gov.pl/en/"
-  },
-  "FI": {
-    "<= 3.5t": "www.free.eu",
-    "m1_under_35t": "www.free.eu",
-    "n1_over_35t": "www.free.eu",
-    "car_trailer_over_35t": "www.free.eu"
-  },
-  "SE": {
-    "<= 3.5t": "free",
-    "m1_under_35t": "free",
-    "n1_over_35t": "free",
-    "car_trailer_over_35t": "free"
-  },
-  "NO": {
-    "<= 3.5t": "https://www.autopass.no",
-    "m1_under_35t": "https://www.autopass.no",
-    "n1_over_35t": "https://www.autopass.no",
-    "car_trailer_over_35t": "https://www.autopass.no"
-  },
-  "IS": {
-    "<= 3.5t": "free",
-    "m1_under_35t": "free",
-    "n1_over_35t": "free",
-    "car_trailer_over_35t": "free"
-  },
-  "DK": {
-    "<= 3.5t": "free",
-    "m1_under_35t": "free",
-    "n1_over_35t": "free",
-    "car_trailer_over_35t": "free"
-  },
-  "NL": {
-    "<= 3.5t": "free",
-    "m1_under_35t": "free",
-    "n1_over_35t": "free",
-    "car_trailer_over_35t": "free"
-  },
-  "BE": {
-    "<= 3.5t": "free",
-    "m1_under_35t": "free",
-    "n1_over_35t": "https://www.viapass.be",
-    "car_trailer_over_35t": "free"
-  },
-  "ES": {
-    "<= 3.5t": "https://www.mitma.gob.es",
-    "m1_under_35t": "https://www.mitma.gob.es",
-    "n1_over_35t": "https://www.mitma.gob.es",
-    "car_trailer_over_35t": "https://www.mitma.gob.es"
-  },
-  "SLO": {
-    "<= 3.5t": "https://evinjeta.dars.si",
-    "m1_under_35t": "https://evinjeta.dars.si",
-    "n1_over_35t": "https://darsgo.si",
-    "car_trailer_over_35t": "https://evinjeta.dars.si"
-  },
-  "HU": {
-    "<= 3.5t": "https://nemzetiutdij.hu",
-    "m1_under_35t": "https://nemzetiutdij.hu",
-    "n1_over_35t": "https://nemzetiutdij.hu",
-    "car_trailer_over_35t": "https://nemzetiutdij.hu"
-  },
-  "HR": {
-    "<= 3.5t": "https://hac.hr",
-    "m1_under_35t": "https://hac.hr",
-    "n1_over_35t": "https://hac.hr",
-    "car_trailer_over_35t": "https://hac.hr"
-  },
-  "GR": {
-    "<= 3.5t": "https://www.egnatia.eu",
-    "m1_under_35t": "https://www.egnatia.eu",
-    "n1_over_35t": "https://www.egnatia.eu",
-    "car_trailer_over_35t": "https://www.egnatia.eu"
-  },
-  "SRB": {
-    "<= 3.5t": "https://www.putevi-srbije.rs",
-    "m1_under_35t": "https://www.putevi-srbije.rs",
-    "n1_over_35t": "https://www.putevi-srbije.rs",
-    "car_trailer_over_35t": "https://www.putevi-srbije.rs"
-  },
-  "BiH": {
-    "<= 3.5t": "https://www.jpautoceste.ba",
-    "m1_under_35t": "https://www.jpautoceste.ba",
-    "n1_over_35t": "https://www.jpautoceste.ba",
-    "car_trailer_over_35t": "https://www.jpautoceste.ba"
-  },
-  "MNE": {
-    "<= 3.5t": "https://monteput.me",
-    "m1_under_35t": "https://monteput.me",
-    "n1_over_35t": "https://monteput.me",
-    "car_trailer_over_35t": "https://monteput.me"
-  },
-  "ALB": {
-    "<= 3.5t": "https://arrsh.gov.al",
-    "m1_under_35t": "https://arrsh.gov.al",
-    "n1_over_35t": "https://arrsh.gov.al",
-    "car_trailer_over_35t": "https://arrsh.gov.al"
-  },
-  "CZ": {
-    "<= 3.5t": "https://edalnice.cz",
-    "m1_under_35t": "https://edalnice.cz",
-    "n1_over_35t": "https://mytocz.eu",
-    "car_trailer_over_35t": "https://edalnice.cz"
-  },
-  "PT": {
-    "<= 3.5t": "https://www.portugaltolls.com",
-    "m1_under_35t": "https://www.portugaltolls.com",
-    "n1_over_35t": "https://www.viaverde.pt",
-    "car_trailer_over_35t": "https://www.portugaltolls.com"
-  },
-  "RO": {
-    "<= 3.5t": "https://www.roviniete.ro",
-    "m1_under_35t": "https://www.roviniete.ro",
-    "n1_over_35t": "https://www.roviniete.ro",
-    "car_trailer_over_35t": "https://www.roviniete.ro"
-  },
-  "BG": {
-    "<= 3.5t": "https://www.bgtoll.bg",
-    "m1_under_35t": "https://www.bgtoll.bg",
-    "n1_over_35t": "https://www.bgtoll.bg",
-    "car_trailer_over_35t": "https://www.bgtoll.bg"
-  },
-  "EE": {
-    "<= 3.5t": "free",
-    "m1_under_35t": "free",
-    "n1_over_35t": "https://www.roadtoll.ee",
-    "car_trailer_over_35t": "free"
-  },
-  "LV": {
-    "<= 3.5t": "free",
-    "m1_under_35t": "free",
-    "n1_over_35t": "https://www.lvvignette.eu",
-    "car_trailer_over_35t": "free"
-  },
-  "LT": {
-    "<= 3.5t": "free",
-    "m1_under_35t": "free",
-    "n1_over_35t": "https://keliumokestis.lt",
-    "car_trailer_over_35t": "free"
-  },
-  "LU": {
-    "<= 3.5t": "free",
-    "m1_under_35t": "free",
-    "n1_over_35t": "https://www.eurovignettes.eu",
-    "car_trailer_over_35t": "free"
-  }
+    "SK": {
+      "<= 3.5t": "https://eznamka.sk/",
+      "m1_under_35t": "https://eznamka.sk/",
+      "n1_over_35t": "https://eznamka.sk/",
+      "car_trailer_over_35t": "https://eznamka.sk/"
+    },
+    "AT": {
+      "<= 3.5t": "https://shop.asfinag.at/",
+      "m1_under_35t": "https://shop.asfinag.at/",
+      "n1_over_35t": "https://go-maut.at/go-maut/",
+      "car_trailer_over_35t": "https://shop.asfinag.at/"
+    },
+    "DE": {
+      "<= 3.5t": "Free",
+      "m1_under_35t": "Free",
+      "n1_over_35t": "Oslobodené (kat. M1)",
+      "car_trailer_over_35t": "Free"
+    },
+    "CH": {
+      "<= 3.5t": "https://via.admin.ch/shop/dashboard",
+      "m1_under_35t": "https://via.admin.ch/shop/dashboard",
+      "n1_over_35t": "https://via.admin.ch/shop/dashboard",
+      "car_trailer_over_35t": "https://via.admin.ch/shop/dashboard"
+    },
+    "FR": {
+      "<= 3.5t": "https://www.sanef.com",
+      "m1_under_35t": "https://www.sanef.com",
+      "n1_over_35t": "https://www.sanef.com",
+      "car_trailer_over_35t": "https://www.sanef.com"
+    },
+    "IT": {
+      "<= 3.5t": "https://www.autostrade.it/en/home",
+      "m1_under_35t": "https://www.autostrade.it/en/home",
+      "n1_over_35t": "https://www.autostrade.it/en/home",
+      "car_trailer_over_35t": "https://www.autostrade.it/en/home"
+    },
+    "PL": {
+      "<= 3.5t": "https://etoll.gov.pl/en/",
+      "m1_under_35t": "https://etoll.gov.pl/en/",
+      "n1_over_35t": "https://etoll.gov.pl/en/",
+      "car_trailer_over_35t": "https://etoll.gov.pl/en/"
+    },
+    "FI": {
+      "<= 3.5t": "www.free.eu",
+      "m1_under_35t": "www.free.eu",
+      "n1_over_35t": "www.free.eu",
+      "car_trailer_over_35t": "www.free.eu"
+    },
+    "SE": {
+      "<= 3.5t": "free",
+      "m1_under_35t": "free",
+      "n1_over_35t": "free",
+      "car_trailer_over_35t": "free"
+    },
+    "NO": {
+      "<= 3.5t": "https://www.autopass.no",
+      "m1_under_35t": "https://www.autopass.no",
+      "n1_over_35t": "https://www.autopass.no",
+      "car_trailer_over_35t": "https://www.autopass.no"
+    },
+    "IS": {
+      "<= 3.5t": "free",
+      "m1_under_35t": "free",
+      "n1_over_35t": "free",
+      "car_trailer_over_35t": "free"
+    },
+    "DK": {
+      "<= 3.5t": "free",
+      "m1_under_35t": "free",
+      "n1_over_35t": "free",
+      "car_trailer_over_35t": "free"
+    },
+    "NL": {
+      "<= 3.5t": "free",
+      "m1_under_35t": "free",
+      "n1_over_35t": "free",
+      "car_trailer_over_35t": "free"
+    },
+    "BE": {
+      "<= 3.5t": "free",
+      "m1_under_35t": "free",
+      "n1_over_35t": "https://www.viapass.be",
+      "car_trailer_over_35t": "free"
+    },
+    "ES": {
+      "<= 3.5t": "https://www.mitma.gob.es",
+      "m1_under_35t": "https://www.mitma.gob.es",
+      "n1_over_35t": "https://www.mitma.gob.es",
+      "car_trailer_over_35t": "https://www.mitma.gob.es"
+    },
+    "SLO": {
+      "<= 3.5t": "https://evinjeta.dars.si",
+      "m1_under_35t": "https://evinjeta.dars.si",
+      "n1_over_35t": "https://darsgo.si",
+      "car_trailer_over_35t": "https://evinjeta.dars.si"
+    },
+    "HU": {
+      "<= 3.5t": "https://nemzetiutdij.hu",
+      "m1_under_35t": "https://nemzetiutdij.hu",
+      "n1_over_35t": "https://nemzetiutdij.hu",
+      "car_trailer_over_35t": "https://nemzetiutdij.hu"
+    },
+    "HR": {
+      "<= 3.5t": "https://hac.hr",
+      "m1_under_35t": "https://hac.hr",
+      "n1_over_35t": "https://hac.hr",
+      "car_trailer_over_35t": "https://hac.hr"
+    },
+    "GR": {
+      "<= 3.5t": "https://www.egnatia.eu",
+      "m1_under_35t": "https://www.egnatia.eu",
+      "n1_over_35t": "https://www.egnatia.eu",
+      "car_trailer_over_35t": "https://www.egnatia.eu"
+    },
+    "SRB": {
+      "<= 3.5t": "https://www.putevi-srbije.rs",
+      "m1_under_35t": "https://www.putevi-srbije.rs",
+      "n1_over_35t": "https://www.putevi-srbije.rs",
+      "car_trailer_over_35t": "https://www.putevi-srbije.rs"
+    },
+    "BiH": {
+      "<= 3.5t": "https://www.jpautoceste.ba",
+      "m1_under_35t": "https://www.jpautoceste.ba",
+      "n1_over_35t": "https://www.jpautoceste.ba",
+      "car_trailer_over_35t": "https://www.jpautoceste.ba"
+    },
+    "MNE": {
+      "<= 3.5t": "https://monteput.me",
+      "m1_under_35t": "https://monteput.me",
+      "n1_over_35t": "https://monteput.me",
+      "car_trailer_over_35t": "https://monteput.me"
+    },
+    "ALB": {
+      "<= 3.5t": "https://arrsh.gov.al",
+      "m1_under_35t": "https://arrsh.gov.al",
+      "n1_over_35t": "https://arrsh.gov.al",
+      "car_trailer_over_35t": "https://arrsh.gov.al"
+    },
+    "CZ": {
+      "<= 3.5t": "https://edalnice.cz",
+      "m1_under_35t": "https://edalnice.cz",
+      "n1_over_35t": "https://mytocz.eu",
+      "car_trailer_over_35t": "https://edalnice.cz"
+    },
+    "PT": {
+      "<= 3.5t": "https://www.portugaltolls.com",
+      "m1_under_35t": "https://www.portugaltolls.com",
+      "n1_over_35t": "https://www.viaverde.pt",
+      "car_trailer_over_35t": "https://www.portugaltolls.com"
+    },
+    "RO": {
+      "<= 3.5t": "https://www.roviniete.ro",
+      "m1_under_35t": "https://www.roviniete.ro",
+      "n1_over_35t": "https://www.roviniete.ro",
+      "car_trailer_over_35t": "https://www.roviniete.ro"
+    },
+    "BG": {
+      "<= 3.5t": "https://www.bgtoll.bg",
+      "m1_under_35t": "https://www.bgtoll.bg",
+      "n1_over_35t": "https://www.bgtoll.bg",
+      "car_trailer_over_35t": "https://www.bgtoll.bg"
+    },
+    "EE": {
+      "<= 3.5t": "free",
+      "m1_under_35t": "free",
+      "n1_over_35t": "https://www.roadtoll.ee",
+      "car_trailer_over_35t": "free"
+    },
+    "LV": {
+      "<= 3.5t": "free",
+      "m1_under_35t": "free",
+      "n1_over_35t": "https://www.lvvignette.eu",
+      "car_trailer_over_35t": "free"
+    },
+    "LT": {
+      "<= 3.5t": "free",
+      "m1_under_35t": "free",
+      "n1_over_35t": "https://keliumokestis.lt",
+      "car_trailer_over_35t": "free"
+    },
+    "LU": {
+      "<= 3.5t": "free",
+      "m1_under_35t": "free",
+      "n1_over_35t": "https://www.eurovignettes.eu",
+      "car_trailer_over_35t": "free"
+    }
   }
 }
