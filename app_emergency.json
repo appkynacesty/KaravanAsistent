@@ -1,6 +1,6 @@
 {
   "version": "1.5.0",
-  "lastUpdated": "2026-01-30",
+  "lastUpdated": "2026-02-01",
   "modules": [
     {
       "icon": "build",
@@ -573,7 +573,7 @@
               "isPartner": true,
               "country": "SK",
               "url": "https://bystrinaresort.sk/kemping-bystrina/",
-              "phone": "+421 44 5548 163",
+              "phone": "+421 903 533 971",
               "benefit": {
                 "sk": "5% zľava na ubytovanie ",
                 "en": "5% discount on accommodation",
