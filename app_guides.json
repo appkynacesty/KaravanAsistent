@@ -314,10 +314,10 @@
     {
   "id": "caravan_diary_guide",
   "title": {
-    "sk": "Ako používať Denník",
+    "sk": "Ako používať Diár",
     "en": "How to use the Diary",
     "de": "Wie man das Tagebuch benutzt",
-    "cs": "Jak používat Deník",
+    "cs": "Jak používat Zápisník",
     "hu": "A napló használata"
   },
   "icon": "help_outline",
@@ -331,11 +331,11 @@
         "hu": "1. MÉRETEK ÉS GUMIK BEÁLLÍTÁSA"
       },
       "content": {
-        "sk": "Hneď na úvode vyťahujte meter! \n• Kliknite do políčka pri danej ikone (výška, šírka, dĺžka) a napíšte rozmer v metroch. \n• Desatinné miesta oddeľujte čiarkou alebo bodkou (napr. 3.1 m). \n• Do políčka 'Tlak' si zapíšte hodnotu v baroch, na ktorú bežne fúkate pneu pri plnom naložení. \n• Nemusíte nič potvrdzovať, aplikácia si to zapamätá hneď, ako to dopíšete.",
-        "en": "Get your measuring tape ready! \n• Click the field next to the icon (height, width, length) and enter the dimension in meters. \n• Use a comma or dot for decimals (e.g., 3.1 m). \n• In the 'Pressure' field, enter the value in bars you usually inflate to when fully loaded. \n• No need to confirm, the app remembers as soon as you type it.",
-        "de": "Maßband rausholen! \n• Klicken Sie in das Feld neben dem Symbol (Höhe, Breite, Länge) und geben Sie das Maß in Metern ein. \n• Verwenden Sie ein Komma oder einen Punkt für Dezimalstellen (z. B. 3.1 m). \n• Geben Sie im Feld 'Druck' den Wert in Bar ein, auf den Sie bei voller Beladung normalerweise aufpumpen. \n• Sie müssen nichts bestätigen, die App merkt es sich sofort.",
-        "cs": "Hned na úvodu vytahujte metr! \n• Klikněte do políčka u dané ikony (výška, šířka, délka) a napište rozměr v metrech. \n• Desetinná místa oddělujte čárkou nebo tečkou (např. 3.1 m). \n• Do políčka 'Tlak' si zapište hodnotu v barech, na kterou běžně foukáte pneu při plném naložení. \n• Nemusíte nic potvrzovat, aplikace si to zapamatuje hned, jak to dopíšete.",
-        "hu": "Már az elején vegye elő a mérőszalagot! \n• Kattintson az ikon melletti mezőbe (magasság, szélesség, hossz), és adja meg a méretet méterben. \n• A tizedesjegyeket vesszővel vagy ponttal válassza el (pl. 3.1 m). \n• A 'Nyomás' mezőbe írja be azt a bar értéket, amelyre teljes terhelésnél fújni szokott. \n• Nem kell megerősítenie, az alkalmazás azonnal megjegyzi."
+        "sk": "Aby ste mali rozmery vždy po ruke (vjazd do tunela, trajektu atď.), vložte si ich práve sem! \n• Kliknite do políčka pri danej ikone (výška, šírka, dĺžka) a napíšte rozmer v metroch. \n• Desatinné miesta oddeľujte čiarkou alebo bodkou (napr. 3.1 m). \n• Do políčka 'Tlak' si zapíšte hodnotu v baroch, na ktorú bežne fúkate pneu pri plnom naložení. \n• Nemusíte nič potvrdzovať, aplikácia si to zapamätá hneď, ako to dopíšete.",
+        "en": "To have your dimensions always at hand (tunnel entries, ferries, etc.), enter them right here! \n• Click the field next to the icon (height, width, length) and enter the dimension in meters. \n• Use a comma or dot for decimals (e.g., 3.1 m). \n• In the 'Pressure' field, enter the value in bars you usually inflate to when fully loaded. \n• No need to confirm, the app remembers as soon as you type it.",
+        "de": "Damit Sie Ihre Maße immer griffbereit haben (Tunneleinfahrten, Fähren usw.), tragen Sie diese hier ein! \n• Klicken Sie in das Feld neben dem Symbol (Höhe, Breite, Länge) und geben Sie das Maß in Metern ein. \n• Verwenden Sie ein Komma oder einen Punkt für Dezimalstellen (z. B. 3.1 m). \n• Geben Sie im Feld 'Druck' den Wert in Bar ein, auf den Sie bei voller Beladung normalerweise aufpumpen. \n• Sie müssen nichts bestätigen, die App merkt es sich sofort.",
+        "cs": "Abyste měli rozměry vždy po ruce (vjezd do tunelu, trajektu atd.), vložte si je právě sem! \n• Klikněte do políčka u dané ikony (výška, šířka, délka) a napište rozměr v metrech. \n• Desetinná místa oddělujte čárkou nebo tečkou (např. 3.1 m). \n• Do políčka 'Tlak' si zapište hodnotu v barech, na kterou běžně foukáte pneu při plném naložení. \n• Nic nemusíte potvrzovat, aplikace si to zapamatuje hned, jak to dopíšete.",
+        "hu": "Hogy a méretek mindig kéznél legyenek (alagútbejárat, komp stb.), itt adja meg őket! \n• Kattintson az ikon melletti mezőbe (magasság, szélesség, hossz), és adja meg a méretet méterben. \n• A tizedesjegyeket vesszővel vagy ponttal válassza el (pl. 3.1 m). \n• A 'Nyomás' mezőbe írja be azt a bar értéket, amelyre teljes terhelésnél fújni szokott. \n• Nem kell megerősítenie, az alkalmazás azonnal megjegyzi."
       }
     },
     {
