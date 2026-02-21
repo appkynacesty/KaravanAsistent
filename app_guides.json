@@ -311,6 +311,67 @@
     }
   ]
 },
+    {
+  "id": "caravan_diary_guide",
+  "title": {
+    "sk": "Ako používať Denník",
+    "en": "How to use the Diary",
+    "de": "Wie man das Tagebuch benutzt",
+    "cs": "Jak používat Deník",
+    "hu": "A napló használata"
+  },
+  "icon": "help_outline",
+  "sections": [
+    {
+      "heading": {
+        "sk": "1. NASTAVENIE ROZMEROV A PNEU",
+        "en": "1. SETTING DIMENSIONS AND TIRES",
+        "de": "1. ABMESSUNGEN UND REIFEN EINSTELLEN",
+        "cs": "1. NASTAVENÍ ROZMĚRŮ A PNEU",
+        "hu": "1. MÉRETEK ÉS GUMIK BEÁLLÍTÁSA"
+      },
+      "content": {
+        "sk": "Hneď na úvode vyťahujte meter! \n• Kliknite do políčka pri danej ikone (výška, šírka, dĺžka) a napíšte rozmer v metroch. \n• Desatinné miesta oddeľujte čiarkou alebo bodkou (napr. 3.1 m). \n• Do políčka 'Tlak' si zapíšte hodnotu v baroch, na ktorú bežne fúkate pneu pri plnom naložení. \n• Nemusíte nič potvrdzovať, aplikácia si to zapamätá hneď, ako to dopíšete.",
+        "en": "Get your measuring tape ready! \n• Click the field next to the icon (height, width, length) and enter the dimension in meters. \n• Use a comma or dot for decimals (e.g., 3.1 m). \n• In the 'Pressure' field, enter the value in bars you usually inflate to when fully loaded. \n• No need to confirm, the app remembers as soon as you type it.",
+        "de": "Maßband rausholen! \n• Klicken Sie in das Feld neben dem Symbol (Höhe, Breite, Länge) und geben Sie das Maß in Metern ein. \n• Verwenden Sie ein Komma oder einen Punkt für Dezimalstellen (z. B. 3.1 m). \n• Geben Sie im Feld 'Druck' den Wert in Bar ein, auf den Sie bei voller Beladung normalerweise aufpumpen. \n• Sie müssen nichts bestätigen, die App merkt es sich sofort.",
+        "cs": "Hned na úvodu vytahujte metr! \n• Klikněte do políčka u dané ikony (výška, šířka, délka) a napište rozměr v metrech. \n• Desetinná místa oddělujte čárkou nebo tečkou (např. 3.1 m). \n• Do políčka 'Tlak' si zapište hodnotu v barech, na kterou běžně foukáte pneu při plném naložení. \n• Nemusíte nic potvrzovat, aplikace si to zapamatuje hned, jak to dopíšete.",
+        "hu": "Már az elején vegye elő a mérőszalagot! \n• Kattintson az ikon melletti mezőbe (magasság, szélesség, hossz), és adja meg a méretet méterben. \n• A tizedesjegyeket vesszővel vagy ponttal válassza el (pl. 3.1 m). \n• A 'Nyomás' mezőbe írja be azt a bar értéket, amelyre teljes terhelésnél fújni szokott. \n• Nem kell megerősítenie, az alkalmazás azonnal megjegyzi."
+      }
+    },
+    {
+      "heading": {
+        "sk": "2. STRÁŽENIE TERMÍNOV (STK, PLYN...)",
+        "en": "2. MONITORING DEADLINES (MOT, GAS...)",
+        "de": "2. TERMINE ÜBERWACHEN (TÜV, GAS...)",
+        "cs": "2. HLÍDÁNÍ TERMÍNŮ (STK, PLYN...)",
+        "hu": "2. HATÁRIDŐK FIGYELÉSE (VIZSGA, GÁZ...)"
+      },
+      "content": {
+        "sk": "Aby ste nezabudli na dôležité 'papierovačky': \n• Ak je zoznam prázdny, kliknite na oranžové tlačidlo 'Pridať odporúčané'. Aplikácia vám sama nahodí STK, revíziu plynu, či výmenu oleja. \n• Chcete pridať niečo vlastné? Kliknite na MODRÉ PLUS (+) vpravo hore. \n• NASTAVENIE DÁTUMU: Kliknite priamo na riadok s udalosťou, otvorí sa kalendár. Vyberte dátum, kedy platnosť končí. \n• MAZANIE: Ak niečo nepotrebujete, kliknite na červenú ikonku koša.",
+        "en": "Don't forget the important paperwork: \n• If the list is empty, click the orange 'Add recommended' button. The app will suggest MOT, gas inspection, or oil change. \n• Want to add your own? Click the BLUE PLUS (+) at the top right. \n• SETTING DATE: Click directly on the event row to open the calendar. Select the expiry date. \n• DELETING: If you don't need something, click the red trash icon.",
+        "de": "Vergessen Sie nicht den wichtigen Papierkram: \n• Wenn die Liste leer ist, klicken Sie auf 'Empfohlene hinzufügen'. Die App schlägt TÜV, Gasprüfung oder Ölwechsel vor. \n• Eigenes hinzufügen? Klicken Sie oben rechts auf das BLAUE PLUS (+). \n• DATUM EINSTELLEN: Klicken Sie direkt auf die Ereigniszeile, um den Kalender zu öffnen. Wählen Sie das Ablaufdatum. \n• LÖSCHEN: Wenn Sie etwas nicht benötigen, klicken Sie auf das rote Mülleimer-Symbol.",
+        "cs": "Abyste nezapomněli na důležité 'papírování': \n• Pokud je seznam prázdný, klikněte na oranžové tlačítko 'Přidat doporučené'. Aplikace vám sama nahodí STK, revizi plynu či výměnu oleje. \n• Chcete přidat něco vlastního? Klikněte na MODRÉ PLUS (+) vpravo nahoře. \n• NASTAVENÍ DATUMU: Klikněte přímo na řádek s událostí, otevře se kalendář. Vyberte datum, kdy platnost končí. \n• MAZÁNÍ: Pokud něco nepotřebujete, klikněte na červenou ikonku koše.",
+        "hu": "Hogy ne feledkezzen meg a fontos papírmunkáról: \n• Ha a lista üres, kattintson a narancssárga 'Ajánlottak hozzáadása' gombra. Az alkalmazás felajánlja a műszakit, gázszemlét vagy olajcserét. \n• Sajátot szeretne? Kattintson a KÉK PLUSZ (+) jelre a jobb felső sarokban. \n• DÁTUM BEÁLLÍTÁSA: Kattintson az esemény sorára a naptár megnyitásához. Válassza ki a lejárati dátumot. \n• TÖRLÉS: Ha valamire nincs szüksége, kattintson a piros kuka ikonra."
+      }
+    },
+    {
+      "heading": {
+        "sk": "3. PRENOS DÁT A PDF VÝSTUP",
+        "en": "3. DATA TRANSFER AND PDF OUTPUT",
+        "de": "3. DATENÜBERTRAGUNG UND PDF-AUSGABE",
+        "cs": "3. PŘENOS DAT A PDF VÝSTUP",
+        "hu": "3. ADATÁTVITEL ÉS PDF KIMENET"
+      },
+      "content": {
+        "sk": "V sekcii 'Správa dát' (úplne dole) nájdete: \n• Export PDF: Vytvorí 'techničák karavanistu' v PDF. Môžete si ho poslať na mail alebo vytlačiť a nechať v aute pre iných vodičov. \n• Záloha (Backup): Kliknite sem, ak chcete svoje dáta poslať napr. do nového mobilu cez cloud alebo správu. \n• Import: Touto funkciou spätne nahráte súbor so zálohou, ktorý ste si predtým uložili.",
+        "en": "In the 'Data Management' section (at the bottom) you will find: \n• PDF Export: Creates a 'caravanner's tech sheet' in PDF. Send it to your email or print it for other drivers. \n• Backup: Click here to send your data to a new phone via cloud or message. \n• Import: Use this to reload a backup file you previously saved.",
+        "de": "Im Bereich 'Datenverwaltung' (ganz unten) finden Sie: \n• PDF-Export: Erstellt ein PDF-Infoblatt. Senden Sie es an Ihre E-Mail oder drucken Sie es für andere Fahrer aus. \n• Backup: Klicken Sie hier, um Ihre Daten über die Cloud oder eine Nachricht an ein neues Telefon zu senden. \n• Import: Verwenden Sie dies, um eine zuvor gespeicherte Sicherungsdatei wieder zu laden.",
+        "cs": "V sekci 'Správa dat' (úplně dole) najdete: \n• Export PDF: Vytvoří 'techničák karavanisty' v PDF. Můžete si ho poslat na mail nebo vytisknout a nechat v autě pro jiné řidiče. \n• Záloha (Backup): Klikněte sem, pokud chcete svá data poslat např. do nového mobilu přes cloud nebo zprávu. \n• Import: Touto funkcí zpětně nahrajete soubor se zálohou, který jste si dříve uložili.",
+        "hu": "Az 'Adatkezelés' részben (legalul) az alábbiakat találja: \n• PDF exportálása: PDF-et készít az adatokról. Elküldheti e-mailben, vagy kinyomtathatja a többi sofőrnek. \n• Mentés (Backup): Kattintson ide, ha adatait új telefonra szeretné küldeni felhőn vagy üzeneten keresztül. \n• Importálás: Ezzel töltheti vissza a korábban elmentett mentési fájlt."
+      }
+    }
+  ]
+},
 {
   "id": "ar_space_planning",
   "title": {
