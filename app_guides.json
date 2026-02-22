@@ -363,11 +363,104 @@
         "hu": "3. ADATÁTVITEL ÉS PDF KIMENET"
       },
       "content": {
-        "sk": "V sekcii 'Správa dát' (úplne dole) nájdete: \n• Export PDF: Vytvorí 'techničák karavanistu' v PDF. Môžete si ho poslať na mail alebo vytlačiť a nechať v aute pre iných vodičov. \n• Záloha (Backup): Kliknite sem, ak chcete svoje dáta poslať napr. do nového mobilu cez cloud alebo správu. \n• Import: Touto funkciou spätne nahráte súbor so zálohou, ktorý ste si predtým uložili.",
-        "en": "In the 'Data Management' section (at the bottom) you will find: \n• PDF Export: Creates a 'caravanner's tech sheet' in PDF. Send it to your email or print it for other drivers. \n• Backup: Click here to send your data to a new phone via cloud or message. \n• Import: Use this to reload a backup file you previously saved.",
-        "de": "Im Bereich 'Datenverwaltung' (ganz unten) finden Sie: \n• PDF-Export: Erstellt ein PDF-Infoblatt. Senden Sie es an Ihre E-Mail oder drucken Sie es für andere Fahrer aus. \n• Backup: Klicken Sie hier, um Ihre Daten über die Cloud oder eine Nachricht an ein neues Telefon zu senden. \n• Import: Verwenden Sie dies, um eine zuvor gespeicherte Sicherungsdatei wieder zu laden.",
-        "cs": "V sekci 'Správa dat' (úplně dole) najdete: \n• Export PDF: Vytvoří 'techničák karavanisty' v PDF. Můžete si ho poslat na mail nebo vytisknout a nechat v autě pro jiné řidiče. \n• Záloha (Backup): Klikněte sem, pokud chcete svá data poslat např. do nového mobilu přes cloud nebo zprávu. \n• Import: Touto funkcí zpětně nahrajete soubor se zálohou, který jste si dříve uložili.",
-        "hu": "Az 'Adatkezelés' részben (legalul) az alábbiakat találja: \n• PDF exportálása: PDF-et készít az adatokról. Elküldheti e-mailben, vagy kinyomtathatja a többi sofőrnek. \n• Mentés (Backup): Kattintson ide, ha adatait új telefonra szeretné küldeni felhőn vagy üzeneten keresztül. \n• Importálás: Ezzel töltheti vissza a korábban elmentett mentési fájlt."
+        "sk": "V sekcii 'Správa dát' (úplne dole) nájdete: \n• Export PDF: Vytvorí 'techničák karavanistu' v PDF. Môžete si ho poslať na mail alebo vytlačiť a nechať v aute pre iných vodičov. \n• Záloha (Backup): Kliknite sem, ak chcete svoje dáta poslať napr. do nového mobilu cez cloud alebo správu. \n• Import: Touto funkciou spätne nahráte súbor so zálohou, ktorý ste si predtým uložili.".\n\n\u00A0",
+        "en": "In the 'Data Management' section (at the bottom) you will find: \n• PDF Export: Creates a 'caravanner's tech sheet' in PDF. Send it to your email or print it for other drivers. \n• Backup: Click here to send your data to a new phone via cloud or message. \n• Import: Use this to reload a backup file you previously saved.".\n\n\u00A0",
+        "de": "Im Bereich 'Datenverwaltung' (ganz unten) finden Sie: \n• PDF-Export: Erstellt ein PDF-Infoblatt. Senden Sie es an Ihre E-Mail oder drucken Sie es für andere Fahrer aus. \n• Backup: Klicken Sie hier, um Ihre Daten über die Cloud oder eine Nachricht an ein neues Telefon zu senden. \n• Import: Verwenden Sie dies, um eine zuvor gespeicherte Sicherungsdatei wieder zu laden.".\n\n\u00A0",
+        "cs": "V sekci 'Správa dat' (úplně dole) najdete: \n• Export PDF: Vytvoří 'techničák karavanisty' v PDF. Můžete si ho poslat na mail nebo vytisknout a nechat v autě pro jiné řidiče. \n• Záloha (Backup): Klikněte sem, pokud chcete svá data poslat např. do nového mobilu přes cloud nebo zprávu. \n• Import: Touto funkcí zpětně nahrajete soubor se zálohou, který jste si dříve uložili.".\n\n\u00A0",
+        "hu": "Az 'Adatkezelés' részben (legalul) az alábbiakat találja: \n• PDF exportálása: PDF-et készít az adatokról. Elküldheti e-mailben, vagy kinyomtathatja a többi sofőrnek. \n• Mentés (Backup): Kattintson ide, ha adatait új telefonra szeretné küldeni felhőn vagy üzeneten keresztül. \n• Importálás: Ezzel töltheti vissza a korábban elmentett mentési fájlt.".\n\n\u00A0"
+      }
+    }
+  ]
+},
+    {
+  "id": "caravan_planner_guide",
+  "title": {
+    "sk": "Ako používať Plánovač",
+    "en": "How to use the Planner",
+    "de": "Wie man den Planer benutzt",
+    "cs": "Jak používat Plánovač",
+    "hu": "A tervező használata"
+  },
+  "icon": "map",
+  "sections": [
+    {
+      "heading": {
+        "sk": "Odkiaľ pochádzajú body?",
+        "en": "Where do the points come from?",
+        "de": "Woher kommen die Punkte?",
+        "cs": "Odkud pocházejí body?",
+        "hu": "Honnan származnak a pontok?"
+      },
+      "content": {
+        "sk": "⚠️ **Dôležité upozornenie:** Dáta v mape (kempy, servisy, parkovacie miesta) čerpáme z otvorených zdrojov OpenStreetMap a komunitných zoznamov. Všetky body vkladajú iní karavanisti a cestovatelia, preto si pred cestou overte ich aktuálnosť.",
+        "en": "⚠️ **Important notice:** Map data (camps, services, parking spots) are sourced from OpenStreetMap and community lists. All points are entered by fellow caravanners and travelers, so please verify their status before your trip.",
+        "de": "⚠️ **Wichtiger Hinweis:** Kartendaten (Campingplätze, Werkstätten, Parkplätze) stammen aus OpenStreetMap und Community-Listen. Alle Punkte werden von anderen Campern und Reisenden eingetragen. Bitte prüfen Sie deren Aktualität vor der Reise.",
+        "cs": "⚠️ **Důležité upozornění:** Data v mapě (kempy, servisy, parkovací místa) čerpáme z otevřených zdrojů OpenStreetMap a komunitních seznamů. Všechny body vkládají jiní karavanisté a cestovatelé, proto si před cestou ověřte jejich aktuálnost.",
+        "hu": "⚠️ **Fontos figyelmeztetés:** A térképadatokat (kempingek, szervizek, parkolóhelyek) az OpenStreetMap-ből és közösségi listákból merítjük. Minden pontot más karavánosok és utazók töltenek fel, ezért utazás előtt ellenőrizze azok aktualitását."
+      }
+    },
+    {
+      "heading": {
+        "sk": "1. PRÁCA S MAPOU A BODMI",
+        "en": "1. WORKING WITH THE MAP",
+        "de": "1. ARBEIT MIT DER KARTE",
+        "cs": "1. PRÁCE S MAPOU A BODY",
+        "hu": "1. TÉRKÉP ÉS PONTOK KEZELÉSE"
+      },
+      "content": {
+        "sk": "• **Pridanie bodu:** Podržte prst dlhšie na ktoromkoľvek mieste na mape a môžete si uložiť vlastný bod.\n• **Moja poloha:** Kliknite na ikonu terčíka vpravo dole pre okamžité zameranie.\n• **Navigácia:** Kliknite na bod na mape a v spodnom paneli zvoľte 'Navigovať' – otvorí sa vaša obľúbená navigácia v mobile.",
+        "en": "• **Adding a point:** Long-press anywhere on the map to save your own point.\n• **My location:** Click the target icon at the bottom right to locate yourself instantly.\n• **Navigation:** Click a point on the map and select 'Navigate' in the bottom panel – it will open your favorite mobile navigation.",
+        "de": "• **Punkt hinzufügen:** Drücken Sie lange auf eine beliebige Stelle auf der Karte, um einen eigenen Punkt zu speichern.\n• **Mein Standort:** Klicken Sie auf das Zielkreuz-Symbol unten rechts zur sofortigen Ortung.\n• **Navigation:** Klicken Sie auf einen Punkt auf der Karte und wählen Sie 'Navigieren' im unteren Menü – Ihre bevorzugte Navi-App wird geöffnet.",
+        "cs": "• **Přidání bodu:** Podržte prst déle na kterémkoli místě na mapě a můžete si uložit vlastní bod.\n• **Moje poloha:** Klikněte na ikonu terčíku vpravo dole pro okamžité zaměření.\n• **Navigace:** Klikněte na bod na mapě a ve spodním panelu zvolte 'Navigovat' – otevře se vaše oblíbená navigace v mobilu.",
+        "hu": "• **Pont hozzáadása:** Tartsa hosszan az ujját bárhol a térképen saját pont mentéséhez.\n• **Saját pozíció:** Kattintson a célkereszt ikonra a jobb alsó sarokban az azonnali helymeghatározáshoz.\n• **Navigáció:** Kattintson egy pontra a térképen, és az alsó sávban válassza a 'Navigálás' gombot – megnyílik a kedvenc navigációs alkalmazása."
+      }
+    },
+    {
+      "heading": {
+        "sk": "2. FILTROVANIE A VYHĽADÁVANIE",
+        "en": "2. FILTERING AND SEARCH",
+        "de": "2. FILTERN UND SUCHEN",
+        "cs": "2. FILTROVÁNÍ A VYHLEDÁVÁNÍ",
+        "hu": "2. SZŰRÉS ÉS KERESÉS"
+      },
+      "content": {
+        "sk": "• **Vrstvy (Vľavo hore):** Kliknite na ikonu vrstiev a vyberte si, čo chcete vidieť (moje body, kempy, čerpačky, servisy alebo partnerov).\n• **Hľadať v okolí:** Kliknite na veľké modré tlačidlo lupy dole. Aplikácia stiahne body z okolia, ktoré práve vidíte na mape.\n• **Adresa alebo súradnice:** Použite lupu vpravo dole. Môžete napísať názov mesta alebo priamo GPS súradnice (napr. 48.1, 17.1).",
+        "en": "• **Layers (Top left):** Click the layers icon to choose what you want to see (my points, camps, gas stations, services, or partners).\n• **Search nearby:** Click the large blue search button at the bottom. The app will fetch points from the area currently visible on the map.\n• **Address or coordinates:** Use the magnifying glass at the bottom right. You can enter a city name or direct GPS coordinates (e.g., 48.1, 17.1).",
+        "de": "• **Ebenen (Oben links):** Klicken Sie auf das Ebenen-Symbol und wählen Sie aus, was Sie sehen möchten (Eigene Punkte, Campingplätze, Tankstellen, Werkstätten oder Partner).\n• **In der Nähe suchen:** Klicken Sie auf die große blaue Lupe unten. Die App lädt Punkte aus dem Bereich, den Sie gerade auf der Karte sehen.\n• **Adresse oder Koordinaten:** Nutzen Sie die Lupe unten rechts. Sie können Städtenamen oder direkt GPS-Koordinaten eingeben (z. B. 48.1, 17.1).",
+        "cs": "• **Vrstvy (Vlevo nahoře):** Klikněte na ikonu vrstev a vyberte si, co chcete vidět (moje body, kempy, čerpačky, servisy nebo partnery).\n• **Hledat v okolí:** Klikněte na velké modré tlačítko lupy dole. Aplikace stáhne body z okolí, které právě vidíte na mapě.\n• **Adresa nebo souřadnice:** Použijte lupu vpravo dole. Můžete napsat název města nebo přímo GPS souřadnice (např. 48.1, 17.1).",
+        "hu": "• **Rétegek (Bal fent):** Kattintson a rétegek ikonra a megjeleníteni kívánt pontok kiválasztásához (saját pontok, kempingek, kutak, szervizek vagy partnerek).\n• **Keresés a közelben:** Kattintson a lenti nagy kék nagyító gombra. Az alkalmazás letölti a térképen látható terület pontjait.\n• **Cím alebo koordináták:** Használja a jobb lenti nagyítót. Megadhat városnevet vagy közvetlen GPS koordinátákat is (pl. 48.1, 17.1)."
+      }
+    },
+    {
+      "heading": {
+        "sk": "3. OBĽÚBENÉ MIESTA A ZDIEĽANIE",
+        "en": "3. FAVORITES AND SHARING",
+        "de": "3. FAVORITEN UND TEILEN",
+        "cs": "3. OBLÍBENÁ MÍSTA A SDÍLENÍ",
+        "hu": "3. KEDVENC HELYEK ÉS MEGOSZTÁS"
+      },
+      "content": {
+        "sk": "• **Srdiečka (Obľúbené):** Ak ste na mieste, ktoré si chcete navždy zapamätať, kliknite na 'Viac' (tri bodky) a zvoľte 'Pridať'. Bod so srdiečkom vytvorí vašu vlastnú sieť obľúbených miest.\n• **Ochrana pred vymazaním:** Tieto miesta sú v bezpečí – tlačidlo 'Vymazať plán' ich neodstráni. Ak chcete obľúbený bod predsa len zmazať, musíte tak urobiť priamo v jeho popise po kliknutí na ikonu koša.\n• **Zdieľanie:** Našli ste super miesto? Kliknite naň a použite ikonu zdieľania. Môžete poslať presnú polohu priateľom cez správy alebo sociálne siete.",
+        "en": "• **Hearts (Favorites):** If you are at a place you want to remember forever, click 'More' (three dots) and select 'Add'. A point with a heart creates your own network of favorite spots.\n• **Deletion protection:** These places are safe – the 'Clear Planner' button will not remove them. To delete a favorite point, you must do it directly in its description using the trash icon.\n• **Sharing:** Found a great spot? Click it and use the share icon. You can send the exact location to friends via messages or social media.",
+        "de": "• **Herzen (Favoriten):** Wenn Sie an einem Ort sind, den Sie für immer behalten möchten, klicken Sie auf 'Mehr' (drei Punkte) und wählen Sie 'Hinzufügen'. Ein Punkt mit Herz erstellt Ihr eigenes Netzwerk von Lieblingsplätzen.\n• **Löschschutz:** Diese Orte sind sicher – die Schaltfläche 'Plan löschen' entfernt sie nicht. Um einen Favoriten zu löschen, müssen Sie dies direkt in dessen Beschreibung über das Mülleimer-Symbol tun.\n• **Teilen:** Einen tollen Ort gefunden? Klicken Sie darauf und nutzen Sie das Teilen-Symbol. Sie können den genauen Standort per Nachricht oder soziale Netzwerke an Freunde senden.",
+        "cs": "• **Srdíčka (Oblíbená):** Pokud jste na místě, které si chcete navždy zapamatovat, klikněte na 'Více' (tři tečky) a zvolte 'Přidat'. Bod se srdíčkem vytvoří vaši vlastní síť oblíbených míst.\n• **Ochrana před smazáním:** Tato místa jsou v bezpečí – tlačítko 'Vymazat plán' je neodstraní. Pokud chcete oblíbený bod přece jen smazat, musíte tak učinit přímo v jeho popisu po kliknutí na ikonu koše.\n• **Sdílení:** Našli ste super místo? Klikněte na něj a použijte ikonu sdílení. Můžete poslat přesnou polohu přátelům přes zprávy nebo sociální sítě.",
+        "hu": "• **Szívecskék (Kedvencek):** Ha olyan helyen jár, amelyet örökre meg szeretne jegyezni, kattintson a 'Több' (három pont) gombra, és válassza a 'Hozzáadás' lehetőséget. A szívecskés pontok létrehozzák saját kedvenc helyeinek hálózatát.\n• **Törlés elleni védelem:** Ezek a helyek biztonságban vannak – a 'Terv törlése' gomb nem távolítja el őket. Ha mégis törölni szeretne egy kedvencet, azt közvetlenül a pont leírásában teheti meg a kuka ikonnal.\n• **Megosztás:** Szuper helyet talált? Kattintson rá, és használja a megosztás ikont. A pontos helyszínt elküldheti barátainak üzenetben vagy közösségi oldalakon."
+      }
+    },
+    {
+      "heading": {
+        "sk": "SÚKROMIE A ZÁLOHA",
+        "en": "PRIVACY AND BACKUP",
+        "de": "DATENSCHUTZ UND BACKUP",
+        "cs": "SOUKROMÍ A ZÁLOHA",
+        "hu": "ADATVÉDELEM ÉS MENTÉS"
+      },
+      "content": {
+        "sk": "🔒 Všetky body sú uložené len vo vašom telefóne, aby bolo zachované úplné súkromie. Ak plánujete meniť telefón a pod., využite možnosť exportu jednotlivých bodov a do nového zariadenia si ich manuálne preneste cez vyhľadávanie!".\n\n\u00A0",
+        "en": "🔒 All points are stored only on your phone to maintain complete privacy. If you plan to change your phone, use the export option for individual points and transfer them manually to the new device via search!".\n\n\u00A0",
+        "de": "🔒 Alle Punkte werden nur auf Ihrem Telefon gespeichert, um die vollständige Privatsphäre zu gewährleisten. Wenn Sie planen, Ihr Telefon zu wechseln, nutzen Sie die Exportfunktion für einzelne Punkte und übertragen Sie diese manuell per Suche auf das neue Gerät!".\n\n\u00A0",
+        "cs": "🔒 Všechny body jsou uloženy pouze ve vašem telefonu, aby bylo zachováno úplné soukromí. Pokud plánujete měnit telefon apod., využijte možnost exportu jednotlivých bodů a do nového zařízení si je manuálně přeneste přes vyhledávání!".\n\n\u00A0",
+        "hu": "🔒 Minden pont csak az Ön telefonján tárolódik a teljes adatvédelem érdekében. Ha telefoncserét tervez, használja az egyes pontok exportálása opciót, és az új eszközre manuálisan vigye át őket a keresőn keresztül!".\n\n\u00A0"
       }
     }
   ]
