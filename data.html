@@ -68,6 +68,17 @@
             </div>
         </div>
 
+        <div class="row">
+    <div style="flex:1">
+        <label>Zemepisná šírka (Lat):</label>
+        <input type="number" id="lat" step="any" placeholder="49.04944">
+    </div>
+    <div style="flex:1">
+        <label>Zemepisná dĺžka (Lon):</label>
+        <input type="number" id="lon" step="any" placeholder="19.57611">
+    </div>
+    </div>
+
         <label>URL / Web:</label>
         <input type="url" id="url" placeholder="https://..." required>
 
@@ -184,6 +195,8 @@
         document.getElementById('isPartner').value = item.isPartner.toString();
         document.getElementById('url').value = item.url;
         document.getElementById('phone').value = item.phone || "";
+        document.getElementById('lat').value = item.lat || "";
+        document.getElementById('lon').value = item.lon || "";
 
         if (item.benefit) {
             document.getElementById('benefit_sk').value = item.benefit.sk || "";
@@ -226,6 +239,8 @@
 
         const name_sk = document.getElementById('name_sk').value;
         const b_sk = document.getElementById('benefit_sk').value;
+        const latVal = document.getElementById('lat').value;
+        const lonVal = document.getElementById('lon').value;
 
         const newItem = {
             "name": { 
@@ -239,7 +254,11 @@
             "country": document.getElementById('country').value.toUpperCase(),
             "url": document.getElementById('url').value,
             "phone": document.getElementById('phone').value || ""
-        };
+          };
+            // Pridanie súradníc, ak sú vyplnené
+            if (latVal) newItem.lat = parseFloat(latVal);
+            if (lonVal) newItem.lon = parseFloat(lonVal);
+       
 
         if (b_sk) {
             newItem.benefit = { 
