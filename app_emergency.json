@@ -151,6 +151,28 @@
               "country": "IT",
               "url": "https://www.stellplatz.it",
               "phone": "+390471012345"
+            },
+            {
+              "name": {
+                "sk": "Karavany PK",
+                "en": "Karavany PK",
+                "de": "Karavany PK",
+                "cs": "Karavany PK",
+                "hu": "Karavany PK"
+              },
+              "isPartner": true,
+              "country": "SK",
+              "url": "https://www.karavanypk.sk/",
+              "phone": "+421 905 616 947",
+              "lat": 48.2965,
+              "lon": 17.258,
+              "benefit": {
+                "sk": "10% zľava na servis",
+                "en": "10% discount on service",
+                "de": "10% Rabatt auf den Service",
+                "cs": "10% sleva na servis",
+                "hu": "10% kedvezmény a szervizre"
+              }
             }
           ]
         }
