@@ -1,6 +1,6 @@
 {
   "version": "1.5.0",
-  "lastUpdated": "2026-02-01",
+  "lastUpdated": "2026-02-27",
   "modules": [
     {
       "icon": "build",
@@ -582,6 +582,28 @@
                 "de": "5% Rabatt auf die Unterkunft",
                 "cs": "5% sleva na ubytování",
                 "hu": "5% kedvezmény a szállás árából"
+              }
+            },
+            {
+              "name": {
+                "sk": "Kemp Zlaté piesky ",
+                "en": "Kemp Zlaté piesky ",
+                "de": "Kemp Zlaté piesky ",
+                "cs": "Kemp Zlaté piesky ",
+                "hu": "Kemp Zlaté piesky "
+              },
+              "isPartner": true,
+              "country": "SK",
+              "url": "http:\\\\www.camping.bratislava.sk",
+              "phone": "+421903742872",
+              "lat": 48.188219,
+              "lon": 17.185592,
+              "benefit": {
+                "sk": "1 hodina pétanque zdarma",
+                "en": "1 hour of pétanque for free",
+                "de": "1 Stunde Pétanque kostenlos",
+                "cs": "1 hodina pétanque zdarma",
+                "hu": "1 óra petanque ingyen"
               }
             }
           ]
