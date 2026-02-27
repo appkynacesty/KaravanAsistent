@@ -621,11 +621,11 @@
               "lat": 48.188219,
               "lon": 17.185592,
               "benefit": {
-                "sk": "1 hodina pétanque zdarma",
-                "en": "1 hour of pétanque for free",
-                "de": "1 Stunde Pétanque kostenlos",
-                "cs": "1 hodina pétanque zdarma",
-                "hu": "1 óra petanque ingyen"
+                "sk": "1 hodina pétanque zdarma + vstup na pláž zdarma pre zakempovaných",
+                "en": "1 hour of pétanque for free + free beach access for camping guests",
+                "de": "1 Stunde Pétanque kostenlos + freier Strandzugajng für Campinggäste",
+                "cs": "1 hodina pétanque zdarma + vstup na pláž zdarma pro ubytované",
+                "hu": "1 óra petanque ingyen + ingyenes strandbelépés a kempingezőknek"
               }
             }
           ]
