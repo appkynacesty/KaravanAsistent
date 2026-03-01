@@ -638,28 +638,6 @@
               },
               "isPartner": true,
               "country": "SK",
-              "url": "https:\\\\www.campingmalabara.sk",
-              "phone": "+421950282182",
-              "lat": 48.421647,
-              "lon": 21.731604,
-              "benefit": {
-                "sk": "Fľaša vína ",
-                "en": "Fľaša vína ",
-                "de": "Fľaša vína ",
-                "cs": "Fľaša vína ",
-                "hu": "Fľaša vína "
-              }
-            },
-            {
-              "name": {
-                "sk": "Camping Malá Bara",
-                "en": "Camping Malá Bara",
-                "de": "Camping Malá Bara",
-                "cs": "Camping Malá Bara",
-                "hu": "Camping Malá Bara"
-              },
-              "isPartner": true,
-              "country": "SK",
               "url": "https://www.campingmalabara.sk",
               "phone": "+421950282182",
               "lat": 48.421647,
