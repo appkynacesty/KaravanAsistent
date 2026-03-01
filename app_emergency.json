@@ -1,6 +1,6 @@
 {
   "version": "1.5.0",
-  "lastUpdated": "2026-02-27",
+  "lastUpdated": "2026-03-01",
   "modules": [
     {
       "icon": "build",
@@ -626,6 +626,28 @@
                 "de": "1 Stunde Pétanque kostenlos + freier Strandzugajng für Campinggäste",
                 "cs": "1 hodina pétanque zdarma + vstup na pláž zdarma pro ubytované",
                 "hu": "1 óra petanque ingyen + ingyenes strandbelépés a kempingezőknek"
+              }
+            },
+            {
+              "name": {
+                "sk": "Camping Malá Bara",
+                "en": "Camping Malá Bara",
+                "de": "Camping Malá Bara",
+                "cs": "Camping Malá Bara",
+                "hu": "Camping Malá Bara"
+              },
+              "isPartner": true,
+              "country": "SK",
+              "url": "https:\\\\www.campingmalabara.sk",
+              "phone": "+421950282182",
+              "lat": 48.421647,
+              "lon": 21.731604,
+              "benefit": {
+                "sk": "Fľaša vína ",
+                "en": "Fľaša vína ",
+                "de": "Fľaša vína ",
+                "cs": "Fľaša vína ",
+                "hu": "Fľaša vína "
               }
             }
           ]
