@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karavan Asistent - Váš parťák na cestách</title>
+    
+    <link rel="icon" type="image/png" href="android-chrome-512x512.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; color: #333; margin: 0; background: #f4f7f6; }
+        .container { max-width: 900px; margin: auto; padding: 20px; }
+        
+        /* Zmena pozadia hlavičky na bledomodrú */
+        header { 
+            background: #add8e6; 
+            color: #2c3e50; 
+            padding: 40px 20px; 
+            text-align: center; 
+            position: relative; /* Pridané pre správne umiestnenie prepínača */
+        }
+
+        /* Štýl pre prepínač jazykov */
+        .lang-switcher {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            font-size: 0.9em;
+        }
+        .lang-switcher a {
+            text-decoration: none;
+            color: #2c3e50;
+            font-weight: bold;
+            margin-left: 10px;
+            opacity: 0.6;
+        }
+        .lang-switcher a.active {
+            opacity: 1;
+            border-bottom: 2px solid #2c3e50;
+        }
+
+        /* Štýl pre banner, aby nepresahoval obrazovku */
+        .header-banner {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        /* Štýl pre kontajner tlačidiel */
+        .store-buttons {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .btn-store {
+            display: inline-block;
+            text-decoration: none;
+            transition: transform 0.2s;
+        }
+
+        /* Ošetrenie veľkosti obrázkov */
+        .play-store-img {
+            width: 200px;  /* Šírka tlačidla */
+            height: auto;
+            display: block;
+        }
+
+        .btn-store:hover {
+            transform: scale(1.05); /* Tlačidlo sa jemne zväčší */
+        }
+
+        
+        .btn { display: inline-block; padding: 15px 30px; background: #000; color: white; border-radius: 8px; text-decoration: none; font-weight: bold; margin-top: 20px; }
+        .feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 40px; }
+        .feature-card { background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        .feature-card h3 { color: #2980b9; margin-top: 0; }
+        .privacy-box { background: #ddd; padding: 30px; border-radius: 12px; margin-top: 60px; font-size: 0.9em; }
+        h2 { text-align: center; color: #2c3e50; }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="lang-switcher">
+        <a href="index.html" class="active">SK</a>
+        <a href="index_en.html">EN</a>
+        <a href="index_de.html">DE</a>
+    </div>
+    <img src="banner.png" alt="Karavan Asistent Banner" class="header-banner">
+    <h2>Všetko pre karavaning bez stresu, v jednej aplikácii.</h2>
+    
+    <div class="store-buttons">
+        <a href="https://play.google.com/store/apps/details?id=sk.karavan.asistent&pcampaignid=web_share" target="_blank" class="btn-store">
+            <img src="google-play.png" alt="Stiahnuť na Google Play" class="play-store-img">
+       </a>
+        <a href="#" class="btn-store">
+            <img src="ios_logo.svg" alt="Už čoskoro na App Store" class="play-store-img">
+        <span style="color: #555; font-size: 14px; font-weight: bold;">Už čoskoro</span>
+        </a>
+    </div>
+</header>
+
+<div class="container">
+    <h2>Čo vaša nová appka dokáže?</h2>
+<div class="feature-grid">
+    <div class="feature-card">
+        <h3>🌍 Smart Warning</h3>
+        <p>Maximálne povolené rýchlosti pre vašu súpravu a lokálne zákazy na displeji hneď po vstupe do krajiny. Nákup E-známok bez poplatkov.</p>
+    </div>
+    <div class="feature-card">
+        <h3>📐 AR Master</h3>
+        <p>Leveling (Vodováha - bez prikladania mobilu ku kuchynskej linke), plánovač parkovacieho miesta a dráha slnka v rozšírenej realite (jednoducho v nahľade kamery priamo na displeji mobilu).</p>
+    </div>
+    <div class="feature-card">
+        <h3>🔋 Kalkulačky</h3>
+        <p>Výpočet sebestačnosti (plyn, voda, elektro) pre pokojné kempovanie "na divoko" a kontrola doložnosti karavanu pre správne rozloženie nákladu a bezpečnú jazdu (výpočet tlaku na ťažné zariadenie).</p>
+    </div>
+    <div class="feature-card">
+        <h3>🛰️ Technický asistent</h3>
+        <p>AR Vyhľadávač satelitov (v náhľade kamery), checklist pred cestou - už žiadny stres na diaľnici: "Nezabudol som zaistiť chladničku?" a jednoduchý GPS navigátor, ktorý vás dovedie ku karavanu, alebo ku stánku s najlepším pivom.</p>
+    </div>
+    <div class="feature-card">
+        <h3>📅 Diár servisov a kontrol</h3>
+        <p>Už nikdy neprešvihnete termín STK, revízie plynu, platnosť e-známky, či životnosť pneumatík</p>
+    </div>
+    <div class="feature-card">
+        <h3>📖 Cestovný denník</h3>
+        <p>Ukladanie miest s fotkami a zdieľanie interaktívnej mapy výletu na jedno kliknutie.</p>
+    </div>
+    <div class="feature-card">
+        <h3>📍 Plánovač</h3>
+        <p>Naplánujte si cestu bod po bode alebo si vytvorte vlastnú mapu obľúbených miest – všetky dáta zostávajú bezpečne vo vašom telefóne.</p>
+    </div>
+    <div class="feature-card">
+        <h3>🎁 Benefity</h3>
+        <p>U partnerov našej aplikácie možete využiť rôzne výhody alebo získať malý darček</p>
+    </div>
+    <div class="feature-card" style="margin-top: 20px; text-align: center;">
+    <h3>Kontakt na vývojára</h3>
+    <p>
+        <a href="mailto:karavanasistent@gmail.com" style="text-decoration: none; color: #2c3e50; margin-right: 20px;">
+            <i class="fas fa-envelope" style="color: #2980b9;"></i> Napíšte mi
+        </a>
+        <a href="https://www.facebook.com/share/16XSxeHKF6/" target="_blank" style="text-decoration: none; color: #2c3e50;">
+            <i class="fab fa-facebook" style="color: #2980b9;"></i> Karavan Asistent
+        </a>
+    </p>
+    </div>
+    
+    
+</div>
+
+
+    <div class="privacy-box" id="privacy">
+    <h2>Zásady ochrany osobných údajov (Privacy Policy)</h2>
+    <p>Posledná aktualizácia: 1.1.2026</p>
+
+    <h3>1. Poloha (GPS)</h3>
+    <p>Aplikácia pristupuje k polohe zariadenia na účely automatického načítania dopravných predpisov danej krajiny, zobrazenia polohy slnka/satelitov a pre funkciu ukladania parkovacích miest v Cestovnom denníku a module "Kde parkujem". Tieto údaje sú spracúvané výhradne lokálne v zariadení a neodosielajú sa na žiadne externé servery.</p>
+
+    <h3>2. Fotoaparát a AR technológia</h3>
+    <p>Prístup ku kamere je využívaný pre funkcie rozšírenej reality (AR Leveling, AR Plánovač miesta, Dráha slnka a Satelity). Obraz z kamery slúži len na vizualizáciu v reálnom čase, nie je nahrávaný ani nikde odosielaný.</p>
+
+    <h3>3. Senzory pohybu (Akcelerometer a Gyroskop)</h3>
+    <p>Aplikácia využíva senzory pohybu na meranie náklonu karavanu a určenie smeru k satelitom/slnku. Tieto dáta sú spracúvané v reálnom čase za účelom výpočtu roviny a orientácie v priestore.</p>
+
+    <h3>4. Úložisko a fotografie</h3>
+    <p>Aplikácia vyžaduje prístup k úložisku na ukladanie fotografií a textových záznamov v rámci Cestovného denníka, ako aj pre ukladanie nastavení vozidla a výpočtov energetickej bilancie. Tieto súbory sú uložené v internej pamäti aplikácie. Používateľ má plnú kontrolu nad ich zmazaním alebo dobrovoľným zdieľaním na sociálne siete (cez systémové rozhranie Android).</p>
+
+    <h3>5. Spracovanie nákupov</h3>
+    <p>Všetky finančné transakcie sú spracovávané prostredníctvom systémov <strong>Google Play Billing</strong> a <strong>Apple App Store</strong>. Vývojár nemá prístup k údajom o vašej platobnej karte ani k bankovým informáciám.</p>
+
+    <h3>6. Odkazy na tretie strany</h3>
+    <p>Aplikácia poskytuje odkazy na oficiálne portály pre nákup diaľničných známok, alebo stránky našich partnerov. Tieto webové stránky sú prevádzkované tretími stranami a riadia sa vlastnými zásadami ochrany osobných údajov.</p>
+
+    <h3>7. Lokálne spracovanie dát</h3>
+    <p>Všetky výpočty (rozloženie nákladu, doložnosť, energetická sebestačnosť) prebiehajú výhradne vo vašom zariadení. Žiadne zadané parametre o vašom vozidle nie sú zhromažďované na našich serveroch.</p>
+
+    <h3>8. Kontakt</h3>
+    <p>V prípade otázok ohľadom ochrany údajov nás kontaktujte na:  <a href="mailto: karavanasistent@gmail.com" style="color: inherit; text-decoration: none; font-weight: bold;">
+    karavanasistent@gmail.com
+  </a>    </p>
+
+    <hr style="margin: 40px 0; border: 0; border-top: 1px solid #ccc;">
+
+    <h2 id="terms">Všeobecné podmienky používania (Terms of Use)</h2>
+    <p>Používaním aplikácie Karavan Asistent súhlasíte s nasledujúcimi podmienkami:</p>
+    
+    <h3>1. Používanie aplikácie</h3>
+    <p>Aplikácia slúži ako asistenčný nástroj pre karavanistov. Všetky merania a výpočty (vrátane AR funkcií a kalkulačiek) sú orientačné. Používateľ je povinný výsledky merania overiť certifikovanými nástrojmi (napr. klasická vodováha, kalibrovaná váha a pod.).</p>
+
+    <h3>2. Obmedzenie zodpovednosti</h3>
+    <p>Autor aplikácie nenesie žiadnu zodpovednosť za škody na majetku, zdraví alebo pokuty udelené v cestnej premávke, ktoré by vznikli v dôsledku nesprávneho použitia aplikácie alebo spoliehania sa na poskytnuté údaje.</p>
+
+    <h3>3. Licenčná zmluva Apple (EULA)</h3>
+    <p>Pre používateľov platformy iOS sa na používanie aplikácie vzťahujú aj štandardné podmienky spoločnosti Apple (Standard Apple Licensed Application End User License Agreement), ktoré nájdete na adrese: <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" style="color: #2980b9;">Apple EULA</a>.</p>
+    <h3>4. Platby a Premium</h3>
+    <p>Nákup Premium verzie je jednorazový a viazaný na váš účet v príslušnom obchode (Google Play / App Store). Funkciu Premium je možné obnoviť na novom zariadení pomocou funkcie "Restore Purchases".</p>
+</div>
+
+</div>
+
+<footer style="text-align:center; padding: 40px;">
+    &copy; 2025 Karavan Asistent
+</footer>
+
+</body>
+</html>
