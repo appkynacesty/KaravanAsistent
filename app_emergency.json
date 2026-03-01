@@ -644,10 +644,10 @@
               "lon": 21.731604,
               "benefit": {
                 "sk": "Fľaša vína na privítanie ",
-                "en": "Fľaša vína na privítanie ",
-                "de": "Fľaša vína na privítanie ",
-                "cs": "Fľaša vína na privítanie ",
-                "hu": "Fľaša vína na privítanie "
+                "en": "Welcome bottle of wine",
+                "de": "Eine Flasche Wein zur Begrüßung",
+                "cs": "Láhev vína na přivítanou",
+                "hu": "Egy üveg bor üdvözlőajándékként"
               }
             }
           ]
