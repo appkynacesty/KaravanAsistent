@@ -682,23 +682,23 @@
           "items": [
             {
               "name": {
-                "sk": "Môj Karavan (Ukážka)",
-                "en": "Môj Karavan (Preview)",
-                "de": "Môj Karavan (Vorschau)",
-                "cs": "Môj Karavan (Ukázka)",
-                "hu": "Môj Karavan (Ízelítő)"
+                "sk": "Karavany PK",
+                "en": "Karavany PK",
+                "de": "Karavany PK",
+                "cs": "Karavany PK",
+                "hu": "Karavany PK"
               },
               "isPartner": true,
               "country": "SK",
               "benefit": {
-                "sk": "SNP 137, Žiar nad Hronom",
-                "en": "SNP 137, Žiar nad Hronom",
-                "de": "SNP 137, Žiar nad Hronom",
-                "cs": "SNP 137, Žiar nad Hronom",
-                "hu": "SNP 137, Garamszentkereszt"
+                "sk": "Rozálka 2, Pezinok",
+                "en": "Rozálka 2, Pezinok",
+                "de": "Rozálka 2, Pezinok",
+                "cs": "Rozálka 2, Pezinok",
+                "hu": "Rozálka 2, Pezinok"
               },
-              "url": "https://www.mojkaravan.eu/",
-              "phone": " +421903805833"
+              "url": "https://www.karavanypk.sk/pozicovna-karavanov-a-obytnych-privesov/",
+              "phone": " +421 905 616 947"
             }
           ]
         }
