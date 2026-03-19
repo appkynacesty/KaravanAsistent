@@ -703,6 +703,17 @@
           ]
         }
       ]
-    }
+    },
+      {
+      "icon": "groups",
+      "title": {
+        "sk": "FB Skupina: https://www.facebook.com/groups/965677542709571/?ref=share",
+        "en": "FB Group: https://www.facebook.com/groups/965677542709571/?ref=share",
+        "de": "FB Gruppe: https://www.facebook.com/groups/965677542709571/?ref=share",
+        "cs": "FB Skupina: https://www.facebook.com/groups/965677542709571/?ref=share",
+        "hu": "FB Csoport: https://www.facebook.com/groups/965677542709571/?ref=share"
+      },
+      "sections": []
+      }
   ]
 }
