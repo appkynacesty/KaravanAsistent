@@ -717,114 +717,100 @@
           "items": [
             {
               "name": {
-                "sk": "Rakúsko"
+                "sk": "Rakúsko (1.962 €)"
               },
               "country": "AT",
-              "price": "1.962 €",
               "isHot": true
             },
             {
               "name": {
-                "sk": "Belgicko"
+                "sk": "Belgicko (2.017 €)"
               },
               "country": "BE",
-              "price": "2.017 €",
               "isHot": true
             },
             {
               "name": {
-                "sk": "Bulharsko"
+                "sk": "Bulharsko (1.382 €)"
               },
               "country": "BG",
-              "price": "1.382 €",
               "isHot": false
             },
             {
               "name": {
-                "sk": "Chorvátsko"
+                "sk": "Chorvátsko (1.550 €)"
               },
               "country": "HR",
-              "price": "1.550 €",
               "isHot": false
             },
             {
               "name": {
-                "sk": "Francúzsko"
+                "sk": "Francúzsko (2.026 €)"
               },
               "country": "FR",
-              "price": "2.026 €",
               "isHot": true
             },
             {
               "name": {
-                "sk": "Nemecko"
+                "sk": "Nemecko (2.161 €)"
               },
               "country": "DE",
-              "price": "2.161 €",
               "isHot": true
             },
             {
               "name": {
-                "sk": "Maďarsko"
+                "sk": "Maďarsko (1.631 €)"
               },
               "country": "HU",
-              "price": "1.631 €",
               "isHot": false
             },
             {
               "name": {
-                "sk": "Taliansko"
+                "sk": "Taliansko (2.062 €)"
               },
               "country": "IT",
-              "price": "2.062 €",
               "isHot": true
             },
             {
               "name": {
-                "sk": "Holandsko"
+                "sk": "Holandsko (2.278 €)"
               },
               "country": "NL",
-              "price": "2.278 €",
               "isHot": true
             },
             {
               "name": {
-                "sk": "Poľsko"
+                "sk": "Poľsko (1.744 €)"
               },
               "country": "PL",
-              "price": "1.744 €",
               "isHot": false
             },
             {
               "name": {
-                "sk": "Rumunsko"
+                "sk": "Rumunsko (1.817 €)"
               },
               "country": "RO",
-              "price": "1.817 €",
               "isHot": false
             },
             {
               "name": {
-                "sk": "Slovensko"
+                "sk": "Slovensko (1.489 €)"
               },
               "country": "SK",
-              "price": "1.489 €",
               "isHot": false
             },
             {
               "name": {
-                "sk": "Slovinsko"
+                "sk": "Slovinsko (1.534 €)"
               },
               "country": "SI",
-              "price": "1.534 €",
               "isHot": false
             },
             {
               "name": {
-                "sk": "Španielsko"
+                "sk": "Španielsko (1.875 €)"
               },
               "country": "ES",
-              "price": "1.875 €",
               "isHot": false
             }
           ]
