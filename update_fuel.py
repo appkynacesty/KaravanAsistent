@@ -2,50 +2,67 @@ import pandas as pd
 import json
 import requests
 import datetime
+import io
 
-# 1. Stiahnutie dát z EÚ
+# 1. Stiahnutie dát z EÚ priamo do pamäte (vyhneme sa problémom s formátom súboru)
 URL = "https://ec.europa.eu/energy/observatory/reports/latest_prices_with_taxes.xlsx"
-response = requests.get(URL)
-with open("temp_prices.xlsx", "wb") as f:
-    f.write(response.content)
+headers = {'User-Agent': 'Mozilla/5.0'} # Niektoré servery blokujú botov bez agenta
+response = requests.get(URL, headers=headers)
 
-# 2. Spracovanie Excelu (Nafta je v stĺpci "Gas oil automobile")
-# EÚ bulletin má hlavičku, dáta začínajú cca na riadku 9
-df = pd.read_excel("temp_prices.xlsx", sheet_name=0, skiprows=8)
+if response.status_code == 200:
+    # Použijeme io.BytesIO na spracovanie stiahnutých dát
+    excel_data = io.BytesIO(response.content)
+    
+    # Pridaný parameter engine='openpyxl' vyrieši tvoju chybu
+    df = pd.read_excel(excel_data, sheet_name=0, skiprows=8, engine='openpyxl')
+else:
+    print(f"Chyba pri sťahovaní: {response.status_code}")
+    exit(1)
 
 fuel_items = []
-# Mapovanie kódov krajín na názvy (pre ukážku SK a okolie)
+# Rozšírený zoznam krajín pre karavanistov
 country_map = {
     'AT': 'Rakúsko', 'BE': 'Belgicko', 'BG': 'Bulharsko', 'HR': 'Chorvátsko',
     'CZ': 'Česko', 'DE': 'Nemecko', 'HU': 'Maďarsko', 'IT': 'Taliansko',
-    'PL': 'Poľsko', 'SK': 'Slovensko', 'SI': 'Slovinsko'
+    'PL': 'Poľsko', 'SK': 'Slovensko', 'SI': 'Slovinsko', 'FR': 'Francúzsko',
+    'NL': 'Holandsko', 'ES': 'Španielsko', 'GR': 'Grécko'
 }
 
 for _, row in df.iterrows():
     code = str(row[0]).strip()
     if code in country_map:
         try:
-            # Cena nafty (stĺpec index 4 v bulletine)
             # EÚ udáva ceny v 1000L, preto delíme 1000
-            price = float(row[4]) / 1000 
+            raw_price = row[4] 
+            if pd.isna(raw_price): continue
+            
+            price = float(raw_price) / 1000 
             
             fuel_items.append({
                 "name": {"sk": country_map[code]},
                 "country": code,
-                "price": f"{price:.3f} €/l",
-                "isHot": True if price > 1.9 else False # Označenie drahých krajín
+                "price": f"{price:.3f} €",
+                "isHot": True if price > 1.95 else False 
             })
-        except:
+        except Exception as e:
+            print(f"Chyba pri spracovaní {code}: {e}")
             continue
 
-# 3. Aktualizácia tvojho JSON súboru
-with open('app_emergency.json', 'r', encoding='utf-8') as f:
-    data = json.load(f)
+# Zoraďme krajiny podľa abecedy (aby to v appke nevyzeralo chaoticky)
+fuel_items.sort(key=lambda x: x['name']['sk'])
 
-# Aktualizujeme dátum v hlavnom JSON
+# 3. Aktualizácia tvojho JSON súboru
+try:
+    with open('app_emergency.json', 'r', encoding='utf-8') as f:
+        data = json.load(f)
+except FileNotFoundError:
+    print("Súbor app_emergency.json sa nenašiel v hlavnom adresári!")
+    exit(1)
+
+# Aktualizujeme dátum
 data["lastUpdated"] = datetime.datetime.now().strftime("%Y-%m-%d")
 
-# Vytvoríme nový modul s cenami
+# Vytvoríme/Aktualizujeme modul
 fuel_module = {
     "icon": "local_gas_station",
     "title": {
@@ -61,14 +78,15 @@ fuel_module = {
     }]
 }
 
-# Ak modul už existuje (podľa ikony), nahradíme ho, inak pridáme
+# Hľadanie a nahradenie modulu podľa ikony
 existing_index = next((i for i, m in enumerate(data["modules"]) if m["icon"] == "local_gas_station"), None)
 if existing_index is not None:
     data["modules"][existing_index] = fuel_module
 else:
     data["modules"].append(fuel_module)
 
-# Uloženie späť
+# Uloženie
 with open('app_emergency.json', 'w', encoding='utf-8') as f:
     json.dump(data, f, ensure_ascii=False, indent=2)
-  
+
+print("Update úspešne dokončený!")
