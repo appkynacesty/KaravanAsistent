@@ -707,12 +707,20 @@
     {
       "icon": "local_gas_station",
       "title": {
-        "sk": "Ceny PHM (EÚ)"
+        "sk": "Ceny PHM (EÚ)",
+        "en": "Fuel Prices (EU)",
+        "de": "Kraftstoffpreise (EU)",
+        "cs": "Ceny PHM (EU)",
+        "hu": "Üzemanyagárak (EU)"
       },
       "sections": [
         {
           "heading": {
-            "sk": "Priemerné ceny nafty"
+            "sk": "Priemerné ceny nafty",
+            "en": "Average diesel prices",
+            "de": "Durchschnittliche Dieselpreise",
+            "cs": "Průměrné ceny nafty",
+            "hu": "Átlagos dízelárak"
           },
           "items": [
             {
