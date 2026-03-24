@@ -707,18 +707,127 @@
     {
       "icon": "local_gas_station",
       "title": {
-        "sk": "Ceny PHM (EÚ)",
-        "en": "Fuel Prices (EU)",
-        "de": "Kraftstoffpreise (EU)",
-        "cs": "Ceny PHM (EU)",
-        "hu": "Üzemanyagárak (EU)"
+        "sk": "Ceny PHM (EÚ)"
       },
       "sections": [
         {
           "heading": {
             "sk": "Priemerné ceny nafty"
           },
-          "items": []
+          "items": [
+            {
+              "name": {
+                "sk": "Rakúsko"
+              },
+              "country": "AT",
+              "price": "1.962 €",
+              "isHot": true
+            },
+            {
+              "name": {
+                "sk": "Belgicko"
+              },
+              "country": "BE",
+              "price": "2.017 €",
+              "isHot": true
+            },
+            {
+              "name": {
+                "sk": "Bulharsko"
+              },
+              "country": "BG",
+              "price": "1.382 €",
+              "isHot": false
+            },
+            {
+              "name": {
+                "sk": "Chorvátsko"
+              },
+              "country": "HR",
+              "price": "1.550 €",
+              "isHot": false
+            },
+            {
+              "name": {
+                "sk": "Francúzsko"
+              },
+              "country": "FR",
+              "price": "2.026 €",
+              "isHot": true
+            },
+            {
+              "name": {
+                "sk": "Nemecko"
+              },
+              "country": "DE",
+              "price": "2.161 €",
+              "isHot": true
+            },
+            {
+              "name": {
+                "sk": "Maďarsko"
+              },
+              "country": "HU",
+              "price": "1.631 €",
+              "isHot": false
+            },
+            {
+              "name": {
+                "sk": "Taliansko"
+              },
+              "country": "IT",
+              "price": "2.062 €",
+              "isHot": true
+            },
+            {
+              "name": {
+                "sk": "Holandsko"
+              },
+              "country": "NL",
+              "price": "2.278 €",
+              "isHot": true
+            },
+            {
+              "name": {
+                "sk": "Poľsko"
+              },
+              "country": "PL",
+              "price": "1.744 €",
+              "isHot": false
+            },
+            {
+              "name": {
+                "sk": "Rumunsko"
+              },
+              "country": "RO",
+              "price": "1.817 €",
+              "isHot": false
+            },
+            {
+              "name": {
+                "sk": "Slovensko"
+              },
+              "country": "SK",
+              "price": "1.489 €",
+              "isHot": false
+            },
+            {
+              "name": {
+                "sk": "Slovinsko"
+              },
+              "country": "SI",
+              "price": "1.534 €",
+              "isHot": false
+            },
+            {
+              "name": {
+                "sk": "Španielsko"
+              },
+              "country": "ES",
+              "price": "1.875 €",
+              "isHot": false
+            }
+          ]
         }
       ]
     }
