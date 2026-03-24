@@ -1,0 +1,33 @@
+name: Aktualizacia Cien Nafty
+
+on:
+  schedule:
+    - cron: '0 10 * * 4' # Spustí sa každý štvrtok o 10:00 (EÚ vtedy vydáva bulletin)
+  workflow_dispatch:      # Toto ti pridá tlačidlo "Run", aby si to spustil hneď
+
+jobs:
+  update_json:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Stiahnutie tvojho kodu
+        uses: actions/checkout@v3
+
+      - name: Nastavenie Pythonu
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Instalacia kniznic
+        run: pip install pandas openpyxl requests
+
+      - name: Spustenie skriptu na ceny
+        run: python update_fuel.py
+
+      - name: Ulozenie zmien do tvojho JSONu
+        run: |
+          git config --global user.name 'Karavan Bot'
+          git config --global user.email 'bot@karavan-asistent.sk'
+          git add app_emergency.json
+          git commit -m "Automaticky update cien nafty" || exit 0
+          git push
+          
