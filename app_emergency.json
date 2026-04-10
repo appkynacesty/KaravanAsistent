@@ -699,6 +699,26 @@
               },
               "url": "https://www.karavanypk.sk/pozicovna-karavanov-a-obytnych-privesov/",
               "phone": " +421 905 616 947"
+            },
+            {
+              "name": {
+                "sk": "Půjčovna Fiat Ducato Forster",
+                "en": "Půjčovna Fiat Ducato Forster",
+                "de": "Půjčovna Fiat Ducato Forster",
+                "cs": "Půjčovna Fiat Ducato Forster",
+                "hu": "Půjčovna Fiat Ducato Forster"
+              },
+              "isPartner": true,
+              "country": "CZ",
+              "benefit": {
+                "sk": "Popůvky 56",
+                "en": "Popůvky 56",
+                "de": "Popůvky 56",
+                "cs": "Popůvky 56",
+                "hu": "Popůvky 56"
+              },
+              "url": "https://www.instagram.com/pujc_si_me_540?igsh=YTc3anYwNjBiOWlt",
+              "phone": " +420 734453900"
             }
           ]
         }
