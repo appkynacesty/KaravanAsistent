@@ -1,6 +1,6 @@
 {
   "version": "1.5.0",
-  "lastUpdated": "2026-06-09",
+  "lastUpdated": "2026-06-16",
   "modules": [
     {
       "icon": "build",
@@ -745,154 +745,154 @@
           "items": [
             {
               "name": {
-                "sk": "Rakúsko (AT) — 1.842 €",
-                "en": "Austria (AT) — 1.842 €",
-                "de": "Österreich (AT) — 1.842 €",
-                "cs": "Rakousko (AT) — 1.842 €",
-                "hu": "Ausztria (AT) — 1.842 €"
+                "sk": "Rakúsko (AT) — 1.822 €",
+                "en": "Austria (AT) — 1.822 €",
+                "de": "Österreich (AT) — 1.822 €",
+                "cs": "Rakousko (AT) — 1.822 €",
+                "hu": "Ausztria (AT) — 1.822 €"
               },
               "country": "AT",
               "isHot": false
             },
             {
               "name": {
-                "sk": "Belgicko (BE) — 1.979 €",
-                "en": "Belgium (BE) — 1.979 €",
-                "de": "Belgien (BE) — 1.979 €",
-                "cs": "Belgie (BE) — 1.979 €",
-                "hu": "Belgium (BE) — 1.979 €"
+                "sk": "Belgicko (BE) — 1.984 €",
+                "en": "Belgium (BE) — 1.984 €",
+                "de": "Belgien (BE) — 1.984 €",
+                "cs": "Belgie (BE) — 1.984 €",
+                "hu": "Belgium (BE) — 1.984 €"
               },
               "country": "BE",
               "isHot": true
             },
             {
               "name": {
-                "sk": "Bulharsko (BG) — 1.676 €",
-                "en": "Bulgaria (BG) — 1.676 €",
-                "de": "Bulgarien (BG) — 1.676 €",
-                "cs": "Bulharsko (BG) — 1.676 €",
-                "hu": "Bulgária (BG) — 1.676 €"
+                "sk": "Bulharsko (BG) — 1.618 €",
+                "en": "Bulgaria (BG) — 1.618 €",
+                "de": "Bulgarien (BG) — 1.618 €",
+                "cs": "Bulharsko (BG) — 1.618 €",
+                "hu": "Bulgária (BG) — 1.618 €"
               },
               "country": "BG",
               "isHot": false
             },
             {
               "name": {
-                "sk": "Chorvátsko (HR) — 1.796 €",
-                "en": "Croatia (HR) — 1.796 €",
-                "de": "Kroatien (HR) — 1.796 €",
-                "cs": "Chorvatsko (HR) — 1.796 €",
-                "hu": "Horvátország (HR) — 1.796 €"
+                "sk": "Chorvátsko (HR) — 1.699 €",
+                "en": "Croatia (HR) — 1.699 €",
+                "de": "Kroatien (HR) — 1.699 €",
+                "cs": "Chorvatsko (HR) — 1.699 €",
+                "hu": "Horvátország (HR) — 1.699 €"
               },
               "country": "HR",
               "isHot": false
             },
             {
               "name": {
-                "sk": "Francúzsko (FR) — 2.057 €",
-                "en": "France (FR) — 2.057 €",
-                "de": "Frankreich (FR) — 2.057 €",
-                "cs": "Francie (FR) — 2.057 €",
-                "hu": "Franciaország (FR) — 2.057 €"
+                "sk": "Francúzsko (FR) — 2.005 €",
+                "en": "France (FR) — 2.005 €",
+                "de": "Frankreich (FR) — 2.005 €",
+                "cs": "Francie (FR) — 2.005 €",
+                "hu": "Franciaország (FR) — 2.005 €"
               },
               "country": "FR",
               "isHot": true
             },
             {
               "name": {
-                "sk": "Nemecko (DE) — 1.875 €",
-                "en": "Germany (DE) — 1.875 €",
-                "de": "Deutschland (DE) — 1.875 €",
-                "cs": "Německo (DE) — 1.875 €",
-                "hu": "Németország (DE) — 1.875 €"
+                "sk": "Nemecko (DE) — 1.859 €",
+                "en": "Germany (DE) — 1.859 €",
+                "de": "Deutschland (DE) — 1.859 €",
+                "cs": "Německo (DE) — 1.859 €",
+                "hu": "Németország (DE) — 1.859 €"
               },
               "country": "DE",
               "isHot": false
             },
             {
               "name": {
-                "sk": "Maďarsko (HU) — 1.742 €",
-                "en": "Hungary (HU) — 1.742 €",
-                "de": "Ungarn (HU) — 1.742 €",
-                "cs": "Maďarsko (HU) — 1.742 €",
-                "hu": "Magyarország (HU) — 1.742 €"
+                "sk": "Maďarsko (HU) — 1.721 €",
+                "en": "Hungary (HU) — 1.721 €",
+                "de": "Ungarn (HU) — 1.721 €",
+                "cs": "Maďarsko (HU) — 1.721 €",
+                "hu": "Magyarország (HU) — 1.721 €"
               },
               "country": "HU",
               "isHot": false
             },
             {
               "name": {
-                "sk": "Taliansko (IT) — 2.020 €",
-                "en": "Italy (IT) — 2.020 €",
-                "de": "Italien (IT) — 2.020 €",
-                "cs": "Itálie (IT) — 2.020 €",
-                "hu": "Olaszország (IT) — 2.020 €"
+                "sk": "Taliansko (IT) — 2.017 €",
+                "en": "Italy (IT) — 2.017 €",
+                "de": "Italien (IT) — 2.017 €",
+                "cs": "Itálie (IT) — 2.017 €",
+                "hu": "Olaszország (IT) — 2.017 €"
               },
               "country": "IT",
               "isHot": true
             },
             {
               "name": {
-                "sk": "Holandsko (NL) — 2.283 €",
-                "en": "Netherlands (NL) — 2.283 €",
-                "de": "Niederlande (NL) — 2.283 €",
-                "cs": "Nizozemsko (NL) — 2.283 €",
-                "hu": "Hollandia (NL) — 2.283 €"
+                "sk": "Holandsko (NL) — 2.143 €",
+                "en": "Netherlands (NL) — 2.143 €",
+                "de": "Niederlande (NL) — 2.143 €",
+                "cs": "Nizozemsko (NL) — 2.143 €",
+                "hu": "Hollandia (NL) — 2.143 €"
               },
               "country": "NL",
               "isHot": true
             },
             {
               "name": {
-                "sk": "Poľsko (PL) — 1.595 €",
-                "en": "Poland (PL) — 1.595 €",
-                "de": "Polen (PL) — 1.595 €",
-                "cs": "Polsko (PL) — 1.595 €",
-                "hu": "Lengyelország (PL) — 1.595 €"
+                "sk": "Poľsko (PL) — 1.485 €",
+                "en": "Poland (PL) — 1.485 €",
+                "de": "Polen (PL) — 1.485 €",
+                "cs": "Polsko (PL) — 1.485 €",
+                "hu": "Lengyelország (PL) — 1.485 €"
               },
               "country": "PL",
               "isHot": false
             },
             {
               "name": {
-                "sk": "Rumunsko (RO) — 1.844 €",
-                "en": "Romania (RO) — 1.844 €",
-                "de": "Rumänien (RO) — 1.844 €",
-                "cs": "Rumunsko (RO) — 1.844 €",
-                "hu": "Románia (RO) — 1.844 €"
+                "sk": "Rumunsko (RO) — 1.779 €",
+                "en": "Romania (RO) — 1.779 €",
+                "de": "Rumänien (RO) — 1.779 €",
+                "cs": "Rumunsko (RO) — 1.779 €",
+                "hu": "Románia (RO) — 1.779 €"
               },
               "country": "RO",
               "isHot": false
             },
             {
               "name": {
-                "sk": "Slovensko (SK) — 1.729 €",
-                "en": "Slovakia (SK) — 1.729 €",
-                "de": "Slowakei (SK) — 1.729 €",
-                "cs": "Slovensko (SK) — 1.729 €",
-                "hu": "Szlovákia (SK) — 1.729 €"
+                "sk": "Slovensko (SK) — 1.640 €",
+                "en": "Slovakia (SK) — 1.640 €",
+                "de": "Slowakei (SK) — 1.640 €",
+                "cs": "Slovensko (SK) — 1.640 €",
+                "hu": "Szlovákia (SK) — 1.640 €"
               },
               "country": "SK",
               "isHot": false
             },
             {
               "name": {
-                "sk": "Slovinsko (SI) — 1.657 €",
-                "en": "Slovenia (SI) — 1.657 €",
-                "de": "Slowenien (SI) — 1.657 €",
-                "cs": "Slovinsko (SI) — 1.657 €",
-                "hu": "Szlovénia (SI) — 1.657 €"
+                "sk": "Slovinsko (SI) — 1.677 €",
+                "en": "Slovenia (SI) — 1.677 €",
+                "de": "Slowenien (SI) — 1.677 €",
+                "cs": "Slovinsko (SI) — 1.677 €",
+                "hu": "Szlovénia (SI) — 1.677 €"
               },
               "country": "SI",
               "isHot": false
             },
             {
               "name": {
-                "sk": "Španielsko (ES) — 1.637 €",
-                "en": "Spain (ES) — 1.637 €",
-                "de": "Spanien (ES) — 1.637 €",
-                "cs": "Španělsko (ES) — 1.637 €",
-                "hu": "Spanyolország (ES) — 1.637 €"
+                "sk": "Španielsko (ES) — 1.602 €",
+                "en": "Spain (ES) — 1.602 €",
+                "de": "Spanien (ES) — 1.602 €",
+                "cs": "Španělsko (ES) — 1.602 €",
+                "hu": "Spanyolország (ES) — 1.602 €"
               },
               "country": "ES",
               "isHot": false
