@@ -3825,7 +3825,7 @@
         "town": 50,
         "outskirts": 70,
         "expressway": 80,
-        "highway": 100
+        "highway": 80
       }
     },
     "DE": {
